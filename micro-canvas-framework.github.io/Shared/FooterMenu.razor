@@ -1,0 +1,102 @@
+﻿@inherits LayoutComponentBase
+
+<footer class="footer bg-light">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 h-100 text-center text-lg-left my-auto">
+                <ul class="list-inline mb-2">
+                    <li class="list-inline-item">
+                        <NavLink class="nav-link" href="/">
+                            <span class="oi oi-plus" aria-hidden="true"></span> Home
+                        </NavLink>
+                    </li>
+                    <li class="list-inline-item">&sdot;</li>
+                    <li class="list-inline-item">
+                        <NavLink class="nav-link" href="/about">
+                            <span class="oi oi-plus" aria-hidden="true"></span> About
+                        </NavLink> <a href="#"></a>
+                    </li>
+                    <li class="list-inline-item">&sdot;</li>
+                    <li class="list-inline-item">
+                        <a href="#">Contact</a>
+                    </li>
+                    <li class="list-inline-item">&sdot;</li>
+                    <li class="list-inline-item">
+                        <NavLink class="nav-link" href="/terms">
+                            <span class="oi oi-plus" aria-hidden="true"></span> Terms of Use
+                        </NavLink>
+                    </li>
+                    <li class="list-inline-item">&sdot;</li>
+                    <li class="list-inline-item">
+                        <NavLink class="nav-link" href="/privacy">
+                            <span class="oi oi-plus" aria-hidden="true"></span> Privacy Policy
+                        </NavLink>
+                    </li>
+                </ul>
+                <p class="text-muted small mb-4 mb-lg-0">&copy; <a href="https://doulab.net" target="_blank">Doulab</a> by <a href="https://isgwebsite.com" target="_blank">Informatik LLC</a>. Made with love by <a href="https://about.me/luis.santiago" target="_blank">Luis Santiago</a> and the MicroCanvas community</p>
+            </div>
+            <div class="col-lg-4 h-100 text-center text-lg-right my-auto">
+                <ul class="list-inline mb-0">
+                    <!--<li class="list-inline-item mr-3">
+                        <a href="#">
+                            <i class="fab fa-facebook fa-2x fa-fw"></i>
+                        </a>
+                    </li>-->
+                    <!--<li class="list-inline-item mr-3">
+                        <a href="#">
+                            <i class="fab fa-facebook fa-2x fa-fw"></i>
+                        </a>
+                    </li>-->
+                    <!--<li class="list-inline-item mr-3">
+                        <a href="#">
+                            <i class="fab fa-twitter-square fa-2x fa-fw"></i>
+                        </a>
+                    </li>-->
+                    <li class="list-inline-item">
+                        <a href="https://www.instagram.com/themicrocanvas/" target="_blank">
+                            <i class="fab fa-instagram fa-2x fa-fw"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+
+@*<div class="top-row pl-4 navbar navbar-dark">
+        <a class="navbar-brand" href="">micro-canvas-framework-blazor</a>
+        <button class="navbar-toggler" @onclick="@ToggleNavMenu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </div>*@
+
+@*<div class="@NavMenuCssClass" @onclick="@ToggleNavMenu">
+        <ul class="nav flex-column">
+            <li class="nav-item px-3">
+                <NavLink class="nav-link" href="" Match="NavLinkMatch.All">
+                    <span class="oi oi-home" aria-hidden="true"></span> Home
+                </NavLink>
+            </li>
+            <li class="nav-item px-3">
+                <NavLink class="nav-link" href="privacy">
+                    <span class="oi oi-plus" aria-hidden="true"></span> Counter
+                </NavLink>
+            </li>
+            <li class="nav-item px-3">
+                <NavLink class="nav-link" href="fetchdata">
+                    <span class="oi oi-list-rich" aria-hidden="true"></span> Fetch data
+                </NavLink>
+            </li>
+        </ul>
+    </div>
+
+    @code {
+        bool collapseNavMenu = true;
+
+        string NavMenuCssClass => collapseNavMenu ? "collapse" : null;
+
+        void ToggleNavMenu()
+        {
+            collapseNavMenu = !collapseNavMenu;
+        }
+    }*@
