@@ -3,6 +3,7 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <RootNamespace>micro_canvas_framework.github.io</RootNamespace>
+    <Version>0.3.0</Version>
   </PropertyGroup>
 
   <ItemGroup>

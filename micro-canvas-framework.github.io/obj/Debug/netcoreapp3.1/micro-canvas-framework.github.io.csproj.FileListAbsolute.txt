@@ -51,3 +51,5 @@ C:\Repos\micro-canvas-framework.github.io\micro-canvas-framework.github.io\obj\D
 C:\Repos\micro-canvas-framework.github.io\micro-canvas-framework.github.io\obj\Debug\netcoreapp3.1\micro-canvas-framework.github.io.pdb
 C:\Repos\micro-canvas-framework.github.io\micro-canvas-framework.github.io\obj\Debug\netcoreapp3.1\micro-canvas-framework.github.io.csproj.CopyComplete
 C:\Repos\micro-canvas-framework.github.io\micro-canvas-framework.github.io\obj\Debug\netcoreapp3.1\micro-canvas-framework.github.io.csprojAssemblyReference.cache
+C:\Repos\micro-canvas-framework.github.io\micro-canvas-framework.github.io\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Contact.razor.g.cs
+C:\Repos\micro-canvas-framework.github.io\micro-canvas-framework.github.io\obj\Debug\netcoreapp3.1\Razor\Pages\Contact.razor.g.cs

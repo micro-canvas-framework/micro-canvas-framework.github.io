@@ -5,7 +5,7 @@
   },
   "projects": {
     "C:\\Repos\\micro-canvas-framework.github.io\\micro-canvas-framework.github.io\\micro-canvas-framework.github.io.csproj": {
-      "version": "1.0.0",
+      "version": "0.3.0",
       "restore": {
         "projectUniqueName": "C:\\Repos\\micro-canvas-framework.github.io\\micro-canvas-framework.github.io\\micro-canvas-framework.github.io.csproj",
         "projectName": "micro-canvas-framework.github.io",
@@ -58,7 +58,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\PROGRAM FILES\\DOTNET\\sdk\\3.1.100-preview2-014569\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\PROGRAM FILES\\DOTNET\\sdk\\3.1.100-preview3-014645\\RuntimeIdentifierGraph.json"
         }
       }
     }
