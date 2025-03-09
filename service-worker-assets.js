@@ -1,9 +1,9 @@
 self.assetsManifest = {
-  "version": "G4xB82Ad",
+  "version": "zqtW2v13",
   "assets": [
     {
       "hash": "sha256-vPxwmgo+c9H1yCd1Tpx9al6xlGsdzdsz8ugxUR+wCok=",
-      "url": ".README"
+      "url": ".README.md"
     },
     {
       "hash": "sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
@@ -138,11 +138,11 @@ self.assetsManifest = {
       "url": "_framework/System.Text.RegularExpressions.wasm"
     },
     {
-      "hash": "sha256-WSkC9F+aLdQecH4d7Jce8vJ7X41j2qd0ZN5JbaP3jJs=",
+      "hash": "sha256-Un4rZRGhPb06a4DIFPUjJ7nEkzNAv6tAUStGfQc61/8=",
       "url": "_framework/The MicroCanvas Framework.wasm"
     },
     {
-      "hash": "sha256-elT6xxuUWB1aiozzbzePHxQu6KtT2Y+IZeGbhbIf6to=",
+      "hash": "sha256-Z/NQ842xj2w0FO4tQKdx/abWuf+uzOrOP0wsDhcySSs=",
       "url": "_framework/blazor.boot.json"
     },
     {
