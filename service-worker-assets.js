@@ -1,6 +1,10 @@
 self.assetsManifest = {
-  "version": "ofMZK79S",
+  "version": "sDl/zv/u",
   "assets": [
+    {
+      "hash": "sha256-vPxwmgo+c9H1yCd1Tpx9al6xlGsdzdsz8ugxUR+wCok=",
+      "url": ".README"
+    },
     {
       "hash": "sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
       "url": ".nojekyll"
