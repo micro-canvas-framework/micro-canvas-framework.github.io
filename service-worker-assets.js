@@ -1,6 +1,10 @@
 self.assetsManifest = {
-  "version": "m6Q2tk65",
+  "version": "ofMZK79S",
   "assets": [
+    {
+      "hash": "sha256-47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=",
+      "url": ".nojekyll"
+    },
     {
       "hash": "sha256-8TxB8vkuf80UeW/f0/KhZQNp21Ii3r1bZyyrkpcwa84=",
       "url": "The MicroCanvas Framework.styles.css"
@@ -130,11 +134,11 @@ self.assetsManifest = {
       "url": "_framework/System.Text.RegularExpressions.wasm"
     },
     {
-      "hash": "sha256-rd/d2Qa0+6E+cL24lyEKCoLUCUmtpRbz2wHvhE8vpRc=",
+      "hash": "sha256-/6ktf10gYk+jvcpcY41cDfAjBZnL+HE0No6c3JT8ZAc=",
       "url": "_framework/The MicroCanvas Framework.wasm"
     },
     {
-      "hash": "sha256-VLeUTAdzthtASvhr8Cb9Kit31G77tI0F37AsJO+8wdk=",
+      "hash": "sha256-mVnV2feXxaWGUavkMsGYRWCwbv1ClaZT0KtjLZEfrjM=",
       "url": "_framework/blazor.boot.json"
     },
     {
@@ -194,7 +198,7 @@ self.assetsManifest = {
       "url": "icon-512.png"
     },
     {
-      "hash": "sha256-daBgkyHVRa+b56q0sBZiEiiu58iXNK7rABvbyf+MH7Q=",
+      "hash": "sha256-tBx2lk1ou8bnxqk98qJEtb0kX35OyYTypHPsjZ0q88w=",
       "url": "index.html"
     },
     {
