@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "The MicroCanvas Framework",
   "resources": {
-    "hash": "sha256-Hv/6/pZERrLnuFEH+2Sq4wNMQXIl8yuDKLJVxcb9Du0=",
+    "hash": "sha256-g2TI/OPCE3H/YvsSCJ0nvgpT0H5b5+Lcqr/l7l0xddo=",
     "jsModuleNative": {
       "dotnet.native.js": "sha256-xNQsYHtL1vcbrVTHDZAwJM4WovpoyjsrM2C6FQ8cW1w="
     },
@@ -47,7 +47,7 @@
       "System.Text.Encodings.Web.wasm": "sha256-5PQ0jI5N03Ra0lfAcPPvNGlBYfeMWROezvc+MRXvDPo=",
       "System.Text.Json.wasm": "sha256-EBwG1LQ929kO/Na1lh3jqMpxfGl9ta1bg6dmkHjZVEE=",
       "System.Text.RegularExpressions.wasm": "sha256-nsPWW6LIGQF7+Dm7/hbRPceB4MHdZnBLhoa98BacDZ4=",
-      "The MicroCanvas Framework.wasm": "sha256-xKla75BMapF53OfICfLlncIC9P9qIyx5drIY8kb/VAE="
+      "The MicroCanvas Framework.wasm": "sha256-F491RkGfOSNPQRRB81Vut3Xv6sqs757d2UgJ3O+tj+8="
     }
   },
   "cacheBootResources": true,
