@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmcf=self.webpackChunkmcf||[]).push([[1903],{1912:a=>{a.exports=JSON.parse('{"blogBasePath":"/micro-canvas-framework.github.io/blog","blogTitle":"Blog","authorsListPath":"/micro-canvas-framework.github.io/blog/authors"}')}}]);

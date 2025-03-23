@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmcf=self.webpackChunkmcf||[]).push([[9730],{119:e=>{e.exports=JSON.parse('{"metadata":{"permalink":"/micro-canvas-framework.github.io/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);
