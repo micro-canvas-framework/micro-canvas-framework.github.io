@@ -1,0 +1,19 @@
+----- BEGIN MCF Docusaurus ignores -----
+# Docusaurus / Node
+node_modules/
+build/
+.docusaurus/
+.cache/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Optional: local CODEx artifacts
+.codex-*.txt
+----- END MCF Docusaurus ignores -----
