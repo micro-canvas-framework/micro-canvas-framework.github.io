@@ -70,6 +70,30 @@ Build outputs are intentionally excluded from git. Deployment is handled by Clou
 Pages from the master branch source tree. GitHub Pages deployment is intentionally
 disabled. Local preview uses `npm run serve`.
 
+### Cloudflare Pages
+Build command: `npm run build`  
+Output directory: `build`  
+Production branch: `master`  
+Node version: 22.x (Cloudflare Pages runtime)
+
+### Acceptance Criteria (before pushing to origin/master)
+- Working tree clean (`git status`).
+- `npm ci` succeeds (allow ~5 minutes).
+- `npm run build` succeeds for `en` and `es`.
+- `npm run serve -- --host 127.0.0.1 --port 3100` starts on a free port.
+- Manual smoke test (Luis):
+  - `/`
+  - `/docs/introduction`
+  - `/es/`
+  - any `/es/docs/...` route
+  - language switcher works
+  - no console errors
+- Cloudflare build log confirms:
+  - correct commit SHA
+  - `npm ci` succeeds
+  - `npm run build` succeeds for both locales
+  - “Success: Your site was deployed!”
+
 ## Versioning and Roadmap Alignment
 
 Current version: 2.1.x  
