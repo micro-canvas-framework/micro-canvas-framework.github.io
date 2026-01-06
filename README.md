@@ -67,7 +67,8 @@ npm run serve
 ```
 
 Build outputs are intentionally excluded from git. Deployment is handled by Cloudflare
-Pages from the source tree.
+Pages from the master branch source tree. GitHub Pages deployment is intentionally
+disabled. Local preview uses `npm run serve`.
 
 ## Versioning and Roadmap Alignment
 
