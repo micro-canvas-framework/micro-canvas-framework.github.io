@@ -1,6 +1,6 @@
 ---
-sidebar_position: 25
 id: chapter21-regulatory-review-scalability
+sidebar_position: 21
 title: "Chapter 21: Regulatory Review and Strategic Scalability Planning"
 description: "Ensure legal compliance and develop a sustainable strategy for scaling your innovation, balancing market opportunities with regulatory requirements."
 redirect_from:

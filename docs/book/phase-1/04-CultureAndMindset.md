@@ -1,6 +1,6 @@
 ---
-sidebar_position: 8
 id: chapter4-transforming-culture-mindset
+sidebar_position: 4
 title: "Chapter 4: Transforming Culture and Mindset"
 description: "How to reshape organizational culture for agility, creativity, and lasting innovation success."
 redirect_from:

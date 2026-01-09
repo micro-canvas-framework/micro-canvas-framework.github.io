@@ -1,6 +1,6 @@
 ---
-sidebar_position: 15
 id: chapter11-uncovering-opportunities-analyzing-customers
+sidebar_position: 11
 title: "Chapter 11: Uncovering Opportunities and Analyzing Customers"
 description: "Identify market opportunities, segment customers with TAM/SAM/SOM, and map journeys with measurable behavioral metrics."
 redirect_from:

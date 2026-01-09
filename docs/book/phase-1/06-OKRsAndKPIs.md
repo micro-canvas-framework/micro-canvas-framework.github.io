@@ -1,6 +1,6 @@
 ---
-sidebar_position: 10
 id: chapter6-defining-clear-okrs
+sidebar_position: 6
 title: "Chapter 6: Defining Clear Objectives and Key Results (OKRs) to Drive Innovation"
 description: "Align your innovation projects with strategic goals using OKRs and measurable KPIs."
 redirect_from:

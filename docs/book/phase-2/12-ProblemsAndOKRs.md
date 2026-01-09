@@ -1,6 +1,6 @@
 ---
-sidebar_position: 16
 id: chapter12-defining-problem-strategic-objectives
+sidebar_position: 12
 title: "Chapter 12: Defining the Problem and Setting Strategic Objectives"
 description: "Analyze the core problem your innovation must address, then transform insights into strategic objectives and measurable key results."
 redirect_from:

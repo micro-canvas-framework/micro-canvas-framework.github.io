@@ -1,6 +1,6 @@
 ---
-sidebar_position: 19
 id: chapter15-marketing-engagement-sales
+sidebar_position: 15
 title: "Chapter 15: Marketing, Engagement and Sales"
 description: "Develop your marketing and engagement strategy along with a sales funnel to drive growth."
 redirect_from:

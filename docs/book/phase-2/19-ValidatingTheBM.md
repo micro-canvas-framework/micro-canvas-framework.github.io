@@ -1,6 +1,6 @@
 ---
-sidebar_position: 23
 id: chapter19-validating-the-business-model
+sidebar_position: 19
 title: "Chapter 19: Validating the Business Model"
 description: "Use MCF 2.1 Business Model Validation to test assumptions, analyze financial feasibility, and confirm product-market fit before full-scale implementation."
 redirect_from:

@@ -1,6 +1,6 @@
 ---
-sidebar_position: 13
 id: chapter9-leadership-alignment-expansion
+sidebar_position: 9
 title: "Chapter 9: Leadership Alignment and Expansion"
 description: "How to align leadership with your innovation strategy, build cross-functional support, and expand your governance framework throughout your organization."
 redirect_from:

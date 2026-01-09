@@ -1,6 +1,6 @@
 ---
-sidebar_position: 20
 id: chapter16-user-stories-rapid-prototyping
+sidebar_position: 16
 title: "Chapter 16: User Stories and Rapid Prototyping"
 description: "Translate customer insights into actionable user stories and quickly build prototypes to validate your top-ranked solutions."
 redirect_from:

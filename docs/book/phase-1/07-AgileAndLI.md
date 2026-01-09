@@ -1,6 +1,6 @@
 ---
-sidebar_position: 11
 id: chapter7-training-agile-lean-innovation
+sidebar_position: 7
 title: "Chapter 7: Training in Agile and Lean Innovation"
 description: "A comprehensive training curriculum to design, deliver, and sustain agile and lean methodologies in your organization."
 redirect_from:

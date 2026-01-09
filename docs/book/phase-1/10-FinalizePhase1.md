@@ -1,6 +1,6 @@
 ---
-sidebar_position: 14
 id: chapter10-review-adjust-finalize-phase1
+sidebar_position: 10
 title: "Chapter 10: Review, Adjust, and Finalize Phase 1"
 description: "Evaluate your initial innovation initiatives, identify areas for improvement, and strengthen your foundation for the next stage of transformation."
 redirect_from:

@@ -1,6 +1,6 @@
 ---
-sidebar_position: 21
 id: chapter17-experimentation-testing
+sidebar_position: 17
 title: "Chapter 17: Experimentation and Testing"
 description: "Systematically test prototypes and gather data, ensuring solutions meet user needs and strategic goals."
 redirect_from:

@@ -1,6 +1,6 @@
 ---
-sidebar_position: 17
 id: chapter13-exploring-alternative-solutions
+sidebar_position: 13
 title: "Chapter 13: Exploring Alternative Solutions, Unique Advantages and Product Features"
 description: "Generate and evaluate potential solutions using structured methods and a weighted scoring system, then refine the top ideas into viable proposals. Here, we'll also create the unique advantages and product features of your selected product"
 redirect_from:

@@ -1,6 +1,6 @@
 ---
-sidebar_position: 26
 id: chapter22-strategic-review-next-steps
+sidebar_position: 22
 title: "Chapter 22: Strategic Review and Next Steps for Validation"
 description: "Evaluate progress across all innovation phases, refine your strategy, and outline key actions to ensure ongoing validation and alignment with organizational goals."
 redirect_from:

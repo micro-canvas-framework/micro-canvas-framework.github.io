@@ -1,6 +1,6 @@
 ---
-sidebar_position: 7
 id: chapter3-innovation-governance
+sidebar_position: 3
 title: "Chapter 3: Building an Innovation Governance Framework"
 description: "A guide to designing governance that drives clarity, speed, and alignment in innovation."
 redirect_from:
