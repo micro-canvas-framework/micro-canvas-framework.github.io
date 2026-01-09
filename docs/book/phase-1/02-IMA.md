@@ -3,7 +3,9 @@ sidebar_position: 6
 id: chapter2-innovation-maturity-assessment
 title: "Chapter 2: Innovation Maturity Assessment"
 description: "A structured method for assessing your organization's innovation maturity."
-slug: /chapter2-innovation-maturity-assessment
+redirect_from:
+  - /Part01/02-IMA
+  - /chapter2-innovation-maturity-assessment
 ---
 
 ![Mapping Innovation Capabilities](/img/ch2-innovation-maturity-assessment.svg)

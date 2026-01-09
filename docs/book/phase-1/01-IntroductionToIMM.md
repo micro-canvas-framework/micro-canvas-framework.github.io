@@ -3,7 +3,9 @@ sidebar_position: 5
 id: chapter1-intro-innovation-maturity
 title: "Chapter 1: Introduction to Innovation Maturity"
 description: "An overview of innovation maturity, its key elements, and how to set the stage for transformation."
-slug: /chapter1-intro-innovation-maturity
+redirect_from:
+  - /Part01/01-IntroductionToIMM
+  - /chapter1-intro-innovation-maturity
 ---
 
  ![Visualizing Innovation Maturity](/img/ch1-innovation-maturity.svg)

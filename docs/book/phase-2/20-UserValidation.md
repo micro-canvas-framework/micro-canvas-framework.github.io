@@ -3,7 +3,9 @@ sidebar_position: 24
 id: chapter20-user-validation-expanded-pilot-testing
 title: "Chapter 20: User Validation and Expanded Pilot Testing"
 description: "Engage real users in a broader pilot phase to validate your solution, gather data-driven insights, and refine before full-scale launch."
-slug: /chapter20-user-validation-expanded-pilot-testing
+redirect_from:
+  - /Part02/20-UserValidation
+  - /chapter20-user-validation-expanded-pilot-testing
 ---
 
 ![From Feedback to Field Trials](/img/ch20-user-validation-expanded-pilots.svg)

@@ -3,7 +3,9 @@ sidebar_position: 22
 id: chapter18-feedback-loops-iterative-refinement
 title: "Chapter 18: Feedback Loops and Iterative Refinement"
 description: "Learn how to set up continuous feedback loops, gather actionable insights, and refine solutions in iterative cycles to stay aligned with user needs and market dynamics."
-slug: /chapter18-feedback-loops-iterative-refinement
+redirect_from:
+  - /Part02/18-FeedbackLoops
+  - /chapter18-feedback-loops-iterative-refinement
 ---
 
 ![Refine Through Feedback](/img/ch18-feedback-loops-iterative-refinement.svg)

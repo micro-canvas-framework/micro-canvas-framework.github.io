@@ -3,7 +3,9 @@ sidebar_position: 18
 id: chapter14-transformative-purpose
 title: "Chapter 14: Transformative Purpose"
 description: "Crafting a unifying, aspirational goal that shapes your innovation journey"
-slug: /chapter-14-transformative-purpose
+redirect_from:
+  - /Part02/14-TransformativePurpose
+  - /chapter-14-transformative-purpose
 ---
 
 ![Lighting the Way Forward](/img/ch14-transformative-purpose.svg)

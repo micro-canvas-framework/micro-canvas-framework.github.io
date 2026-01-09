@@ -3,7 +3,9 @@ sidebar_position: 12
 id: chapter8-governance-pilots-iterations
 title: "Chapter 8: Putting Governance into Action: Pilots and Iterations"
 description: "Launch pilot projects, refine them through iterative cycles, and activate your innovation governance framework."
-slug: /chapter8-governance-pilots-iterations
+redirect_from:
+  - /Part01/08-GovernanceInAction
+  - /chapter8-governance-pilots-iterations
 ---
 
 ![From Structure to Action](/img/ch8-governance-pilots-iterations.svg)
