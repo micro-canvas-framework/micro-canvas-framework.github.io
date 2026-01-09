@@ -37,16 +37,26 @@ const EntityHeader: React.FC<EntityHeaderProps> = ({ title, entity, version, sta
         formatDate(doc?.metadata?.lastUpdatedAt) ??
         formatDate(frontMatter.last_updated) ??
         formatDate(frontMatter.lastUpdated);
+    const resolvedStatus =
+        status && status === status.toLowerCase()
+            ? status.charAt(0).toUpperCase() + status.slice(1)
+            : status;
+    const metaParts = [
+        entity,
+        version,
+        resolvedStatus,
+        resolvedLastUpdated ? `Last updated: ${resolvedLastUpdated}` : null,
+    ].filter(Boolean) as string[];
 
     return (
         <div className={styles.root}>
             <div className={styles.metaLine}>
-                <span className={styles.metaItem}>{entity}</span>
-                {version ? <span className={styles.metaItem}>{version}</span> : null}
-                {status ? <span className={styles.status}>{status}</span> : null}
-                {resolvedLastUpdated ? (
-                    <span className={styles.lastUpdated}>Last updated: {resolvedLastUpdated}</span>
-                ) : null}
+                {metaParts.map((part, index) => (
+                    <React.Fragment key={`${part}-${index}`}>
+                        {index > 0 ? <span className={styles.separator}>·</span> : null}
+                        <span className={styles.metaItem}>{part}</span>
+                    </React.Fragment>
+                ))}
             </div>
             {resolvedTitle ? <h1 className={styles.title}>{resolvedTitle}</h1> : null}
         </div>
