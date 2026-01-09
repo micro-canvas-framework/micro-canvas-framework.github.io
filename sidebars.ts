@@ -10,7 +10,18 @@ const sidebars: SidebarsConfig = {
         {
             type: 'category',
             label: 'Canon',
-            items: ['canon/_intro'],
+            items: [
+                'canon/_intro',
+                'canon/definitions',
+                'canon/epistemic-model',
+                'canon/evidence-logic',
+                'canon/decision-theory',
+                'canon/stage-mechanics',
+                'canon/governance-boundaries',
+                'canon/failure-modes',
+                'canon/versioning-termination',
+                'canon/framework-boundaries',
+            ],
         },
         {
             type: 'category',
