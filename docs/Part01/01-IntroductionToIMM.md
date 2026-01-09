@@ -6,7 +6,7 @@ description: "An overview of innovation maturity, its key elements, and how to s
 slug: /chapter1-intro-innovation-maturity
 ---
 
-# Chapter 1: Introduction to Innovation Maturity
+## Chapter 1: Introduction to Innovation Maturity
 
  ![Visualizing Innovation Maturity](/img/ch1-innovation-maturity.svg)
  

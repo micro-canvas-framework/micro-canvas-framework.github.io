@@ -6,7 +6,7 @@ description: "Identify market opportunities, segment customers with TAM/SAM/SOM,
 slug: /chapter11-uncovering-opportunities-analyzing-customers
 ---
 
-# Chapter 11: Uncovering Opportunities and Analyzing Customers
+## Chapter 11: Uncovering Opportunities and Analyzing Customers
 
 ![From Insight to Opportunity](/img/ch11-opportunities-customers.svg)
 

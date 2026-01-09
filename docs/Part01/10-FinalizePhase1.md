@@ -6,7 +6,7 @@ description: "Evaluate your initial innovation initiatives, identify areas for i
 slug: /chapter10-review-adjust-finalize-phase1
 ---
 
-# Chapter 10: Review, Adjust, and Finalize Phase 1
+## Chapter 10: Review, Adjust, and Finalize Phase 1
 
 ![Closing the Loop with Insight](/img/ch10-review-adjust-finalize.svg)
 

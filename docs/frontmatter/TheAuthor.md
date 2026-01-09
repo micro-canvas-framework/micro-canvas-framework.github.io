@@ -6,7 +6,7 @@ description: "Profile and background of Luis A. Santiago"
 slug: /frontmatter/the-author
 ---
 
-# Luis A. Santiago
+## Luis A. Santiago
 
 ### I help organizations create better futures to unlock global prosperity.
 

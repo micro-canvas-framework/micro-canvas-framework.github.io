@@ -6,7 +6,7 @@ description: "Crafting a unifying, aspirational goal that shapes your innovation
 slug: /chapter-14-transformative-purpose
 ---
 
-# Chapter 14: Transformative Purpose
+## Chapter 14: Transformative Purpose
 
 ![Lighting the Way Forward](/img/ch14-transformative-purpose.svg)
 

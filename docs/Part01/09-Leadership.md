@@ -6,7 +6,7 @@ description: "How to align leadership with your innovation strategy, build cross
 slug: /chapter9-leadership-alignment-expansion
 ---
 
-# Chapter 9: Leadership Alignment and Expansion
+## Chapter 9: Leadership Alignment and Expansion
 
 ![Leading with Purpose and Reach](/img/ch9-leadership-alignment-expansion.svg)
 

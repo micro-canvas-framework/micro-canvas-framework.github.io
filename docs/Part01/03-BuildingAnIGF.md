@@ -6,7 +6,7 @@ description: "A guide to designing governance that drives clarity, speed, and al
 slug: /chapter3-innovation-governance
 ---
 
-# Chapter 3: Building an Innovation Governance Framework (IGF)
+## Chapter 3: Building an Innovation Governance Framework (IGF)
 
 ![Structuring Innovation for Impact](/img/ch3-innovation-governance-framework.svg)
  

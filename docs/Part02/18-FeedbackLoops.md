@@ -6,7 +6,7 @@ description: "Learn how to set up continuous feedback loops, gather actionable i
 slug: /chapter18-feedback-loops-iterative-refinement
 ---
 
-# Chapter 18: Feedback Loops and Iterative Refinement
+## Chapter 18: Feedback Loops and Iterative Refinement
 
 ![Refine Through Feedback](/img/ch18-feedback-loops-iterative-refinement.svg)
 

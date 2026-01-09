@@ -6,7 +6,7 @@ description: "Use MCF 2.1 Business Model Validation to test assumptions, analyze
 slug: /chapter19-validating-the-business-model
 ---
 
-# Chapter 19: Validating the Business Model
+## Chapter 19: Validating the Business Model
 
 ![Test Before You Build](/img/ch19-validating-business-model.svg)
 

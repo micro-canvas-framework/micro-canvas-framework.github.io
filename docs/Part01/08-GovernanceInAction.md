@@ -6,7 +6,7 @@ description: "Launch pilot projects, refine them through iterative cycles, and a
 slug: /chapter8-governance-pilots-iterations
 ---
 
-# Chapter 8: Putting Governance into Action: Pilots and Iterations
+## Chapter 8: Putting Governance into Action: Pilots and Iterations
 
 ![From Structure to Action](/img/ch8-governance-pilots-iterations.svg)
 

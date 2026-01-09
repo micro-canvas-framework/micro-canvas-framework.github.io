@@ -6,7 +6,7 @@ description: "A short overview about the impetus for The MicroCanvas Framework"
 slug: /frontmatter/preface
 ---
 
-# Preface
+## Preface
 
 Every day, organizations fall behind when they delay or overlook innovation. The **cost of inaction often outweighs the investment needed to drive change**. In a rapidly evolving world, you must generate breakthrough ideas and act quickly to stay ahead.
 

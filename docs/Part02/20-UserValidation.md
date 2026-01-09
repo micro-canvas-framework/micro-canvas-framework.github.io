@@ -6,7 +6,7 @@ description: "Engage real users in a broader pilot phase to validate your soluti
 slug: /chapter20-user-validation-expanded-pilot-testing
 ---
 
-# Chapter 20: User Validation and Expanded Pilot Testing
+## Chapter 20: User Validation and Expanded Pilot Testing
 
 ![From Feedback to Field Trials](/img/ch20-user-validation-expanded-pilots.svg)
 

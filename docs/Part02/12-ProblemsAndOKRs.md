@@ -6,7 +6,7 @@ description: "Analyze the core problem your innovation must address, then transf
 slug: /chapter12-defining-problem-strategic-objectives
 ---
 
-# Chapter 12: Defining the Problem and Setting Strategic Objectives
+## Chapter 12: Defining the Problem and Setting Strategic Objectives
 
 ![From Questions to Clarity](/img/ch12-problem-strategic-objectives.svg)
 

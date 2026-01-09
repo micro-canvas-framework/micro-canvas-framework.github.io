@@ -6,7 +6,7 @@ description: "How to reshape organizational culture for agility, creativity, and
 slug: /chapter4-transforming-culture-mindset
 ---
 
-# Chapter 4: Transforming Culture and Mindset
+## Chapter 4: Transforming Culture and Mindset
 
 ![Shifting from Structure to Flow](/img/ch4-transforming-culture-mindset.svg)
  

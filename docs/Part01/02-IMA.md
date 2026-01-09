@@ -6,7 +6,7 @@ description: "A structured method for assessing your organization's innovation m
 slug: /chapter2-innovation-maturity-assessment
 ---
 
-# Chapter 2: Innovation Maturity Assessment
+## Chapter 2: Innovation Maturity Assessment
 
 ![Mapping Innovation Capabilities](/img/ch2-innovation-maturity-assessment.svg)
  
@@ -138,7 +138,7 @@ For each process within these stages, answer the following yes/no questions. Eac
 | **Efficiency**    | Do you consistently engage with external stakeholders (e.g., investors, regulators, strategic partners)? | 2 | **Market** | **External Stakeholders** (ES) | Engaging with external stakeholders to align innovation efforts. | "We meet regularly with external stakeholders to discuss strategic alignment." | **Important** |
 | **Efficiency**    | Do you consistently identify regulatory constraints that may affect your innovation? | 2 | **External Influences** | **Regulatory Constraints** (RC) | Identifying regulatory challenges and planning for changes. | "We proactively identify and address legal restrictions in data privacy." | **Important** |
 | **Efficiency**    | Do you consistently ensure smooth integration with external systems as part of your innovation? | 2 | **Technology** | **External System Integrations** (ESI) | Ensuring smooth integration with external systems and services. | "We ensure our API integrates seamlessly with third-party platforms." | **Important** |
-| **Efficiency**    | Do you consistently develop a scalable and secure product architecture in each product's innovation journey? | 3 | **Technology** | **Product Architecture** (PA) | Regularly ensuring scalable and secure architecture for each product’s growth journey. | "We design cloud infrastructure that scales with demand, ensuring security at every stage." | **Essential** |
+| **Efficiency**    | Do you consistently develop a scalable and secure product architecture in each product's innovation journey? | 3 | **Technology** | **Product Architecture** (PA) | Regularly ensuring scalable and secure architecture for each productï¿½s growth journey. | "We design cloud infrastructure that scales with demand, ensuring security at every stage." | **Essential** |
 | **Scaling**       | Do you consistently implement key growth attributes that will drive accelerated growth? | 3 | **Organizational** | **Accelerated Growth Attributes** (AGA) | Implementing strategies that drive accelerated growth. | "We use referral programs and strategic partnerships to drive growth." | **Essential** |
 | **Scaling**       | Do you consistently develop the infrastructure required to scale your innovation efficiently? | 3 | **Technology** | **Product Architecture** (PA) | Building infrastructure that supports scalable innovation. | "We develop cloud infrastructure to meet increasing user demand efficiently." | **Essential** |
 | **Scaling**       | Do you consistently have strategies in place to adapt to future market disruptions and industry changes? | 2 | **External Influences** | **Future Disruptions** (FD) | Developing strategies to adapt to disruptions and industry changes. | "We monitor trends and adapt our strategies to stay competitive as new technologies emerge." | **Important** |

@@ -6,7 +6,7 @@ description: "Translate customer insights into actionable user stories and quick
 slug: /chapter16-user-stories-rapid-prototyping
 ---
 
-# Chapter 16: User Stories and Rapid Prototyping
+## Chapter 16: User Stories and Rapid Prototyping
 
 ![From Insight to Interaction](/img/ch16-user-stories-rapid-prototyping.svg)
 

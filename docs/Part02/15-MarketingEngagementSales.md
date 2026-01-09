@@ -6,7 +6,7 @@ description: "Develop your marketing and engagement strategy along with a sales 
 slug: /chapter15-marketing-engagement-sales
 ---
 
-# Chapter 15: Marketing, Engagement and Sales
+## Chapter 15: Marketing, Engagement and Sales
 
 ![From Message to Market](/img/ch15-marketing-engagement-sales.svg)
 

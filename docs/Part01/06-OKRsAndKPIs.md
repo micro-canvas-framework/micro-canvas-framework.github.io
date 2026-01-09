@@ -6,7 +6,7 @@ description: "Align your innovation projects with strategic goals using OKRs and
 slug: /chapter6-defining-clear-okrs
 ---
 
-# Chapter 6: Defining Clear Objectives and Key Results (OKRs) to Drive Innovation
+## Chapter 6: Defining Clear Objectives and Key Results (OKRs) to Drive Innovation
 
 ![Aligning Action with Ambition](/img/ch6-okrs-drive-innovation.svg)
 

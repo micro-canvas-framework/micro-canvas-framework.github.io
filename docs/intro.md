@@ -6,7 +6,7 @@ description: "Set the stage for the MicroCanvas Framework and outline the core p
 slug: /intro
 ---
 
-# Introduction
+## Introduction
 
 In today's fast-moving world, innovation is no longer a luxury - it is a strategic imperative. Organizations of all sizes, from emerging startups to multinational enterprises, must adapt quickly to shifting markets, evolving technologies, and rising customer expectations. Yet without a clear roadmap, even the best ideas can stall or fail to meet their potential. **The MicroCanvas Framework** fills this gap by providing a practical, end-to-end system for turning innovative concepts into sustainable, impactful solutions.
 

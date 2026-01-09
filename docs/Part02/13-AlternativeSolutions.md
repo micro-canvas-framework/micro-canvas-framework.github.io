@@ -7,7 +7,7 @@ slug: /chapter13-exploring-alternative-solutions
 ---
 
 
-# Chapter 13: Exploring Alternative Solutions, Unique Advantages and Product Features
+## Chapter 13: Exploring Alternative Solutions, Unique Advantages and Product Features
 
 ![Navigating the Path to Differentiation](/img/ch13-alternatives-advantages-features.svg)
 

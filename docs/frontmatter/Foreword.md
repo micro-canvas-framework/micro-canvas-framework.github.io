@@ -6,6 +6,6 @@ description: "Introduction and overview of the MicroCanvas Framework"
 slug: /frontmatter/foreword
 ---
 
-# Foreword
+## Foreword
 
 This is a placeholder text

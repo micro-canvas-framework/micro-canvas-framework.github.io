@@ -6,7 +6,7 @@ description: "How to transform ideas into tangible results by breaking work into
 slug: /chapter5-agile-project-execution
 ---
 
-# Chapter 5: Implementing an Agile Project Execution Framework
+## Chapter 5: Implementing an Agile Project Execution Framework
 
 ![Driving Progress Through Iteration](/img/ch5-agile-project-execution.svg)
  

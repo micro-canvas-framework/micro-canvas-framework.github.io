@@ -6,7 +6,7 @@ description: "A comprehensive training curriculum to design, deliver, and sustai
 slug: /chapter7-training-agile-lean-innovation
 ---
 
-# Chapter 7: Training in Agile and Lean Innovation
+## Chapter 7: Training in Agile and Lean Innovation
 
 ![Building Skills for Scalable Impact](/img/ch7-training-agile-lean.svg)
 

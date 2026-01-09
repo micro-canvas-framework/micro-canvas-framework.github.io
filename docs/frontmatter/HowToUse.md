@@ -6,7 +6,7 @@ description: "A brief overview of how to navigate and apply The MicroCanvas Fram
 slug: /frontmatter/how-to-use
 ---
 
-# How to Use This Book
+## How to Use This Book
 
 Welcome to The MicroCanvas Framework. This chapter shows you how to get the most out of this guide. Whether you're new to innovation or a seasoned expert, this book offers a clear, actionable path that you can tailor to your needs.
 
