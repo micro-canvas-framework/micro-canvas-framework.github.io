@@ -35,6 +35,8 @@ const config: Config = {
                 docs: {
                     sidebarPath: require.resolve('./sidebars.ts'),
                     routeBasePath: '/docs', // ✅ VERY IMPORTANT: Docs live under /docs now!
+                    showLastUpdateTime: true,
+                    showLastUpdateAuthor: false,
                     lastVersion: 'current',
                     versions: {
                         current: {
