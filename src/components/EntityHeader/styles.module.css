@@ -1,0 +1,68 @@
+.root {
+    margin: 0 0 1.5rem;
+    padding: 0.75rem 0 1rem;
+    border-bottom: 1px solid var(--ifm-toc-border-color);
+}
+
+.kickerRow {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    flex-wrap: wrap;
+    margin-bottom: 0.5rem;
+}
+
+.kicker {
+    font-size: 0.85rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--ifm-color-emphasis-600);
+}
+
+.title {
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: var(--ifm-font-color-base);
+    margin-bottom: 0.25rem;
+}
+
+.badges {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+}
+
+.badge,
+.badgeAlt {
+    font-size: 0.75rem;
+    padding: 0.2rem 0.5rem;
+    border-radius: 999px;
+    border: 1px solid var(--ifm-color-emphasis-400);
+    color: var(--ifm-color-emphasis-700);
+    background: var(--ifm-color-emphasis-100);
+}
+
+.meta {
+    margin-top: 0.75rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 0.5rem 1rem;
+}
+
+.metaItem {
+    display: flex;
+    flex-direction: column;
+    gap: 0.15rem;
+}
+
+.metaLabel {
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--ifm-color-emphasis-600);
+}
+
+.metaValue {
+    font-size: 0.9rem;
+    color: var(--ifm-color-emphasis-800);
+}

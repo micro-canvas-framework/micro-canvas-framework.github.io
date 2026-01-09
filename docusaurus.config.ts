@@ -41,7 +41,6 @@ const config: Config = {
                         '**/*.d.ts',
                         '**/_*.{js,jsx,ts,tsx}',
                     ],
-                    editUrl: 'https://github.com/micro-canvas-framework/micro-canvas-framework.github.io/edit/master/', // adjust to your repo
                 },
                 blog: false,
                 theme: {
