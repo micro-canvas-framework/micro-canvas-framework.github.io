@@ -5,7 +5,9 @@ title: "Chapter 5: Implementing an Agile Project Execution Framework"
 description: "How to transform ideas into tangible results by breaking work into manageable pieces and fostering continuous improvement."
 redirect_from:
   - /Part01/05-AgileProjects
+  - /docs/Part01/05-AgileProjects
   - /chapter5-agile-project-execution
+  - /docs/chapter5-agile-project-execution
 ---
 
 ![Driving Progress Through Iteration](/img/ch5-agile-project-execution.svg)

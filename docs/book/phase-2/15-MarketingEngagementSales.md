@@ -5,7 +5,9 @@ title: "Chapter 15: Marketing, Engagement and Sales"
 description: "Develop your marketing and engagement strategy along with a sales funnel to drive growth."
 redirect_from:
   - /Part02/15-MarketingEngagementSales
+  - /docs/Part02/15-MarketingEngagementSales
   - /chapter15-marketing-engagement-sales
+  - /docs/chapter15-marketing-engagement-sales
 ---
 
 ![From Message to Market](/img/ch15-marketing-engagement-sales.svg)

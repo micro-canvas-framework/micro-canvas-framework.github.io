@@ -5,7 +5,9 @@ title: "Chapter 2: Innovation Maturity Assessment"
 description: "A structured method for assessing your organization's innovation maturity."
 redirect_from:
   - /Part01/02-IMA
+  - /docs/Part01/02-IMA
   - /chapter2-innovation-maturity-assessment
+  - /docs/chapter2-innovation-maturity-assessment
 ---
 
 ![Mapping Innovation Capabilities](/img/ch2-innovation-maturity-assessment.svg)

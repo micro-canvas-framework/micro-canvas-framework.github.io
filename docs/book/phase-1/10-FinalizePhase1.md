@@ -5,7 +5,9 @@ title: "Chapter 10: Review, Adjust, and Finalize Phase 1"
 description: "Evaluate your initial innovation initiatives, identify areas for improvement, and strengthen your foundation for the next stage of transformation."
 redirect_from:
   - /Part01/10-FinalizePhase1
+  - /docs/Part01/10-FinalizePhase1
   - /chapter10-review-adjust-finalize-phase1
+  - /docs/chapter10-review-adjust-finalize-phase1
 ---
 
 ![Closing the Loop with Insight](/img/ch10-review-adjust-finalize.svg)

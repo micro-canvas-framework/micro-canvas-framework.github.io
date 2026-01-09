@@ -5,7 +5,9 @@ title: "Chapter 6: Defining Clear Objectives and Key Results (OKRs) to Drive Inn
 description: "Align your innovation projects with strategic goals using OKRs and measurable KPIs."
 redirect_from:
   - /Part01/06-OKRsAndKPIs
+  - /docs/Part01/06-OKRsAndKPIs
   - /chapter6-defining-clear-okrs
+  - /docs/chapter6-defining-clear-okrs
 ---
 
 ![Aligning Action with Ambition](/img/ch6-okrs-drive-innovation.svg)

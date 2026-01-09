@@ -5,7 +5,9 @@ title: "Chapter 20: User Validation and Expanded Pilot Testing"
 description: "Engage real users in a broader pilot phase to validate your solution, gather data-driven insights, and refine before full-scale launch."
 redirect_from:
   - /Part02/20-UserValidation
+  - /docs/Part02/20-UserValidation
   - /chapter20-user-validation-expanded-pilot-testing
+  - /docs/chapter20-user-validation-expanded-pilot-testing
 ---
 
 ![From Feedback to Field Trials](/img/ch20-user-validation-expanded-pilots.svg)

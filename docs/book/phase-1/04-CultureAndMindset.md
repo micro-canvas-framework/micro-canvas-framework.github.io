@@ -5,7 +5,9 @@ title: "Chapter 4: Transforming Culture and Mindset"
 description: "How to reshape organizational culture for agility, creativity, and lasting innovation success."
 redirect_from:
   - /Part01/04-CultureAndMindset
+  - /docs/Part01/04-CultureAndMindset
   - /chapter4-transforming-culture-mindset
+  - /docs/chapter4-transforming-culture-mindset
 ---
 
 ![Shifting from Structure to Flow](/img/ch4-transforming-culture-mindset.svg)

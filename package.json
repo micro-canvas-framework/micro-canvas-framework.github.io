@@ -18,7 +18,8 @@
     "fix:demote-sections-h1": "node scripts/demote-h1-in-sections.mjs",
     "check:no-h1-in-sections": "node scripts/check-no-h1-in-sections.mjs",
     "fix:dedupe-title-headings": "node scripts/remove-duplicate-title-heading.mjs",
-    "check:no-duplicate-title-headings": "node scripts/check-no-duplicate-title-heading.mjs"
+    "check:no-duplicate-title-headings": "node scripts/check-no-duplicate-title-heading.mjs",
+    "fix:redirects-docs-prefix": "node scripts/prefix-docs-in-redirects.mjs"
   },
   "dependencies": {
     "@docusaurus/core": "3.7.0",

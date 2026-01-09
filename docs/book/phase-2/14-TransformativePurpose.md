@@ -5,7 +5,9 @@ title: "Chapter 14: Transformative Purpose"
 description: "Crafting a unifying, aspirational goal that shapes your innovation journey"
 redirect_from:
   - /Part02/14-TransformativePurpose
+  - /docs/Part02/14-TransformativePurpose
   - /chapter-14-transformative-purpose
+  - /docs/chapter-14-transformative-purpose
 ---
 
 ![Lighting the Way Forward](/img/ch14-transformative-purpose.svg)
