@@ -1,0 +1,6 @@
+static/img/docusaurus-social-card.jpg
+static/img/docusaurus.png
+static/img/mcf_logo.png
+static/img/undraw_docusaurus_mountain.svg
+static/img/undraw_docusaurus_react.svg
+static/img/undraw_docusaurus_tree.svg

@@ -20,7 +20,8 @@
     "fix:dedupe-title-headings": "node scripts/remove-duplicate-title-heading.mjs",
     "check:no-duplicate-title-headings": "node scripts/check-no-duplicate-title-heading.mjs",
     "fix:redirects-docs-prefix": "node scripts/prefix-docs-in-redirects.mjs",
-    "gen:redirects": "node scripts/generate-client-redirects.mjs"
+    "gen:redirects": "node scripts/generate-client-redirects.mjs",
+    "check:unused-images": "node scripts/find-unused-static-images.mjs"
   },
   "dependencies": {
     "@docusaurus/core": "3.7.0",
