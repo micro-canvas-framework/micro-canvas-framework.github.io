@@ -41,10 +41,10 @@ const EntityHeader: React.FC<EntityHeaderProps> = ({ title, entity, version, sta
         status && status === status.toLowerCase()
             ? status.charAt(0).toUpperCase() + status.slice(1)
             : status;
+    const metaStatus = resolvedStatus ?? entity;
     const metaParts = [
-        entity,
         version,
-        resolvedStatus,
+        metaStatus,
         resolvedLastUpdated ? `Last updated: ${resolvedLastUpdated}` : null,
     ].filter(Boolean) as string[];
 
