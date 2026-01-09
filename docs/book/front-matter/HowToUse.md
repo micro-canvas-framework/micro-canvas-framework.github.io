@@ -3,7 +3,10 @@ sidebar_position: 4
 id: frontmatter-how-to-use
 title: How to Use This Book
 description: "A brief overview of how to navigate and apply The MicroCanvas Framework"
-slug: /frontmatter/how-to-use
+slug: /book/front-matter/how-to-use
+redirect_from:
+  - /docs/frontmatter/howtouse
+  - /frontmatter/howtouse
 ---
 
 Welcome to The MicroCanvas Framework. This chapter shows you how to get the most out of this guide. Whether you're new to innovation or a seasoned expert, this book offers a clear, actionable path that you can tailor to your needs.

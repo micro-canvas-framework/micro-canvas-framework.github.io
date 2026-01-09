@@ -38,6 +38,17 @@ const sidebars: SidebarsConfig = {
                 'book/boundaries-and-misuse',
                 {
                     type: 'category',
+                    label: 'Front matter',
+                    items: [
+                        'book/front-matter/_intro',
+                        'book/front-matter/frontmatter-foreword',
+                        'book/front-matter/frontmatter-preface',
+                        'book/front-matter/frontmatter-how-to-use',
+                        'book/front-matter/frontmatter-the-author',
+                    ],
+                },
+                {
+                    type: 'category',
                     label: 'Phase 1 — Foundations',
                     items: [
                         'book/phase-1/_intro',
@@ -77,16 +88,6 @@ const sidebars: SidebarsConfig = {
             type: 'category',
             label: 'Meta',
             items: ['meta/changelog', 'meta/references'],
-        },
-        {
-            type: 'category',
-            label: 'Front Matter',
-            items: [
-                'frontmatter/frontmatter-foreword',
-                'frontmatter/frontmatter-how-to-use',
-                'frontmatter/frontmatter-preface',
-                'frontmatter/frontmatter-the-author',
-            ],
         },
     ],
 };

@@ -174,5 +174,21 @@ export default [
   {
     "from": "/docs/chapter22-strategic-review-next-steps",
     "to": "/docs/book/phase-2/chapter22-strategic-review-next-steps"
+  },
+  {
+    "from": "/docs/frontmatter/foreword",
+    "to": "/docs/book/front-matter/foreword"
+  },
+  {
+    "from": "/docs/frontmatter/howtouse",
+    "to": "/docs/book/front-matter/how-to-use"
+  },
+  {
+    "from": "/docs/frontmatter/preface",
+    "to": "/docs/book/front-matter/preface"
+  },
+  {
+    "from": "/docs/frontmatter/theauthor",
+    "to": "/docs/book/front-matter/the-author"
   }
 ];

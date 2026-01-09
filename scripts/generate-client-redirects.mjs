@@ -4,7 +4,7 @@ import { join } from 'node:path';
 const roots = [
   join('docs', 'book', 'phase-1'),
   join('docs', 'book', 'phase-2'),
-  join('docs', 'book', 'frontmatter'),
+  join('docs', 'book', 'front-matter'),
 ];
 
 function stripQuotes(value) {
@@ -77,6 +77,7 @@ function normalizePath(value) {
 const redirects = [];
 const seen = new Set();
 let filesWithRedirects = 0;
+let unresolved = 0;
 
 function addRedirect(from, to) {
   if (!from || !to) return;
@@ -84,6 +85,8 @@ function addRedirect(from, to) {
   seen.add(from);
   redirects.push({ from, to });
 }
+
+const docEntries = [];
 
 for (const root of roots) {
   if (!existsSync(root)) continue;
@@ -95,37 +98,63 @@ for (const root of roots) {
 
     const content = readFileSync(full, 'utf8');
     const fm = parseFrontMatter(content);
-    if (!fm || !fm.id) continue;
+    if (!fm) continue;
+    docEntries.push({ root, entry, full, fm });
+  }
+}
 
-    const docId = fm.id;
-    const isPhase1 = root.includes(join('docs', 'book', 'phase-1'));
-    const phasePath = isPhase1 ? 'phase-1' : 'phase-2';
+const canonicalTargets = new Map();
 
-    let to = '';
-    if (fm.slug) {
-      const normalizedSlug = normalizePath(fm.slug);
-      to = normalizedSlug.startsWith('/docs/')
-        ? normalizedSlug
-        : normalizePath(`/docs${normalizedSlug}`);
-    } else if (docId) {
-      to = normalizePath(`/docs/book/${phasePath}/${docId}`);
-    } else {
-      const fileName = entry.replace(/\.(md|mdx)$/, '');
-      to = normalizePath(`/docs/book/${phasePath}/${fileName}`);
-    }
+for (const { root, entry, fm, full } of docEntries) {
+  const isPhase1 = root.includes(join('docs', 'book', 'phase-1'));
+  const isPhase2 = root.includes(join('docs', 'book', 'phase-2'));
+  const isFrontMatter = root.includes(join('docs', 'book', 'front-matter'));
+  const base = isFrontMatter
+    ? '/docs/book/front-matter/'
+    : isPhase1
+      ? '/docs/book/phase-1/'
+      : isPhase2
+        ? '/docs/book/phase-2/'
+        : '';
 
-    if (fm.redirect_from.length) {
-      filesWithRedirects += 1;
-    }
+  let to = '';
+  if (fm.slug) {
+    const normalizedSlug = normalizePath(fm.slug);
+    to = normalizedSlug.startsWith('/docs/')
+      ? normalizedSlug
+      : normalizePath(`/docs${normalizedSlug}`);
+  } else if (fm.id && base) {
+    to = normalizePath(`${base}${fm.id}`);
+  } else if (base) {
+    const fileName = entry.replace(/\.(md|mdx)$/, '');
+    to = normalizePath(`${base}${fileName}`);
+  }
 
+  if (to) {
+    canonicalTargets.set(full, to);
+  }
+}
+
+for (const { full, fm } of docEntries) {
+  if (!fm.redirect_from.length) continue;
+  filesWithRedirects += 1;
+
+  const to = canonicalTargets.get(full);
+  if (!to) {
+    unresolved += 1;
     for (const rf of fm.redirect_from) {
-      const normalized = normalizePath(rf);
-      const stripped = normalized.startsWith('/docs/')
-        ? normalized.slice('/docs'.length)
-        : normalized;
-      const fromBase = normalizePath(`/docs${stripped}`);
-      addRedirect(fromBase, to);
+      console.warn(`SKIP redirect_from ${rf} -> unresolved target for ${full}`);
     }
+    continue;
+  }
+
+  for (const rf of fm.redirect_from) {
+    const normalized = normalizePath(rf);
+    const stripped = normalized.startsWith('/docs/')
+      ? normalized.slice('/docs'.length)
+      : normalized;
+    const fromBase = normalizePath(`/docs${stripped}`);
+    addRedirect(fromBase, to);
   }
 }
 
@@ -136,4 +165,7 @@ if (redirects.length === 0) {
 
 const output = `export default ${JSON.stringify(redirects, null, 2)};\n`;
 writeFileSync(join('src', 'redirects.generated.js'), output, 'utf8');
+if (unresolved > 0) {
+  console.warn(`Skipped ${unresolved} file(s) with unresolved redirect targets.`);
+}
 console.log(`Generated ${redirects.length} redirects from ${filesWithRedirects} file(s).`);

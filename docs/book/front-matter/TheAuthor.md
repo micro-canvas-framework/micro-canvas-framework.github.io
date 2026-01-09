@@ -3,7 +3,10 @@ sidebar_position: 3
 id: frontmatter-the-author
 title: The Author
 description: "Profile and background of Luis A. Santiago"
-slug: /frontmatter/the-author
+slug: /book/front-matter/the-author
+redirect_from:
+  - /docs/frontmatter/theauthor
+  - /frontmatter/theauthor
 ---
 
 ## Luis A. Santiago
