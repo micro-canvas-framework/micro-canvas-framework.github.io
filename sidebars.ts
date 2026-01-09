@@ -9,6 +9,11 @@ const sidebars: SidebarsConfig = {
         },
         {
             type: 'category',
+            label: 'Canon',
+            items: ['canon/_intro'],
+        },
+        {
+            type: 'category',
             label: 'Front Matter',
             items: [
                 'frontmatter/frontmatter-foreword',

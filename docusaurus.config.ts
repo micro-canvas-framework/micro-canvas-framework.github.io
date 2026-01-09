@@ -35,6 +35,12 @@ const config: Config = {
                 docs: {
                     sidebarPath: require.resolve('./sidebars.ts'),
                     routeBasePath: '/docs', // ✅ VERY IMPORTANT: Docs live under /docs now!
+                    exclude: [
+                        '**/*.test.{js,ts,jsx,tsx}',
+                        '**/__tests__/**',
+                        '**/*.d.ts',
+                        '**/_*.{js,jsx,ts,tsx}',
+                    ],
                     editUrl: 'https://github.com/micro-canvas-framework/micro-canvas-framework.github.io/edit/master/', // adjust to your repo
                 },
                 blog: {
