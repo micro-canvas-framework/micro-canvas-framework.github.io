@@ -4,6 +4,42 @@ version: MCF 2.2
 status: canonical
 ---
 
-## Placeholder
+import EntityHeader from '@site/src/components/EntityHeader';
 
-This section is part of the MCF 2.2 canonical specification. Content forthcoming.
+<EntityHeader entity="Canon" version="MCF 2.2" status="canonical" />
+
+## Scope
+
+This section specifies the evidence-first progression logic and the evidence lifecycle constraints that govern epistemic state transitions.
+
+## Evidence-First Progression
+
+Progression is determined by evidence sufficiency and quality, not by activity completion or procedural milestones.
+
+## Evidence Quality
+
+Evidence quality is the canonical basis for decision thresholds as defined in the [Definitions](./definitions). Quality is assessed against the criteria defined by the canonical specification rather than by operational metrics or methods.
+
+## Sufficiency and Thresholds
+
+Decisions require evidence that meets defined sufficiency thresholds. Decision thresholds and reversibility constraints are specified in the decision logic defined elsewhere; see [Decision Theory](./decision-theory).
+
+## Decay, Expiration, and Revalidation
+
+Evidence decay is the loss of evidentiary strength due to time, context change, or relevance loss. Evidence expiration denotes that evidence is no longer valid for the current decision context. Revalidation is the requirement to confirm that evidence still satisfies the applicable threshold.
+
+## Regression and Deferral Triggers
+
+Evidence decay or expiration can trigger regression to a prior epistemic state or strategic deferral of decisions until thresholds are met.
+
+## Anti-Theater Constraint
+
+Activity without evidentiary support has no epistemic weight, consistent with the [anti-theater principle](./definitions).
+
+## Traceability and Auditability Requirements
+
+Evidence must remain traceable and auditable within the governance boundaries defined elsewhere; see [Governance Boundaries](./governance-boundaries) and [Framework Boundaries](./framework-boundaries).
+
+## Non-Operational Boundary
+
+This section does not prescribe instruments, research methods, or deliverables.
