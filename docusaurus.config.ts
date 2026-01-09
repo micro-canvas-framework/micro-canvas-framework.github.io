@@ -35,6 +35,16 @@ const config: Config = {
                 docs: {
                     sidebarPath: require.resolve('./sidebars.ts'),
                     routeBasePath: '/docs', // ✅ VERY IMPORTANT: Docs live under /docs now!
+                    lastVersion: 'current',
+                    versions: {
+                        current: {
+                            label: '2.2',
+                            path: '',
+                        },
+                        '2.1': {
+                            label: '2.1 (legacy)',
+                        },
+                    },
                     exclude: [
                         '**/*.test.{js,ts,jsx,tsx}',
                         '**/__tests__/**',
