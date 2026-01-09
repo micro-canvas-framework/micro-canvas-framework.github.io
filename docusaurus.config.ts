@@ -89,6 +89,10 @@ const config: Config = {
                     position: 'right',
                 },
                 {
+                    type: 'docsVersionDropdown',
+                    position: 'right',
+                },
+                {
                     type: 'localeDropdown',
                     position: 'right',
                 },
