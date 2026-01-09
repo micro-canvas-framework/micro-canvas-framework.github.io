@@ -26,7 +26,7 @@ const sidebars: SidebarsConfig = {
         {
             type: 'category',
             label: 'Meta',
-            items: ['meta/changelog'],
+            items: ['meta/changelog', 'meta/references'],
         },
         {
             type: 'category',
