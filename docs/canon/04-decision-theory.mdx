@@ -4,6 +4,38 @@ version: MCF 2.2
 status: canonical
 ---
 
-## Placeholder
+import EntityHeader from '@site/src/components/EntityHeader';
 
-This section is part of the MCF 2.2 canonical specification. Content forthcoming.
+<EntityHeader entity="Canon" version="MCF 2.2" status="canonical" />
+
+## Scope
+
+This section specifies decision thresholds, reversibility, and termination-adjacent constraints within the canonical decision logic.
+
+## Decision Thresholds
+
+A decision threshold is a canonical boundary defined by evidence sufficiency and quality; see [Definitions](./definitions). Decisions require evidence that meets the applicable sufficiency thresholds as defined in [Evidence Logic](./evidence-logic).
+
+## Reversibility and Irreversibility
+
+Decisions may be reversible or effectively irreversible depending on context. Reversibility is a canonical property of a decision state, not a process step. Irreversibility increases the evidentiary burden required to justify a decision.
+
+## Decision Integrity Constraints
+
+Decision integrity excludes decision theater; see the [anti-theater principle](./evidence-logic). Decisions must be justified by traceable evidence and remain auditable within the governance boundaries defined elsewhere.
+
+## Deferred Decisions and Optionality Preservation
+
+Strategic deferral is a valid decision outcome when thresholds are not met. Optionality preservation is a canonical constraint that limits irreversible commitments until evidence supports the decision.
+
+## Termination-Adjacent Logic
+
+Termination is a governed outcome with explicit logic defined elsewhere; see [Versioning and Termination](./versioning-termination). Termination decisions are subject to the highest integrity constraints.
+
+## Relationship to Stages
+
+Decisions interact with epistemic stage states without defining stages as workflow steps; see the [Epistemic Model](./epistemic-model).
+
+## Non-Operational Boundary
+
+This section does not prescribe decision-making processes, meeting structures, or governance rituals.
