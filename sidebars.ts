@@ -38,8 +38,9 @@ const sidebars: SidebarsConfig = {
                 'book/boundaries-and-misuse',
                 {
                     type: 'category',
-                    label: 'Phase 1 (Legacy Chapters)',
+                    label: 'Phase 1 — Foundations',
                     items: [
+                        'book/phase-1/_intro',
                         'book/phase-1/chapter2-innovation-maturity-assessment',
                         'book/phase-1/chapter3-innovation-governance',
                         'book/phase-1/chapter4-transforming-culture-mindset',
@@ -53,8 +54,9 @@ const sidebars: SidebarsConfig = {
                 },
                 {
                     type: 'category',
-                    label: 'Phase 2 (Legacy Chapters)',
+                    label: 'Phase 2 — Structured Discovery & Validation',
                     items: [
+                        'book/phase-2/_intro',
                         'book/phase-2/chapter11-uncovering-opportunities-analyzing-customers',
                         'book/phase-2/chapter12-defining-problem-strategic-objectives',
                         'book/phase-2/chapter13-exploring-alternative-solutions',
