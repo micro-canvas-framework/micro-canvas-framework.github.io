@@ -5,9 +5,7 @@ title: "Chapter 17: Experimentation and Testing"
 description: "Systematically test prototypes and gather data, ensuring solutions meet user needs and strategic goals."
 redirect_from:
   - /Part02/17-ExperimentationAndTesting
-  - /docs/Part02/17-ExperimentationAndTesting
   - /chapter17-experimentation-testing
-  - /docs/chapter17-experimentation-testing
 ---
 
 ![Test, Learn, Adapt](/img/ch17-experimentation-testing.svg)

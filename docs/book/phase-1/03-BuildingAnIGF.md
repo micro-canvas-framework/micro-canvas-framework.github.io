@@ -5,9 +5,7 @@ title: "Chapter 3: Building an Innovation Governance Framework"
 description: "A guide to designing governance that drives clarity, speed, and alignment in innovation."
 redirect_from:
   - /Part01/03-BuildingAnIGF
-  - /docs/Part01/03-BuildingAnIGF
   - /chapter3-innovation-governance
-  - /docs/chapter3-innovation-governance
 ---
 
 ## Chapter 3: Building an Innovation Governance Framework (IGF)

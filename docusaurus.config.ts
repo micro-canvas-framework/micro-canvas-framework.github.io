@@ -1,4 +1,5 @@
 import { Config } from '@docusaurus/types';
+import redirects from './src/redirects.generated.js';
 
 const config: Config = {
     title: 'The MicroCanvas Framework (MCF) 2.1',
@@ -72,6 +73,12 @@ const config: Config = {
                 ignorePatterns: ['/tags/**'], // Optional: ignore /tags pages if you want
                 filename: 'sitemap.xml',
                // trailingSlash: true, // or false depending on your URL style
+            },
+        ],
+        [
+            '@docusaurus/plugin-client-redirects',
+            {
+                redirects,
             },
         ],
     ],

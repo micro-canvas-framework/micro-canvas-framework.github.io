@@ -5,9 +5,7 @@ title: "Chapter 16: User Stories and Rapid Prototyping"
 description: "Translate customer insights into actionable user stories and quickly build prototypes to validate your top-ranked solutions."
 redirect_from:
   - /Part02/16-UserStoriesRapidPrototyping
-  - /docs/Part02/16-UserStoriesRapidPrototyping
   - /chapter16-user-stories-rapid-prototyping
-  - /docs/chapter16-user-stories-rapid-prototyping
 ---
 
 ![From Insight to Interaction](/img/ch16-user-stories-rapid-prototyping.svg)

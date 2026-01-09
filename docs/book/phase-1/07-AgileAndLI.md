@@ -5,9 +5,7 @@ title: "Chapter 7: Training in Agile and Lean Innovation"
 description: "A comprehensive training curriculum to design, deliver, and sustain agile and lean methodologies in your organization."
 redirect_from:
   - /Part01/07-AgileAndLI
-  - /docs/Part01/07-AgileAndLI
   - /chapter7-training-agile-lean-innovation
-  - /docs/chapter7-training-agile-lean-innovation
 ---
 
 ![Building Skills for Scalable Impact](/img/ch7-training-agile-lean.svg)
