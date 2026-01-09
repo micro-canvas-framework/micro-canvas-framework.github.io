@@ -30,7 +30,7 @@ const DocItemLayout = (props: Props): JSX.Element => {
                     version={version}
                     status={status}
                     lastUpdated={doc?.metadata?.lastUpdatedAt}
-                    mode="meta"
+                    mode="full"
                 />
             ) : null}
             {props.children}
