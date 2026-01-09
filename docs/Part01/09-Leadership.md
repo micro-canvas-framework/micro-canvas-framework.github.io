@@ -6,8 +6,6 @@ description: "How to align leadership with your innovation strategy, build cross
 slug: /chapter9-leadership-alignment-expansion
 ---
 
-## Chapter 9: Leadership Alignment and Expansion
-
 ![Leading with Purpose and Reach](/img/ch9-leadership-alignment-expansion.svg)
 
 **Leading with Purpose and Reach**. *This graphic captures the essence of innovation leadership: aligning key players around shared goals while expanding the organization's influence. It reflects how the MicroCanvas&reg; Framework fosters cohesive leadership ecosystems that scale transformation effectively across teams and time*.

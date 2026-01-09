@@ -6,8 +6,6 @@ description: "Engage real users in a broader pilot phase to validate your soluti
 slug: /chapter20-user-validation-expanded-pilot-testing
 ---
 
-## Chapter 20: User Validation and Expanded Pilot Testing
-
 ![From Feedback to Field Trials](/img/ch20-user-validation-expanded-pilots.svg)
 
 **From Feedback to Field Trials**. *This visual illustrates the process of validating solutions with real users and expanding pilot tests for broader insights. In the MicroCanvas&reg; Framework, this phase bridges design and implementation - ensuring offerings are both desired and viable in practice*.

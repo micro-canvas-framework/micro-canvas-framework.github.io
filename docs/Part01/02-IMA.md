@@ -6,8 +6,6 @@ description: "A structured method for assessing your organization's innovation m
 slug: /chapter2-innovation-maturity-assessment
 ---
 
-## Chapter 2: Innovation Maturity Assessment
-
 ![Mapping Innovation Capabilities](/img/ch2-innovation-maturity-assessment.svg)
  
  **Mapping Innovation Capabilities**. *This visual represents the structured assessment of innovation maturity across key dimensions. The polygon form symbolizes performance levels, helping organizations identify strengths and gaps. It reflects the diagnostic clarity central to the MicroCanvas&reg; Framework's assessment approach.*

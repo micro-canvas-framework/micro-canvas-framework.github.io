@@ -6,8 +6,6 @@ description: "A comprehensive training curriculum to design, deliver, and sustai
 slug: /chapter7-training-agile-lean-innovation
 ---
 
-## Chapter 7: Training in Agile and Lean Innovation
-
 ![Building Skills for Scalable Impact](/img/ch7-training-agile-lean.svg)
 
 **Building Skills for Scalable Impact**. *This illustration represents the foundational blocks of training in agile and lean methodologies. As learners stack knowledge and practice, they ascend toward more adaptive and high-impact innovation - a key capability developed through the MicroCanvas&reg; Framework's capacity-building approach.

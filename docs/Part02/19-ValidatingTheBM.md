@@ -6,8 +6,6 @@ description: "Use MCF 2.1 Business Model Validation to test assumptions, analyze
 slug: /chapter19-validating-the-business-model
 ---
 
-## Chapter 19: Validating the Business Model
-
 ![Test Before You Build](/img/ch19-validating-business-model.svg)
 
 **Test Before You Build**. *This visual captures the importance of validating your business model early and iteratively. Using structured experimentation and evidence, the MicroCanvas&reg; Framework helps teams reduce risk and confirm real-world viability before scaling*.

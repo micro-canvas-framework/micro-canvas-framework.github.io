@@ -6,8 +6,6 @@ description: "Launch pilot projects, refine them through iterative cycles, and a
 slug: /chapter8-governance-pilots-iterations
 ---
 
-## Chapter 8: Putting Governance into Action: Pilots and Iterations
-
 ![From Structure to Action](/img/ch8-governance-pilots-iterations.svg)
 
 **From Structure to Action**. *This visual illustrates the dynamic transition from governance frameworks to real-world experimentation. The solid foundation represents strategic alignment, while the upward arrow and iteration loops depict how pilots and agile cycles bring governance principles to life - an essential function in the MicroCanvas&reg; Framework's execution layer*.

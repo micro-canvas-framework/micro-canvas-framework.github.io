@@ -6,8 +6,6 @@ description: "Crafting a unifying, aspirational goal that shapes your innovation
 slug: /chapter-14-transformative-purpose
 ---
 
-## Chapter 14: Transformative Purpose
-
 ![Lighting the Way Forward](/img/ch14-transformative-purpose.svg)
 
 **Lighting the Way Forward**. *This visual captures the essence of a transformative purpose: rising from foundational clarity to guide strategic direction and cultural alignment. Within the MicroCanvas&reg; Framework, purpose acts as a beacon - illuminating decisions and inspiring collective action across every stage of innovation*.

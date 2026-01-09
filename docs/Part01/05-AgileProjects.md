@@ -6,8 +6,6 @@ description: "How to transform ideas into tangible results by breaking work into
 slug: /chapter5-agile-project-execution
 ---
 
-## Chapter 5: Implementing an Agile Project Execution Framework
-
 ![Driving Progress Through Iteration](/img/ch5-agile-project-execution.svg)
  
  **Driving Progress Through Iteration**. *This visual captures the essence of agile execution: cycles of focused action that evolve toward measurable outcomes. Each loop represents a sprint, reinforced by building blocks of progress - mirroring how the MicroCanvas&reg; Framework guides continuous delivery and adaptability across innovation initiatives.*

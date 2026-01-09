@@ -6,8 +6,6 @@ description: "Identify market opportunities, segment customers with TAM/SAM/SOM,
 slug: /chapter11-uncovering-opportunities-analyzing-customers
 ---
 
-## Chapter 11: Uncovering Opportunities and Analyzing Customers
-
 ![From Insight to Opportunity](/img/ch11-opportunities-customers.svg)
 
 **From Insight to Opportunity**. *This visual illustrates the dual process of uncovering innovation opportunities and deeply understanding customer needs. With focused exploration and data-driven analysis, the MicroCanvas&reg; Framework enables organizations to transform insights into strategic innovation directions*.

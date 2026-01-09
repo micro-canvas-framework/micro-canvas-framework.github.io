@@ -6,8 +6,6 @@ description: "Align your innovation projects with strategic goals using OKRs and
 slug: /chapter6-defining-clear-okrs
 ---
 
-## Chapter 6: Defining Clear Objectives and Key Results (OKRs) to Drive Innovation
-
 ![Aligning Action with Ambition](/img/ch6-okrs-drive-innovation.svg)
 
 **Aligning Action with Ambition**. *This visual represents the core structure of OKRs: a single, focused Objective surrounded by measurable Key Results. The MicroCanvas&reg; Framework leverages this model to ensure innovation efforts remain purposeful, trackable, and strategically aligned from vision to execution.*

@@ -16,7 +16,9 @@
     "check:no-inline-entityheader": "node scripts/check-no-inline-entityheader.mjs",
     "fix:demote-docs-h1": "node scripts/demote-h1-in-docs.mjs",
     "fix:demote-sections-h1": "node scripts/demote-h1-in-sections.mjs",
-    "check:no-h1-in-sections": "node scripts/check-no-h1-in-sections.mjs"
+    "check:no-h1-in-sections": "node scripts/check-no-h1-in-sections.mjs",
+    "fix:dedupe-title-headings": "node scripts/remove-duplicate-title-heading.mjs",
+    "check:no-duplicate-title-headings": "node scripts/check-no-duplicate-title-heading.mjs"
   },
   "dependencies": {
     "@docusaurus/core": "3.7.0",

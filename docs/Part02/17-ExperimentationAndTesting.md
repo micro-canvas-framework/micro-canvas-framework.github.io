@@ -6,8 +6,6 @@ description: "Systematically test prototypes and gather data, ensuring solutions
 slug: /chapter17-experimentation-testing
 ---
 
-## Chapter 17: Experimentation and Testing
-
 ![Test, Learn, Adapt](/img/ch17-experimentation-testing.svg)
 
 **Test, Learn, Adapt**. *This graphic represents a key pillar of the MicroCanvas&reg; Framework: structured experimentation and measurable testing. It empowers teams to de-risk innovation through small-scale trials and data-informed refinements, accelerating the path to viable solutions*.
