@@ -102,10 +102,16 @@ for (const root of roots) {
     const phasePath = isPhase1 ? 'phase-1' : 'phase-2';
 
     let to = '';
-    if (fm.slug && fm.slug.startsWith('/')) {
-      to = normalizePath(`/docs${fm.slug}`);
-    } else {
+    if (fm.slug) {
+      const normalizedSlug = normalizePath(fm.slug);
+      to = normalizedSlug.startsWith('/docs/')
+        ? normalizedSlug
+        : normalizePath(`/docs${normalizedSlug}`);
+    } else if (docId) {
       to = normalizePath(`/docs/book/${phasePath}/${docId}`);
+    } else {
+      const fileName = entry.replace(/\.(md|mdx)$/, '');
+      to = normalizePath(`/docs/book/${phasePath}/${fileName}`);
     }
 
     if (fm.redirect_from.length) {
