@@ -25,6 +25,11 @@ const sidebars: SidebarsConfig = {
         },
         {
             type: 'category',
+            label: 'Meta',
+            items: ['meta/changelog'],
+        },
+        {
+            type: 'category',
             label: 'Front Matter',
             items: [
                 'frontmatter/frontmatter-foreword',
