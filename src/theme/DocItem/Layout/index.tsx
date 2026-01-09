@@ -6,13 +6,17 @@ import EntityHeader from '@site/src/components/EntityHeader';
 
 const DocItemLayout = (props: Props): JSX.Element => {
     const doc = useDoc() as {
-        metadata?: { lastUpdatedAt?: number };
+        metadata?: {
+            lastUpdatedAt?: number;
+            version?: string;
+        };
         frontMatter?: { entityHeader?: boolean; status?: string; version?: string };
         version?: { name?: string; label?: string };
     };
 
     const frontMatter = doc?.frontMatter ?? {};
     const showMeta = frontMatter.entityHeader !== false;
+    const metadata = doc?.metadata ?? {};
 
     const rawVersion = frontMatter.version ?? doc?.version?.label ?? doc?.version?.name;
     const cleanedVersion = rawVersion ? rawVersion.replace(/\\s*\\(.*\\)$/, '') : '2.2';
@@ -21,12 +25,8 @@ const DocItemLayout = (props: Props): JSX.Element => {
         : `MCF ${cleanedVersion}`;
 
     const status = frontMatter.status ?? 'Documentation';
-    const isLegacy =
-        typeof doc?.version?.name === 'string'
-            ? doc.version.name !== 'current'
-            : typeof doc?.version?.label === 'string'
-              ? !doc.version.label.includes('(current)') && doc.version.label !== 'current'
-              : false;
+    const docVersion = metadata.version;
+    const isLegacy = typeof docVersion === 'string' && docVersion !== 'current';
     const headerMode = isLegacy ? 'meta' : 'full';
 
     return (
@@ -36,7 +36,7 @@ const DocItemLayout = (props: Props): JSX.Element => {
                     entity="Documentation"
                     version={version}
                     status={status}
-                    lastUpdated={doc?.metadata?.lastUpdatedAt}
+                    lastUpdated={metadata.lastUpdatedAt}
                     mode={headerMode}
                 />
             ) : null}
