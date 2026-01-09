@@ -43,10 +43,7 @@ const config: Config = {
                     ],
                     editUrl: 'https://github.com/micro-canvas-framework/micro-canvas-framework.github.io/edit/master/', // adjust to your repo
                 },
-                blog: {
-                    showReadingTime: true,
-                    editUrl: 'https://github.com/micro-canvas-framework/micro-canvas-framework.github.io/edit/master/blog/',
-                },
+                blog: false,
                 theme: {
                     customCss: require.resolve('./src/css/custom.css'),
                 },
@@ -77,7 +74,6 @@ const config: Config = {
             },
             items: [
                 { to: '/docs/intro', label: 'Framework', position: 'left' },
-                { to: '/blog', label: 'Blog', position: 'left' },
                 {
                     href: 'https://github.com/micro-canvas-framework/micro-canvas-framework.github.io',
                     label: 'GitHub',
@@ -107,15 +103,6 @@ const config: Config = {
                         {
                             label: 'GitHub',
                             href: 'https://github.com/micro-canvas-framework/micro-canvas-framework.github.io',
-                        },
-                    ],
-                },
-                {
-                    title: 'More',
-                    items: [
-                        {
-                            label: 'Blog',
-                            to: '/blog',
                         },
                     ],
                 },
