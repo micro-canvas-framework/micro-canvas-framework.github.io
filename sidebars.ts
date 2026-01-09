@@ -25,6 +25,21 @@ const sidebars: SidebarsConfig = {
         },
         {
             type: 'category',
+            label: 'Book (Explanatory Layer)',
+            items: [
+                'book/_intro',
+                'book/how-to-read-mcf',
+                'book/evidence-first-thinking',
+                'book/epistemic-stages',
+                'book/decision-logic',
+                'book/governance-and-roles',
+                'book/failure-modes',
+                'book/versioning-and-change-control',
+                'book/boundaries-and-misuse',
+            ],
+        },
+        {
+            type: 'category',
             label: 'Meta',
             items: ['meta/changelog', 'meta/references'],
         },
