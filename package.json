@@ -14,7 +14,9 @@
     "write-heading-ids": "docusaurus write-heading-ids",
     "typecheck": "tsc",
     "check:no-inline-entityheader": "node scripts/check-no-inline-entityheader.mjs",
-    "fix:demote-docs-h1": "node scripts/demote-h1-in-docs.mjs"
+    "fix:demote-docs-h1": "node scripts/demote-h1-in-docs.mjs",
+    "fix:demote-sections-h1": "node scripts/demote-h1-in-sections.mjs",
+    "check:no-h1-in-sections": "node scripts/check-no-h1-in-sections.mjs"
   },
   "dependencies": {
     "@docusaurus/core": "3.7.0",
