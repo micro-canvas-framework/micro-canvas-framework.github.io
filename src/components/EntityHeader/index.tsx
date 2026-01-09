@@ -8,6 +8,7 @@ type EntityHeaderProps = {
     version?: string;
     status?: string;
     lastUpdated?: string | number | Date;
+    mode?: 'full' | 'meta' | 'title';
 };
 
 const formatDate = (value?: string | number | Date): string | null => {
@@ -23,7 +24,14 @@ const formatDate = (value?: string | number | Date): string | null => {
     return date.toISOString().slice(0, 10);
 };
 
-const EntityHeader: React.FC<EntityHeaderProps> = ({ title, entity, version, status, lastUpdated }) => {
+const EntityHeader: React.FC<EntityHeaderProps> = ({
+    title,
+    entity,
+    version,
+    status,
+    lastUpdated,
+    mode = 'title',
+}) => {
     const doc = useDoc() as {
         metadata?: { title?: string; lastUpdatedAt?: number };
         frontMatter?: { title?: string; last_updated?: string; lastUpdated?: string };
@@ -42,23 +50,28 @@ const EntityHeader: React.FC<EntityHeaderProps> = ({ title, entity, version, sta
             ? status.charAt(0).toUpperCase() + status.slice(1)
             : status;
     const metaStatus = resolvedStatus ?? entity;
+    const lastUpdatedText = resolvedLastUpdated ?? '—';
     const metaParts = [
         version,
         metaStatus,
-        resolvedLastUpdated ? `Last updated: ${resolvedLastUpdated}` : null,
+        `Last updated: ${lastUpdatedText}`,
     ].filter(Boolean) as string[];
 
     return (
         <div className={styles.root}>
-            <div className={styles.metaLine}>
-                {metaParts.map((part, index) => (
-                    <React.Fragment key={`${part}-${index}`}>
-                        {index > 0 ? <span className={styles.separator}>·</span> : null}
-                        <span className={styles.metaItem}>{part}</span>
-                    </React.Fragment>
-                ))}
-            </div>
-            {resolvedTitle ? <h1 className={styles.title}>{resolvedTitle}</h1> : null}
+            {mode !== 'title' ? (
+                <div className={styles.metaLine}>
+                    {metaParts.map((part, index) => (
+                        <React.Fragment key={`${part}-${index}`}>
+                            {index > 0 ? <span className={styles.separator}>·</span> : null}
+                            <span className={styles.metaItem}>{part}</span>
+                        </React.Fragment>
+                    ))}
+                </div>
+            ) : null}
+            {mode !== 'meta' && resolvedTitle ? (
+                <h1 className={styles.title}>{resolvedTitle}</h1>
+            ) : null}
         </div>
     );
 };
