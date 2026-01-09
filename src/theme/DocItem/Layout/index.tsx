@@ -21,6 +21,13 @@ const DocItemLayout = (props: Props): JSX.Element => {
         : `MCF ${cleanedVersion}`;
 
     const status = frontMatter.status ?? 'Documentation';
+    const isLegacy =
+        typeof doc?.version?.name === 'string'
+            ? doc.version.name !== 'current'
+            : typeof doc?.version?.label === 'string'
+              ? !doc.version.label.includes('(current)') && doc.version.label !== 'current'
+              : false;
+    const headerMode = isLegacy ? 'meta' : 'full';
 
     return (
         <OriginalLayout {...props}>
@@ -30,7 +37,7 @@ const DocItemLayout = (props: Props): JSX.Element => {
                     version={version}
                     status={status}
                     lastUpdated={doc?.metadata?.lastUpdatedAt}
-                    mode="full"
+                    mode={headerMode}
                 />
             ) : null}
             {props.children}
