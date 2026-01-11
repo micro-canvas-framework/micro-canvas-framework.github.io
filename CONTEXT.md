@@ -202,6 +202,7 @@ Phase 2 — Discovery & Validation
   - Header contract applied: YES
   - Content refactored: STRUCTURE ONLY
   - Canon alignment: DECLARED
+  - Canon links resolved: YES
   - Status: COMPLETE (pilot)
 
 All other Book chapters:
