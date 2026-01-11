@@ -9,22 +9,22 @@ redirect_from:
 ---
 
 ### What this chapter does
-- Explains how opportunities are uncovered through structured observation of markets and customers, rather than ideation alone.
-- Shows how customer analysis supports epistemic clarification by making assumptions explicit and testable.
-- Introduces TAM, SAM, and SOM as scoping lenses, not forecasts.
-- Connects customer understanding to later problem definition and decision thresholds.
+- Explains user stories and rapid prototyping as instruments for making assumptions explicit and testable.
+- Shows how prototypes generate evidence about comprehension, usability, and adoption frictions—not just design preference.
+- Connects story-based requirements to observable behaviors and measurable outcomes.
+- Clarifies how prototyping reduces uncertainty while preserving optionality before irreversible implementation.
 
 ### What this chapter does not do
-- Does not provide a ready-made customer research template.
-- Does not guarantee that identified opportunities are viable or valuable.
-- Does not replace evidence required in later stages of Discovery and Validation.
-- Does not prescribe a single segmentation or persona methodology.
+- Does not prescribe a single user story template or agile ritual.
+- Does not imply that prototypes validate feasibility, scalability, or business viability by themselves.
+- Does not replace solution testing, experimentation design, or decision thresholds in later steps.
+- Does not encourage “prototype theatre” without evidence capture and traceability.
 
 ### When you should read this
-- When early signals suggest unmet needs but causal clarity is low.
-- When multiple customer segments appear plausible and require prioritization.
-- When teams are acting on assumptions rather than observable behavior.
-- Before formal problem definition and objective setting.
+- When solution ideas exist but user understanding and interaction are unclear.
+- When teams are debating features without observable evidence.
+- When you need to surface adoption barriers before building.
+- Before investing in full implementation or architecture hardening.
 
 ### Derived from Canon
 This chapter is interpretive and explanatory. Its constraints and limits derive from the Canon pages below.
@@ -39,16 +39,15 @@ This chapter is interpretive and explanatory. Its constraints and limits derive 
 - Evidence quality
 - Decision threshold
 - Optionality preservation
-- Strategic deferral
 - Reversibility
+- Auditability
 
 ### Minimal evidence expectations (non-prescriptive)
 Evidence used in this chapter should allow you to:
-- distinguish observed customer behavior from inferred intent
-- justify why a segment is prioritized over alternatives
-- state what observations would falsify the opportunity hypothesis
-- explain how customer insights constrain, rather than justify, solution choices
-
+- distinguish observed user behavior from subjective preference
+- justify why a prototype outcome changes (or does not change) the decision state
+- identify which assumptions a prototype is testing, and which it is not
+- state what observations would invalidate a story, flow, or feature hypothesis
 
 ![From Insight to Interaction](/img/ch16-user-stories-rapid-prototyping.svg)
 
