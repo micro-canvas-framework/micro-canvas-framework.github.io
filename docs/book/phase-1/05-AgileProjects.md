@@ -8,46 +8,52 @@ redirect_from:
   - /chapter5-agile-project-execution
 ---
 
-### What this chapter does
+:::note What this chapter does
 - Defines agile execution as the delivery mechanism for innovation work.
 - Shows how sprints, roles, and cadence create decision-ready progress.
 - Connects iterative delivery to evidence gathering and adjustment.
 - Frames agile execution as a bridge from ideas to validated outcomes.
+:::
 
-### What this chapter does not do
+:::warning What this chapter does not do
 - Does not prescribe a single agile methodology.
 - Does not replace product strategy or portfolio governance.
 - Does not guarantee delivery without discipline and resourcing.
 - Does not provide tooling-specific setup instructions.
+:::
 
-### When you should read this
+:::tip When you should read this
 - When teams struggle to turn ideas into deliverables.
 - When cadence, roles, or process clarity are missing.
 - When you need a repeatable execution rhythm for innovation.
 - Before running pilots or validation work at scale.
+:::
 
-### Derived from Canon
+:::info Derived from Canon
 This chapter is interpretive and explanatory. Its constraints and limits derive from the Canon pages below.
 
 - [Canon - Definitions](/docs/canon/definitions)
 - [Canon - Evidence logic](/docs/canon/evidence-logic)
 - [Canon - Decision theory](/docs/canon/decision-theory)
 - [Canon - Epistemic stage model](/docs/canon/epistemic-model)
+:::
 
-### Key terms (canonical)
+:::info Key terms (canonical)
 - Evidence
 - Evidence quality
 - Decision threshold
 - Optionality preservation
 - Strategic deferral
 - Reversibility
+:::
 
-### Minimal evidence expectations (non-prescriptive)
+:::note Minimal evidence expectations (non-prescriptive)
 Evidence used in this chapter should allow you to:
 - describe the execution cadence and decision points
 - link iteration outcomes to evidence updates
 - show how delivery reduces uncertainty
 - justify whether work should continue, pivot, or stop
+:::
 
 ![Driving Progress Through Iteration](/img/ch5-agile-project-execution.svg)
  

@@ -8,7 +8,7 @@ type EntityHeaderProps = {
     version?: string;
     status?: string;
     lastUpdated?: string | number | Date;
-    mode?: 'full' | 'meta' | 'title';
+    mode?: 'full' | 'meta' | 'title' | 'compact';
 };
 
 const formatDate = (value?: string | number | Date): string | null => {
@@ -51,11 +51,10 @@ const EntityHeader: React.FC<EntityHeaderProps> = ({
             : status;
     const metaStatus = resolvedStatus ?? entity;
     const lastUpdatedText = resolvedLastUpdated ?? '—';
-    const metaParts = [
-        version,
-        metaStatus,
-        `Last updated: ${lastUpdatedText}`,
-    ].filter(Boolean) as string[];
+    const metaParts =
+        mode === 'compact'
+            ? [`${version} – ${metaStatus}`.trim(), `Last updated: ${lastUpdatedText}`]
+            : ([version, metaStatus, `Last updated: ${lastUpdatedText}`].filter(Boolean) as string[]);
 
     return (
         <div className={styles.root}>

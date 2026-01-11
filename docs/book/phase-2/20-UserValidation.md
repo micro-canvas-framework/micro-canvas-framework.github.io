@@ -8,46 +8,52 @@ redirect_from:
   - /chapter20-user-validation-expanded-pilot-testing
 ---
 
-### What this chapter does
+:::note What this chapter does
 - Defines expanded pilots as evidence-gathering for real-world user and operational fit.
 - Shows how to set pilot scope, metrics, and onboarding to generate decision-ready data.
 - Connects pilot outcomes to decision thresholds and scale readiness.
 - Positions user validation as a bridge between experiments and launch.
+:::
 
-### What this chapter does not do
+:::warning What this chapter does not do
 - Does not guarantee market adoption or product-market fit.
 - Does not replace business model validation or regulatory review.
 - Does not prescribe a single pilot size, duration, or recruitment method.
 - Does not treat pilot completion as approval to launch.
+:::
 
-### When you should read this
+:::tip When you should read this
 - When experiments show promise but broader validation is still needed.
 - When you need evidence of real-world user behavior and operational capacity.
 - When leadership requires data to approve scaling.
 - Before making irreversible rollout commitments.
+:::
 
-### Derived from Canon
+:::info Derived from Canon
 This chapter is interpretive and explanatory. Its constraints and limits derive from the Canon pages below.
 
 - [Canon - Definitions](/docs/canon/definitions)
 - [Canon - Evidence logic](/docs/canon/evidence-logic)
 - [Canon - Decision theory](/docs/canon/decision-theory)
 - [Canon - Epistemic stage model](/docs/canon/epistemic-model)
+:::
 
-### Key terms (canonical)
+:::info Key terms (canonical)
 - Evidence
 - Evidence quality
 - Decision threshold
 - Optionality preservation
 - Strategic deferral
 - Reversibility
+:::
 
-### Minimal evidence expectations (non-prescriptive)
+:::note Minimal evidence expectations (non-prescriptive)
 Evidence used in this chapter should allow you to:
 - define pilot objectives and success criteria tied to assumptions
 - link user and operational metrics to validation claims
 - explain what changes were made based on findings
 - justify whether the decision state should advance, pause, or iterate
+:::
 
 ![From Feedback to Field Trials](/img/ch20-user-validation-expanded-pilots.svg)
 

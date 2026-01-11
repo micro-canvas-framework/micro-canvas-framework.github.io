@@ -9,8 +9,15 @@ const DocItemLayout = (props: Props): JSX.Element => {
         metadata?: {
             lastUpdatedAt?: number;
             version?: string;
+            unversionedId?: string;
         };
-        frontMatter?: { entityHeader?: boolean; status?: string; version?: string };
+        frontMatter?: {
+            entityHeader?: boolean;
+            status?: string;
+            version?: string;
+            layer?: string;
+            entityHeaderMode?: 'full' | 'meta' | 'title' | 'compact';
+        };
         version?: { name?: string; label?: string };
     };
 
@@ -25,15 +32,24 @@ const DocItemLayout = (props: Props): JSX.Element => {
         : `MCF ${cleanedVersion}`;
 
     const status = frontMatter.status ?? 'Documentation';
+    const layer =
+        frontMatter.layer ??
+        (status.toLowerCase() === 'explanatory'
+            ? 'Book'
+            : status.toLowerCase() === 'canonical'
+              ? 'Canon'
+              : 'Documentation');
     const docVersion = metadata.version;
     const isLegacy = typeof docVersion === 'string' && docVersion !== 'current';
-    const headerMode = isLegacy ? 'meta' : 'full';
+    const headerMode = isLegacy
+        ? 'meta'
+        : frontMatter.entityHeaderMode ?? 'compact';
 
     return (
         <OriginalLayout {...props}>
             {showMeta ? (
                 <EntityHeader
-                    entity="Documentation"
+                    entity={layer}
                     version={version}
                     status={status}
                     lastUpdated={metadata.lastUpdatedAt}

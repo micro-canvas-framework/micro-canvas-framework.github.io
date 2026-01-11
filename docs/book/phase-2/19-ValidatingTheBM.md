@@ -8,46 +8,52 @@ redirect_from:
   - /chapter19-validating-the-business-model
 ---
 
-### What this chapter does
+:::note What this chapter does
 - Frames business model validation as evidence gathering for revenue, cost, and channel assumptions.
 - Shows how hypotheses are prioritized and tested before scale commitments.
 - Connects financial feasibility and product-market fit to decision thresholds.
 - Positions iteration as a response to evidence, not optimism.
+:::
 
-### What this chapter does not do
+:::warning What this chapter does not do
 - Does not guarantee viability, profitability, or market adoption.
 - Does not prescribe a single validation template or tool.
 - Does not replace governance decisions or strategic judgment.
 - Does not treat model testing as a substitute for user validation.
+:::
 
-### When you should read this
+:::tip When you should read this
 - When core business assumptions need proof before scaling.
 - When pricing, cost structure, or channels are still untested.
 - When leadership needs evidence to approve investment.
 - Before committing to irreversible expansion steps.
+:::
 
-### Derived from Canon
+:::info Derived from Canon
 This chapter is interpretive and explanatory. Its constraints and limits derive from the Canon pages below.
 
 - [Canon - Definitions](/docs/canon/definitions)
 - [Canon - Evidence logic](/docs/canon/evidence-logic)
 - [Canon - Decision theory](/docs/canon/decision-theory)
 - [Canon - Epistemic stage model](/docs/canon/epistemic-model)
+:::
 
-### Key terms (canonical)
+:::info Key terms (canonical)
 - Evidence
 - Evidence quality
 - Decision threshold
 - Optionality preservation
 - Strategic deferral
 - Reversibility
+:::
 
-### Minimal evidence expectations (non-prescriptive)
+:::note Minimal evidence expectations (non-prescriptive)
 Evidence used in this chapter should allow you to:
 - show which business model assumptions are being tested
 - compare outcomes against explicit success criteria
 - explain why a model change is warranted or deferred
 - justify whether the decision state should advance, pause, or pivot
+:::
 
 ![Test Before You Build](/img/ch19-validating-business-model.svg)
 

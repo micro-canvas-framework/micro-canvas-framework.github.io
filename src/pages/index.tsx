@@ -25,9 +25,9 @@ function HomepageHeader() {
                     </Translate>
                 </p>
                 <div className={styles.buttons}>
-                    <Link className="button button--secondary button--lg" to="/docs/intro">
+                    <Link className="button button--secondary button--lg" to="/docs/book/how-to-read-mcf">
                         <Translate id="homepage.buttonTitle">
-                            Browse The MicroCanvas® Framework v2.1
+                            Browse The MicroCanvas Framework v2.2
                         </Translate>
                         <br />
                         <i>
@@ -84,7 +84,7 @@ export default function Home(): ReactNode {
                     content={translate({
                         id: 'homepage.meta.description',
                         message:
-                            "Unlock your innovation potential with the The MicroCanvas® Framework—an innovation model that simplifies and accelerates innovation maturity. Define a transformative purpose, harness customer insights, understand the problem, objectives and key results, and rapidly prototype to drive growth and sustainability.",
+                            "Unlock your innovation potential with The MicroCanvas Framework - an innovation model that simplifies and accelerates innovation maturity. Define a transformative purpose, harness customer insights, understand the problem, objectives and key results, and rapidly prototype to drive growth and sustainability.",
                     })}
                 />
                 {/* Dynamic canonical */}

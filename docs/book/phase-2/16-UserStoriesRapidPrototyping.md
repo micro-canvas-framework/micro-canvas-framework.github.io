@@ -8,46 +8,52 @@ redirect_from:
   - /chapter16-user-stories-rapid-prototyping
 ---
 
-### What this chapter does
+:::note What this chapter does
 - Explains user stories and rapid prototyping as instruments for making assumptions explicit and testable.
 - Shows how prototypes generate evidence about comprehension, usability, and adoption frictions—not just design preference.
 - Connects story-based requirements to observable behaviors and measurable outcomes.
 - Clarifies how prototyping reduces uncertainty while preserving optionality before irreversible implementation.
+:::
 
-### What this chapter does not do
+:::warning What this chapter does not do
 - Does not prescribe a single user story template or agile ritual.
 - Does not imply that prototypes validate feasibility, scalability, or business viability by themselves.
 - Does not replace solution testing, experimentation design, or decision thresholds in later steps.
 - Does not encourage “prototype theatre” without evidence capture and traceability.
+:::
 
-### When you should read this
+:::tip When you should read this
 - When solution ideas exist but user understanding and interaction are unclear.
 - When teams are debating features without observable evidence.
 - When you need to surface adoption barriers before building.
 - Before investing in full implementation or architecture hardening.
+:::
 
-### Derived from Canon
+:::info Derived from Canon
 This chapter is interpretive and explanatory. Its constraints and limits derive from the Canon pages below.
 
 - [Canon → Definitions](/docs/canon/definitions)
 - [Canon → Evidence logic](/docs/canon/evidence-logic)
 - [Canon → Decision theory](/docs/canon/decision-theory)
 - [Canon → Epistemic stage model](/docs/canon/epistemic-model)
+:::
 
-### Key terms (canonical)
+:::info Key terms (canonical)
 - Evidence
 - Evidence quality
 - Decision threshold
 - Optionality preservation
 - Reversibility
 - Auditability
+:::
 
-### Minimal evidence expectations (non-prescriptive)
+:::note Minimal evidence expectations (non-prescriptive)
 Evidence used in this chapter should allow you to:
 - distinguish observed user behavior from subjective preference
 - justify why a prototype outcome changes (or does not change) the decision state
 - identify which assumptions a prototype is testing, and which it is not
 - state what observations would invalidate a story, flow, or feature hypothesis
+:::
 
 ![From Insight to Interaction](/img/ch16-user-stories-rapid-prototyping.svg)
 

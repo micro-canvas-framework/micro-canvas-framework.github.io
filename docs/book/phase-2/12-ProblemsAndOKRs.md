@@ -8,35 +8,39 @@ redirect_from:
   - /chapter12-defining-problem-strategic-objectives
 ---
 
-### What this chapter does
+:::note What this chapter does
 - Defines what “problem” means in MCF terms: a decision-relevant constraint framed by evidence, not a slogan.
 - Shows how to move from observed symptoms to testable causal hypotheses (root causes) without premature solution selection.
 - Provides a structured way to represent causes and effects (e.g., problem tree) as an explanatory model that can be falsified.
 - Translates a validated problem statement into strategic objectives and measurable key results (OKRs) as decision commitments.
 - Clarifies how objectives and KRs function as governance artifacts that constrain scope and preserve optionality.
+:::
 
-### What this chapter does not do
+:::warning What this chapter does not do
 - Does not guarantee your stated problem is correct; it requires evidence quality, revalidation, and revision when falsified.
 - Does not prescribe a single root-cause method (e.g., 5 Whys is an example, not a requirement).
 - Does not provide a complete OKR playbook for scaling execution; it establishes decision-ready strategic direction.
 - Does not replace experimentation and validation required for solution selection in later chapters.
 - Does not justify irreversible commitments when evidence remains below the decision threshold.
+:::
 
-### When you should read this
+:::tip When you should read this
 - When customer insights exist, but the causal story behind outcomes is still ambiguous.
 - When teams are debating solutions without a shared, evidence-linked problem statement.
 - When strategic goals are stated but not measurable or not traceable to the problem.
 - Before selecting solutions, allocating major resources, or committing to delivery roadmaps.
+:::
 
-### Derived from Canon
+:::info Derived from Canon
 This chapter is interpretive and explanatory. Its constraints and limits derive from the Canon pages below.
 
 - [Canon → Definitions](/docs/canon/definitions)
 - [Canon → Evidence logic](/docs/canon/evidence-logic)
 - [Canon → Decision theory](/docs/canon/decision-theory)
 - [Canon → Epistemic stage model](/docs/canon/epistemic-model)
+:::
 
-### Key terms (canonical)
+:::info Key terms (canonical)
 - Evidence
 - Evidence quality
 - Decision threshold
@@ -44,54 +48,93 @@ This chapter is interpretive and explanatory. Its constraints and limits derive 
 - Strategic deferral
 - Reversibility
 - Termination logic
+:::
 
-### Minimal evidence expectations (non-prescriptive)
+:::note Minimal evidence expectations (non-prescriptive)
 Evidence used in this chapter should allow you to:
 - distinguish symptoms (observations) from causes (hypotheses)
 - justify why the stated problem is decision-relevant (not merely descriptive)
 - specify what observations would falsify the causal explanation
 - trace each strategic objective and key result to the problem statement
 - state which commitments are reversible vs. potentially irreversible at this point
-### What this chapter does not do
-- Does not provide a ready-made customer research template.
-- Does not guarantee that identified opportunities are viable or valuable.
-- Does not replace evidence required in later stages of Discovery and Validation.
-- Does not prescribe a single segmentation or persona methodology.
+:::warning What this chapter does not do
+- Does not guarantee your stated problem is correct; it requires evidence quality, revalidation, and revision when falsified.
+- Does not prescribe a single root-cause method (e.g., 5 Whys is an example, not a requirement).
+- Does not provide a complete OKR playbook for scaling execution; it establishes decision-ready strategic direction.
+- Does not replace experimentation and validation required for solution selection in later chapters.
+- Does not justify irreversible commitments when evidence remains below the decision threshold.
+:::
 
-### When you should read this
-- When early signals suggest unmet needs but causal clarity is low.
-- When multiple customer segments appear plausible and require prioritization.
-- When teams are acting on assumptions rather than observable behavior.
-- Before formal problem definition and objective setting.
+:::tip When you should read this
+- When customer insights exist, but the causal story behind outcomes is still ambiguous.
+- When teams are debating solutions without a shared, evidence-linked problem statement.
+- When strategic goals are stated but not measurable or not traceable to the problem.
+- Before selecting solutions, allocating major resources, or committing to delivery roadmaps.
+:::
 
-### Derived from Canon
+:::info Derived from Canon
 This chapter is interpretive and explanatory. Its constraints and limits derive from the Canon pages below.
 
 - [Canon → Definitions](/docs/canon/definitions)
 - [Canon → Evidence logic](/docs/canon/evidence-logic)
 - [Canon → Decision theory](/docs/canon/decision-theory)
 - [Canon → Epistemic stage model](/docs/canon/epistemic-model)
+:::
 
-### Key terms (canonical)
+:::info Key terms (canonical)
 - Evidence
 - Evidence quality
 - Decision threshold
 - Optionality preservation
 - Strategic deferral
 - Reversibility
+- Termination logic
+:::
 
-### Minimal evidence expectations (non-prescriptive)
+:::
+
+:::note Minimal evidence expectations (non-prescriptive)
 Evidence used in this chapter should allow you to:
-- distinguish observed customer behavior from inferred intent
-- justify why a segment is prioritized over alternatives
-- state what observations would falsify the opportunity hypothesis
-- explain how customer insights constrain, rather than justify, solution choices
+- distinguish symptoms (observations) from causes (hypotheses)
+- justify why the stated problem is decision-relevant (not merely descriptive)
+- specify what observations would falsify the causal explanation
+- trace each strategic objective and key result to the problem statement
+- state which commitments are reversible vs. potentially irreversible at this point
+:::warning What this chapter does not do
+- Does not guarantee your stated problem is correct; it requires evidence quality, revalidation, and revision when falsified.
+- Does not prescribe a single root-cause method (e.g., 5 Whys is an example, not a requirement).
+- Does not provide a complete OKR playbook for scaling execution; it establishes decision-ready strategic direction.
+- Does not replace experimentation and validation required for solution selection in later chapters.
+- Does not justify irreversible commitments when evidence remains below the decision threshold.
+:::
 
-![From Questions to Clarity](/img/ch12-problem-strategic-objectives.svg)
+:::tip When you should read this
+- When customer insights exist, but the causal story behind outcomes is still ambiguous.
+- When teams are debating solutions without a shared, evidence-linked problem statement.
+- When strategic goals are stated but not measurable or not traceable to the problem.
+- Before selecting solutions, allocating major resources, or committing to delivery roadmaps.
+:::
 
-**From Questions to Clarity**. *This illustration symbolizes the transition from problem identification to strategic direction. By defining the core challenge and aligning objectives, organizations using the MicroCanvas&reg; Framework sharpen their innovation focus and lay the groundwork for impactful outcomes*.
+:::info Derived from Canon
+This chapter is interpretive and explanatory. Its constraints and limits derive from the Canon pages below.
 
-This chapter aligns **Problem Analysis** and **Setting Strategic Objectives** with the **MCF 2.1** guidelines. In **Section 1**, you will follow the steps to identify, analyze, and validate the core problem your innovation must address. In **Section 2**, you will translate these insights into actionable objectives and measurable key results (OKRs), incorporating KPI steps for comprehensive performance tracking.
+- [Canon → Definitions](/docs/canon/definitions)
+- [Canon → Evidence logic](/docs/canon/evidence-logic)
+- [Canon → Decision theory](/docs/canon/decision-theory)
+- [Canon → Epistemic stage model](/docs/canon/epistemic-model)
+:::
+
+:::info Key terms (canonical)
+- Evidence
+- Evidence quality
+- Decision threshold
+- Optionality preservation
+- Strategic deferral
+- Reversibility
+- Termination logic
+:::
+
+:::
 
 ## Section 1: Problem Analysis
 

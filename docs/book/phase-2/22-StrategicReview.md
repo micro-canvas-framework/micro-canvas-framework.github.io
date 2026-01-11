@@ -8,46 +8,52 @@ redirect_from:
   - /chapter22-strategic-review-next-steps
 ---
 
-### What this chapter does
+:::note What this chapter does
 - Frames strategic review as a consolidation of evidence across prior validation steps.
 - Shows how to evaluate outcomes against objectives and decision thresholds.
 - Connects review findings to roadmap adjustments and next validation cycles.
 - Aligns next steps with governance and organizational priorities.
+:::
 
-### What this chapter does not do
+:::warning What this chapter does not do
 - Does not guarantee readiness for the next phase or scale.
 - Does not replace ongoing validation or operational execution.
 - Does not prescribe a single review framework or reporting format.
 - Does not treat retrospective summary as forward approval.
+:::
 
-### When you should read this
+:::tip When you should read this
 - When validation work has produced mixed or incomplete signals.
 - When leadership needs a consolidated view of progress and gaps.
 - When planning the next validation cycles or Phase 3 transition.
 - Before committing to major strategic shifts or investments.
+:::
 
-### Derived from Canon
+:::info Derived from Canon
 This chapter is interpretive and explanatory. Its constraints and limits derive from the Canon pages below.
 
 - [Canon - Definitions](/docs/canon/definitions)
 - [Canon - Evidence logic](/docs/canon/evidence-logic)
 - [Canon - Decision theory](/docs/canon/decision-theory)
 - [Canon - Epistemic stage model](/docs/canon/epistemic-model)
+:::
 
-### Key terms (canonical)
+:::info Key terms (canonical)
 - Evidence
 - Evidence quality
 - Decision threshold
 - Optionality preservation
 - Strategic deferral
 - Reversibility
+:::
 
-### Minimal evidence expectations (non-prescriptive)
+:::note Minimal evidence expectations (non-prescriptive)
 Evidence used in this chapter should allow you to:
 - synthesize outcomes from prior validation steps
 - compare results against explicit objectives and thresholds
 - explain what changes are required before advancing
 - justify whether the decision state should advance, pause, or rework
+:::
 
 After addressing regulatory compliance and scalability planning (Chapter 19), it is essential to pause and assess the overall progress of your innovation journey. A strategic review helps you evaluate achievements, identify gaps, and refine the roadmap to ensure your solutions remain aligned with market realities and organizational objectives. This chapter also outlines immediate next steps for validation, ensuring that all critical assumptions and processes are continuously tested before advancing to Phase 3 - Efficiency: Process Optimization and Operations.
 

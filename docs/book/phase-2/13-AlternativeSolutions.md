@@ -8,46 +8,52 @@ redirect_from:
   - /chapter13-exploring-alternative-solutions
 ---
 
-### What this chapter does
+:::note What this chapter does
 - Explains how to expand the solution search space without prematurely committing to a single approach.
 - Introduces alternatives analysis as an epistemic step: compare options using explicit criteria and evidence.
 - Shows how to separate *solution hypotheses* from *validated constraints*, so teams can test without locking in.
 - Connects alternatives selection to decision thresholds and reversibility, ahead of prototyping and experiments.
+:::
 
-### What this chapter does not do
+:::warning What this chapter does not do
 - Does not claim that generating more ideas increases innovation success.
 - Does not prescribe a single ideation method, workshop format, or template.
 - Does not guarantee feasibility, desirability, or viability of any option without evidence.
 - Does not replace prototyping, experiments, or user validation required later in Discovery and Validation.
+:::
 
-### When you should read this
+:::tip When you should read this
 - After you have a clarified problem and strategic intent, but before committing to a solution direction.
 - When multiple approaches seem plausible and the team needs defensible selection logic.
 - When the organization is defaulting to the “first solution” without comparing alternatives.
 - When constraints (cost, time, compliance, integration) must be made explicit early.
+:::
 
-### Derived from Canon
+:::info Derived from Canon
 This chapter is interpretive and explanatory. Its constraints and limits derive from the Canon pages below.
 
 - [Canon → Definitions](/docs/canon/definitions)
 - [Canon → Evidence logic](/docs/canon/evidence-logic)
 - [Canon → Decision theory](/docs/canon/decision-theory)
 - [Canon → Epistemic stage model](/docs/canon/epistemic-model)
+:::
 
-### Key terms (canonical)
+:::info Key terms (canonical)
 - Evidence
 - Evidence quality
 - Decision threshold
 - Optionality preservation
 - Reversibility
 - Termination logic
+:::
 
-### Minimal evidence expectations (non-prescriptive)
+:::note Minimal evidence expectations (non-prescriptive)
 Evidence used in this chapter should allow you to:
 - state *why* each alternative is considered plausible (and under what assumptions)
 - compare alternatives against explicit criteria (constraints, risks, expected outcomes)
 - specify what observations or tests would eliminate an option
 - justify why a chosen direction remains reversible until stronger evidence is obtained
+:::
 
 ![Navigating the Path to Differentiation](/img/ch13-alternatives-advantages-features.svg)
 

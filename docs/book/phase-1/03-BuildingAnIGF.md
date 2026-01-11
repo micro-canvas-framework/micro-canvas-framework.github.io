@@ -8,46 +8,52 @@ redirect_from:
   - /chapter3-innovation-governance
 ---
 
-### What this chapter does
+:::note What this chapter does
 - Defines governance as the decision structure that guides innovation work.
 - Shows how roles, criteria, and checkpoints reduce execution risk.
 - Connects governance to evidence standards and strategic alignment.
 - Frames governance as a prerequisite for sustained innovation.
+:::
 
-### What this chapter does not do
+:::warning What this chapter does not do
 - Does not provide a one-size governance template.
 - Does not replace leadership accountability or strategy.
 - Does not guarantee speed without organizational buy-in.
 - Does not prescribe specific tooling or meeting cadences.
+:::
 
-### When you should read this
+:::tip When you should read this
 - When innovation decisions are slow, inconsistent, or opaque.
 - When roles and responsibilities are unclear across teams.
 - When governance needs to align with strategic objectives.
 - Before scaling innovation initiatives across the organization.
+:::
 
-### Derived from Canon
+:::info Derived from Canon
 This chapter is interpretive and explanatory. Its constraints and limits derive from the Canon pages below.
 
 - [Canon - Definitions](/docs/canon/definitions)
 - [Canon - Evidence logic](/docs/canon/evidence-logic)
 - [Canon - Decision theory](/docs/canon/decision-theory)
 - [Canon - Epistemic stage model](/docs/canon/epistemic-model)
+:::
 
-### Key terms (canonical)
+:::info Key terms (canonical)
 - Evidence
 - Evidence quality
 - Decision threshold
 - Optionality preservation
 - Strategic deferral
 - Reversibility
+:::
 
-### Minimal evidence expectations (non-prescriptive)
+:::note Minimal evidence expectations (non-prescriptive)
 Evidence used in this chapter should allow you to:
 - document governance roles and decision rights
 - show how decisions are tied to evidence criteria
 - explain how governance reduces execution risk
 - justify which decisions can advance, pause, or stop work
+:::
 
 ## Chapter 3: Building an Innovation Governance Framework (IGF)
 

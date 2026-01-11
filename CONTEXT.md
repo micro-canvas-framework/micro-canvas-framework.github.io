@@ -35,10 +35,10 @@ It must be updated after every meaningful change.
 
 ## 4) Information Architecture (current)
 - `docs/canon/**` (normative)
-- `docs/book/**` (explanatory; includes front-matter, phase-1, phase-2)
+- `docs/book/**` (explanatory; includes front-matter, phase-1..phase-5, conclusion)
 - `docs/meta/**` (governance + references + changelog)
 
-Sidebar ordering (current): Canon -> Book -> Meta
+Sidebar ordering (current): How to Read MCF 2.2 -> Canon -> Meta -> Book
 
 ## 5) Docs IA detail
 ### 5.1 Canon (LOCKED)
@@ -53,6 +53,10 @@ Book substructure:
 - `docs/book/front-matter/` (prefatory)
 - `docs/book/phase-1/` (migrated chapters)
 - `docs/book/phase-2/` (migrated chapters)
+- `docs/book/phase-3/` (skeletons)
+- `docs/book/phase-4/` (skeletons)
+- `docs/book/phase-5/` (skeletons)
+- `docs/book/conclusion/` (skeletons)
 
 Front matter canonical slugs (explicit):
 - /docs/book/front-matter/foreword
@@ -98,7 +102,7 @@ EntityHeader Contract:
 
 Book Chapter Header Contract:
 - Header appears immediately after front matter
-- Uses H3 headings only
+- Uses admonitions for header sections (no H3 headings)
 - Identical section titles across all Book chapters
 - Sections:
   1) What this chapter does
@@ -119,7 +123,7 @@ Book chapters follow a fixed structural header that:
 
 Rules:
 - Header appears immediately after front matter
-- Uses H3 headings only
+- Uses admonitions for header sections (no H3 headings)
 - Identical section titles across all Book chapters
 - Book content is explanatory and non-normative
 - Canon remains the sole normative source
@@ -140,19 +144,19 @@ J. BOOK CHAPTER INVENTORY & STATUS
 
 Front matter (prefatory)
 - Foreword
-  - Header contract applied: NO
+  - Header contract applied: YES (admonitions)
   - Canon links resolved: NO
   - Status: PENDING
 - Preface
-  - Header contract applied: NO
+  - Header contract applied: YES (admonitions)
   - Canon links resolved: NO
   - Status: PENDING
 - How to Use This Book
-  - Header contract applied: NO
+  - Header contract applied: YES (admonitions)
   - Canon links resolved: NO
   - Status: PENDING
 - The Author
-  - Header contract applied: NO
+  - Header contract applied: YES (admonitions)
   - Canon links resolved: NO
   - Status: PENDING
 
@@ -160,125 +164,198 @@ Phase 1 - Foundations
 - Chapter 1: Introduction to Innovation Maturity
 - Chapter 1: Introduction to Innovation Maturity
   - Header customized per chapter: YES
-  - Header contract applied: YES
+  - Header contract applied: YES (admonitions)
   - Canon links resolved: YES
   - Status: COMPLETE
 - Chapter 2: Innovation Maturity Assessment
 - Chapter 2: Innovation Maturity Assessment
   - Header customized per chapter: YES
-  - Header contract applied: YES
+  - Header contract applied: YES (admonitions)
   - Canon links resolved: YES
   - Status: COMPLETE
 - Chapter 3: Building an Innovation Governance Framework
 - Chapter 3: Building an Innovation Governance Framework
   - Header customized per chapter: YES
-  - Header contract applied: YES
+  - Header contract applied: YES (admonitions)
   - Canon links resolved: YES
   - Status: COMPLETE
 - Chapter 4: Transforming Culture and Mindset
 - Chapter 4: Transforming Culture and Mindset
   - Header customized per chapter: YES
-  - Header contract applied: YES
+  - Header contract applied: YES (admonitions)
   - Canon links resolved: YES
   - Status: COMPLETE
 - Chapter 5: Implementing an Agile Project Execution Framework
 - Chapter 5: Implementing an Agile Project Execution Framework
   - Header customized per chapter: YES
-  - Header contract applied: YES
+  - Header contract applied: YES (admonitions)
   - Canon links resolved: YES
   - Status: COMPLETE
 - Chapter 6: Defining Clear Objectives and Key Results (OKRs) to Drive Innovation
 - Chapter 6: Defining Clear Objectives and Key Results (OKRs) to Drive Innovation
   - Header customized per chapter: YES
-  - Header contract applied: YES
+  - Header contract applied: YES (admonitions)
   - Canon links resolved: YES
   - Status: COMPLETE
 - Chapter 7: Training in Agile and Lean Innovation
 - Chapter 7: Training in Agile and Lean Innovation
   - Header customized per chapter: YES
-  - Header contract applied: YES
+  - Header contract applied: YES (admonitions)
   - Canon links resolved: YES
   - Status: COMPLETE
 - Chapter 8: Putting Governance into Action: Pilots and Iterations
 - Chapter 8: Putting Governance into Action: Pilots and Iterations
   - Header customized per chapter: YES
-  - Header contract applied: YES
+  - Header contract applied: YES (admonitions)
   - Canon links resolved: YES
   - Status: COMPLETE
 - Chapter 9: Leadership Alignment and Expansion
 - Chapter 9: Leadership Alignment and Expansion
   - Header customized per chapter: YES
-  - Header contract applied: YES
+  - Header contract applied: YES (admonitions)
   - Canon links resolved: YES
   - Status: COMPLETE
 - Chapter 10: Review, Adjust, and Finalize Phase 1
 - Chapter 10: Review, Adjust, and Finalize Phase 1
   - Header customized per chapter: YES
-  - Header contract applied: YES
+  - Header contract applied: YES (admonitions)
   - Canon links resolved: YES
   - Status: COMPLETE
 
 Phase 2 - Discovery & Validation
 - Chapter 11: Uncovering Opportunities and Analyzing Customers
 - Chapter 11: Uncovering Opportunities and Analyzing Customers
-  - Header contract applied: YES
+  - Header contract applied: YES (admonitions)
   - Canon links resolved: YES
   - Status: COMPLETE (pilot)
 - Chapter 12: Defining the Problem and Setting Strategic Objectives
   - Header customized per chapter: YES
-  - Header contract applied: YES
+  - Header contract applied: YES (admonitions)
   - Canon links resolved: YES
   - Status: COMPLETE
 - Chapter 13: Exploring Alternative Solutions, Unique Advantages and Product Features
   - Header customized per chapter: YES
-  - Header contract applied: YES
+  - Header contract applied: YES (admonitions)
   - Canon links resolved: YES
   - Status: COMPLETE
 - Chapter 14: Transformative Purpose
   - Header customized per chapter: YES
-  - Header contract applied: YES
+  - Header contract applied: YES (admonitions)
   - Canon links resolved: YES
   - Status: COMPLETE
 - Chapter 15: Marketing, Engagement and Sales
   - Header customized per chapter: YES
-  - Header contract applied: YES
+  - Header contract applied: YES (admonitions)
   - Canon links resolved: YES
   - Status: COMPLETE
 - Chapter 16: User Stories and Rapid Prototyping
   - Header customized per chapter: YES
-  - Header contract applied: YES
+  - Header contract applied: YES (admonitions)
   - Canon links resolved: YES
   - Status: COMPLETE
 - Chapter 17: Experimentation and Testing
   - Header customized per chapter: YES
-  - Header contract applied: YES
+  - Header contract applied: YES (admonitions)
   - Canon links resolved: YES
   - Status: COMPLETE
 - Chapter 18: Feedback Loops and Iterative Refinement
   - Header customized per chapter: YES
-  - Header contract applied: YES
+  - Header contract applied: YES (admonitions)
   - Canon links resolved: YES
   - Status: COMPLETE
 - Chapter 19: Validating the Business Model
   - Header customized per chapter: YES
-  - Header contract applied: YES
+  - Header contract applied: YES (admonitions)
   - Canon links resolved: YES
   - Status: COMPLETE
 - Chapter 20: User Validation and Expanded Pilot Testing
   - Header customized per chapter: YES
-  - Header contract applied: YES
+  - Header contract applied: YES (admonitions)
   - Canon links resolved: YES
   - Status: COMPLETE
 - Chapter 21: Regulatory Review and Strategic Scalability Planning
   - Header customized per chapter: YES
-  - Header contract applied: YES
+  - Header contract applied: YES (admonitions)
   - Canon links resolved: YES
   - Status: COMPLETE
 - Chapter 22: Strategic Review and Next Steps for Validation
   - Header customized per chapter: YES
-  - Header contract applied: YES
+  - Header contract applied: YES (admonitions)
   - Canon links resolved: YES
   - Status: COMPLETE
+
+Phase 3 - Efficiency - Process Optimization and Operations
+- Chapter 23: Designing and Streamlining Operational Processes
+  - Header customized per chapter: YES
+  - Header contract applied: YES (admonitions)
+  - Canon links resolved: YES
+  - Status: PENDING
+- Chapter 24: Automation and Data-Driven Decision Making
+  - Header customized per chapter: YES
+  - Header contract applied: YES (admonitions)
+  - Canon links resolved: YES
+  - Status: PENDING
+- Chapter 25: Quality Control and Risk Management
+  - Header customized per chapter: YES
+  - Header contract applied: YES (admonitions)
+  - Canon links resolved: YES
+  - Status: PENDING
+
+Phase 4 - Scaling - Accelerating Growth and Expansion
+- Chapter 26: Developing a Scaling Strategy
+  - Header customized per chapter: YES
+  - Header contract applied: YES (admonitions)
+  - Canon links resolved: YES
+  - Status: PENDING
+- Chapter 27: Optimizing Infrastructure and Organizational Alignment
+  - Header customized per chapter: YES
+  - Header contract applied: YES (admonitions)
+  - Canon links resolved: YES
+  - Status: PENDING
+- Chapter 28: Building Strategic Partnerships and Ecosystem Integration
+  - Header customized per chapter: YES
+  - Header contract applied: YES (admonitions)
+  - Canon links resolved: YES
+  - Status: PENDING
+- Chapter 29: Monitoring Growth Metrics and Continuous Adjustment
+  - Header customized per chapter: YES
+  - Header contract applied: YES (admonitions)
+  - Canon links resolved: YES
+  - Status: PENDING
+
+Phase 5 - Continuous Improvement - Adaptation and Future Readiness
+- Chapter 30: Establishing a Culture of Continuous Learning
+  - Header customized per chapter: YES
+  - Header contract applied: YES (admonitions)
+  - Canon links resolved: YES
+  - Status: PENDING
+- Chapter 31: Anticipating Future Disruptions and Developing Adaptive Strategies
+  - Header customized per chapter: YES
+  - Header contract applied: YES (admonitions)
+  - Canon links resolved: YES
+  - Status: PENDING
+- Chapter 32: Measuring, Communicating, and Enhancing Impact
+  - Header customized per chapter: YES
+  - Header contract applied: YES (admonitions)
+  - Canon links resolved: YES
+  - Status: PENDING
+- Chapter 33: Sustaining Innovation for Long-Term Success
+  - Header customized per chapter: YES
+  - Header contract applied: YES (admonitions)
+  - Canon links resolved: YES
+  - Status: PENDING
+
+Conclusion and Tools
+- Chapter 34: Conclusion: The Path to Transformative Impact and Global Prosperity
+  - Header customized per chapter: YES
+  - Header contract applied: YES (admonitions)
+  - Canon links resolved: YES
+  - Status: PENDING
+- Chapter 35: Appendices and Tools
+  - Header customized per chapter: YES
+  - Header contract applied: YES (admonitions)
+  - Canon links resolved: YES
+  - Status: PENDING
 
 ## 9) Local run commands (correct usage)
 - Dev server (interactive): `npm run start -- --port 3000`
@@ -307,12 +384,14 @@ Phase 2 - Discovery & Validation
 - bc657b7 chore(cleanup): remove demo blog posts
 - dacaa29 chore(cleanup): remove default markdown page
 - 9fc1767 chore(cleanup): remove unused static images
+- 4c3b44a docs(book): customize phase 1 headers and finish canon links
 
 ## 12) Backlog (live)
 DONE:
 - Canon published + frozen
 - Book IA created
 - EntityHeader site-wide, title de-dup, legacy behavior
+- Book chapter header contract now uses admonitions
 - Phase docs moved under Book
 - client-redirects in place
 - demo blog posts removed
@@ -323,9 +402,10 @@ DONE:
 - Chapter 11 header contract applied + canon links resolved
 
 PENDING:
-- Apply Book header contract to remaining chapters (Phase 1/Phase 2 completed)
-- Convert "Derived from Canon" to real links for each chapter (Phase 1/Phase 2 completed)
-- Book content modernization (later; not in this task)
+- Apply Book header contract to remaining chapters (Phase 1/Phase 2/Phase 3-5 completed; admonitions applied site-wide)
+- Convert "Derived from Canon" to real links for each chapter (Phase 1/Phase 2/Phase 3-5 completed)
+- Write Phase 3-5 and conclusion content (skeletons present)
+- Book content modernization (core Book pages updated with explanatory text + admonitions; phase content pending)
 - ES translation (deferred)
 - Docusaurus update decision (3.7 -> 3.9) deferred until stability checkpoint
 

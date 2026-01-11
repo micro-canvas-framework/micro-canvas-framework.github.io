@@ -8,46 +8,52 @@ redirect_from:
   - /chapter-14-transformative-purpose
 ---
 
-### What this chapter does
+:::note What this chapter does
 - Explains how “purpose” functions as a constraint system: it narrows what solutions are acceptable and what outcomes matter.
 - Distinguishes aspirational narratives from testable strategic intent by forcing purpose statements to imply observable commitments.
 - Shows how purpose interacts with evidence: purpose can guide hypotheses, but cannot substitute for validation.
 - Connects purpose to decision thresholds by clarifying what counts as success, harm, or unacceptable trade-offs.
+:::
 
-### What this chapter does not do
+:::warning What this chapter does not do
 - Does not claim that purpose alone generates market demand or adoption.
 - Does not prescribe a single “mission/vision” format or branding exercise.
 - Does not guarantee that a purpose statement is ethical, feasible, or valuable without evidence and governance.
 - Does not replace customer research, problem analysis, or business model validation.
+:::
 
-### When you should read this
+:::tip When you should read this
 - After you have a working problem statement and early solution directions, but before scaling commitments.
 - When teams are optimizing metrics without clarity on intended value, impact, or trade-offs.
 - When multiple stakeholders disagree on “why this matters” and need an explicit alignment artifact.
 - When you need to define non-negotiables (e.g., safety, equity, compliance) that constrain solution design.
+:::
 
-### Derived from Canon
+:::info Derived from Canon
 This chapter is interpretive and explanatory. Its constraints and limits derive from the Canon pages below.
 
 - [Canon → Definitions](/docs/canon/definitions)
 - [Canon → Evidence logic](/docs/canon/evidence-logic)
 - [Canon → Decision theory](/docs/canon/decision-theory)
 - [Canon → Epistemic stage model](/docs/canon/epistemic-model)
+:::
 
-### Key terms (canonical)
+:::info Key terms (canonical)
 - Evidence
 - Decision threshold
 - Governance boundary
 - Misuse boundary
 - Optionality preservation
 - Termination logic
+:::
 
-### Minimal evidence expectations (non-prescriptive)
+:::note Minimal evidence expectations (non-prescriptive)
 Evidence used in this chapter should allow you to:
 - show how a purpose claim constrains choices (what is ruled out, not only what is desired)
 - state which outcomes are intended vs acceptable side-effects
 - identify trade-offs and define what evidence would indicate harm or mission drift
 - justify continued investment when metrics improve but purpose-aligned outcomes do not
+:::
 
 ![Lighting the Way Forward](/img/ch14-transformative-purpose.svg)
 

@@ -8,46 +8,52 @@ redirect_from:
   - /chapter17-experimentation-testing
 ---
 
-### What this chapter does
+:::note What this chapter does
 - Explains experimentation as a controlled method for reducing epistemic uncertainty.
 - Shows how tests generate decision-relevant evidence rather than confirmation.
 - Clarifies the relationship between hypotheses, experiments, and falsification.
 - Connects experimentation outcomes to decision thresholds and progression rules.
+:::
 
-### What this chapter does not do
+:::warning What this chapter does not do
 - Does not guarantee positive results or validation of a solution.
 - Does not replace strategic judgment or governance decisions.
 - Does not prescribe a single experimentation methodology or toolset.
 - Does not treat experiments as success metrics rather than evidence mechanisms.
+:::
 
-### When you should read this
+:::tip When you should read this
 - When assumptions require validation under controlled conditions.
 - When competing hypotheses must be compared objectively.
 - When teams risk confusing activity with learning.
 - Before committing resources to scaling or irreversible decisions.
+:::
 
-### Derived from Canon
+:::info Derived from Canon
 This chapter is interpretive and explanatory. Its constraints and limits derive from the Canon pages below.
 
 - [Canon → Definitions](/docs/canon/definitions)
 - [Canon → Evidence logic](/docs/canon/evidence-logic)
 - [Canon → Decision theory](/docs/canon/decision-theory)
 - [Canon → Epistemic stage model](/docs/canon/epistemic-model)
+:::
 
-### Key terms (canonical)
+:::info Key terms (canonical)
 - Evidence
 - Hypothesis
 - Falsifiability
 - Decision threshold
 - Reversibility
 - Optionality preservation
+:::
 
-### Minimal evidence expectations (non-prescriptive)
+:::note Minimal evidence expectations (non-prescriptive)
 Evidence used in this chapter should allow you to:
 - state which hypothesis an experiment is testing
 - distinguish signal from noise in experimental results
 - explain why an outcome strengthens, weakens, or invalidates an assumption
 - justify whether a decision state should change based on results
+:::
 
 ![Test, Learn, Adapt](/img/ch17-experimentation-testing.svg)
 

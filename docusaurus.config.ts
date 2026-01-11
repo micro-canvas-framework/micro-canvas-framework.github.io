@@ -2,7 +2,7 @@ import { Config } from '@docusaurus/types';
 import redirects from './src/redirects.generated.js';
 
 const config: Config = {
-    title: 'The MicroCanvas Framework (MCF) 2.1',
+    title: 'The MicroCanvas Framework (MCF) 2.2',
     tagline: 'Your recipe for rapid innovation, transformative impact, and global prosperity.',
     url: 'https://www.themicrocanvas.com',
     baseUrl: '/',
@@ -85,13 +85,13 @@ const config: Config = {
 
     themeConfig: {
         navbar: {
-            title: 'MCF 2.1',
+            title: 'MCF 2.2',
             logo: {
                 alt: 'The MicroCanvas Framework Logo',
                 src: 'img/logo.svg',
             },
             items: [
-                { to: '/docs/intro', label: 'Framework', position: 'left' },
+                { to: '/docs/book/how-to-read-mcf', label: 'Framework', position: 'left' },
                 {
                     href: 'https://github.com/micro-canvas-framework/micro-canvas-framework.github.io',
                     label: 'GitHub',
@@ -115,7 +115,7 @@ const config: Config = {
                     items: [
                         {
                             label: 'Framework',
-                            to: '/docs/intro',
+                            to: '/docs/book/how-to-read-mcf',
                         },
                     ],
                 },
