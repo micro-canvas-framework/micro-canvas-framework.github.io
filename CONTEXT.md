@@ -1,9 +1,15 @@
 # MicroCanvas Framework (MCF) 2.2 - CONTEXT + BACKLOG (Authoritative)
+
+## Project Snapshot
+- Repo: micro-canvas-framework.github.io
+- Working branch: mcf-22-cf-migration
+- Deploy: Cloudflare Pages (main is production)
+- Locales: EN active; ES deferred until EN is finished and reviewed
+- Versions: 2.2 labeled "current", 2.1 labeled "legacy"
+- Canon is frozen; Book is explanatory; no IMM/scoring/article
+
 Owner: Luis Santiago
-Repo: micro-canvas-framework.github.io
-Branch: mcf-22-cf-migration
 Timezone: Europe/Zurich
-EN is source-of-truth. ES is deferred until EN Book + website are locked.
 
 ## 1) What this file is
 This file is the project's external memory:
@@ -27,149 +33,83 @@ It must be updated after every meaningful change.
 - Legacy: **2.1 (legacy)** under versioned_docs/version-2.1
 - Canon changes require explicit decision + version bump.
 
-## 4) Docs IA (current)
-### 4.1 Canon (LOCKED)
+## 4) Information Architecture (current)
+- `docs/canon/**` (normative)
+- `docs/book/**` (explanatory; includes front-matter, phase-1, phase-2)
+- `docs/meta/**` (governance + references + changelog)
+
+Sidebar ordering (current): Canon -> Book -> Meta
+
+## 5) Docs IA detail
+### 5.1 Canon (LOCKED)
 Path: `docs/canon/`
 - Canon is non-operational and academically defensible.
 - Harvard citations are centralized in `docs/meta/references.mdx`.
 
-### 4.2 Book (Explanatory Layer)
+### 5.2 Book (Explanatory Layer)
 Path: `docs/book/`
-
 Book substructure:
 - `docs/book/_intro.mdx`
 - `docs/book/front-matter/` (prefatory)
 - `docs/book/phase-1/` (migrated chapters)
 - `docs/book/phase-2/` (migrated chapters)
 
-#### 4.2.1 Front matter canonical slugs (explicit)
+Front matter canonical slugs (explicit):
 - /docs/book/front-matter/foreword
 - /docs/book/front-matter/preface
 - /docs/book/front-matter/how-to-use
 - /docs/book/front-matter/the-author
 
-### 4.3 Meta
+### 5.3 Meta
 Path: `docs/meta/`
 Includes: references, changelog (governance-level)
 
-## 5) Book inventory (do not paste chapter bodies)
-### 5.1 Phase 1 chapter files
-- _category_.json
-- _intro.mdx
-- 01-IntroductionToIMM.md
-- 02-IMA.md
-- 03-BuildingAnIGF.md
-- 04-CultureAndMindset.md
-- 05-AgileProjects.md
-- 06-OKRsAndKPIs.md
-- 07-AgileAndLI.md
-- 08-GovernanceInAction.md
-- 09-Leadership.md
-- 10-FinalizePhase1.md
+## 6) Routing & Redirect Strategy (LOCKED)
+- Docusaurus redirect_from alone was insufficient for hard-hit old URLs; client-redirects is required.
+- @docusaurus/plugin-client-redirects is installed and redirects are generated.
+- Redirect generation resolves targets by slug -> id -> filename, and does not guess beyond those rules.
+- Windows case-insensitive collision caveat: avoid redirects that differ only by case.
+- FrontMatter collision resolved by moving to /book/front-matter and using lowercase redirect sources.
+- Serve does not accept `--locale`; use `start` for dev and `serve` for production-like checks.
 
-### 5.2 Phase 2 chapter files
-- _category_.json
-- _intro.mdx
-- 11-AnalyzingCustomers.md
-- 12-ProblemsAndOKRs.md
-- 13-AlternativeSolutions.md
-- 14-TransformativePurpose.md
-- 15-MarketingEngagementSales.md
-- 16-UserStoriesRapidPrototyping.md
-- 17-ExperimentationAndTesting.md
-- 18-FeedbackLoops.md
-- 19-ValidatingTheBM.md
-- 20-UserValidation.md
-- 21-RegulatoryReview.md
-- 22-StrategicReview.md
-
-### 5.3 Front matter files
-- _category_.json
-- _intro.mdx
-- Foreword.md
-- HowToUse.md
-- Preface.md
-- TheAuthor.md
-
-## 6) EntityHeader contract (site-wide)
-- EntityHeader is globally injected for docs.
-- Current docs render: meta line + title (single H1) in header.
-- Legacy docs render: meta line only (title comes from doc content).
-- "Last updated" must always render (date or "-").
-- Inline <EntityHeader .../> in MDX is forbidden.
-
-Guardrail:
-- `npm run check:no-inline-entityheader`
-
-## 7) Heading hygiene contract
-- Exactly one H1 for current docs (owned by EntityHeader title).
-- Docs must not include in-body duplicate title headings.
-
-Guardrails/scripts (names may evolve; keep updated):
-- `npm run fix:demote-docs-h1`
-- `npm run check:no-duplicate-title-headings`
-- `npm run check:no-h1-in-sections`
-
-## 8) Routing + redirects (Windows-safe)
-Key constraints:
-- Windows filesystem is case-insensitive -> redirect pages that differ only by case can collide.
-- Redirect strategy uses lowercase legacy paths only.
-- TitleCase legacy routes can be handled later at the edge (Cloudflare Redirect Rules) if needed.
-
-Redirect mechanism:
-- @docusaurus/plugin-client-redirects is enabled
-- Redirect generation script resolves targets by:
-  1) slug
-  2) id
-  3) filename
-  Never "guesses" based on scan folder.
-
-Script:
-- `generate-client-redirects.mjs`
-Command:
+Redirect script:
 - `npm run gen:redirects`
 
-## 9) Local run commands (correct usage)
-- Dev server (interactive): `npm run start -- --port 3000`
-- Production-like verification (redirects): `npm run serve -- --port 3000`
-Note: `serve` does NOT take `--locale`.
+## 7) Guardrails & Scripts Inventory (LOCKED)
+Guardrails and what they prevent:
+- `check:no-inline-entityheader` -> blocks inline EntityHeader in docs
+- `fix:demote-docs-h1` -> demotes H1 to H2 across current docs
+- `check:no-h1-in-sections` -> prevents H1 in FrontMatter/Part01/Part02 sections
+- `fix:dedupe-title-headings` -> removes duplicate title headings (title repeated in body)
+- `check:no-duplicate-title-headings` -> blocks duplicate title headings
+- `gen:redirects` -> generates client redirect pages from redirect_from
+- `fix:redirects-docs-prefix` -> adds /docs-prefixed redirect_from entries
+- `check:unused-images` -> audits unused static images
 
-## 10) Cleanup completed
-- Demo blog posts removed
-- Default markdown demo page removed
-- Unused static images removed + audit script present
+Invariants:
+- Exactly one H1 for current docs (EntityHeader title)
+- Legacy docs use EntityHeader meta-only
 
-## 11) Key milestones / commits (append-only)
-- 7e84745 docs(book): add explanatory layer and label versions
-- a56a4d0 feat(ui): add site-wide entityheader meta bar for docs
-- 2177196 fix(ui): render entityheader title only for current via metadata.version
-- 2d808fc refactor(docs): move phase chapters under book and add redirects
-- f5afcea fix(route): prefix docs base in redirect_from for migrated chapters
-- 6392535 fix(route): add client redirect pages for migrated phase URLs
-- 841a2eb fix(route): generate redirects to canonical doc permalinks
-- bb16b65 docs(book): add phase landing pages and normalize book categories
-- b9c4556 chore(book): normalize phase chapter ordering and metadata
-- 9cad374 fix(route): resolve frontmatter redirect collisions on windows
-- b1aecc3 docs(book): apply header contract to chapter 11 and update CONTEXT memory
-- a686c52 docs(book): link chapter 11 header to canon sources
-- bc657b7 chore(cleanup): remove demo blog posts
-- dacaa29 chore(cleanup): remove default markdown page
-- 9fc1767 chore(cleanup): remove unused static images
+## 8) Content Contracts (LOCKED)
+EntityHeader Contract:
+- Current: meta + title in EntityHeader (single H1)
+- Legacy: meta-only EntityHeader; content provides title
+- Opt-out supported via front matter `entityHeader: false`
 
-## 12) Backlog (live)
-### 12.1 Locked / frozen
-- P0 principles: FROZEN
-- Canon pages: LOCKED
-- Versioning + legacy: LOCKED
-- EntityHeader contract: LOCKED
-
-### 12.2 Pending (next)
-- Book content refactor: add "chapter header contract" and begin refactoring starting with selected chapter (Phase 1 Ch1 or Phase 2 Ch12)
-- ES translation: deferred until EN lock
-- IMM mapping/scoring/tools/article: deferred
+Book Chapter Header Contract:
+- Header appears immediately after front matter
+- Uses H3 headings only
+- Identical section titles across all Book chapters
+- Sections:
+  1) What this chapter does
+  2) What this chapter does not do
+  3) When you should read this
+  4) Derived from Canon
+  5) Key terms (canonical)
+  6) Minimal evidence expectations (non-prescriptive)
 
 =====================================================================
-I. BOOK LAYER — EDITORIAL CONTRACT (LOCKED)
+I. BOOK LAYER - EDITORIAL CONTRACT (LOCKED)
 =====================================================================
 
 Book chapters follow a fixed structural header that:
@@ -178,7 +118,7 @@ Book chapters follow a fixed structural header that:
 - standardizes reader orientation across chapters
 
 Rules:
-- Header appears immediately after front-matter
+- Header appears immediately after front matter
 - Uses H3 headings only
 - Identical section titles across all Book chapters
 - Book content is explanatory and non-normative
@@ -198,15 +138,166 @@ Status: LOCKED
 J. BOOK CHAPTER INVENTORY & STATUS
 =====================================================================
 
-Phase 2 — Discovery & Validation
+Front matter (prefatory)
+- Foreword
+  - Header contract applied: NO
+  - Canon links resolved: NO
+  - Status: PENDING
+- Preface
+  - Header contract applied: NO
+  - Canon links resolved: NO
+  - Status: PENDING
+- How to Use This Book
+  - Header contract applied: NO
+  - Canon links resolved: NO
+  - Status: PENDING
+- The Author
+  - Header contract applied: NO
+  - Canon links resolved: NO
+  - Status: PENDING
 
+Phase 1 - Foundations
+- Chapter 1: Introduction to Innovation Maturity
+  - Header contract applied: NO
+  - Canon links resolved: NO
+  - Status: PENDING
+- Chapter 2: Innovation Maturity Assessment
+  - Header contract applied: NO
+  - Canon links resolved: NO
+  - Status: PENDING
+- Chapter 3: Building an Innovation Governance Framework
+  - Header contract applied: NO
+  - Canon links resolved: NO
+  - Status: PENDING
+- Chapter 4: Transforming Culture and Mindset
+  - Header contract applied: NO
+  - Canon links resolved: NO
+  - Status: PENDING
+- Chapter 5: Implementing an Agile Project Execution Framework
+  - Header contract applied: NO
+  - Canon links resolved: NO
+  - Status: PENDING
+- Chapter 6: Defining Clear Objectives and Key Results (OKRs) to Drive Innovation
+  - Header contract applied: NO
+  - Canon links resolved: NO
+  - Status: PENDING
+- Chapter 7: Training in Agile and Lean Innovation
+  - Header contract applied: NO
+  - Canon links resolved: NO
+  - Status: PENDING
+- Chapter 8: Putting Governance into Action: Pilots and Iterations
+  - Header contract applied: NO
+  - Canon links resolved: NO
+  - Status: PENDING
+- Chapter 9: Leadership Alignment and Expansion
+  - Header contract applied: NO
+  - Canon links resolved: NO
+  - Status: PENDING
+- Chapter 10: Review, Adjust, and Finalize Phase 1
+  - Header contract applied: NO
+  - Canon links resolved: NO
+  - Status: PENDING
+
+Phase 2 - Discovery & Validation
 - Chapter 11: Uncovering Opportunities and Analyzing Customers
   - Header contract applied: YES
-  - Content refactored: STRUCTURE ONLY
-  - Canon alignment: DECLARED
   - Canon links resolved: YES
   - Status: COMPLETE (pilot)
+- Chapter 12: Defining the Problem and Setting Strategic Objectives
+  - Header contract applied: NO
+  - Canon links resolved: NO
+  - Status: PENDING
+- Chapter 13: Exploring Alternative Solutions, Unique Advantages and Product Features
+  - Header contract applied: NO
+  - Canon links resolved: NO
+  - Status: PENDING
+- Chapter 14: Transformative Purpose
+  - Header contract applied: NO
+  - Canon links resolved: NO
+  - Status: PENDING
+- Chapter 15: Marketing, Engagement and Sales
+  - Header contract applied: NO
+  - Canon links resolved: NO
+  - Status: PENDING
+- Chapter 16: User Stories and Rapid Prototyping
+  - Header contract applied: NO
+  - Canon links resolved: NO
+  - Status: PENDING
+- Chapter 17: Experimentation and Testing
+  - Header contract applied: NO
+  - Canon links resolved: NO
+  - Status: PENDING
+- Chapter 18: Feedback Loops and Iterative Refinement
+  - Header contract applied: NO
+  - Canon links resolved: NO
+  - Status: PENDING
+- Chapter 19: Validating the Business Model
+  - Header contract applied: NO
+  - Canon links resolved: NO
+  - Status: PENDING
+- Chapter 20: User Validation and Expanded Pilot Testing
+  - Header contract applied: NO
+  - Canon links resolved: NO
+  - Status: PENDING
+- Chapter 21: Regulatory Review and Strategic Scalability Planning
+  - Header contract applied: NO
+  - Canon links resolved: NO
+  - Status: PENDING
+- Chapter 22: Strategic Review and Next Steps for Validation
+  - Header contract applied: NO
+  - Canon links resolved: NO
+  - Status: PENDING
 
-All other Book chapters:
-- Header contract: NOT YET APPLIED
-- Status: PENDING
+## 9) Local run commands (correct usage)
+- Dev server (interactive): `npm run start -- --port 3000`
+- Production-like verification (redirects): `npm run serve -- --port 3000`
+
+## 10) Cleanup completed
+- Demo blog posts removed
+- Default markdown demo page removed
+- Unused static images removed + audit script present
+
+## 11) Milestones / commit log (append-only)
+- fa8b989 docs(repo): add CONTEXT project memory and backlog
+- 7e84745 docs(book): add explanatory layer and label versions
+- a56a4d0 feat(ui): add site-wide entityheader meta bar for docs
+- 2177196 fix(ui): render entityheader title only for current via metadata.version
+- 2d808fc refactor(docs): move phase chapters under book and add redirects
+- f5afcea fix(route): prefix docs base in redirect_from for migrated chapters
+- 6392535 fix(route): add client redirect pages for migrated phase URLs
+- 841a2eb fix(route): generate redirects to canonical doc permalinks
+- bb16b65 docs(book): add phase landing pages and normalize book categories
+- b9c4556 chore(book): normalize phase chapter ordering and metadata
+- 9cad374 fix(route): resolve frontmatter redirect collisions on windows
+- b1aecc3 docs(book): apply header contract to chapter 11 and update CONTEXT memory
+- a686c52 docs(book): link chapter 11 header to canon sources
+- 8fa651d docs(repo): update CONTEXT milestones for chapter 11 links
+- bc657b7 chore(cleanup): remove demo blog posts
+- dacaa29 chore(cleanup): remove default markdown page
+- 9fc1767 chore(cleanup): remove unused static images
+
+## 12) Backlog (live)
+DONE:
+- Canon published + frozen
+- Book IA created
+- EntityHeader site-wide, title de-dup, legacy behavior
+- Phase docs moved under Book
+- client-redirects in place
+- demo blog posts removed
+- demo markdown page removed
+- unused images cleaned
+- phase landing pages + ordering normalized
+- FrontMatter moved under Book with collisions resolved
+- Chapter 11 header contract applied + canon links resolved
+
+PENDING:
+- Apply Book header contract to remaining chapters (Phase 2 then Phase 1)
+- Convert "Derived from Canon" to real links for each chapter (after applying header)
+- Book content modernization (later; not in this task)
+- ES translation (deferred)
+- Docusaurus update decision (3.7 -> 3.9) deferred until stability checkpoint
+
+DEFERRED:
+- IMM mapping/scoring
+- academic article
+- templates/case studies
