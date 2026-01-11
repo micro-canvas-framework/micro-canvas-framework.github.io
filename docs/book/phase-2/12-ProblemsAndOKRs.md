@@ -9,11 +9,49 @@ redirect_from:
 ---
 
 ### What this chapter does
-- Explains how opportunities are uncovered through structured observation of markets and customers, rather than ideation alone.
-- Shows how customer analysis supports epistemic clarification by making assumptions explicit and testable.
-- Introduces TAM, SAM, and SOM as scoping lenses, not forecasts.
-- Connects customer understanding to later problem definition and decision thresholds.
+- Defines what “problem” means in MCF terms: a decision-relevant constraint framed by evidence, not a slogan.
+- Shows how to move from observed symptoms to testable causal hypotheses (root causes) without premature solution selection.
+- Provides a structured way to represent causes and effects (e.g., problem tree) as an explanatory model that can be falsified.
+- Translates a validated problem statement into strategic objectives and measurable key results (OKRs) as decision commitments.
+- Clarifies how objectives and KRs function as governance artifacts that constrain scope and preserve optionality.
 
+### What this chapter does not do
+- Does not guarantee your stated problem is correct; it requires evidence quality, revalidation, and revision when falsified.
+- Does not prescribe a single root-cause method (e.g., 5 Whys is an example, not a requirement).
+- Does not provide a complete OKR playbook for scaling execution; it establishes decision-ready strategic direction.
+- Does not replace experimentation and validation required for solution selection in later chapters.
+- Does not justify irreversible commitments when evidence remains below the decision threshold.
+
+### When you should read this
+- When customer insights exist, but the causal story behind outcomes is still ambiguous.
+- When teams are debating solutions without a shared, evidence-linked problem statement.
+- When strategic goals are stated but not measurable or not traceable to the problem.
+- Before selecting solutions, allocating major resources, or committing to delivery roadmaps.
+
+### Derived from Canon
+This chapter is interpretive and explanatory. Its constraints and limits derive from the Canon pages below.
+
+- [Canon → Definitions](/docs/canon/definitions)
+- [Canon → Evidence logic](/docs/canon/evidence-logic)
+- [Canon → Decision theory](/docs/canon/decision-theory)
+- [Canon → Epistemic stage model](/docs/canon/epistemic-model)
+
+### Key terms (canonical)
+- Evidence
+- Evidence quality
+- Decision threshold
+- Optionality preservation
+- Strategic deferral
+- Reversibility
+- Termination logic
+
+### Minimal evidence expectations (non-prescriptive)
+Evidence used in this chapter should allow you to:
+- distinguish symptoms (observations) from causes (hypotheses)
+- justify why the stated problem is decision-relevant (not merely descriptive)
+- specify what observations would falsify the causal explanation
+- trace each strategic objective and key result to the problem statement
+- state which commitments are reversible vs. potentially irreversible at this point
 ### What this chapter does not do
 - Does not provide a ready-made customer research template.
 - Does not guarantee that identified opportunities are viable or valuable.
@@ -48,7 +86,6 @@ Evidence used in this chapter should allow you to:
 - justify why a segment is prioritized over alternatives
 - state what observations would falsify the opportunity hypothesis
 - explain how customer insights constrain, rather than justify, solution choices
-
 
 ![From Questions to Clarity](/img/ch12-problem-strategic-objectives.svg)
 
