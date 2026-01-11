@@ -9,22 +9,22 @@ redirect_from:
 ---
 
 ### What this chapter does
-- Explains how opportunities are uncovered through structured observation of markets and customers, rather than ideation alone.
-- Shows how customer analysis supports epistemic clarification by making assumptions explicit and testable.
-- Introduces TAM, SAM, and SOM as scoping lenses, not forecasts.
-- Connects customer understanding to later problem definition and decision thresholds.
+- Explains experimentation as a controlled method for reducing epistemic uncertainty.
+- Shows how tests generate decision-relevant evidence rather than confirmation.
+- Clarifies the relationship between hypotheses, experiments, and falsification.
+- Connects experimentation outcomes to decision thresholds and progression rules.
 
 ### What this chapter does not do
-- Does not provide a ready-made customer research template.
-- Does not guarantee that identified opportunities are viable or valuable.
-- Does not replace evidence required in later stages of Discovery and Validation.
-- Does not prescribe a single segmentation or persona methodology.
+- Does not guarantee positive results or validation of a solution.
+- Does not replace strategic judgment or governance decisions.
+- Does not prescribe a single experimentation methodology or toolset.
+- Does not treat experiments as success metrics rather than evidence mechanisms.
 
 ### When you should read this
-- When early signals suggest unmet needs but causal clarity is low.
-- When multiple customer segments appear plausible and require prioritization.
-- When teams are acting on assumptions rather than observable behavior.
-- Before formal problem definition and objective setting.
+- When assumptions require validation under controlled conditions.
+- When competing hypotheses must be compared objectively.
+- When teams risk confusing activity with learning.
+- Before committing resources to scaling or irreversible decisions.
 
 ### Derived from Canon
 This chapter is interpretive and explanatory. Its constraints and limits derive from the Canon pages below.
@@ -36,19 +36,18 @@ This chapter is interpretive and explanatory. Its constraints and limits derive 
 
 ### Key terms (canonical)
 - Evidence
-- Evidence quality
+- Hypothesis
+- Falsifiability
 - Decision threshold
-- Optionality preservation
-- Strategic deferral
 - Reversibility
+- Optionality preservation
 
 ### Minimal evidence expectations (non-prescriptive)
 Evidence used in this chapter should allow you to:
-- distinguish observed customer behavior from inferred intent
-- justify why a segment is prioritized over alternatives
-- state what observations would falsify the opportunity hypothesis
-- explain how customer insights constrain, rather than justify, solution choices
-
+- state which hypothesis an experiment is testing
+- distinguish signal from noise in experimental results
+- explain why an outcome strengthens, weakens, or invalidates an assumption
+- justify whether a decision state should change based on results
 
 ![Test, Learn, Adapt](/img/ch17-experimentation-testing.svg)
 
