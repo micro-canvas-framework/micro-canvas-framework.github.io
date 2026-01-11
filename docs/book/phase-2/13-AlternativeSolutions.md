@@ -9,22 +9,22 @@ redirect_from:
 ---
 
 ### What this chapter does
-- Explains how opportunities are uncovered through structured observation of markets and customers, rather than ideation alone.
-- Shows how customer analysis supports epistemic clarification by making assumptions explicit and testable.
-- Introduces TAM, SAM, and SOM as scoping lenses, not forecasts.
-- Connects customer understanding to later problem definition and decision thresholds.
+- Explains how to expand the solution search space without prematurely committing to a single approach.
+- Introduces alternatives analysis as an epistemic step: compare options using explicit criteria and evidence.
+- Shows how to separate *solution hypotheses* from *validated constraints*, so teams can test without locking in.
+- Connects alternatives selection to decision thresholds and reversibility, ahead of prototyping and experiments.
 
 ### What this chapter does not do
-- Does not provide a ready-made customer research template.
-- Does not guarantee that identified opportunities are viable or valuable.
-- Does not replace evidence required in later stages of Discovery and Validation.
-- Does not prescribe a single segmentation or persona methodology.
+- Does not claim that generating more ideas increases innovation success.
+- Does not prescribe a single ideation method, workshop format, or template.
+- Does not guarantee feasibility, desirability, or viability of any option without evidence.
+- Does not replace prototyping, experiments, or user validation required later in Discovery and Validation.
 
 ### When you should read this
-- When early signals suggest unmet needs but causal clarity is low.
-- When multiple customer segments appear plausible and require prioritization.
-- When teams are acting on assumptions rather than observable behavior.
-- Before formal problem definition and objective setting.
+- After you have a clarified problem and strategic intent, but before committing to a solution direction.
+- When multiple approaches seem plausible and the team needs defensible selection logic.
+- When the organization is defaulting to the “first solution” without comparing alternatives.
+- When constraints (cost, time, compliance, integration) must be made explicit early.
 
 ### Derived from Canon
 This chapter is interpretive and explanatory. Its constraints and limits derive from the Canon pages below.
@@ -39,17 +39,15 @@ This chapter is interpretive and explanatory. Its constraints and limits derive 
 - Evidence quality
 - Decision threshold
 - Optionality preservation
-- Strategic deferral
 - Reversibility
+- Termination logic
 
 ### Minimal evidence expectations (non-prescriptive)
 Evidence used in this chapter should allow you to:
-- distinguish observed customer behavior from inferred intent
-- justify why a segment is prioritized over alternatives
-- state what observations would falsify the opportunity hypothesis
-- explain how customer insights constrain, rather than justify, solution choices
-
-
+- state *why* each alternative is considered plausible (and under what assumptions)
+- compare alternatives against explicit criteria (constraints, risks, expected outcomes)
+- specify what observations or tests would eliminate an option
+- justify why a chosen direction remains reversible until stronger evidence is obtained
 
 ![Navigating the Path to Differentiation](/img/ch13-alternatives-advantages-features.svg)
 
