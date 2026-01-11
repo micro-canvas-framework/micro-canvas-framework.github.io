@@ -9,30 +9,30 @@ redirect_from:
 ---
 
 ### What this chapter does
-- Explains how opportunities are uncovered through structured observation of markets and customers, rather than ideation alone.
-- Shows how customer analysis supports epistemic clarification by making assumptions explicit and testable.
-- Introduces TAM, SAM, and SOM as scoping lenses, not forecasts.
-- Connects customer understanding to later problem definition and decision thresholds.
+- Frames strategic review as a consolidation of evidence across prior validation steps.
+- Shows how to evaluate outcomes against objectives and decision thresholds.
+- Connects review findings to roadmap adjustments and next validation cycles.
+- Aligns next steps with governance and organizational priorities.
 
 ### What this chapter does not do
-- Does not provide a ready-made customer research template.
-- Does not guarantee that identified opportunities are viable or valuable.
-- Does not replace evidence required in later stages of Discovery and Validation.
-- Does not prescribe a single segmentation or persona methodology.
+- Does not guarantee readiness for the next phase or scale.
+- Does not replace ongoing validation or operational execution.
+- Does not prescribe a single review framework or reporting format.
+- Does not treat retrospective summary as forward approval.
 
 ### When you should read this
-- When early signals suggest unmet needs but causal clarity is low.
-- When multiple customer segments appear plausible and require prioritization.
-- When teams are acting on assumptions rather than observable behavior.
-- Before formal problem definition and objective setting.
+- When validation work has produced mixed or incomplete signals.
+- When leadership needs a consolidated view of progress and gaps.
+- When planning the next validation cycles or Phase 3 transition.
+- Before committing to major strategic shifts or investments.
 
 ### Derived from Canon
 This chapter is interpretive and explanatory. Its constraints and limits derive from the Canon pages below.
 
-- [Canon → Definitions](/docs/canon/definitions)
-- [Canon → Evidence logic](/docs/canon/evidence-logic)
-- [Canon → Decision theory](/docs/canon/decision-theory)
-- [Canon → Epistemic stage model](/docs/canon/epistemic-model)
+- [Canon - Definitions](/docs/canon/definitions)
+- [Canon - Evidence logic](/docs/canon/evidence-logic)
+- [Canon - Decision theory](/docs/canon/decision-theory)
+- [Canon - Epistemic stage model](/docs/canon/epistemic-model)
 
 ### Key terms (canonical)
 - Evidence
@@ -44,11 +44,10 @@ This chapter is interpretive and explanatory. Its constraints and limits derive 
 
 ### Minimal evidence expectations (non-prescriptive)
 Evidence used in this chapter should allow you to:
-- distinguish observed customer behavior from inferred intent
-- justify why a segment is prioritized over alternatives
-- state what observations would falsify the opportunity hypothesis
-- explain how customer insights constrain, rather than justify, solution choices
-
+- synthesize outcomes from prior validation steps
+- compare results against explicit objectives and thresholds
+- explain what changes are required before advancing
+- justify whether the decision state should advance, pause, or rework
 
 After addressing regulatory compliance and scalability planning (Chapter 19), it is essential to pause and assess the overall progress of your innovation journey. A strategic review helps you evaluate achievements, identify gaps, and refine the roadmap to ensure your solutions remain aligned with market realities and organizational objectives. This chapter also outlines immediate next steps for validation, ensuring that all critical assumptions and processes are continuously tested before advancing to Phase 3 - Efficiency: Process Optimization and Operations.
 

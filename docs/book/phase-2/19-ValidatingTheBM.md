@@ -9,30 +9,30 @@ redirect_from:
 ---
 
 ### What this chapter does
-- Explains how opportunities are uncovered through structured observation of markets and customers, rather than ideation alone.
-- Shows how customer analysis supports epistemic clarification by making assumptions explicit and testable.
-- Introduces TAM, SAM, and SOM as scoping lenses, not forecasts.
-- Connects customer understanding to later problem definition and decision thresholds.
+- Frames business model validation as evidence gathering for revenue, cost, and channel assumptions.
+- Shows how hypotheses are prioritized and tested before scale commitments.
+- Connects financial feasibility and product-market fit to decision thresholds.
+- Positions iteration as a response to evidence, not optimism.
 
 ### What this chapter does not do
-- Does not provide a ready-made customer research template.
-- Does not guarantee that identified opportunities are viable or valuable.
-- Does not replace evidence required in later stages of Discovery and Validation.
-- Does not prescribe a single segmentation or persona methodology.
+- Does not guarantee viability, profitability, or market adoption.
+- Does not prescribe a single validation template or tool.
+- Does not replace governance decisions or strategic judgment.
+- Does not treat model testing as a substitute for user validation.
 
 ### When you should read this
-- When early signals suggest unmet needs but causal clarity is low.
-- When multiple customer segments appear plausible and require prioritization.
-- When teams are acting on assumptions rather than observable behavior.
-- Before formal problem definition and objective setting.
+- When core business assumptions need proof before scaling.
+- When pricing, cost structure, or channels are still untested.
+- When leadership needs evidence to approve investment.
+- Before committing to irreversible expansion steps.
 
 ### Derived from Canon
 This chapter is interpretive and explanatory. Its constraints and limits derive from the Canon pages below.
 
-- [Canon → Definitions](/docs/canon/definitions)
-- [Canon → Evidence logic](/docs/canon/evidence-logic)
-- [Canon → Decision theory](/docs/canon/decision-theory)
-- [Canon → Epistemic stage model](/docs/canon/epistemic-model)
+- [Canon - Definitions](/docs/canon/definitions)
+- [Canon - Evidence logic](/docs/canon/evidence-logic)
+- [Canon - Decision theory](/docs/canon/decision-theory)
+- [Canon - Epistemic stage model](/docs/canon/epistemic-model)
 
 ### Key terms (canonical)
 - Evidence
@@ -44,11 +44,10 @@ This chapter is interpretive and explanatory. Its constraints and limits derive 
 
 ### Minimal evidence expectations (non-prescriptive)
 Evidence used in this chapter should allow you to:
-- distinguish observed customer behavior from inferred intent
-- justify why a segment is prioritized over alternatives
-- state what observations would falsify the opportunity hypothesis
-- explain how customer insights constrain, rather than justify, solution choices
-
+- show which business model assumptions are being tested
+- compare outcomes against explicit success criteria
+- explain why a model change is warranted or deferred
+- justify whether the decision state should advance, pause, or pivot
 
 ![Test Before You Build](/img/ch19-validating-business-model.svg)
 

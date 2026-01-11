@@ -9,30 +9,30 @@ redirect_from:
 ---
 
 ### What this chapter does
-- Explains how opportunities are uncovered through structured observation of markets and customers, rather than ideation alone.
-- Shows how customer analysis supports epistemic clarification by making assumptions explicit and testable.
-- Introduces TAM, SAM, and SOM as scoping lenses, not forecasts.
-- Connects customer understanding to later problem definition and decision thresholds.
+- Frames regulatory review as evidence-gathering for legal and compliance constraints.
+- Shows how to assess gaps, prioritize remediation, and document compliance actions.
+- Connects scalability planning to decision thresholds and risk management.
+- Aligns growth roadmaps with regulatory timelines and obligations.
 
 ### What this chapter does not do
-- Does not provide a ready-made customer research template.
-- Does not guarantee that identified opportunities are viable or valuable.
-- Does not replace evidence required in later stages of Discovery and Validation.
-- Does not prescribe a single segmentation or persona methodology.
+- Does not provide legal advice or jurisdiction-specific guidance.
+- Does not guarantee regulatory approval or eliminate compliance risk.
+- Does not prescribe a single scalability model or tooling stack.
+- Does not replace governance decisions or executive accountability.
 
 ### When you should read this
-- When early signals suggest unmet needs but causal clarity is low.
-- When multiple customer segments appear plausible and require prioritization.
-- When teams are acting on assumptions rather than observable behavior.
-- Before formal problem definition and objective setting.
+- When pilots indicate readiness but compliance requirements are unclear.
+- When scaling requires regulatory approvals or operational audits.
+- When risk exposure must be assessed before expansion.
+- Before committing to irreversible market entry or rollout.
 
 ### Derived from Canon
 This chapter is interpretive and explanatory. Its constraints and limits derive from the Canon pages below.
 
-- [Canon → Definitions](/docs/canon/definitions)
-- [Canon → Evidence logic](/docs/canon/evidence-logic)
-- [Canon → Decision theory](/docs/canon/decision-theory)
-- [Canon → Epistemic stage model](/docs/canon/epistemic-model)
+- [Canon - Definitions](/docs/canon/definitions)
+- [Canon - Evidence logic](/docs/canon/evidence-logic)
+- [Canon - Decision theory](/docs/canon/decision-theory)
+- [Canon - Epistemic stage model](/docs/canon/epistemic-model)
 
 ### Key terms (canonical)
 - Evidence
@@ -44,11 +44,10 @@ This chapter is interpretive and explanatory. Its constraints and limits derive 
 
 ### Minimal evidence expectations (non-prescriptive)
 Evidence used in this chapter should allow you to:
-- distinguish observed customer behavior from inferred intent
-- justify why a segment is prioritized over alternatives
-- state what observations would falsify the opportunity hypothesis
-- explain how customer insights constrain, rather than justify, solution choices
-
+- identify the compliance assumptions being tested or verified
+- document gaps, remediation steps, and responsible owners
+- show how regulatory constraints affect scale decisions
+- justify whether the decision state should advance, pause, or defer
 
 After successfully conducting expanded pilot tests (Chapter 18), you must ensure your solution complies with relevant laws and regulations. At the same time, you need to develop a strategic plan for scaling sustainably. This chapter walks you through the essential steps of a regulatory review and outlines how to align your scalability roadmap with legal frameworks and long-term organizational goals.
 

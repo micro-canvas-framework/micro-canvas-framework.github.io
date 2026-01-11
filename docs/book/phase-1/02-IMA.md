@@ -8,6 +8,47 @@ redirect_from:
   - /chapter2-innovation-maturity-assessment
 ---
 
+### What this chapter does
+- Defines a structured assessment of innovation maturity across stages.
+- Explains how weighted scoring creates a baseline for improvement.
+- Connects assessment outputs to roadmap and decision thresholds.
+- Frames assessment as evidence for investment and governance alignment.
+
+### What this chapter does not do
+- Does not provide a finished scoring tool or automated survey.
+- Does not replace leadership judgment or strategy setting.
+- Does not guarantee maturity gains without execution.
+- Does not prescribe a single cadence for reassessment.
+
+### When you should read this
+- When establishing a baseline for innovation capability.
+- When prioritizing transformation initiatives and resource allocation.
+- When leadership needs evidence to approve change.
+- Before designing governance or process improvements.
+
+### Derived from Canon
+This chapter is interpretive and explanatory. Its constraints and limits derive from the Canon pages below.
+
+- [Canon - Definitions](/docs/canon/definitions)
+- [Canon - Evidence logic](/docs/canon/evidence-logic)
+- [Canon - Decision theory](/docs/canon/decision-theory)
+- [Canon - Epistemic stage model](/docs/canon/epistemic-model)
+
+### Key terms (canonical)
+- Evidence
+- Evidence quality
+- Decision threshold
+- Optionality preservation
+- Strategic deferral
+- Reversibility
+
+### Minimal evidence expectations (non-prescriptive)
+Evidence used in this chapter should allow you to:
+- state the assessment criteria and weights used
+- explain how scores map to maturity levels
+- show which gaps drive the improvement roadmap
+- justify why investments follow from the assessment
+
 ![Mapping Innovation Capabilities](/img/ch2-innovation-maturity-assessment.svg)
  
  **Mapping Innovation Capabilities**. *This visual represents the structured assessment of innovation maturity across key dimensions. The polygon form symbolizes performance levels, helping organizations identify strengths and gaps. It reflects the diagnostic clarity central to the MicroCanvas&reg; Framework's assessment approach.*

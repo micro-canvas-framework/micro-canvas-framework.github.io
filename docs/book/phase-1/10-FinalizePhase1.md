@@ -8,6 +8,47 @@ redirect_from:
   - /chapter10-review-adjust-finalize-phase1
 ---
 
+### What this chapter does
+- Defines Phase 1 review as a consolidation of evidence and readiness.
+- Shows how to evaluate outcomes, adjust processes, and set new baselines.
+- Connects lessons learned to decision thresholds for Phase 2 entry.
+- Frames closing the loop as a governance discipline, not a formality.
+
+### What this chapter does not do
+- Does not replace ongoing validation or Phase 2 planning.
+- Does not guarantee readiness without evidence review.
+- Does not prescribe a single review format or tooling stack.
+- Does not treat retrospective summary as approval to proceed.
+
+### When you should read this
+- When Phase 1 activities have completed and need assessment.
+- When leadership needs a readiness decision for Phase 2.
+- When processes require adjustment before scaling.
+- Before committing resources to Phase 2 execution.
+
+### Derived from Canon
+This chapter is interpretive and explanatory. Its constraints and limits derive from the Canon pages below.
+
+- [Canon - Definitions](/docs/canon/definitions)
+- [Canon - Evidence logic](/docs/canon/evidence-logic)
+- [Canon - Decision theory](/docs/canon/decision-theory)
+- [Canon - Epistemic stage model](/docs/canon/epistemic-model)
+
+### Key terms (canonical)
+- Evidence
+- Evidence quality
+- Decision threshold
+- Optionality preservation
+- Strategic deferral
+- Reversibility
+
+### Minimal evidence expectations (non-prescriptive)
+Evidence used in this chapter should allow you to:
+- summarize Phase 1 outcomes against objectives
+- identify which gaps remain and why
+- justify readiness to proceed or pause
+- document adjustments required before Phase 2
+
 ![Closing the Loop with Insight](/img/ch10-review-adjust-finalize.svg)
 
 **Closing the Loop with Insight**. *This graphic represents the iterative nature of innovation oversight - reviewing progress, adjusting course, and finalizing outcomes. The cyclical arrows and checklist box reflect the MicroCanvas&reg; Framework's structured yet adaptive approach to closing Phase 1 with confidence and clarity*.

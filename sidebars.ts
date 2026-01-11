@@ -52,6 +52,7 @@ const sidebars: SidebarsConfig = {
                     label: 'Phase 1 — Foundations',
                     items: [
                         'book/phase-1/_intro',
+                        'book/phase-1/chapter1-intro-innovation-maturity',
                         'book/phase-1/chapter2-innovation-maturity-assessment',
                         'book/phase-1/chapter3-innovation-governance',
                         'book/phase-1/chapter4-transforming-culture-mindset',

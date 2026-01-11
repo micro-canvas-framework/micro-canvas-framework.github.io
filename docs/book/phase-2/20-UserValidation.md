@@ -9,30 +9,30 @@ redirect_from:
 ---
 
 ### What this chapter does
-- Explains how opportunities are uncovered through structured observation of markets and customers, rather than ideation alone.
-- Shows how customer analysis supports epistemic clarification by making assumptions explicit and testable.
-- Introduces TAM, SAM, and SOM as scoping lenses, not forecasts.
-- Connects customer understanding to later problem definition and decision thresholds.
+- Defines expanded pilots as evidence-gathering for real-world user and operational fit.
+- Shows how to set pilot scope, metrics, and onboarding to generate decision-ready data.
+- Connects pilot outcomes to decision thresholds and scale readiness.
+- Positions user validation as a bridge between experiments and launch.
 
 ### What this chapter does not do
-- Does not provide a ready-made customer research template.
-- Does not guarantee that identified opportunities are viable or valuable.
-- Does not replace evidence required in later stages of Discovery and Validation.
-- Does not prescribe a single segmentation or persona methodology.
+- Does not guarantee market adoption or product-market fit.
+- Does not replace business model validation or regulatory review.
+- Does not prescribe a single pilot size, duration, or recruitment method.
+- Does not treat pilot completion as approval to launch.
 
 ### When you should read this
-- When early signals suggest unmet needs but causal clarity is low.
-- When multiple customer segments appear plausible and require prioritization.
-- When teams are acting on assumptions rather than observable behavior.
-- Before formal problem definition and objective setting.
+- When experiments show promise but broader validation is still needed.
+- When you need evidence of real-world user behavior and operational capacity.
+- When leadership requires data to approve scaling.
+- Before making irreversible rollout commitments.
 
 ### Derived from Canon
 This chapter is interpretive and explanatory. Its constraints and limits derive from the Canon pages below.
 
-- [Canon → Definitions](/docs/canon/definitions)
-- [Canon → Evidence logic](/docs/canon/evidence-logic)
-- [Canon → Decision theory](/docs/canon/decision-theory)
-- [Canon → Epistemic stage model](/docs/canon/epistemic-model)
+- [Canon - Definitions](/docs/canon/definitions)
+- [Canon - Evidence logic](/docs/canon/evidence-logic)
+- [Canon - Decision theory](/docs/canon/decision-theory)
+- [Canon - Epistemic stage model](/docs/canon/epistemic-model)
 
 ### Key terms (canonical)
 - Evidence
@@ -44,11 +44,10 @@ This chapter is interpretive and explanatory. Its constraints and limits derive 
 
 ### Minimal evidence expectations (non-prescriptive)
 Evidence used in this chapter should allow you to:
-- distinguish observed customer behavior from inferred intent
-- justify why a segment is prioritized over alternatives
-- state what observations would falsify the opportunity hypothesis
-- explain how customer insights constrain, rather than justify, solution choices
-
+- define pilot objectives and success criteria tied to assumptions
+- link user and operational metrics to validation claims
+- explain what changes were made based on findings
+- justify whether the decision state should advance, pause, or iterate
 
 ![From Feedback to Field Trials](/img/ch20-user-validation-expanded-pilots.svg)
 

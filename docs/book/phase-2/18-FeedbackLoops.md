@@ -9,30 +9,30 @@ redirect_from:
 ---
 
 ### What this chapter does
-- Explains how opportunities are uncovered through structured observation of markets and customers, rather than ideation alone.
-- Shows how customer analysis supports epistemic clarification by making assumptions explicit and testable.
-- Introduces TAM, SAM, and SOM as scoping lenses, not forecasts.
-- Connects customer understanding to later problem definition and decision thresholds.
+- Defines feedback loops as evidence mechanisms that update assumptions and decisions.
+- Shows how to structure feedback channels, cadence, and integration into iteration.
+- Connects feedback quality to decision thresholds and progression rules.
+- Frames refinement as epistemic updating rather than endless change.
 
 ### What this chapter does not do
-- Does not provide a ready-made customer research template.
-- Does not guarantee that identified opportunities are viable or valuable.
-- Does not replace evidence required in later stages of Discovery and Validation.
-- Does not prescribe a single segmentation or persona methodology.
+- Does not guarantee that feedback is representative or unbiased.
+- Does not prescribe a single analytics stack or tooling.
+- Does not replace experimentation or validation steps.
+- Does not treat iteration as progress without evidence.
 
 ### When you should read this
-- When early signals suggest unmet needs but causal clarity is low.
-- When multiple customer segments appear plausible and require prioritization.
-- When teams are acting on assumptions rather than observable behavior.
-- Before formal problem definition and objective setting.
+- When experiments or pilots are generating data that needs synthesis.
+- When teams need a cadence to decide what to change and why.
+- When signals conflict or noise overwhelms decision-making.
+- Before scaling or locking in irreversible commitments.
 
 ### Derived from Canon
 This chapter is interpretive and explanatory. Its constraints and limits derive from the Canon pages below.
 
-- [Canon → Definitions](/docs/canon/definitions)
-- [Canon → Evidence logic](/docs/canon/evidence-logic)
-- [Canon → Decision theory](/docs/canon/decision-theory)
-- [Canon → Epistemic stage model](/docs/canon/epistemic-model)
+- [Canon - Definitions](/docs/canon/definitions)
+- [Canon - Evidence logic](/docs/canon/evidence-logic)
+- [Canon - Decision theory](/docs/canon/decision-theory)
+- [Canon - Epistemic stage model](/docs/canon/epistemic-model)
 
 ### Key terms (canonical)
 - Evidence
@@ -44,11 +44,10 @@ This chapter is interpretive and explanatory. Its constraints and limits derive 
 
 ### Minimal evidence expectations (non-prescriptive)
 Evidence used in this chapter should allow you to:
-- distinguish observed customer behavior from inferred intent
-- justify why a segment is prioritized over alternatives
-- state what observations would falsify the opportunity hypothesis
-- explain how customer insights constrain, rather than justify, solution choices
-
+- trace feedback signals to the assumptions they update
+- separate noise from meaningful change over time
+- explain why a refinement was made and what it changes
+- show whether the decision state should advance, pause, or reverse
 
 ![Refine Through Feedback](/img/ch18-feedback-loops-iterative-refinement.svg)
 

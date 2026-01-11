@@ -159,54 +159,64 @@ Front matter (prefatory)
 Phase 1 - Foundations
 - Chapter 1: Introduction to Innovation Maturity
 - Chapter 1: Introduction to Innovation Maturity
-  - Header contract applied: NO
-  - Canon links resolved: NO
-  - Status: PENDING
+  - Header customized per chapter: YES
+  - Header contract applied: YES
+  - Canon links resolved: YES
+  - Status: COMPLETE
 - Chapter 2: Innovation Maturity Assessment
 - Chapter 2: Innovation Maturity Assessment
-  - Header contract applied: NO
-  - Canon links resolved: NO
-  - Status: PENDING
+  - Header customized per chapter: YES
+  - Header contract applied: YES
+  - Canon links resolved: YES
+  - Status: COMPLETE
 - Chapter 3: Building an Innovation Governance Framework
 - Chapter 3: Building an Innovation Governance Framework
-  - Header contract applied: NO
-  - Canon links resolved: NO
-  - Status: PENDING
+  - Header customized per chapter: YES
+  - Header contract applied: YES
+  - Canon links resolved: YES
+  - Status: COMPLETE
 - Chapter 4: Transforming Culture and Mindset
 - Chapter 4: Transforming Culture and Mindset
-  - Header contract applied: NO
-  - Canon links resolved: NO
-  - Status: PENDING
+  - Header customized per chapter: YES
+  - Header contract applied: YES
+  - Canon links resolved: YES
+  - Status: COMPLETE
 - Chapter 5: Implementing an Agile Project Execution Framework
 - Chapter 5: Implementing an Agile Project Execution Framework
-  - Header contract applied: NO
-  - Canon links resolved: NO
-  - Status: PENDING
+  - Header customized per chapter: YES
+  - Header contract applied: YES
+  - Canon links resolved: YES
+  - Status: COMPLETE
 - Chapter 6: Defining Clear Objectives and Key Results (OKRs) to Drive Innovation
 - Chapter 6: Defining Clear Objectives and Key Results (OKRs) to Drive Innovation
-  - Header contract applied: NO
-  - Canon links resolved: NO
-  - Status: PENDING
+  - Header customized per chapter: YES
+  - Header contract applied: YES
+  - Canon links resolved: YES
+  - Status: COMPLETE
 - Chapter 7: Training in Agile and Lean Innovation
 - Chapter 7: Training in Agile and Lean Innovation
-  - Header contract applied: NO
-  - Canon links resolved: NO
-  - Status: PENDING
+  - Header customized per chapter: YES
+  - Header contract applied: YES
+  - Canon links resolved: YES
+  - Status: COMPLETE
 - Chapter 8: Putting Governance into Action: Pilots and Iterations
 - Chapter 8: Putting Governance into Action: Pilots and Iterations
-  - Header contract applied: NO
-  - Canon links resolved: NO
-  - Status: PENDING
+  - Header customized per chapter: YES
+  - Header contract applied: YES
+  - Canon links resolved: YES
+  - Status: COMPLETE
 - Chapter 9: Leadership Alignment and Expansion
 - Chapter 9: Leadership Alignment and Expansion
-  - Header contract applied: NO
-  - Canon links resolved: NO
-  - Status: PENDING
+  - Header customized per chapter: YES
+  - Header contract applied: YES
+  - Canon links resolved: YES
+  - Status: COMPLETE
 - Chapter 10: Review, Adjust, and Finalize Phase 1
 - Chapter 10: Review, Adjust, and Finalize Phase 1
-  - Header contract applied: NO
-  - Canon links resolved: NO
-  - Status: PENDING
+  - Header customized per chapter: YES
+  - Header contract applied: YES
+  - Canon links resolved: YES
+  - Status: COMPLETE
 
 Phase 2 - Discovery & Validation
 - Chapter 11: Uncovering Opportunities and Analyzing Customers
@@ -245,22 +255,27 @@ Phase 2 - Discovery & Validation
   - Canon links resolved: YES
   - Status: COMPLETE
 - Chapter 18: Feedback Loops and Iterative Refinement
+  - Header customized per chapter: YES
   - Header contract applied: YES
   - Canon links resolved: YES
   - Status: COMPLETE
 - Chapter 19: Validating the Business Model
+  - Header customized per chapter: YES
   - Header contract applied: YES
   - Canon links resolved: YES
   - Status: COMPLETE
 - Chapter 20: User Validation and Expanded Pilot Testing
+  - Header customized per chapter: YES
   - Header contract applied: YES
   - Canon links resolved: YES
   - Status: COMPLETE
 - Chapter 21: Regulatory Review and Strategic Scalability Planning
+  - Header customized per chapter: YES
   - Header contract applied: YES
   - Canon links resolved: YES
   - Status: COMPLETE
 - Chapter 22: Strategic Review and Next Steps for Validation
+  - Header customized per chapter: YES
   - Header contract applied: YES
   - Canon links resolved: YES
   - Status: COMPLETE
@@ -308,8 +323,8 @@ DONE:
 - Chapter 11 header contract applied + canon links resolved
 
 PENDING:
-- Apply Book header contract to remaining chapters (Phase 2 then Phase 1)
-- Convert "Derived from Canon" to real links for each chapter (after applying header)
+- Apply Book header contract to remaining chapters (Phase 1/Phase 2 completed)
+- Convert "Derived from Canon" to real links for each chapter (Phase 1/Phase 2 completed)
 - Book content modernization (later; not in this task)
 - ES translation (deferred)
 - Docusaurus update decision (3.7 -> 3.9) deferred until stability checkpoint

@@ -8,6 +8,47 @@ redirect_from:
   - /chapter9-leadership-alignment-expansion
 ---
 
+### What this chapter does
+- Defines leadership alignment as the governance multiplier for innovation.
+- Shows how roles, sponsorship, and cross-functional support reduce friction.
+- Connects leadership actions to evidence-based decision making.
+- Frames leadership expansion as a prerequisite for scaling.
+
+### What this chapter does not do
+- Does not replace executive accountability or strategy.
+- Does not prescribe a single leadership structure.
+- Does not guarantee alignment without consistent reinforcement.
+- Does not provide HR policy or compensation guidance.
+
+### When you should read this
+- When innovation efforts lack executive sponsorship.
+- When cross-functional coordination is weak or inconsistent.
+- When scaling governance beyond pilot teams.
+- Before entering Phase 2 execution at scale.
+
+### Derived from Canon
+This chapter is interpretive and explanatory. Its constraints and limits derive from the Canon pages below.
+
+- [Canon - Definitions](/docs/canon/definitions)
+- [Canon - Evidence logic](/docs/canon/evidence-logic)
+- [Canon - Decision theory](/docs/canon/decision-theory)
+- [Canon - Epistemic stage model](/docs/canon/epistemic-model)
+
+### Key terms (canonical)
+- Evidence
+- Evidence quality
+- Decision threshold
+- Optionality preservation
+- Strategic deferral
+- Reversibility
+
+### Minimal evidence expectations (non-prescriptive)
+Evidence used in this chapter should allow you to:
+- map leadership roles to decision rights
+- show how leadership actions change outcomes
+- document alignment signals across teams
+- justify whether leadership support is sufficient to scale
+
 ![Leading with Purpose and Reach](/img/ch9-leadership-alignment-expansion.svg)
 
 **Leading with Purpose and Reach**. *This graphic captures the essence of innovation leadership: aligning key players around shared goals while expanding the organization's influence. It reflects how the MicroCanvas&reg; Framework fosters cohesive leadership ecosystems that scale transformation effectively across teams and time*.

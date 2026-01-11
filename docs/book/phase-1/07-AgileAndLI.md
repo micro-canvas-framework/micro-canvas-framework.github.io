@@ -8,6 +8,47 @@ redirect_from:
   - /chapter7-training-agile-lean-innovation
 ---
 
+### What this chapter does
+- Defines training as the capability-building layer for agile and lean practice.
+- Shows how curriculum, cadence, and coaching create repeatable execution skills.
+- Connects training outcomes to evidence of adoption and performance.
+- Frames training as a prerequisite for sustained innovation delivery.
+
+### What this chapter does not do
+- Does not replace organizational change management.
+- Does not guarantee adoption without leadership reinforcement.
+- Does not prescribe a single training format or vendor.
+- Does not provide certified accreditation guidance.
+
+### When you should read this
+- When teams lack shared agile and lean fundamentals.
+- When execution quality varies across departments.
+- When onboarding new teams into innovation work.
+- Before scaling pilot work or governance practices.
+
+### Derived from Canon
+This chapter is interpretive and explanatory. Its constraints and limits derive from the Canon pages below.
+
+- [Canon - Definitions](/docs/canon/definitions)
+- [Canon - Evidence logic](/docs/canon/evidence-logic)
+- [Canon - Decision theory](/docs/canon/decision-theory)
+- [Canon - Epistemic stage model](/docs/canon/epistemic-model)
+
+### Key terms (canonical)
+- Evidence
+- Evidence quality
+- Decision threshold
+- Optionality preservation
+- Strategic deferral
+- Reversibility
+
+### Minimal evidence expectations (non-prescriptive)
+Evidence used in this chapter should allow you to:
+- define training objectives and expected outcomes
+- show adoption of practices in real work
+- link training to measurable performance shifts
+- justify whether additional training is required
+
 ![Building Skills for Scalable Impact](/img/ch7-training-agile-lean.svg)
 
 **Building Skills for Scalable Impact**. *This illustration represents the foundational blocks of training in agile and lean methodologies. As learners stack knowledge and practice, they ascend toward more adaptive and high-impact innovation - a key capability developed through the MicroCanvas&reg; Framework's capacity-building approach.

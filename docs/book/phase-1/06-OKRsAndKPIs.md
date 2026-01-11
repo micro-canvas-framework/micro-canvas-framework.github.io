@@ -8,6 +8,47 @@ redirect_from:
   - /chapter6-defining-clear-okrs
 ---
 
+### What this chapter does
+- Defines OKRs as the alignment mechanism for innovation strategy.
+- Shows how objectives and key results translate vision into measurable action.
+- Connects OKR progress to evidence review and decision thresholds.
+- Frames KPIs as operational signals that validate OKR outcomes.
+
+### What this chapter does not do
+- Does not provide organization-specific OKRs.
+- Does not replace governance or portfolio prioritization.
+- Does not guarantee outcomes without execution discipline.
+- Does not prescribe a single KPI dashboard or tooling stack.
+
+### When you should read this
+- When strategic objectives need measurable outcomes.
+- When teams are misaligned on priorities or success criteria.
+- When leadership needs evidence of progress across initiatives.
+- Before scaling or investing in larger innovation bets.
+
+### Derived from Canon
+This chapter is interpretive and explanatory. Its constraints and limits derive from the Canon pages below.
+
+- [Canon - Definitions](/docs/canon/definitions)
+- [Canon - Evidence logic](/docs/canon/evidence-logic)
+- [Canon - Decision theory](/docs/canon/decision-theory)
+- [Canon - Epistemic stage model](/docs/canon/epistemic-model)
+
+### Key terms (canonical)
+- Evidence
+- Evidence quality
+- Decision threshold
+- Optionality preservation
+- Strategic deferral
+- Reversibility
+
+### Minimal evidence expectations (non-prescriptive)
+Evidence used in this chapter should allow you to:
+- show how objectives map to measurable results
+- track progress against targets and timeframes
+- explain how metrics influence decisions
+- justify whether priorities should change
+
 ![Aligning Action with Ambition](/img/ch6-okrs-drive-innovation.svg)
 
 **Aligning Action with Ambition**. *This visual represents the core structure of OKRs: a single, focused Objective surrounded by measurable Key Results. The MicroCanvas&reg; Framework leverages this model to ensure innovation efforts remain purposeful, trackable, and strategically aligned from vision to execution.*
