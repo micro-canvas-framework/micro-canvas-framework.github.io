@@ -165,3 +165,45 @@ Note: `serve` does NOT take `--locale`.
 - Book content refactor: add "chapter header contract" and begin refactoring starting with selected chapter (Phase 1 Ch1 or Phase 2 Ch12)
 - ES translation: deferred until EN lock
 - IMM mapping/scoring/tools/article: deferred
+
+=====================================================================
+I. BOOK LAYER — EDITORIAL CONTRACT (LOCKED)
+=====================================================================
+
+Book chapters follow a fixed structural header that:
+- prevents semantic drift from Canon
+- clarifies epistemic intent and limits
+- standardizes reader orientation across chapters
+
+Rules:
+- Header appears immediately after front-matter
+- Uses H3 headings only
+- Identical section titles across all Book chapters
+- Book content is explanatory and non-normative
+- Canon remains the sole normative source
+
+Canonical Header Sections:
+1. What this chapter does
+2. What this chapter does not do
+3. When you should read this
+4. Derived from Canon
+5. Key terms (canonical)
+6. Minimal evidence expectations (non-prescriptive)
+
+Status: LOCKED
+
+=====================================================================
+J. BOOK CHAPTER INVENTORY & STATUS
+=====================================================================
+
+Phase 2 — Discovery & Validation
+
+- Chapter 11: Uncovering Opportunities and Analyzing Customers
+  - Header contract applied: YES
+  - Content refactored: STRUCTURE ONLY
+  - Canon alignment: DECLARED
+  - Status: COMPLETE (pilot)
+
+All other Book chapters:
+- Header contract: NOT YET APPLIED
+- Status: PENDING
