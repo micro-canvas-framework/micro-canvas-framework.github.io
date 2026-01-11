@@ -158,41 +158,51 @@ Front matter (prefatory)
 
 Phase 1 - Foundations
 - Chapter 1: Introduction to Innovation Maturity
+- Chapter 1: Introduction to Innovation Maturity
   - Header contract applied: NO
   - Canon links resolved: NO
   - Status: PENDING
+- Chapter 2: Innovation Maturity Assessment
 - Chapter 2: Innovation Maturity Assessment
   - Header contract applied: NO
   - Canon links resolved: NO
   - Status: PENDING
 - Chapter 3: Building an Innovation Governance Framework
+- Chapter 3: Building an Innovation Governance Framework
   - Header contract applied: NO
   - Canon links resolved: NO
   - Status: PENDING
+- Chapter 4: Transforming Culture and Mindset
 - Chapter 4: Transforming Culture and Mindset
   - Header contract applied: NO
   - Canon links resolved: NO
   - Status: PENDING
 - Chapter 5: Implementing an Agile Project Execution Framework
+- Chapter 5: Implementing an Agile Project Execution Framework
   - Header contract applied: NO
   - Canon links resolved: NO
   - Status: PENDING
+- Chapter 6: Defining Clear Objectives and Key Results (OKRs) to Drive Innovation
 - Chapter 6: Defining Clear Objectives and Key Results (OKRs) to Drive Innovation
   - Header contract applied: NO
   - Canon links resolved: NO
   - Status: PENDING
 - Chapter 7: Training in Agile and Lean Innovation
+- Chapter 7: Training in Agile and Lean Innovation
   - Header contract applied: NO
   - Canon links resolved: NO
   - Status: PENDING
+- Chapter 8: Putting Governance into Action: Pilots and Iterations
 - Chapter 8: Putting Governance into Action: Pilots and Iterations
   - Header contract applied: NO
   - Canon links resolved: NO
   - Status: PENDING
 - Chapter 9: Leadership Alignment and Expansion
+- Chapter 9: Leadership Alignment and Expansion
   - Header contract applied: NO
   - Canon links resolved: NO
   - Status: PENDING
+- Chapter 10: Review, Adjust, and Finalize Phase 1
 - Chapter 10: Review, Adjust, and Finalize Phase 1
   - Header contract applied: NO
   - Canon links resolved: NO
@@ -200,53 +210,54 @@ Phase 1 - Foundations
 
 Phase 2 - Discovery & Validation
 - Chapter 11: Uncovering Opportunities and Analyzing Customers
+- Chapter 11: Uncovering Opportunities and Analyzing Customers
   - Header contract applied: YES
   - Canon links resolved: YES
   - Status: COMPLETE (pilot)
 - Chapter 12: Defining the Problem and Setting Strategic Objectives
-  - Header contract applied: NO
-  - Canon links resolved: NO
-  - Status: PENDING
+  - Header contract applied: YES
+  - Canon links resolved: YES
+  - Status: COMPLETE
 - Chapter 13: Exploring Alternative Solutions, Unique Advantages and Product Features
-  - Header contract applied: NO
-  - Canon links resolved: NO
-  - Status: PENDING
+  - Header contract applied: YES
+  - Canon links resolved: YES
+  - Status: COMPLETE
 - Chapter 14: Transformative Purpose
-  - Header contract applied: NO
-  - Canon links resolved: NO
-  - Status: PENDING
+  - Header contract applied: YES
+  - Canon links resolved: YES
+  - Status: COMPLETE
 - Chapter 15: Marketing, Engagement and Sales
-  - Header contract applied: NO
-  - Canon links resolved: NO
-  - Status: PENDING
+  - Header contract applied: YES
+  - Canon links resolved: YES
+  - Status: COMPLETE
 - Chapter 16: User Stories and Rapid Prototyping
-  - Header contract applied: NO
-  - Canon links resolved: NO
-  - Status: PENDING
+  - Header contract applied: YES
+  - Canon links resolved: YES
+  - Status: COMPLETE
 - Chapter 17: Experimentation and Testing
-  - Header contract applied: NO
-  - Canon links resolved: NO
-  - Status: PENDING
+  - Header contract applied: YES
+  - Canon links resolved: YES
+  - Status: COMPLETE
 - Chapter 18: Feedback Loops and Iterative Refinement
-  - Header contract applied: NO
-  - Canon links resolved: NO
-  - Status: PENDING
+  - Header contract applied: YES
+  - Canon links resolved: YES
+  - Status: COMPLETE
 - Chapter 19: Validating the Business Model
-  - Header contract applied: NO
-  - Canon links resolved: NO
-  - Status: PENDING
+  - Header contract applied: YES
+  - Canon links resolved: YES
+  - Status: COMPLETE
 - Chapter 20: User Validation and Expanded Pilot Testing
-  - Header contract applied: NO
-  - Canon links resolved: NO
-  - Status: PENDING
+  - Header contract applied: YES
+  - Canon links resolved: YES
+  - Status: COMPLETE
 - Chapter 21: Regulatory Review and Strategic Scalability Planning
-  - Header contract applied: NO
-  - Canon links resolved: NO
-  - Status: PENDING
+  - Header contract applied: YES
+  - Canon links resolved: YES
+  - Status: COMPLETE
 - Chapter 22: Strategic Review and Next Steps for Validation
-  - Header contract applied: NO
-  - Canon links resolved: NO
-  - Status: PENDING
+  - Header contract applied: YES
+  - Canon links resolved: YES
+  - Status: COMPLETE
 
 ## 9) Local run commands (correct usage)
 - Dev server (interactive): `npm run start -- --port 3000`

@@ -8,6 +8,48 @@ redirect_from:
   - /chapter15-marketing-engagement-sales
 ---
 
+### What this chapter does
+- Explains how opportunities are uncovered through structured observation of markets and customers, rather than ideation alone.
+- Shows how customer analysis supports epistemic clarification by making assumptions explicit and testable.
+- Introduces TAM, SAM, and SOM as scoping lenses, not forecasts.
+- Connects customer understanding to later problem definition and decision thresholds.
+
+### What this chapter does not do
+- Does not provide a ready-made customer research template.
+- Does not guarantee that identified opportunities are viable or valuable.
+- Does not replace evidence required in later stages of Discovery and Validation.
+- Does not prescribe a single segmentation or persona methodology.
+
+### When you should read this
+- When early signals suggest unmet needs but causal clarity is low.
+- When multiple customer segments appear plausible and require prioritization.
+- When teams are acting on assumptions rather than observable behavior.
+- Before formal problem definition and objective setting.
+
+### Derived from Canon
+This chapter is interpretive and explanatory. Its constraints and limits derive from the Canon pages below.
+
+- [Canon → Definitions](/docs/canon/definitions)
+- [Canon → Evidence logic](/docs/canon/evidence-logic)
+- [Canon → Decision theory](/docs/canon/decision-theory)
+- [Canon → Epistemic stage model](/docs/canon/epistemic-model)
+
+### Key terms (canonical)
+- Evidence
+- Evidence quality
+- Decision threshold
+- Optionality preservation
+- Strategic deferral
+- Reversibility
+
+### Minimal evidence expectations (non-prescriptive)
+Evidence used in this chapter should allow you to:
+- distinguish observed customer behavior from inferred intent
+- justify why a segment is prioritized over alternatives
+- state what observations would falsify the opportunity hypothesis
+- explain how customer insights constrain, rather than justify, solution choices
+
+
 ![From Message to Market](/img/ch15-marketing-engagement-sales.svg)
 
 **From Message to Market**. *This illustration captures the key drivers of innovation tractionstrategic marketing, authentic engagement, and effective sales. Aligned with the MicroCanvas&reg; Framework, these components ensure that solutions not only meet user needs but also generate measurable adoption and value*.
