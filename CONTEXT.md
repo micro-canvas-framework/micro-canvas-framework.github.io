@@ -150,6 +150,8 @@ Note: `serve` does NOT take `--locale`.
 - bb16b65 docs(book): add phase landing pages and normalize book categories
 - b9c4556 chore(book): normalize phase chapter ordering and metadata
 - 9cad374 fix(route): resolve frontmatter redirect collisions on windows
+- b1aecc3 docs(book): apply header contract to chapter 11 and update CONTEXT memory
+- a686c52 docs(book): link chapter 11 header to canon sources
 - bc657b7 chore(cleanup): remove demo blog posts
 - dacaa29 chore(cleanup): remove default markdown page
 - 9fc1767 chore(cleanup): remove unused static images
