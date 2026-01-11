@@ -9,22 +9,22 @@ redirect_from:
 ---
 
 ### What this chapter does
-- Explains how opportunities are uncovered through structured observation of markets and customers, rather than ideation alone.
-- Shows how customer analysis supports epistemic clarification by making assumptions explicit and testable.
-- Introduces TAM, SAM, and SOM as scoping lenses, not forecasts.
-- Connects customer understanding to later problem definition and decision thresholds.
+- Explains marketing, engagement, and sales as evidence-generating systems rather than promotion activities.
+- Shows how signals from acquisition, activation, and conversion constrain claims about demand and value.
+- Connects go-to-market actions to falsifiable assumptions about customers, channels, and willingness to pay.
+- Clarifies how early sales and engagement data inform decision thresholds in Discovery and Validation.
 
 ### What this chapter does not do
-- Does not provide a ready-made customer research template.
-- Does not guarantee that identified opportunities are viable or valuable.
-- Does not replace evidence required in later stages of Discovery and Validation.
-- Does not prescribe a single segmentation or persona methodology.
+- Does not provide a complete marketing playbook or channel checklist.
+- Does not assume that traction implies product-market fit.
+- Does not replace problem validation, solution testing, or business model evidence.
+- Does not optimize for growth before epistemic clarity is established.
 
 ### When you should read this
-- When early signals suggest unmet needs but causal clarity is low.
-- When multiple customer segments appear plausible and require prioritization.
-- When teams are acting on assumptions rather than observable behavior.
-- Before formal problem definition and objective setting.
+- When you need evidence that customers will engage, not just express interest.
+- When multiple channels appear viable and require disciplined testing.
+- When early traction exists but its meaning is ambiguous.
+- Before committing to scale-up, automation, or paid acquisition.
 
 ### Derived from Canon
 This chapter is interpretive and explanatory. Its constraints and limits derive from the Canon pages below.
@@ -38,17 +38,16 @@ This chapter is interpretive and explanatory. Its constraints and limits derive 
 - Evidence
 - Evidence quality
 - Decision threshold
-- Optionality preservation
-- Strategic deferral
 - Reversibility
+- Optionality preservation
+- Signal vs noise
 
 ### Minimal evidence expectations (non-prescriptive)
 Evidence used in this chapter should allow you to:
-- distinguish observed customer behavior from inferred intent
-- justify why a segment is prioritized over alternatives
-- state what observations would falsify the opportunity hypothesis
-- explain how customer insights constrain, rather than justify, solution choices
-
+- distinguish observed engagement from stated intent
+- compare channels using comparable, decision-relevant metrics
+- explain what would invalidate a go-to-market assumption
+- justify why scaling a channel is reversible or intentionally irreversible
 
 ![From Message to Market](/img/ch15-marketing-engagement-sales.svg)
 
