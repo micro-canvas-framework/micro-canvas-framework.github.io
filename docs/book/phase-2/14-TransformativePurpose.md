@@ -9,22 +9,22 @@ redirect_from:
 ---
 
 ### What this chapter does
-- Explains how opportunities are uncovered through structured observation of markets and customers, rather than ideation alone.
-- Shows how customer analysis supports epistemic clarification by making assumptions explicit and testable.
-- Introduces TAM, SAM, and SOM as scoping lenses, not forecasts.
-- Connects customer understanding to later problem definition and decision thresholds.
+- Explains how “purpose” functions as a constraint system: it narrows what solutions are acceptable and what outcomes matter.
+- Distinguishes aspirational narratives from testable strategic intent by forcing purpose statements to imply observable commitments.
+- Shows how purpose interacts with evidence: purpose can guide hypotheses, but cannot substitute for validation.
+- Connects purpose to decision thresholds by clarifying what counts as success, harm, or unacceptable trade-offs.
 
 ### What this chapter does not do
-- Does not provide a ready-made customer research template.
-- Does not guarantee that identified opportunities are viable or valuable.
-- Does not replace evidence required in later stages of Discovery and Validation.
-- Does not prescribe a single segmentation or persona methodology.
+- Does not claim that purpose alone generates market demand or adoption.
+- Does not prescribe a single “mission/vision” format or branding exercise.
+- Does not guarantee that a purpose statement is ethical, feasible, or valuable without evidence and governance.
+- Does not replace customer research, problem analysis, or business model validation.
 
 ### When you should read this
-- When early signals suggest unmet needs but causal clarity is low.
-- When multiple customer segments appear plausible and require prioritization.
-- When teams are acting on assumptions rather than observable behavior.
-- Before formal problem definition and objective setting.
+- After you have a working problem statement and early solution directions, but before scaling commitments.
+- When teams are optimizing metrics without clarity on intended value, impact, or trade-offs.
+- When multiple stakeholders disagree on “why this matters” and need an explicit alignment artifact.
+- When you need to define non-negotiables (e.g., safety, equity, compliance) that constrain solution design.
 
 ### Derived from Canon
 This chapter is interpretive and explanatory. Its constraints and limits derive from the Canon pages below.
@@ -36,19 +36,18 @@ This chapter is interpretive and explanatory. Its constraints and limits derive 
 
 ### Key terms (canonical)
 - Evidence
-- Evidence quality
 - Decision threshold
+- Governance boundary
+- Misuse boundary
 - Optionality preservation
-- Strategic deferral
-- Reversibility
+- Termination logic
 
 ### Minimal evidence expectations (non-prescriptive)
 Evidence used in this chapter should allow you to:
-- distinguish observed customer behavior from inferred intent
-- justify why a segment is prioritized over alternatives
-- state what observations would falsify the opportunity hypothesis
-- explain how customer insights constrain, rather than justify, solution choices
-
+- show how a purpose claim constrains choices (what is ruled out, not only what is desired)
+- state which outcomes are intended vs acceptable side-effects
+- identify trade-offs and define what evidence would indicate harm or mission drift
+- justify continued investment when metrics improve but purpose-aligned outcomes do not
 
 ![Lighting the Way Forward](/img/ch14-transformative-purpose.svg)
 
