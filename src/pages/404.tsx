@@ -1,10 +1,14 @@
 import React from 'react';
 import Layout from '@theme/Layout';
+import Head from '@docusaurus/Head';
 import Link from '@docusaurus/Link';
 
 const NotFoundPage: React.FC = () => {
     return (
-        <Layout title="404 — Outside the evidence boundary">
+        <Layout>
+            <Head>
+                <title>404 - Outside the evidence boundary</title>
+            </Head>
             <main className="container margin-vert--xl">
                 <div className="row">
                     <div className="col col--8 col--offset-2">

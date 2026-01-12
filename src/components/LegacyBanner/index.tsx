@@ -1,12 +1,13 @@
 import React from 'react';
 import Link from '@docusaurus/Link';
-import { useActiveVersion } from '@docusaurus/plugin-content-docs/client';
+import { useDoc } from '@docusaurus/plugin-content-docs/client';
 import styles from './styles.module.css';
 
 const LegacyBanner: React.FC = () => {
-    const version = useActiveVersion();
+    const doc = useDoc();
+    const version = doc?.metadata?.version;
 
-    if (!version || version.name === 'current') {
+    if (typeof version !== 'string' || version === 'current') {
         return null;
     }
 
