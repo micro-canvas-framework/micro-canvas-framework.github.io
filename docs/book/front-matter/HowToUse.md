@@ -57,7 +57,7 @@ is interpreted and applied throughout the Book.
 :::tip[Figure 1 - MCF 2.2 System Map (Canonical + Explanatory Layers)]
 
 ```mermaid
-%%{init: {'theme':'base','themeVariables': {'fontSize':'24px'}, 'flowchart': {'nodeSpacing': 70, 'rankSpacing': 90}} }%%
+%%{init: {'theme':'base','themeVariables': {'fontSize':'28px'}, 'flowchart': {'nodeSpacing': 70, 'rankSpacing': 90}} }%%
 flowchart TB
 
 %% ---- Shared styling ----
