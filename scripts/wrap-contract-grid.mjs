@@ -65,41 +65,61 @@ function findAdmonitionBlock(lines, startIndex, heading) {
 }
 
 function buildGrid(blocks) {
-  const rows = [
-    [blocks[0], blocks[1]],
-    [blocks[2], blocks[3]],
-    [blocks[4], blocks[5]],
-  ];
-
   const out = [];
   out.push('<div className="mcf-contract-grid">', "");
 
-  for (const row of rows) {
-    out.push('<div className="row">');
-    for (const block of row) {
-      const normalizedLines = [...block.lines];
-      const desiredType = typeByHeading[block.heading];
-      if (desiredType) {
-        normalizedLines[0] = `:::${desiredType} ${block.heading}`;
-      }
-
-      out.push('  <div className="col col--6">', "");
-      out.push(...normalizedLines, "");
-      out.push("  </div>");
+  for (const block of blocks) {
+    const normalizedLines = [...block.lines];
+    const desiredType = typeByHeading[block.heading];
+    if (desiredType) {
+      normalizedLines[0] = `:::${desiredType} ${block.heading}`;
     }
-    out.push("</div>", "");
+    out.push(...normalizedLines, "");
   }
 
   out.push("</div>");
   return out;
 }
 
+function normalizeMermaidInit(lines) {
+  let changed = false;
+  const next = [];
+  for (const line of lines) {
+    if (/^%%\{init:/.test(line.trim())) {
+      changed = true;
+      continue;
+    }
+    next.push(line);
+  }
+  return { lines: next, changed };
+}
+
 function wrapFile(filePath) {
   const original = fs.readFileSync(filePath, "utf8");
   const lines = original.split(/\r?\n/);
 
+  let fmEnd = -1;
+  if (lines[0] === "---") {
+    for (let i = 1; i < lines.length; i += 1) {
+      if (lines[i] === "---") {
+        fmEnd = i;
+        break;
+      }
+    }
+  }
+
+  let searchStart = 0;
+  if (fmEnd !== -1) {
+    for (let i = fmEnd + 1; i < lines.length; i += 1) {
+      if (lines[i].trim() !== "") {
+        searchStart = i;
+        break;
+      }
+    }
+  }
+
   const blocks = [];
-  let cursor = 0;
+  let cursor = searchStart;
   for (const heading of headingOrder) {
     const block = findAdmonitionBlock(lines, cursor, heading);
     if (!block) {
@@ -109,13 +129,28 @@ function wrapFile(filePath) {
     cursor = block.end + 1;
   }
 
-  const first = blocks[0].start;
-  const last = blocks[blocks.length - 1].end;
-  const gridLines = buildGrid(blocks);
-  const nextLines = [...lines.slice(0, first), ...gridLines, ...lines.slice(last + 1)];
-  const next = nextLines.join("\n");
+  let nextLines = [...lines];
 
-  if (next === original) {
+  if (blocks.length === headingOrder.length) {
+    const first = searchStart;
+    let last = blocks[blocks.length - 1].end;
+    while (last + 1 < lines.length) {
+      const nextLine = lines[last + 1];
+      if (nextLine.trim() === "" || /^\s*<\/div>\s*$/.test(nextLine)) {
+        last += 1;
+        continue;
+      }
+      break;
+    }
+    const gridLines = buildGrid(blocks);
+    nextLines = [...lines.slice(0, first), ...gridLines, ...lines.slice(last + 1)];
+  }
+
+  const mermaidNormalized = normalizeMermaidInit(nextLines);
+  const next = mermaidNormalized.lines.join("\n");
+  const changed = next !== original || mermaidNormalized.changed;
+
+  if (!changed) {
     return { changed: false };
   }
 

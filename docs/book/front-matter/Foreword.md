@@ -11,23 +11,12 @@ redirect_from:
 
 <div className="mcf-contract-grid">
 
-<div className="row">
-  <div className="col col--6">
-
-<div className="mcf-contract-grid">
-
-<div className="row">
-  <div className="col col--6">
-
 :::info What this chapter does
 - Introduces the epistemic stance of MCF 2.2 before any operational material.
 - Clarifies the separation between **Canon** (normative) and **Book** (explanatory).
 - Frames innovation as a system of decisions grounded in evidence and governance.
 - Sets expectations about rigor, constraints, and responsibility.
 :::
-
-  </div>
-  <div className="col col--6">
 
 :::warning What this chapter does not do
 - Does not define rules, stages, or decision thresholds.
@@ -36,20 +25,11 @@ redirect_from:
 - Does not promise outcomes or prescribe success.
 :::
 
-  </div>
-</div>
-
-<div className="row">
-  <div className="col col--6">
-
 :::tip When you should read this
 - Before engaging with any phase-based Book chapters.
 - When orienting new readers to the intent and limits of MCF 2.2.
 - When clarifying whether a page is explanatory or normative.
 :::
-
-  </div>
-  <div className="col col--6">
 
 :::note Derived from Canon
 This foreword is constrained by the following Canon sources:
@@ -57,12 +37,6 @@ This foreword is constrained by the following Canon sources:
 - [Canon → Introduction](/docs/canon/_intro)
 - [Canon → Definitions](/docs/canon/definitions)
 :::
-
-  </div>
-</div>
-
-<div className="row">
-  <div className="col col--6">
 
 :::info Key terms (canonical)
 - Canon
@@ -72,24 +46,12 @@ This foreword is constrained by the following Canon sources:
 - Governance
 :::
 
-  </div>
-  <div className="col col--6">
-
 :::warning Minimal evidence expectations (non-prescriptive)
 This chapter does not introduce evidence requirements. It exists solely to
 establish orientation and reading discipline.
 :::
 
-  </div>
 </div>
-
-</div>
-
-  </div>
-</div>
-
-</div>
-
 Innovation is often treated as a moment of inspiration. The MicroCanvas
 Framework treats it as a **disciplined system of decisions**. MCF 2.2 brings
 that system into focus by separating what is authoritative (**Canon**) from

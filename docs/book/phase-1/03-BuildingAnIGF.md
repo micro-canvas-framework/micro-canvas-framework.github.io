@@ -10,23 +10,12 @@ redirect_from:
 
 <div className="mcf-contract-grid">
 
-<div className="row">
-  <div className="col col--6">
-
-<div className="mcf-contract-grid">
-
-<div className="row">
-  <div className="col col--6">
-
 :::info What this chapter does
 - Defines governance as the decision structure that guides innovation work.
 - Shows how roles, criteria, and checkpoints reduce execution risk.
 - Connects governance to evidence standards and strategic alignment.
 - Frames governance as a prerequisite for sustained innovation.
 :::
-
-  </div>
-  <div className="col col--6">
 
 :::warning What this chapter does not do
 - Does not provide a one-size governance template.
@@ -35,21 +24,12 @@ redirect_from:
 - Does not prescribe specific tooling or meeting cadences.
 :::
 
-  </div>
-</div>
-
-<div className="row">
-  <div className="col col--6">
-
 :::tip When you should read this
 - When innovation decisions are slow, inconsistent, or opaque.
 - When roles and responsibilities are unclear across teams.
 - When governance needs to align with strategic objectives.
 - Before scaling innovation initiatives across the organization.
 :::
-
-  </div>
-  <div className="col col--6">
 
 :::note Derived from Canon
 This chapter is interpretive and explanatory. Its constraints and limits derive from the Canon pages below.
@@ -60,12 +40,6 @@ This chapter is interpretive and explanatory. Its constraints and limits derive 
 - [Canon - Epistemic stage model](/docs/canon/epistemic-model)
 :::
 
-  </div>
-</div>
-
-<div className="row">
-  <div className="col col--6">
-
 :::info Key terms (canonical)
 - Evidence
 - Evidence quality
@@ -75,9 +49,6 @@ This chapter is interpretive and explanatory. Its constraints and limits derive 
 - Reversibility
 :::
 
-  </div>
-  <div className="col col--6">
-
 :::warning Minimal evidence expectations (non-prescriptive)
 Evidence used in this chapter should allow you to:
 - document governance roles and decision rights
@@ -86,16 +57,7 @@ Evidence used in this chapter should allow you to:
 - justify which decisions can advance, pause, or stop work
 :::
 
-  </div>
 </div>
-
-</div>
-
-  </div>
-</div>
-
-</div>
-
 ## Chapter 3: Building an Innovation Governance Framework (IGF)
 
 ![Structuring Innovation for Impact](/img/ch3-innovation-governance-framework.svg)

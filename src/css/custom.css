@@ -110,32 +110,27 @@
     line-height: 1.45;
 }
 
-/* MCF Book chapter contract — card/grid styling */
-.mcf-contract-grid .row {
-    margin-top: 0.75rem;
-    margin-bottom: 0.75rem;
+/* Contract header cards: responsive 2x2 */
+.mcf-contract-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem;
+    align-items: stretch;
 }
 
-.mcf-contract-grid .col {
+.mcf-contract-grid > :global(.admonition) {
+    height: 100%;
+    margin: 0;
     display: flex;
+    flex-direction: column;
 }
 
-.mcf-contract-grid .theme-admonition {
-    width: 100%;
-    border-radius: 18px;
-    border: 1px solid var(--ifm-toc-border-color);
-    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
-    padding: 0.75rem 0.9rem;
+.mcf-contract-grid > :global(.admonition) :global(.admonition-content) {
+    flex: 1;
 }
 
-.mcf-contract-grid .theme-admonition > div {
-    width: 100%;
-}
-
-.mcf-contract-grid .theme-admonition-title {
-    font-weight: 650;
-}
-
-.mcf-contract-grid .theme-admonition-content {
-    margin-top: 0.25rem;
+@media (max-width: 996px) {
+    .mcf-contract-grid {
+        grid-template-columns: 1fr;
+    }
 }

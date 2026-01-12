@@ -10,23 +10,12 @@ redirect_from:
 
 <div className="mcf-contract-grid">
 
-<div className="row">
-  <div className="col col--6">
-
-<div className="mcf-contract-grid">
-
-<div className="row">
-  <div className="col col--6">
-
 :::info What this chapter does
 - Explains experimentation as a controlled method for reducing epistemic uncertainty.
 - Shows how tests generate decision-relevant evidence rather than confirmation.
 - Clarifies the relationship between hypotheses, experiments, and falsification.
 - Connects experimentation outcomes to decision thresholds and progression rules.
 :::
-
-  </div>
-  <div className="col col--6">
 
 :::warning What this chapter does not do
 - Does not guarantee positive results or validation of a solution.
@@ -35,21 +24,12 @@ redirect_from:
 - Does not treat experiments as success metrics rather than evidence mechanisms.
 :::
 
-  </div>
-</div>
-
-<div className="row">
-  <div className="col col--6">
-
 :::tip When you should read this
 - When assumptions require validation under controlled conditions.
 - When competing hypotheses must be compared objectively.
 - When teams risk confusing activity with learning.
 - Before committing resources to scaling or irreversible decisions.
 :::
-
-  </div>
-  <div className="col col--6">
 
 :::note Derived from Canon
 This chapter is interpretive and explanatory. Its constraints and limits derive from the Canon pages below.
@@ -60,12 +40,6 @@ This chapter is interpretive and explanatory. Its constraints and limits derive 
 - [Canon → Epistemic stage model](/docs/canon/epistemic-model)
 :::
 
-  </div>
-</div>
-
-<div className="row">
-  <div className="col col--6">
-
 :::info Key terms (canonical)
 - Evidence
 - Hypothesis
@@ -75,9 +49,6 @@ This chapter is interpretive and explanatory. Its constraints and limits derive 
 - Optionality preservation
 :::
 
-  </div>
-  <div className="col col--6">
-
 :::warning Minimal evidence expectations (non-prescriptive)
 Evidence used in this chapter should allow you to:
 - state which hypothesis an experiment is testing
@@ -86,16 +57,7 @@ Evidence used in this chapter should allow you to:
 - justify whether a decision state should change based on results
 :::
 
-  </div>
 </div>
-
-</div>
-
-  </div>
-</div>
-
-</div>
-
 ![Test, Learn, Adapt](/img/ch17-experimentation-testing.svg)
 
 **Test, Learn, Adapt**. *This graphic represents a key pillar of the MicroCanvas&reg; Framework: structured experimentation and measurable testing. It empowers teams to de-risk innovation through small-scale trials and data-informed refinements, accelerating the path to viable solutions*.

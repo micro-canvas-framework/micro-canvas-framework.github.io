@@ -10,23 +10,12 @@ redirect_from:
 
 <div className="mcf-contract-grid">
 
-<div className="row">
-  <div className="col col--6">
-
-<div className="mcf-contract-grid">
-
-<div className="row">
-  <div className="col col--6">
-
 :::info What this chapter does
 - Frames regulatory review as evidence-gathering for legal and compliance constraints.
 - Shows how to assess gaps, prioritize remediation, and document compliance actions.
 - Connects scalability planning to decision thresholds and risk management.
 - Aligns growth roadmaps with regulatory timelines and obligations.
 :::
-
-  </div>
-  <div className="col col--6">
 
 :::warning What this chapter does not do
 - Does not provide legal advice or jurisdiction-specific guidance.
@@ -35,21 +24,12 @@ redirect_from:
 - Does not replace governance decisions or executive accountability.
 :::
 
-  </div>
-</div>
-
-<div className="row">
-  <div className="col col--6">
-
 :::tip When you should read this
 - When pilots indicate readiness but compliance requirements are unclear.
 - When scaling requires regulatory approvals or operational audits.
 - When risk exposure must be assessed before expansion.
 - Before committing to irreversible market entry or rollout.
 :::
-
-  </div>
-  <div className="col col--6">
 
 :::note Derived from Canon
 This chapter is interpretive and explanatory. Its constraints and limits derive from the Canon pages below.
@@ -60,12 +40,6 @@ This chapter is interpretive and explanatory. Its constraints and limits derive 
 - [Canon - Epistemic stage model](/docs/canon/epistemic-model)
 :::
 
-  </div>
-</div>
-
-<div className="row">
-  <div className="col col--6">
-
 :::info Key terms (canonical)
 - Evidence
 - Evidence quality
@@ -75,9 +49,6 @@ This chapter is interpretive and explanatory. Its constraints and limits derive 
 - Reversibility
 :::
 
-  </div>
-  <div className="col col--6">
-
 :::warning Minimal evidence expectations (non-prescriptive)
 Evidence used in this chapter should allow you to:
 - identify the compliance assumptions being tested or verified
@@ -86,16 +57,7 @@ Evidence used in this chapter should allow you to:
 - justify whether the decision state should advance, pause, or defer
 :::
 
-  </div>
 </div>
-
-</div>
-
-  </div>
-</div>
-
-</div>
-
 After successfully conducting expanded pilot tests (Chapter 18), you must ensure your solution complies with relevant laws and regulations. At the same time, you need to develop a strategic plan for scaling sustainably. This chapter walks you through the essential steps of a regulatory review and outlines how to align your scalability roadmap with legal frameworks and long-term organizational goals.
 
 ## 1. Introduction

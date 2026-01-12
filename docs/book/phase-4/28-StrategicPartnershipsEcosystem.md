@@ -10,23 +10,12 @@ redirect_from:
 
 <div className="mcf-contract-grid">
 
-<div className="row">
-  <div className="col col--6">
-
-<div className="mcf-contract-grid">
-
-<div className="row">
-  <div className="col col--6">
-
 :::info What this chapter does
 - Defines partnerships as leverage for scale.
 - Shows how ecosystem integration reduces friction.
 - Connects partner choices to evidence thresholds.
 - Frames partnerships as strategic commitments.
 :::
-
-  </div>
-  <div className="col col--6">
 
 :::warning What this chapter does not do
 - Does not guarantee partner performance.
@@ -35,21 +24,12 @@ redirect_from:
 - Does not treat partnerships as optional in all cases.
 :::
 
-  </div>
-</div>
-
-<div className="row">
-  <div className="col col--6">
-
 :::tip When you should read this
 - When scale depends on external capabilities.
 - When distribution requires partners.
 - When integration risk must be managed.
 - Before committing to ecosystem expansion.
 :::
-
-  </div>
-  <div className="col col--6">
 
 :::note Derived from Canon
 This chapter is interpretive and explanatory. Its constraints and limits derive from the Canon pages below.
@@ -60,12 +40,6 @@ This chapter is interpretive and explanatory. Its constraints and limits derive 
 - [Canon - Epistemic stage model](/docs/canon/epistemic-model)
 :::
 
-  </div>
-</div>
-
-<div className="row">
-  <div className="col col--6">
-
 :::info Key terms (canonical)
 - Evidence
 - Evidence quality
@@ -75,9 +49,6 @@ This chapter is interpretive and explanatory. Its constraints and limits derive 
 - Reversibility
 :::
 
-  </div>
-  <div className="col col--6">
-
 :::warning Minimal evidence expectations (non-prescriptive)
 Evidence used in this chapter should allow you to:
 - document partnership assumptions and risks
@@ -86,16 +57,7 @@ Evidence used in this chapter should allow you to:
 - justify whether to commit or defer
 :::
 
-  </div>
 </div>
-
-</div>
-
-  </div>
-</div>
-
-</div>
-
 Strategic partnerships and ecosystem integration extend capability, reach, and
 resilience. This chapter explains how to interpret partnerships in MCF 2.2 as
 evidence-backed commitments, not as shortcuts to scale.

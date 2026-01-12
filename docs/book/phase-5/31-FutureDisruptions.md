@@ -10,23 +10,12 @@ redirect_from:
 
 <div className="mcf-contract-grid">
 
-<div className="row">
-  <div className="col col--6">
-
-<div className="mcf-contract-grid">
-
-<div className="row">
-  <div className="col col--6">
-
 :::info What this chapter does
 - Defines adaptive strategy as resilience planning.
 - Shows how disruption signals inform decisions.
 - Connects foresight to evidence thresholds.
 - Frames adaptability as ongoing readiness.
 :::
-
-  </div>
-  <div className="col col--6">
 
 :::warning What this chapter does not do
 - Does not predict specific disruptions.
@@ -35,21 +24,12 @@ redirect_from:
 - Does not provide market forecasts.
 :::
 
-  </div>
-</div>
-
-<div className="row">
-  <div className="col col--6">
-
 :::tip When you should read this
 - When market volatility increases.
 - When long-term bets require resilience.
 - When signals suggest structural change.
 - Before committing to irreversible expansion.
 :::
-
-  </div>
-  <div className="col col--6">
 
 :::note Derived from Canon
 This chapter is interpretive and explanatory. Its constraints and limits derive from the Canon pages below.
@@ -60,12 +40,6 @@ This chapter is interpretive and explanatory. Its constraints and limits derive 
 - [Canon - Epistemic stage model](/docs/canon/epistemic-model)
 :::
 
-  </div>
-</div>
-
-<div className="row">
-  <div className="col col--6">
-
 :::info Key terms (canonical)
 - Evidence
 - Evidence quality
@@ -75,9 +49,6 @@ This chapter is interpretive and explanatory. Its constraints and limits derive 
 - Reversibility
 :::
 
-  </div>
-  <div className="col col--6">
-
 :::warning Minimal evidence expectations (non-prescriptive)
 Evidence used in this chapter should allow you to:
 - document disruption signals and scenarios
@@ -86,16 +57,7 @@ Evidence used in this chapter should allow you to:
 - justify whether to proceed or defer
 :::
 
-  </div>
 </div>
-
-</div>
-
-  </div>
-</div>
-
-</div>
-
 Anticipating disruptions is an evidence exercise, not a prediction exercise.
 This chapter explains how to interpret adaptive strategy in MCF 2.2 and how to
 respond to weak signals without overreacting.

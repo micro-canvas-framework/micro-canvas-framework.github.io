@@ -10,23 +10,12 @@ redirect_from:
 
 <div className="mcf-contract-grid">
 
-<div className="row">
-  <div className="col col--6">
-
-<div className="mcf-contract-grid">
-
-<div className="row">
-  <div className="col col--6">
-
 :::info What this chapter does
 - Frames business model validation as evidence gathering for revenue, cost, and channel assumptions.
 - Shows how hypotheses are prioritized and tested before scale commitments.
 - Connects financial feasibility and product-market fit to decision thresholds.
 - Positions iteration as a response to evidence, not optimism.
 :::
-
-  </div>
-  <div className="col col--6">
 
 :::warning What this chapter does not do
 - Does not guarantee viability, profitability, or market adoption.
@@ -35,21 +24,12 @@ redirect_from:
 - Does not treat model testing as a substitute for user validation.
 :::
 
-  </div>
-</div>
-
-<div className="row">
-  <div className="col col--6">
-
 :::tip When you should read this
 - When core business assumptions need proof before scaling.
 - When pricing, cost structure, or channels are still untested.
 - When leadership needs evidence to approve investment.
 - Before committing to irreversible expansion steps.
 :::
-
-  </div>
-  <div className="col col--6">
 
 :::note Derived from Canon
 This chapter is interpretive and explanatory. Its constraints and limits derive from the Canon pages below.
@@ -60,12 +40,6 @@ This chapter is interpretive and explanatory. Its constraints and limits derive 
 - [Canon - Epistemic stage model](/docs/canon/epistemic-model)
 :::
 
-  </div>
-</div>
-
-<div className="row">
-  <div className="col col--6">
-
 :::info Key terms (canonical)
 - Evidence
 - Evidence quality
@@ -75,9 +49,6 @@ This chapter is interpretive and explanatory. Its constraints and limits derive 
 - Reversibility
 :::
 
-  </div>
-  <div className="col col--6">
-
 :::warning Minimal evidence expectations (non-prescriptive)
 Evidence used in this chapter should allow you to:
 - show which business model assumptions are being tested
@@ -86,16 +57,7 @@ Evidence used in this chapter should allow you to:
 - justify whether the decision state should advance, pause, or pivot
 :::
 
-  </div>
 </div>
-
-</div>
-
-  </div>
-</div>
-
-</div>
-
 ![Test Before You Build](/img/ch19-validating-business-model.svg)
 
 **Test Before You Build**. *This visual captures the importance of validating your business model early and iteratively. Using structured experimentation and evidence, the MicroCanvas&reg; Framework helps teams reduce risk and confirm real-world viability before scaling*.

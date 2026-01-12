@@ -10,23 +10,12 @@ redirect_from:
 
 <div className="mcf-contract-grid">
 
-<div className="row">
-  <div className="col col--6">
-
-<div className="mcf-contract-grid">
-
-<div className="row">
-  <div className="col col--6">
-
 :::info What this chapter does
 - Frames strategic review as a consolidation of evidence across prior validation steps.
 - Shows how to evaluate outcomes against objectives and decision thresholds.
 - Connects review findings to roadmap adjustments and next validation cycles.
 - Aligns next steps with governance and organizational priorities.
 :::
-
-  </div>
-  <div className="col col--6">
 
 :::warning What this chapter does not do
 - Does not guarantee readiness for the next phase or scale.
@@ -35,21 +24,12 @@ redirect_from:
 - Does not treat retrospective summary as forward approval.
 :::
 
-  </div>
-</div>
-
-<div className="row">
-  <div className="col col--6">
-
 :::tip When you should read this
 - When validation work has produced mixed or incomplete signals.
 - When leadership needs a consolidated view of progress and gaps.
 - When planning the next validation cycles or Phase 3 transition.
 - Before committing to major strategic shifts or investments.
 :::
-
-  </div>
-  <div className="col col--6">
 
 :::note Derived from Canon
 This chapter is interpretive and explanatory. Its constraints and limits derive from the Canon pages below.
@@ -60,12 +40,6 @@ This chapter is interpretive and explanatory. Its constraints and limits derive 
 - [Canon - Epistemic stage model](/docs/canon/epistemic-model)
 :::
 
-  </div>
-</div>
-
-<div className="row">
-  <div className="col col--6">
-
 :::info Key terms (canonical)
 - Evidence
 - Evidence quality
@@ -75,9 +49,6 @@ This chapter is interpretive and explanatory. Its constraints and limits derive 
 - Reversibility
 :::
 
-  </div>
-  <div className="col col--6">
-
 :::warning Minimal evidence expectations (non-prescriptive)
 Evidence used in this chapter should allow you to:
 - synthesize outcomes from prior validation steps
@@ -86,16 +57,7 @@ Evidence used in this chapter should allow you to:
 - justify whether the decision state should advance, pause, or rework
 :::
 
-  </div>
 </div>
-
-</div>
-
-  </div>
-</div>
-
-</div>
-
 After addressing regulatory compliance and scalability planning (Chapter 19), it is essential to pause and assess the overall progress of your innovation journey. A strategic review helps you evaluate achievements, identify gaps, and refine the roadmap to ensure your solutions remain aligned with market realities and organizational objectives. This chapter also outlines immediate next steps for validation, ensuring that all critical assumptions and processes are continuously tested before advancing to Phase 3 - Efficiency: Process Optimization and Operations.
 
 ---

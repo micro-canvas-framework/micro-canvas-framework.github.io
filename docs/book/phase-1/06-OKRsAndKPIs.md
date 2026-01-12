@@ -10,23 +10,12 @@ redirect_from:
 
 <div className="mcf-contract-grid">
 
-<div className="row">
-  <div className="col col--6">
-
-<div className="mcf-contract-grid">
-
-<div className="row">
-  <div className="col col--6">
-
 :::info What this chapter does
 - Defines OKRs as the alignment mechanism for innovation strategy.
 - Shows how objectives and key results translate vision into measurable action.
 - Connects OKR progress to evidence review and decision thresholds.
 - Frames KPIs as operational signals that validate OKR outcomes.
 :::
-
-  </div>
-  <div className="col col--6">
 
 :::warning What this chapter does not do
 - Does not provide organization-specific OKRs.
@@ -35,21 +24,12 @@ redirect_from:
 - Does not prescribe a single KPI dashboard or tooling stack.
 :::
 
-  </div>
-</div>
-
-<div className="row">
-  <div className="col col--6">
-
 :::tip When you should read this
 - When strategic objectives need measurable outcomes.
 - When teams are misaligned on priorities or success criteria.
 - When leadership needs evidence of progress across initiatives.
 - Before scaling or investing in larger innovation bets.
 :::
-
-  </div>
-  <div className="col col--6">
 
 :::note Derived from Canon
 This chapter is interpretive and explanatory. Its constraints and limits derive from the Canon pages below.
@@ -60,12 +40,6 @@ This chapter is interpretive and explanatory. Its constraints and limits derive 
 - [Canon - Epistemic stage model](/docs/canon/epistemic-model)
 :::
 
-  </div>
-</div>
-
-<div className="row">
-  <div className="col col--6">
-
 :::info Key terms (canonical)
 - Evidence
 - Evidence quality
@@ -75,9 +49,6 @@ This chapter is interpretive and explanatory. Its constraints and limits derive 
 - Reversibility
 :::
 
-  </div>
-  <div className="col col--6">
-
 :::warning Minimal evidence expectations (non-prescriptive)
 Evidence used in this chapter should allow you to:
 - show how objectives map to measurable results
@@ -86,16 +57,7 @@ Evidence used in this chapter should allow you to:
 - justify whether priorities should change
 :::
 
-  </div>
 </div>
-
-</div>
-
-  </div>
-</div>
-
-</div>
-
 ![Aligning Action with Ambition](/img/ch6-okrs-drive-innovation.svg)
 
 **Aligning Action with Ambition**. *This visual represents the core structure of OKRs: a single, focused Objective surrounded by measurable Key Results. The MicroCanvas&reg; Framework leverages this model to ensure innovation efforts remain purposeful, trackable, and strategically aligned from vision to execution.*

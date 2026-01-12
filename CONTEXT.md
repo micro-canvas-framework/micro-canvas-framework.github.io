@@ -411,6 +411,8 @@ DONE:
 - Mermaid rendering enabled globally
 - Standardized contract admonition types
 - demo blog posts removed
+- Contract grid (2x2 scaling) fixed: stretch + equal-height cards
+- Mermaid diagrams standardized to global style (font size aligned with Phase 2)
 - demo markdown page removed
 - unused images cleaned
 - phase landing pages + ordering normalized
@@ -452,6 +454,7 @@ Global Rules:
 - No diagram may imply linear progression unless explicitly stated as local
 - All figures are Mermaid diagrams enclosed in Docusaurus admonitions
 - Mermaid must be enabled in Docusaurus (markdown.mermaid + theme-mermaid)
+- Mermaid global style enforced via themeConfig.mermaid (fontSize 18; Inter)
 
 Figure Governance:
 - Every diagram must have:
@@ -462,6 +465,7 @@ Figure Governance:
 - Figures are referenced explicitly in text (e.g., "see Figure 12.1")
 - Figure numbering: global sequence, Figure 1 reserved for system map.
 - Figures index lists figure numbers and where used (not file paths)
+- Per-diagram init blocks should be avoided; only used when necessary; must match global font sizing
 
 Backlog - Diagram Remediation (GLOBAL):
 - [ ] Audit all existing diagrams for MCF 2.1 assumptions

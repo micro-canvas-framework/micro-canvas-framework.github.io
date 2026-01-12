@@ -10,23 +10,12 @@ redirect_from:
 
 <div className="mcf-contract-grid">
 
-<div className="row">
-  <div className="col col--6">
-
-<div className="mcf-contract-grid">
-
-<div className="row">
-  <div className="col col--6">
-
 :::info What this chapter does
 - Defines scaling strategy as a structured growth plan.
 - Shows how constraints shape scale decisions.
 - Connects scale readiness to evidence thresholds.
 - Frames scaling as staged commitments.
 :::
-
-  </div>
-  <div className="col col--6">
 
 :::warning What this chapter does not do
 - Does not guarantee growth outcomes.
@@ -35,21 +24,12 @@ redirect_from:
 - Does not ignore operational constraints.
 :::
 
-  </div>
-</div>
-
-<div className="row">
-  <div className="col col--6">
-
 :::tip When you should read this
 - When validation indicates market readiness.
 - When resources must be allocated for growth.
 - When leadership needs scale approval evidence.
 - Before expanding into new markets.
 :::
-
-  </div>
-  <div className="col col--6">
 
 :::note Derived from Canon
 This chapter is interpretive and explanatory. Its constraints and limits derive from the Canon pages below.
@@ -60,12 +40,6 @@ This chapter is interpretive and explanatory. Its constraints and limits derive 
 - [Canon - Epistemic stage model](/docs/canon/epistemic-model)
 :::
 
-  </div>
-</div>
-
-<div className="row">
-  <div className="col col--6">
-
 :::info Key terms (canonical)
 - Evidence
 - Evidence quality
@@ -75,9 +49,6 @@ This chapter is interpretive and explanatory. Its constraints and limits derive 
 - Reversibility
 :::
 
-  </div>
-  <div className="col col--6">
-
 :::warning Minimal evidence expectations (non-prescriptive)
 Evidence used in this chapter should allow you to:
 - document scale assumptions and risks
@@ -86,16 +57,7 @@ Evidence used in this chapter should allow you to:
 - justify whether scaling should proceed
 :::
 
-  </div>
 </div>
-
-</div>
-
-  </div>
-</div>
-
-</div>
-
 Scaling is not a single decision. It is a sequence of commitments that become
 harder to reverse. This chapter explains how to interpret scaling strategy in
 MCF 2.2, focusing on evidence thresholds, constraints, and staged expansion.

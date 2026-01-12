@@ -10,23 +10,12 @@ redirect_from:
 
 <div className="mcf-contract-grid">
 
-<div className="row">
-  <div className="col col--6">
-
-<div className="mcf-contract-grid">
-
-<div className="row">
-  <div className="col col--6">
-
 :::info What this chapter does
 - Defines impact as measurable outcomes beyond delivery.
 - Shows how communication aligns stakeholders.
 - Connects impact claims to evidence quality.
 - Frames impact as a continuous improvement input.
 :::
-
-  </div>
-  <div className="col col--6">
 
 :::warning What this chapter does not do
 - Does not provide a fixed impact framework.
@@ -35,21 +24,12 @@ redirect_from:
 - Does not reduce impact to marketing.
 :::
 
-  </div>
-</div>
-
-<div className="row">
-  <div className="col col--6">
-
 :::tip When you should read this
 - When outcomes must be demonstrated externally.
 - When impact claims require evidence.
 - When stakeholders need transparency.
 - Before scaling impact communications.
 :::
-
-  </div>
-  <div className="col col--6">
 
 :::note Derived from Canon
 This chapter is interpretive and explanatory. Its constraints and limits derive from the Canon pages below.
@@ -60,12 +40,6 @@ This chapter is interpretive and explanatory. Its constraints and limits derive 
 - [Canon - Epistemic stage model](/docs/canon/epistemic-model)
 :::
 
-  </div>
-</div>
-
-<div className="row">
-  <div className="col col--6">
-
 :::info Key terms (canonical)
 - Evidence
 - Evidence quality
@@ -75,9 +49,6 @@ This chapter is interpretive and explanatory. Its constraints and limits derive 
 - Reversibility
 :::
 
-  </div>
-  <div className="col col--6">
-
 :::warning Minimal evidence expectations (non-prescriptive)
 Evidence used in this chapter should allow you to:
 - define impact metrics and baselines
@@ -86,16 +57,7 @@ Evidence used in this chapter should allow you to:
 - justify whether impact targets are met
 :::
 
-  </div>
 </div>
-
-</div>
-
-  </div>
-</div>
-
-</div>
-
 Impact is not a claim; it is evidence of change. This chapter explains how to
 interpret impact measurement in MCF 2.2 without turning it into marketing.
 

@@ -90,6 +90,16 @@ const config: Config = {
     ],
 
     themeConfig: {
+        mermaid: {
+            theme: { light: 'base', dark: 'base' },
+            options: {
+                fontFamily: 'Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial',
+                fontSize: 18,
+                flowchart: { nodeSpacing: 28, rankSpacing: 36 },
+                sequence: { actorFontSize: 18, noteFontSize: 18, messageFontSize: 18 },
+                gantt: { barHeight: 20, barGap: 6, fontSize: 18 },
+            },
+        },
         navbar: {
             title: 'MCF 2.2',
             logo: {

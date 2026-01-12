@@ -11,23 +11,12 @@ redirect_from:
 
 <div className="mcf-contract-grid">
 
-<div className="row">
-  <div className="col col--6">
-
-<div className="mcf-contract-grid">
-
-<div className="row">
-  <div className="col col--6">
-
 :::info What this chapter does
 - Explains how to navigate the Book layer across phases.
 - Clarifies how to apply chapters without assuming linear progression.
 - Defines how readers should use examples, tools, and templates.
 - Reinforces how evidence gates and decision thresholds guide movement.
 :::
-
-  </div>
-  <div className="col col--6">
 
 :::warning What this chapter does not do
 - Does not redefine Canon rules, terms, or constraints.
@@ -36,20 +25,11 @@ redirect_from:
 - Does not replace governance or decision authority.
 :::
 
-  </div>
-</div>
-
-<div className="row">
-  <div className="col col--6">
-
 :::tip When you should read this
 - After the Foreword and Preface.
 - Before engaging with any phase-based chapters.
 - When onboarding new teams or stakeholders to MCF 2.2.
 :::
-
-  </div>
-  <div className="col col--6">
 
 :::note Derived from Canon
 This chapter is constrained by the following Canon sources:
@@ -59,12 +39,6 @@ This chapter is constrained by the following Canon sources:
 - [Canon → Epistemic model](/docs/canon/epistemic-model)
 :::
 
-  </div>
-</div>
-
-<div className="row">
-  <div className="col col--6">
-
 :::info Key terms (canonical)
 - Phase
 - Evidence
@@ -73,28 +47,16 @@ This chapter is constrained by the following Canon sources:
 - Optionality
 :::
 
-  </div>
-  <div className="col col--6">
-
 :::warning Minimal evidence expectations (non-prescriptive)
 This chapter introduces no new evidence requirements. It explains how evidence
 is interpreted and applied throughout the Book.
 :::
-
-  </div>
-</div>
-
-</div>
-
-  </div>
-</div>
 
 </div>
 
 :::tip[Figure 1 — MCF 2.2 System Map (Canonical + Explanatory Layers)]
 
 ```mermaid
-%%{init: {"theme":"base","flowchart":{"nodeSpacing":28,"rankSpacing":36},"fontFamily":"Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial","fontSize":16}}%%
 flowchart TB
 
   subgraph CANON["Canon (normative)"]

@@ -10,23 +10,12 @@ redirect_from:
 
 <div className="mcf-contract-grid">
 
-<div className="row">
-  <div className="col col--6">
-
-<div className="mcf-contract-grid">
-
-<div className="row">
-  <div className="col col--6">
-
 :::info What this chapter does
 - Defines automation as a leverage point for reliability.
 - Shows how data signals improve decision cadence.
 - Connects metrics to evidence thresholds.
 - Frames automation as a support for governance.
 :::
-
-  </div>
-  <div className="col col--6">
 
 :::warning What this chapter does not do
 - Does not guarantee correct decisions without governance.
@@ -35,21 +24,12 @@ redirect_from:
 - Does not treat metrics as goals on their own.
 :::
 
-  </div>
-</div>
-
-<div className="row">
-  <div className="col col--6">
-
 :::tip When you should read this
 - When decisions are slow or inconsistent.
 - When data is available but underused.
 - When manual work limits throughput.
 - Before scaling decision-dependent processes.
 :::
-
-  </div>
-  <div className="col col--6">
 
 :::note Derived from Canon
 This chapter is interpretive and explanatory. Its constraints and limits derive from the Canon pages below.
@@ -60,12 +40,6 @@ This chapter is interpretive and explanatory. Its constraints and limits derive 
 - [Canon - Epistemic stage model](/docs/canon/epistemic-model)
 :::
 
-  </div>
-</div>
-
-<div className="row">
-  <div className="col col--6">
-
 :::info Key terms (canonical)
 - Evidence
 - Evidence quality
@@ -75,9 +49,6 @@ This chapter is interpretive and explanatory. Its constraints and limits derive 
 - Reversibility
 :::
 
-  </div>
-  <div className="col col--6">
-
 :::warning Minimal evidence expectations (non-prescriptive)
 Evidence used in this chapter should allow you to:
 - define which signals drive which decisions
@@ -86,16 +57,7 @@ Evidence used in this chapter should allow you to:
 - justify when to escalate or pause
 :::
 
-  </div>
 </div>
-
-</div>
-
-  </div>
-</div>
-
-</div>
-
 Automation and data-driven decision making are leverage points in Phase 3.
 Automation reduces variability; data clarifies whether decisions are justified.
 This chapter explains how to interpret automation and data signals without

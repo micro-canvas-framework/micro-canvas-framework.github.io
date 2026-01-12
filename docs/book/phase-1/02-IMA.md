@@ -10,23 +10,12 @@ redirect_from:
 
 <div className="mcf-contract-grid">
 
-<div className="row">
-  <div className="col col--6">
-
-<div className="mcf-contract-grid">
-
-<div className="row">
-  <div className="col col--6">
-
 :::info What this chapter does
 - Defines a structured assessment of innovation maturity across stages.
 - Explains how weighted scoring creates a baseline for improvement.
 - Connects assessment outputs to roadmap and decision thresholds.
 - Frames assessment as evidence for investment and governance alignment.
 :::
-
-  </div>
-  <div className="col col--6">
 
 :::warning What this chapter does not do
 - Does not provide a finished scoring tool or automated survey.
@@ -35,21 +24,12 @@ redirect_from:
 - Does not prescribe a single cadence for reassessment.
 :::
 
-  </div>
-</div>
-
-<div className="row">
-  <div className="col col--6">
-
 :::tip When you should read this
 - When establishing a baseline for innovation capability.
 - When prioritizing transformation initiatives and resource allocation.
 - When leadership needs evidence to approve change.
 - Before designing governance or process improvements.
 :::
-
-  </div>
-  <div className="col col--6">
 
 :::note Derived from Canon
 This chapter is interpretive and explanatory. Its constraints and limits derive from the Canon pages below.
@@ -60,12 +40,6 @@ This chapter is interpretive and explanatory. Its constraints and limits derive 
 - [Canon - Epistemic stage model](/docs/canon/epistemic-model)
 :::
 
-  </div>
-</div>
-
-<div className="row">
-  <div className="col col--6">
-
 :::info Key terms (canonical)
 - Evidence
 - Evidence quality
@@ -75,9 +49,6 @@ This chapter is interpretive and explanatory. Its constraints and limits derive 
 - Reversibility
 :::
 
-  </div>
-  <div className="col col--6">
-
 :::warning Minimal evidence expectations (non-prescriptive)
 Evidence used in this chapter should allow you to:
 - state the assessment criteria and weights used
@@ -86,16 +57,7 @@ Evidence used in this chapter should allow you to:
 - justify why investments follow from the assessment
 :::
 
-  </div>
 </div>
-
-</div>
-
-  </div>
-</div>
-
-</div>
-
 ![Mapping Innovation Capabilities](/img/ch2-innovation-maturity-assessment.svg)
  
  **Mapping Innovation Capabilities**. *This visual represents the structured assessment of innovation maturity across key dimensions. The polygon form symbolizes performance levels, helping organizations identify strengths and gaps. It reflects the diagnostic clarity central to the MicroCanvas&reg; Framework's assessment approach.*

@@ -10,14 +10,6 @@ redirect_from:
 
 <div className="mcf-contract-grid">
 
-<div className="row">
-  <div className="col col--6">
-
-<div className="mcf-contract-grid">
-
-<div className="row">
-  <div className="col col--6">
-
 :::info What this chapter does
 - Defines what “problem” means in MCF terms: a decision-relevant constraint framed by evidence, not a slogan.
 - Shows how to move from observed symptoms to testable causal hypotheses (root causes) without premature solution selection.
@@ -25,9 +17,6 @@ redirect_from:
 - Translates a validated problem statement into strategic objectives and measurable key results (OKRs) as decision commitments.
 - Clarifies how objectives and KRs function as governance artifacts that constrain scope and preserve optionality.
 :::
-
-  </div>
-  <div className="col col--6">
 
 :::warning What this chapter does not do
 - Does not guarantee your stated problem is correct; it requires evidence quality, revalidation, and revision when falsified.
@@ -37,21 +26,12 @@ redirect_from:
 - Does not justify irreversible commitments when evidence remains below the decision threshold.
 :::
 
-  </div>
-</div>
-
-<div className="row">
-  <div className="col col--6">
-
 :::tip When you should read this
 - When customer insights exist, but the causal story behind outcomes is still ambiguous.
 - When teams are debating solutions without a shared, evidence-linked problem statement.
 - When strategic goals are stated but not measurable or not traceable to the problem.
 - Before selecting solutions, allocating major resources, or committing to delivery roadmaps.
 :::
-
-  </div>
-  <div className="col col--6">
 
 :::note Derived from Canon
 This chapter is interpretive and explanatory. Its constraints and limits derive from the Canon pages below.
@@ -62,12 +42,6 @@ This chapter is interpretive and explanatory. Its constraints and limits derive 
 - [Canon → Epistemic stage model](/docs/canon/epistemic-model)
 :::
 
-  </div>
-</div>
-
-<div className="row">
-  <div className="col col--6">
-
 :::info Key terms (canonical)
 - Evidence
 - Evidence quality
@@ -77,9 +51,6 @@ This chapter is interpretive and explanatory. Its constraints and limits derive 
 - Reversibility
 - Termination logic
 :::
-
-  </div>
-  <div className="col col--6">
 
 :::warning Minimal evidence expectations (non-prescriptive)
 Evidence used in this chapter should allow you to:
@@ -96,16 +67,7 @@ Evidence used in this chapter should allow you to:
 - Does not justify irreversible commitments when evidence remains below the decision threshold.
 :::
 
-  </div>
 </div>
-
-</div>
-
-  </div>
-</div>
-
-</div>
-
 :::tip When you should read this
 - When customer insights exist, but the causal story behind outcomes is still ambiguous.
 - When teams are debating solutions without a shared, evidence-linked problem statement.

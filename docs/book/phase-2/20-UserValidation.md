@@ -10,23 +10,12 @@ redirect_from:
 
 <div className="mcf-contract-grid">
 
-<div className="row">
-  <div className="col col--6">
-
-<div className="mcf-contract-grid">
-
-<div className="row">
-  <div className="col col--6">
-
 :::info What this chapter does
 - Defines expanded pilots as evidence-gathering for real-world user and operational fit.
 - Shows how to set pilot scope, metrics, and onboarding to generate decision-ready data.
 - Connects pilot outcomes to decision thresholds and scale readiness.
 - Positions user validation as a bridge between experiments and launch.
 :::
-
-  </div>
-  <div className="col col--6">
 
 :::warning What this chapter does not do
 - Does not guarantee market adoption or product-market fit.
@@ -35,21 +24,12 @@ redirect_from:
 - Does not treat pilot completion as approval to launch.
 :::
 
-  </div>
-</div>
-
-<div className="row">
-  <div className="col col--6">
-
 :::tip When you should read this
 - When experiments show promise but broader validation is still needed.
 - When you need evidence of real-world user behavior and operational capacity.
 - When leadership requires data to approve scaling.
 - Before making irreversible rollout commitments.
 :::
-
-  </div>
-  <div className="col col--6">
 
 :::note Derived from Canon
 This chapter is interpretive and explanatory. Its constraints and limits derive from the Canon pages below.
@@ -60,12 +40,6 @@ This chapter is interpretive and explanatory. Its constraints and limits derive 
 - [Canon - Epistemic stage model](/docs/canon/epistemic-model)
 :::
 
-  </div>
-</div>
-
-<div className="row">
-  <div className="col col--6">
-
 :::info Key terms (canonical)
 - Evidence
 - Evidence quality
@@ -75,9 +49,6 @@ This chapter is interpretive and explanatory. Its constraints and limits derive 
 - Reversibility
 :::
 
-  </div>
-  <div className="col col--6">
-
 :::warning Minimal evidence expectations (non-prescriptive)
 Evidence used in this chapter should allow you to:
 - define pilot objectives and success criteria tied to assumptions
@@ -86,16 +57,7 @@ Evidence used in this chapter should allow you to:
 - justify whether the decision state should advance, pause, or iterate
 :::
 
-  </div>
 </div>
-
-</div>
-
-  </div>
-</div>
-
-</div>
-
 ![From Feedback to Field Trials](/img/ch20-user-validation-expanded-pilots.svg)
 
 **From Feedback to Field Trials**. *This visual illustrates the process of validating solutions with real users and expanding pilot tests for broader insights. In the MicroCanvas&reg; Framework, this phase bridges design and implementation - ensuring offerings are both desired and viable in practice*.

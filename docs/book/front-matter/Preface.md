@@ -11,23 +11,12 @@ redirect_from:
 
 <div className="mcf-contract-grid">
 
-<div className="row">
-  <div className="col col--6">
-
-<div className="mcf-contract-grid">
-
-<div className="row">
-  <div className="col col--6">
-
 :::info What this chapter does
 - Explains the motivation behind MCF 2.2 and why a structured framework is necessary.
 - Frames innovation as a repeatable system of evidence-backed decisions.
 - Introduces the phase structure of the Book at a high level.
 - Positions the Book as an explanatory companion to the Canon.
 :::
-
-  </div>
-  <div className="col col--6">
 
 :::warning What this chapter does not do
 - Does not define or modify Canon rules, constraints, or terminology.
@@ -36,20 +25,11 @@ redirect_from:
 - Does not claim universality or guaranteed outcomes.
 :::
 
-  </div>
-</div>
-
-<div className="row">
-  <div className="col col--6">
-
 :::tip When you should read this
 - After the Foreword and before engaging with phase-based chapters.
 - When seeking context for why the framework is structured as it is.
 - When orienting stakeholders to the intent and scope of MCF 2.2.
 :::
-
-  </div>
-  <div className="col col--6">
 
 :::note Derived from Canon
 This preface is constrained by the following Canon sources:
@@ -57,12 +37,6 @@ This preface is constrained by the following Canon sources:
 - [Canon → Introduction](/docs/canon/_intro)
 - [Canon → Definitions](/docs/canon/definitions)
 :::
-
-  </div>
-</div>
-
-<div className="row">
-  <div className="col col--6">
 
 :::info Key terms (canonical)
 - Evidence
@@ -72,24 +46,12 @@ This preface is constrained by the following Canon sources:
 - Canon
 :::
 
-  </div>
-  <div className="col col--6">
-
 :::warning Minimal evidence expectations (non-prescriptive)
 This chapter introduces no evidence requirements. It provides orientation and
 conceptual grounding only.
 :::
 
-  </div>
 </div>
-
-</div>
-
-  </div>
-</div>
-
-</div>
-
 Innovation is not rare. What is rare is a **repeatable system** that turns it
 into defensible outcomes. MCF 2.2 is built for that purpose. It treats
 innovation as a sequence of **evidence-backed decisions**, not a series of
