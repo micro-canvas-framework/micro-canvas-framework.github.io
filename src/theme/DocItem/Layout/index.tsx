@@ -1,8 +1,9 @@
-import React from 'react';
-import type { Props } from '@theme-original/DocItem/Layout';
+import React, { type ComponentProps } from 'react';
 import OriginalLayout from '@theme-original/DocItem/Layout';
 import { useDoc } from '@docusaurus/plugin-content-docs/client';
 import EntityHeader from '@site/src/components/EntityHeader';
+
+type Props = ComponentProps<typeof OriginalLayout>;
 
 const DocItemLayout = (props: Props) => {
     const doc = useDoc() as {
