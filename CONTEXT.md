@@ -406,6 +406,7 @@ Conclusion and Tools
 - fd38d07 fix(figures): enforce figure 1 label clearance and improve node label formatting
 - (pending) docs(book): add figures index to sidebar and lock figure governance
 - f723905 fix(figures): close figure admonition and compact system map layout
+- 5c94684 docs(book): add figures index to sidebar and lock figure governance
 
 ## 12) Backlog (live)
 DONE:
