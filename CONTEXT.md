@@ -393,6 +393,7 @@ Conclusion and Tools
 - 9fc1767 chore(cleanup): remove unused static images
 - 4c3b44a docs(book): customize phase 1 headers and finish canon links
 - cd39447 docs(book): add phase 3-5 drafts, conclusion content, and 404 overrides
+- c9a147e docs(book): align evidence-first thinking with canon and add citations
 
 ## 12) Backlog (live)
 DONE:
