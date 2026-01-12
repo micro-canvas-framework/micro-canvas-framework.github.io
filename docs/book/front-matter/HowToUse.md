@@ -162,6 +162,68 @@ style R_BOOK opacity:0;
 
 :::
 
+
+:::tip[Figure 2 - Epistemic Stages vs Phases (Decision State vs Activity)]
+
+```mermaid
+%%{init: {'theme':'base','themeVariables': {'fontSize':'28px'}, 'flowchart': {'nodeSpacing': 70, 'rankSpacing': 90}} }%%
+flowchart LR
+
+classDef node fill:#F7E7C6,stroke:#E2C27A,stroke-width:1px,color:#111;
+classDef phase fill:#E6EDF5,stroke:#C9D6E6,stroke-width:1px,color:#111;
+classDef cluster fill:#F3F6FA,stroke:#D7DEE8,stroke-width:1px,color:#111;
+classDef spacer fill:transparent,stroke:transparent,color:transparent;
+
+subgraph EPI["**Epistemic stages**<br/><i>decision states</i>"]
+__SPACER_EPI__["<br/><br/><br/>"]
+direction TB
+class EPI cluster
+R_EPI["<br/><br/>"]:::spacer
+E0["**Unknown**<br/><i>no decision basis</i>"]:::node
+E1["**Hypothesized**<br/><i>claim proposed</i>"]:::node
+E2["**Partially validated**<br/><i>evidence emerging</i>"]:::node
+E3["**Sufficiently validated**<br/><i>decision defensible</i>"]:::node
+E4["**Invalidated**<br/><i>regression state</i>"]:::node
+R_EPI --> E0
+E0 --> E1
+E1 -->|progression requires evidence crossing a decision threshold| E2
+E2 --> E3
+E3 -->|regression| E2
+E2 -->|regression| E1
+E1 --> E4
+end
+
+subgraph PHASES["**Phases**<br/><i>activity contexts</i>"]
+__SPACER_PHASES__["<br/>"]
+direction TB
+class PHASES cluster
+R_P["<br/><br/>"]:::spacer
+P0["**Pre-Discovery**<br/><i>capability layer</i>"]:::phase
+P1["**Discovery & Validation**<br/><i>activity context</i>"]:::phase
+P2["**Efficiency**<br/><i>activity context</i>"]:::phase
+P3["**Scaling**<br/><i>activity context</i>"]:::phase
+P4["**Continuous improvement**<br/><i>activity context</i>"]:::phase
+A1["**Parallel activity**<br/><i>no stage change</i>"]:::phase
+R_P --> P0
+P0 --> P1 --> P2 --> P3 --> P4
+end
+
+P1 -.->|activity does not guarantee progress| E2
+P2 -.->|parallel activity| E2
+A1 -.-> E2
+
+linkStyle 0 stroke:transparent,stroke-width:0px;
+linkStyle 1 stroke:transparent,stroke-width:0px;
+
+class R_EPI,R_P spacer
+class __SPACER_EPI__,__SPACER_PHASES__ spacer
+style R_EPI opacity:0;
+style R_P opacity:0;
+```
+
+This figure distinguishes epistemic progression (what is known well enough to decide) from phases (where activity occurs). Movement between stages is governed by evidence quality, not by phase completion.
+:::
+
 Welcome to The MicroCanvas Framework. This chapter shows you how to use the
 Book layer effectively while staying aligned with **MCF 2.2 Canon**. Whether
 you are new to innovation or experienced in transformation, the goal is the

@@ -486,6 +486,7 @@ Figure Governance:
 - Figure 1 uses <br/> for node label line breaks; spacer nodes to avoid title overlap
 - Figure 1 admonition boundary fixed (admonition closes before body text)
 - Figure 1 layout compacted (Meta+Tools row, Canon core, Book below)
+- Figure 2 follows Mermaid-only, per-diagram init, and admonition rules (same as Figure 1)
 
 Backlog - Diagram Remediation (GLOBAL):
 - [ ] Audit all existing diagrams for MCF 2.1 assumptions
@@ -510,8 +511,9 @@ Per-Chapter Requirement:
 - Preface: no diagrams required; confirmed N/A
 - How to Use This Book: Figure 1 embedded (Mermaid system map in admonition).
 - Evidence-First Thinking: no figure required (text-only) — confirm on review.
-- Epistemic Stages: Figure X — MCF 2.2 epistemic stages as reversible decision states (PENDING)
-- Decision Logic: Figure X — Decision thresholds vs reversibility and risk (PENDING)
+- Epistemic Stages: Figure X - MCF 2.2 epistemic stages as reversible decision states (PENDING)
+- Decision Logic: Figure X - Decision thresholds vs reversibility and risk (PENDING)
+- Figure 2: Epistemic stages vs phases (decision state vs activity) - DRAFT
 
 Status: LOCKED
 
