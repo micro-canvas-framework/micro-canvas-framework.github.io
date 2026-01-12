@@ -399,6 +399,7 @@ Conclusion and Tools
 - 6b66ac4 docs(book): add figure 1 system map and figures index
 - 185c9f9 feat(book): convert figures to mermaid and render contract headers as cards
 - 4641214 fix(book): enable mermaid rendering and standardize contract admonition types
+- d644038 fix(ui): correct contract card grid sizing and standardize mermaid styling
 
 ## 12) Backlog (live)
 DONE:
