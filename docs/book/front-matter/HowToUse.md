@@ -57,6 +57,7 @@ is interpreted and applied throughout the Book.
 :::tip[Figure 1 — MCF 2.2 System Map (Canonical + Explanatory Layers)]
 
 ```mermaid
+%%{init: {"theme":"base","themeVariables":{"fontFamily":"Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial","fontSize":"22px"},"flowchart":{"nodeSpacing":36,"rankSpacing":44}} }%%
 flowchart TB
 
   subgraph CANON["Canon (normative)"]

@@ -414,6 +414,7 @@ DONE:
 - demo blog posts removed
 - Contract grid (2x2 scaling) fixed: stretch + equal-height cards
 - Mermaid diagrams standardized to global style (font size aligned with Phase 2)
+- Figure 1 Mermaid readability improved (Phase-2 init applied)
 - demo markdown page removed
 - unused images cleaned
 - phase landing pages + ordering normalized
@@ -467,6 +468,7 @@ Figure Governance:
 - Figure numbering: global sequence, Figure 1 reserved for system map.
 - Figures index lists figure numbers and where used (not file paths)
 - Per-diagram init blocks should be avoided; only used when necessary; must match global font sizing
+- Per-diagram Mermaid init is allowed for Figures when readability requires it (must use Phase-2 init style; fontSize >= 22px)
 
 Backlog - Diagram Remediation (GLOBAL):
 - [ ] Audit all existing diagrams for MCF 2.1 assumptions
