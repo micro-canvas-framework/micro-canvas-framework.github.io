@@ -8,12 +8,20 @@ redirect_from:
   - /chapter25-quality-control-risk-management
 ---
 
+<div className="mcf-contract-grid">
+
+<div className="row">
+  <div className="col col--6">
+
 :::note What this chapter does
 - Defines quality control as evidence of delivery reliability.
 - Shows how risk management limits downside exposure.
 - Connects controls to decision thresholds.
 - Frames risk as part of governance discipline.
 :::
+
+  </div>
+  <div className="col col--6">
 
 :::warning What this chapter does not do
 - Does not provide legal or compliance advice.
@@ -22,12 +30,21 @@ redirect_from:
 - Does not prescribe specific audit frameworks.
 :::
 
+  </div>
+</div>
+
+<div className="row">
+  <div className="col col--6">
+
 :::tip When you should read this
 - When defects or failures recur.
 - When regulatory exposure increases.
 - When scaling raises operational risk.
 - Before making irreversible commitments.
 :::
+
+  </div>
+  <div className="col col--6">
 
 :::info Derived from Canon
 This chapter is interpretive and explanatory. Its constraints and limits derive from the Canon pages below.
@@ -38,6 +55,12 @@ This chapter is interpretive and explanatory. Its constraints and limits derive 
 - [Canon - Epistemic stage model](/docs/canon/epistemic-model)
 :::
 
+  </div>
+</div>
+
+<div className="row">
+  <div className="col col--6">
+
 :::info Key terms (canonical)
 - Evidence
 - Evidence quality
@@ -47,6 +70,9 @@ This chapter is interpretive and explanatory. Its constraints and limits derive 
 - Reversibility
 :::
 
+  </div>
+  <div className="col col--6">
+
 :::note Minimal evidence expectations (non-prescriptive)
 Evidence used in this chapter should allow you to:
 - identify critical quality risks
@@ -54,6 +80,11 @@ Evidence used in this chapter should allow you to:
 - show how controls change outcomes
 - justify whether risk is acceptable
 :::
+
+  </div>
+</div>
+
+</div>
 
 Quality control and risk management protect decision integrity when execution
 scales. In Phase 3, the goal is not to eliminate risk, but to make it visible,

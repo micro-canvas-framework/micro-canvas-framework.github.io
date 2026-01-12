@@ -8,12 +8,20 @@ redirect_from:
   - /chapter18-feedback-loops-iterative-refinement
 ---
 
+<div className="mcf-contract-grid">
+
+<div className="row">
+  <div className="col col--6">
+
 :::note What this chapter does
 - Defines feedback loops as evidence mechanisms that update assumptions and decisions.
 - Shows how to structure feedback channels, cadence, and integration into iteration.
 - Connects feedback quality to decision thresholds and progression rules.
 - Frames refinement as epistemic updating rather than endless change.
 :::
+
+  </div>
+  <div className="col col--6">
 
 :::warning What this chapter does not do
 - Does not guarantee that feedback is representative or unbiased.
@@ -22,12 +30,21 @@ redirect_from:
 - Does not treat iteration as progress without evidence.
 :::
 
+  </div>
+</div>
+
+<div className="row">
+  <div className="col col--6">
+
 :::tip When you should read this
 - When experiments or pilots are generating data that needs synthesis.
 - When teams need a cadence to decide what to change and why.
 - When signals conflict or noise overwhelms decision-making.
 - Before scaling or locking in irreversible commitments.
 :::
+
+  </div>
+  <div className="col col--6">
 
 :::info Derived from Canon
 This chapter is interpretive and explanatory. Its constraints and limits derive from the Canon pages below.
@@ -38,6 +55,12 @@ This chapter is interpretive and explanatory. Its constraints and limits derive 
 - [Canon - Epistemic stage model](/docs/canon/epistemic-model)
 :::
 
+  </div>
+</div>
+
+<div className="row">
+  <div className="col col--6">
+
 :::info Key terms (canonical)
 - Evidence
 - Evidence quality
@@ -47,6 +70,9 @@ This chapter is interpretive and explanatory. Its constraints and limits derive 
 - Reversibility
 :::
 
+  </div>
+  <div className="col col--6">
+
 :::note Minimal evidence expectations (non-prescriptive)
 Evidence used in this chapter should allow you to:
 - trace feedback signals to the assumptions they update
@@ -54,6 +80,11 @@ Evidence used in this chapter should allow you to:
 - explain why a refinement was made and what it changes
 - show whether the decision state should advance, pause, or reverse
 :::
+
+  </div>
+</div>
+
+</div>
 
 ![Refine Through Feedback](/img/ch18-feedback-loops-iterative-refinement.svg)
 

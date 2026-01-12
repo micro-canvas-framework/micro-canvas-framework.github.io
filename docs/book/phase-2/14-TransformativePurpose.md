@@ -8,12 +8,20 @@ redirect_from:
   - /chapter-14-transformative-purpose
 ---
 
+<div className="mcf-contract-grid">
+
+<div className="row">
+  <div className="col col--6">
+
 :::note What this chapter does
 - Explains how “purpose” functions as a constraint system: it narrows what solutions are acceptable and what outcomes matter.
 - Distinguishes aspirational narratives from testable strategic intent by forcing purpose statements to imply observable commitments.
 - Shows how purpose interacts with evidence: purpose can guide hypotheses, but cannot substitute for validation.
 - Connects purpose to decision thresholds by clarifying what counts as success, harm, or unacceptable trade-offs.
 :::
+
+  </div>
+  <div className="col col--6">
 
 :::warning What this chapter does not do
 - Does not claim that purpose alone generates market demand or adoption.
@@ -22,12 +30,21 @@ redirect_from:
 - Does not replace customer research, problem analysis, or business model validation.
 :::
 
+  </div>
+</div>
+
+<div className="row">
+  <div className="col col--6">
+
 :::tip When you should read this
 - After you have a working problem statement and early solution directions, but before scaling commitments.
 - When teams are optimizing metrics without clarity on intended value, impact, or trade-offs.
 - When multiple stakeholders disagree on “why this matters” and need an explicit alignment artifact.
 - When you need to define non-negotiables (e.g., safety, equity, compliance) that constrain solution design.
 :::
+
+  </div>
+  <div className="col col--6">
 
 :::info Derived from Canon
 This chapter is interpretive and explanatory. Its constraints and limits derive from the Canon pages below.
@@ -38,6 +55,12 @@ This chapter is interpretive and explanatory. Its constraints and limits derive 
 - [Canon → Epistemic stage model](/docs/canon/epistemic-model)
 :::
 
+  </div>
+</div>
+
+<div className="row">
+  <div className="col col--6">
+
 :::info Key terms (canonical)
 - Evidence
 - Decision threshold
@@ -47,6 +70,9 @@ This chapter is interpretive and explanatory. Its constraints and limits derive 
 - Termination logic
 :::
 
+  </div>
+  <div className="col col--6">
+
 :::note Minimal evidence expectations (non-prescriptive)
 Evidence used in this chapter should allow you to:
 - show how a purpose claim constrains choices (what is ruled out, not only what is desired)
@@ -54,6 +80,11 @@ Evidence used in this chapter should allow you to:
 - identify trade-offs and define what evidence would indicate harm or mission drift
 - justify continued investment when metrics improve but purpose-aligned outcomes do not
 :::
+
+  </div>
+</div>
+
+</div>
 
 ![Lighting the Way Forward](/img/ch14-transformative-purpose.svg)
 

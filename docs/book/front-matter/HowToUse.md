@@ -9,12 +9,20 @@ redirect_from:
   - /frontmatter/howtouse
 ---
 
+<div className="mcf-contract-grid">
+
+<div className="row">
+  <div className="col col--6">
+
 :::note What this chapter does
 - Explains how to navigate the Book layer across phases.
 - Clarifies how to apply chapters without assuming linear progression.
 - Defines how readers should use examples, tools, and templates.
 - Reinforces how evidence gates and decision thresholds guide movement.
 :::
+
+  </div>
+  <div className="col col--6">
 
 :::note What this chapter does not do
 - Does not redefine Canon rules, terms, or constraints.
@@ -23,11 +31,20 @@ redirect_from:
 - Does not replace governance or decision authority.
 :::
 
+  </div>
+</div>
+
+<div className="row">
+  <div className="col col--6">
+
 :::note When you should read this
 - After the Foreword and Preface.
 - Before engaging with any phase-based chapters.
 - When onboarding new teams or stakeholders to MCF 2.2.
 :::
+
+  </div>
+  <div className="col col--6">
 
 :::note Derived from Canon
 This chapter is constrained by the following Canon sources:
@@ -37,6 +54,12 @@ This chapter is constrained by the following Canon sources:
 - [Canon → Epistemic model](/docs/canon/epistemic-model)
 :::
 
+  </div>
+</div>
+
+<div className="row">
+  <div className="col col--6">
+
 :::note Key terms (canonical)
 - Phase
 - Evidence
@@ -45,14 +68,65 @@ This chapter is constrained by the following Canon sources:
 - Optionality
 :::
 
+  </div>
+  <div className="col col--6">
+
 :::note Minimal evidence expectations (non-prescriptive)
 This chapter introduces no new evidence requirements. It explains how evidence
 is interpreted and applied throughout the Book.
 :::
 
-![Figure 1 — MCF 2.2 System Map (Canonical + Explanatory Layers)](/img/mcf-22-system-map.svg)
+  </div>
+</div>
 
-*Figure 1 — A map of how Canon (normative) and Book (explanatory) relate, and how capability-building (Pre-Discovery) runs orthogonally to epistemic stage resolution.*
+</div>
+
+:::tip[Figure 1 — MCF 2.2 System Map (Canonical + Explanatory Layers)]
+```mermaid
+%%{init: {"theme":"base","flowchart":{"nodeSpacing":28,"rankSpacing":36},"fontFamily":"Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial","fontSize":16}}%%
+flowchart TB
+
+  subgraph CANON["Canon (normative)"]
+    C1["Definitions"]
+    C2["Evidence logic"]
+    C3["Decision theory"]
+    C4["Epistemic stage model"]
+    C5["Stage mechanics"]
+  end
+
+  subgraph BOOK["Book (explanatory)"]
+    B0["Front matter"]
+    B1["Phase 1 — Foundations"]
+    B2["Phase 2 — Discovery & Validation"]
+    B3["Phase 3 — Efficiency"]
+    B4["Phase 4 — Scaling"]
+    B5["Phase 5 — Continuous improvement"]
+    B6["Conclusion & tools"]
+  end
+
+  subgraph CAP["Capability layer (parallel)"]
+    P0["Pre-Discovery (maturity, governance, readiness)"]
+  end
+
+  subgraph EPI["Epistemic resolution (non-linear)"]
+    S1["Explore signals"]
+    S2["Clarify hypotheses"]
+    S3["Test & falsify"]
+    S4["Validate claims"]
+    S5["Commit (only when defensible)"]
+  end
+
+  CANON --> BOOK
+  P0 -. "enables capacity" .-> BOOK
+  BOOK -. "interprets constraints" .-> CANON
+
+  S1 <--> S2
+  S2 <--> S3
+  S3 <--> S4
+  S4 <--> S5
+  S3 <--> S2
+  S4 <--> S3
+:::
 
 Welcome to The MicroCanvas Framework. This chapter shows you how to use the
 Book layer effectively while staying aligned with **MCF 2.2 Canon**. Whether

@@ -8,12 +8,20 @@ redirect_from:
   - /chapter7-training-agile-lean-innovation
 ---
 
+<div className="mcf-contract-grid">
+
+<div className="row">
+  <div className="col col--6">
+
 :::note What this chapter does
 - Defines training as the capability-building layer for agile and lean practice.
 - Shows how curriculum, cadence, and coaching create repeatable execution skills.
 - Connects training outcomes to evidence of adoption and performance.
 - Frames training as a prerequisite for sustained innovation delivery.
 :::
+
+  </div>
+  <div className="col col--6">
 
 :::warning What this chapter does not do
 - Does not replace organizational change management.
@@ -22,12 +30,21 @@ redirect_from:
 - Does not provide certified accreditation guidance.
 :::
 
+  </div>
+</div>
+
+<div className="row">
+  <div className="col col--6">
+
 :::tip When you should read this
 - When teams lack shared agile and lean fundamentals.
 - When execution quality varies across departments.
 - When onboarding new teams into innovation work.
 - Before scaling pilot work or governance practices.
 :::
+
+  </div>
+  <div className="col col--6">
 
 :::info Derived from Canon
 This chapter is interpretive and explanatory. Its constraints and limits derive from the Canon pages below.
@@ -38,6 +55,12 @@ This chapter is interpretive and explanatory. Its constraints and limits derive 
 - [Canon - Epistemic stage model](/docs/canon/epistemic-model)
 :::
 
+  </div>
+</div>
+
+<div className="row">
+  <div className="col col--6">
+
 :::info Key terms (canonical)
 - Evidence
 - Evidence quality
@@ -47,6 +70,9 @@ This chapter is interpretive and explanatory. Its constraints and limits derive 
 - Reversibility
 :::
 
+  </div>
+  <div className="col col--6">
+
 :::note Minimal evidence expectations (non-prescriptive)
 Evidence used in this chapter should allow you to:
 - define training objectives and expected outcomes
@@ -54,6 +80,11 @@ Evidence used in this chapter should allow you to:
 - link training to measurable performance shifts
 - justify whether additional training is required
 :::
+
+  </div>
+</div>
+
+</div>
 
 ![Building Skills for Scalable Impact](/img/ch7-training-agile-lean.svg)
 

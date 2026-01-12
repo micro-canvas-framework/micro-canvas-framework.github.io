@@ -8,12 +8,20 @@ redirect_from:
   - /chapter27-infrastructure-org-alignment
 ---
 
+<div className="mcf-contract-grid">
+
+<div className="row">
+  <div className="col col--6">
+
 :::note What this chapter does
 - Defines infrastructure alignment as a scaling requirement.
 - Shows how organization design supports growth.
 - Connects alignment to evidence of readiness.
 - Frames capacity planning as a governance decision.
 :::
+
+  </div>
+  <div className="col col--6">
 
 :::warning What this chapter does not do
 - Does not prescribe an org chart.
@@ -22,12 +30,21 @@ redirect_from:
 - Does not prescribe specific infrastructure vendors.
 :::
 
+  </div>
+</div>
+
+<div className="row">
+  <div className="col col--6">
+
 :::tip When you should read this
 - When systems strain under demand.
 - When teams are misaligned on priorities.
 - When scaling introduces new dependencies.
 - Before expanding capacity commitments.
 :::
+
+  </div>
+  <div className="col col--6">
 
 :::info Derived from Canon
 This chapter is interpretive and explanatory. Its constraints and limits derive from the Canon pages below.
@@ -38,6 +55,12 @@ This chapter is interpretive and explanatory. Its constraints and limits derive 
 - [Canon - Epistemic stage model](/docs/canon/epistemic-model)
 :::
 
+  </div>
+</div>
+
+<div className="row">
+  <div className="col col--6">
+
 :::info Key terms (canonical)
 - Evidence
 - Evidence quality
@@ -47,6 +70,9 @@ This chapter is interpretive and explanatory. Its constraints and limits derive 
 - Reversibility
 :::
 
+  </div>
+  <div className="col col--6">
+
 :::note Minimal evidence expectations (non-prescriptive)
 Evidence used in this chapter should allow you to:
 - document capacity limits and risks
@@ -54,6 +80,11 @@ Evidence used in this chapter should allow you to:
 - explain how alignment changes outcomes
 - justify readiness for scale
 :::
+
+  </div>
+</div>
+
+</div>
 
 Scaling depends on whether infrastructure and organization can carry the
 decisions already made. This chapter explains how to interpret alignment in

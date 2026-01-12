@@ -8,12 +8,20 @@ redirect_from:
   - /chapter16-user-stories-rapid-prototyping
 ---
 
+<div className="mcf-contract-grid">
+
+<div className="row">
+  <div className="col col--6">
+
 :::note What this chapter does
 - Explains user stories and rapid prototyping as instruments for making assumptions explicit and testable.
 - Shows how prototypes generate evidence about comprehension, usability, and adoption frictions—not just design preference.
 - Connects story-based requirements to observable behaviors and measurable outcomes.
 - Clarifies how prototyping reduces uncertainty while preserving optionality before irreversible implementation.
 :::
+
+  </div>
+  <div className="col col--6">
 
 :::warning What this chapter does not do
 - Does not prescribe a single user story template or agile ritual.
@@ -22,12 +30,21 @@ redirect_from:
 - Does not encourage “prototype theatre” without evidence capture and traceability.
 :::
 
+  </div>
+</div>
+
+<div className="row">
+  <div className="col col--6">
+
 :::tip When you should read this
 - When solution ideas exist but user understanding and interaction are unclear.
 - When teams are debating features without observable evidence.
 - When you need to surface adoption barriers before building.
 - Before investing in full implementation or architecture hardening.
 :::
+
+  </div>
+  <div className="col col--6">
 
 :::info Derived from Canon
 This chapter is interpretive and explanatory. Its constraints and limits derive from the Canon pages below.
@@ -38,6 +55,12 @@ This chapter is interpretive and explanatory. Its constraints and limits derive 
 - [Canon → Epistemic stage model](/docs/canon/epistemic-model)
 :::
 
+  </div>
+</div>
+
+<div className="row">
+  <div className="col col--6">
+
 :::info Key terms (canonical)
 - Evidence
 - Evidence quality
@@ -47,6 +70,9 @@ This chapter is interpretive and explanatory. Its constraints and limits derive 
 - Auditability
 :::
 
+  </div>
+  <div className="col col--6">
+
 :::note Minimal evidence expectations (non-prescriptive)
 Evidence used in this chapter should allow you to:
 - distinguish observed user behavior from subjective preference
@@ -54,6 +80,11 @@ Evidence used in this chapter should allow you to:
 - identify which assumptions a prototype is testing, and which it is not
 - state what observations would invalidate a story, flow, or feature hypothesis
 :::
+
+  </div>
+</div>
+
+</div>
 
 ![From Insight to Interaction](/img/ch16-user-stories-rapid-prototyping.svg)
 

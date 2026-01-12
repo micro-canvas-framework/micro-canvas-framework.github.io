@@ -8,12 +8,20 @@ redirect_from:
   - /chapter30-continuous-learning
 ---
 
+<div className="mcf-contract-grid">
+
+<div className="row">
+  <div className="col col--6">
+
 :::note What this chapter does
 - Defines continuous learning as a long-term capability.
 - Shows how feedback loops reinforce adaptation.
 - Connects learning practices to evidence quality.
 - Frames learning as a governance requirement.
 :::
+
+  </div>
+  <div className="col col--6">
 
 :::warning What this chapter does not do
 - Does not guarantee learning without leadership.
@@ -22,12 +30,21 @@ redirect_from:
 - Does not treat learning as optional.
 :::
 
+  </div>
+</div>
+
+<div className="row">
+  <div className="col col--6">
+
 :::tip When you should read this
 - When teams need sustained adaptation.
 - When innovation cycles repeat and scale.
 - When performance plateaus.
 - Before long-term scaling commitments.
 :::
+
+  </div>
+  <div className="col col--6">
 
 :::info Derived from Canon
 This chapter is interpretive and explanatory. Its constraints and limits derive from the Canon pages below.
@@ -38,6 +55,12 @@ This chapter is interpretive and explanatory. Its constraints and limits derive 
 - [Canon - Epistemic stage model](/docs/canon/epistemic-model)
 :::
 
+  </div>
+</div>
+
+<div className="row">
+  <div className="col col--6">
+
 :::info Key terms (canonical)
 - Evidence
 - Evidence quality
@@ -47,6 +70,9 @@ This chapter is interpretive and explanatory. Its constraints and limits derive 
 - Reversibility
 :::
 
+  </div>
+  <div className="col col--6">
+
 :::note Minimal evidence expectations (non-prescriptive)
 Evidence used in this chapter should allow you to:
 - document learning objectives and signals
@@ -54,6 +80,11 @@ Evidence used in this chapter should allow you to:
 - explain where gaps remain
 - justify whether learning systems are sufficient
 :::
+
+  </div>
+</div>
+
+</div>
 
 Continuous learning is the long-term stabilizer of innovation systems. This
 chapter explains how to interpret learning as evidence quality over time, not

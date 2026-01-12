@@ -8,12 +8,20 @@ redirect_from:
   - /chapter10-review-adjust-finalize-phase1
 ---
 
+<div className="mcf-contract-grid">
+
+<div className="row">
+  <div className="col col--6">
+
 :::note What this chapter does
 - Defines Phase 1 review as a consolidation of evidence and readiness.
 - Shows how to evaluate outcomes, adjust processes, and set new baselines.
 - Connects lessons learned to decision thresholds for Phase 2 entry.
 - Frames closing the loop as a governance discipline, not a formality.
 :::
+
+  </div>
+  <div className="col col--6">
 
 :::warning What this chapter does not do
 - Does not replace ongoing validation or Phase 2 planning.
@@ -22,12 +30,21 @@ redirect_from:
 - Does not treat retrospective summary as approval to proceed.
 :::
 
+  </div>
+</div>
+
+<div className="row">
+  <div className="col col--6">
+
 :::tip When you should read this
 - When Phase 1 activities have completed and need assessment.
 - When leadership needs a readiness decision for Phase 2.
 - When processes require adjustment before scaling.
 - Before committing resources to Phase 2 execution.
 :::
+
+  </div>
+  <div className="col col--6">
 
 :::info Derived from Canon
 This chapter is interpretive and explanatory. Its constraints and limits derive from the Canon pages below.
@@ -38,6 +55,12 @@ This chapter is interpretive and explanatory. Its constraints and limits derive 
 - [Canon - Epistemic stage model](/docs/canon/epistemic-model)
 :::
 
+  </div>
+</div>
+
+<div className="row">
+  <div className="col col--6">
+
 :::info Key terms (canonical)
 - Evidence
 - Evidence quality
@@ -47,6 +70,9 @@ This chapter is interpretive and explanatory. Its constraints and limits derive 
 - Reversibility
 :::
 
+  </div>
+  <div className="col col--6">
+
 :::note Minimal evidence expectations (non-prescriptive)
 Evidence used in this chapter should allow you to:
 - summarize Phase 1 outcomes against objectives
@@ -54,6 +80,11 @@ Evidence used in this chapter should allow you to:
 - justify readiness to proceed or pause
 - document adjustments required before Phase 2
 :::
+
+  </div>
+</div>
+
+</div>
 
 ![Closing the Loop with Insight](/img/ch10-review-adjust-finalize.svg)
 

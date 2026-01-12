@@ -9,12 +9,20 @@ redirect_from:
   - /chapter35-appendices-tools
 ---
 
+<div className="mcf-contract-grid">
+
+<div className="row">
+  <div className="col col--6">
+
 :::note What this chapter does
 - Collects supporting tools and references.
 - Provides structured access to templates.
 - Anchors tools to Canon concepts.
 - Frames appendices as supporting material.
 :::
+
+  </div>
+  <div className="col col--6">
 
 :::warning What this chapter does not do
 - Does not add new Canon rules.
@@ -23,12 +31,21 @@ redirect_from:
 - Does not serve as operational policy.
 :::
 
+  </div>
+</div>
+
+<div className="row">
+  <div className="col col--6">
+
 :::tip When you should read this
 - When locating tools used in chapters.
 - When referencing templates or checklists.
 - When onboarding new teams.
 - After reviewing core chapters.
 :::
+
+  </div>
+  <div className="col col--6">
 
 :::info Derived from Canon
 This chapter is interpretive and explanatory. Its constraints and limits derive from the Canon pages below.
@@ -39,6 +56,12 @@ This chapter is interpretive and explanatory. Its constraints and limits derive 
 - [Canon - Epistemic stage model](/docs/canon/epistemic-model)
 :::
 
+  </div>
+</div>
+
+<div className="row">
+  <div className="col col--6">
+
 :::info Key terms (canonical)
 - Evidence
 - Evidence quality
@@ -48,6 +71,9 @@ This chapter is interpretive and explanatory. Its constraints and limits derive 
 - Reversibility
 :::
 
+  </div>
+  <div className="col col--6">
+
 :::note Minimal evidence expectations (non-prescriptive)
 Evidence used in this chapter should allow you to:
 - document tool purpose and scope
@@ -55,6 +81,11 @@ Evidence used in this chapter should allow you to:
 - explain how tools are applied
 - justify tool selection
 :::
+
+  </div>
+</div>
+
+</div>
 
 Appendices and tools are supporting artifacts, not sources of authority. This
 chapter explains how to use tools without turning them into substitutes for

@@ -8,12 +8,20 @@ redirect_from:
   - /chapter13-exploring-alternative-solutions
 ---
 
+<div className="mcf-contract-grid">
+
+<div className="row">
+  <div className="col col--6">
+
 :::note What this chapter does
 - Explains how to expand the solution search space without prematurely committing to a single approach.
 - Introduces alternatives analysis as an epistemic step: compare options using explicit criteria and evidence.
 - Shows how to separate *solution hypotheses* from *validated constraints*, so teams can test without locking in.
 - Connects alternatives selection to decision thresholds and reversibility, ahead of prototyping and experiments.
 :::
+
+  </div>
+  <div className="col col--6">
 
 :::warning What this chapter does not do
 - Does not claim that generating more ideas increases innovation success.
@@ -22,12 +30,21 @@ redirect_from:
 - Does not replace prototyping, experiments, or user validation required later in Discovery and Validation.
 :::
 
+  </div>
+</div>
+
+<div className="row">
+  <div className="col col--6">
+
 :::tip When you should read this
 - After you have a clarified problem and strategic intent, but before committing to a solution direction.
 - When multiple approaches seem plausible and the team needs defensible selection logic.
 - When the organization is defaulting to the “first solution” without comparing alternatives.
 - When constraints (cost, time, compliance, integration) must be made explicit early.
 :::
+
+  </div>
+  <div className="col col--6">
 
 :::info Derived from Canon
 This chapter is interpretive and explanatory. Its constraints and limits derive from the Canon pages below.
@@ -38,6 +55,12 @@ This chapter is interpretive and explanatory. Its constraints and limits derive 
 - [Canon → Epistemic stage model](/docs/canon/epistemic-model)
 :::
 
+  </div>
+</div>
+
+<div className="row">
+  <div className="col col--6">
+
 :::info Key terms (canonical)
 - Evidence
 - Evidence quality
@@ -47,6 +70,9 @@ This chapter is interpretive and explanatory. Its constraints and limits derive 
 - Termination logic
 :::
 
+  </div>
+  <div className="col col--6">
+
 :::note Minimal evidence expectations (non-prescriptive)
 Evidence used in this chapter should allow you to:
 - state *why* each alternative is considered plausible (and under what assumptions)
@@ -54,6 +80,11 @@ Evidence used in this chapter should allow you to:
 - specify what observations or tests would eliminate an option
 - justify why a chosen direction remains reversible until stronger evidence is obtained
 :::
+
+  </div>
+</div>
+
+</div>
 
 ![Navigating the Path to Differentiation](/img/ch13-alternatives-advantages-features.svg)
 

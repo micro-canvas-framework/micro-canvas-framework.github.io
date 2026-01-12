@@ -9,12 +9,20 @@ redirect_from:
   - /chapter34-conclusion-transformative-impact
 ---
 
+<div className="mcf-contract-grid">
+
+<div className="row">
+  <div className="col col--6">
+
 :::note What this chapter does
 - Synthesizes the five-phase journey.
 - Reinforces the evidence-first framing.
 - Clarifies how to continue beyond the book.
 - Anchors the framework in long-term intent.
 :::
+
+  </div>
+  <div className="col col--6">
 
 :::warning What this chapter does not do
 - Does not introduce new rules.
@@ -23,12 +31,21 @@ redirect_from:
 - Does not serve as a checklist.
 :::
 
+  </div>
+</div>
+
+<div className="row">
+  <div className="col col--6">
+
 :::tip When you should read this
 - After completing the five phases.
 - When summarizing outcomes for stakeholders.
 - When planning post-book next steps.
 - Before long-term program renewal.
 :::
+
+  </div>
+  <div className="col col--6">
 
 :::info Derived from Canon
 This chapter is interpretive and explanatory. Its constraints and limits derive from the Canon pages below.
@@ -39,6 +56,12 @@ This chapter is interpretive and explanatory. Its constraints and limits derive 
 - [Canon - Epistemic stage model](/docs/canon/epistemic-model)
 :::
 
+  </div>
+</div>
+
+<div className="row">
+  <div className="col col--6">
+
 :::info Key terms (canonical)
 - Evidence
 - Evidence quality
@@ -48,6 +71,9 @@ This chapter is interpretive and explanatory. Its constraints and limits derive 
 - Reversibility
 :::
 
+  </div>
+  <div className="col col--6">
+
 :::note Minimal evidence expectations (non-prescriptive)
 Evidence used in this chapter should allow you to:
 - summarize outcomes and gaps
@@ -55,6 +81,11 @@ Evidence used in this chapter should allow you to:
 - explain ongoing commitments
 - justify future priorities
 :::
+
+  </div>
+</div>
+
+</div>
 
 MCF 2.2 is not a checklist. It is a decision system grounded in evidence. The
 five phases describe how uncertainty is reduced and how commitments become

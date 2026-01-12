@@ -8,12 +8,20 @@ redirect_from:
   - /chapter23-operational-processes
 ---
 
+<div className="mcf-contract-grid">
+
+<div className="row">
+  <div className="col col--6">
+
 :::note What this chapter does
 - Defines operational process design as a delivery enabler.
 - Shows how streamlining removes friction and delays.
 - Connects process choices to evidence and decision thresholds.
 - Frames operations as part of innovation reliability.
 :::
+
+  </div>
+  <div className="col col--6">
 
 :::warning What this chapter does not do
 - Does not provide a full operations manual.
@@ -22,12 +30,21 @@ redirect_from:
 - Does not prescribe specific tooling.
 :::
 
+  </div>
+</div>
+
+<div className="row">
+  <div className="col col--6">
+
 :::tip When you should read this
 - When delivery is inconsistent or slow.
 - When handoffs create recurring bottlenecks.
 - When scaling requires process stability.
 - Before expanding operational capacity.
 :::
+
+  </div>
+  <div className="col col--6">
 
 :::info Derived from Canon
 This chapter is interpretive and explanatory. Its constraints and limits derive from the Canon pages below.
@@ -38,6 +55,12 @@ This chapter is interpretive and explanatory. Its constraints and limits derive 
 - [Canon - Epistemic stage model](/docs/canon/epistemic-model)
 :::
 
+  </div>
+</div>
+
+<div className="row">
+  <div className="col col--6">
+
 :::info Key terms (canonical)
 - Evidence
 - Evidence quality
@@ -47,6 +70,9 @@ This chapter is interpretive and explanatory. Its constraints and limits derive 
 - Reversibility
 :::
 
+  </div>
+  <div className="col col--6">
+
 :::note Minimal evidence expectations (non-prescriptive)
 Evidence used in this chapter should allow you to:
 - document current process constraints and risks
@@ -54,6 +80,11 @@ Evidence used in this chapter should allow you to:
 - explain how outcomes improved after changes
 - justify whether operations are ready to scale
 :::
+
+  </div>
+</div>
+
+</div>
 
 Operational processes are the repeatable pathways that turn decisions into
 consistent outcomes. In Phase 3, the focus is not on speed alone, but on

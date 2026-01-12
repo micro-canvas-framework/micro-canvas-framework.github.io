@@ -8,12 +8,20 @@ redirect_from:
   - /chapter8-governance-pilots-iterations
 ---
 
+<div className="mcf-contract-grid">
+
+<div className="row">
+  <div className="col col--6">
+
 :::note What this chapter does
 - Defines pilots as the execution testbed for governance decisions.
 - Shows how iterative cycles turn governance into measurable outcomes.
 - Connects pilot feedback to evidence updates and decision thresholds.
 - Frames pilots as a controlled step before broader scaling.
 :::
+
+  </div>
+  <div className="col col--6">
 
 :::warning What this chapter does not do
 - Does not prescribe a single pilot template or sprint cadence.
@@ -22,12 +30,21 @@ redirect_from:
 - Does not treat iteration as a substitute for validation.
 :::
 
+  </div>
+</div>
+
+<div className="row">
+  <div className="col col--6">
+
 :::tip When you should read this
 - When governance decisions need real-world execution tests.
 - When teams need a structured pilot process to reduce risk.
 - When early outcomes must inform scaling decisions.
 - Before expanding innovation initiatives across the organization.
 :::
+
+  </div>
+  <div className="col col--6">
 
 :::info Derived from Canon
 This chapter is interpretive and explanatory. Its constraints and limits derive from the Canon pages below.
@@ -38,6 +55,12 @@ This chapter is interpretive and explanatory. Its constraints and limits derive 
 - [Canon - Epistemic stage model](/docs/canon/epistemic-model)
 :::
 
+  </div>
+</div>
+
+<div className="row">
+  <div className="col col--6">
+
 :::info Key terms (canonical)
 - Evidence
 - Evidence quality
@@ -47,6 +70,9 @@ This chapter is interpretive and explanatory. Its constraints and limits derive 
 - Reversibility
 :::
 
+  </div>
+  <div className="col col--6">
+
 :::note Minimal evidence expectations (non-prescriptive)
 Evidence used in this chapter should allow you to:
 - document pilot objectives and success criteria
@@ -54,6 +80,11 @@ Evidence used in this chapter should allow you to:
 - show what changed based on feedback
 - justify whether pilots should scale, repeat, or stop
 :::
+
+  </div>
+</div>
+
+</div>
 
 ![From Structure to Action](/img/ch8-governance-pilots-iterations.svg)
 

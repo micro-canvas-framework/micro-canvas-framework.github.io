@@ -8,12 +8,20 @@ redirect_from:
   - /chapter9-leadership-alignment-expansion
 ---
 
+<div className="mcf-contract-grid">
+
+<div className="row">
+  <div className="col col--6">
+
 :::note What this chapter does
 - Defines leadership alignment as the governance multiplier for innovation.
 - Shows how roles, sponsorship, and cross-functional support reduce friction.
 - Connects leadership actions to evidence-based decision making.
 - Frames leadership expansion as a prerequisite for scaling.
 :::
+
+  </div>
+  <div className="col col--6">
 
 :::warning What this chapter does not do
 - Does not replace executive accountability or strategy.
@@ -22,12 +30,21 @@ redirect_from:
 - Does not provide HR policy or compensation guidance.
 :::
 
+  </div>
+</div>
+
+<div className="row">
+  <div className="col col--6">
+
 :::tip When you should read this
 - When innovation efforts lack executive sponsorship.
 - When cross-functional coordination is weak or inconsistent.
 - When scaling governance beyond pilot teams.
 - Before entering Phase 2 execution at scale.
 :::
+
+  </div>
+  <div className="col col--6">
 
 :::info Derived from Canon
 This chapter is interpretive and explanatory. Its constraints and limits derive from the Canon pages below.
@@ -38,6 +55,12 @@ This chapter is interpretive and explanatory. Its constraints and limits derive 
 - [Canon - Epistemic stage model](/docs/canon/epistemic-model)
 :::
 
+  </div>
+</div>
+
+<div className="row">
+  <div className="col col--6">
+
 :::info Key terms (canonical)
 - Evidence
 - Evidence quality
@@ -47,6 +70,9 @@ This chapter is interpretive and explanatory. Its constraints and limits derive 
 - Reversibility
 :::
 
+  </div>
+  <div className="col col--6">
+
 :::note Minimal evidence expectations (non-prescriptive)
 Evidence used in this chapter should allow you to:
 - map leadership roles to decision rights
@@ -54,6 +80,11 @@ Evidence used in this chapter should allow you to:
 - document alignment signals across teams
 - justify whether leadership support is sufficient to scale
 :::
+
+  </div>
+</div>
+
+</div>
 
 ![Leading with Purpose and Reach](/img/ch9-leadership-alignment-expansion.svg)
 

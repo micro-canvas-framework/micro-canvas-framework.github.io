@@ -8,12 +8,20 @@ redirect_from:
   - /chapter4-transforming-culture-mindset
 ---
 
+<div className="mcf-contract-grid">
+
+<div className="row">
+  <div className="col col--6">
+
 :::note What this chapter does
 - Defines culture and mindset as the enablers of sustained innovation practice.
 - Shows how leadership behaviors and incentives shape innovation habits.
 - Connects culture change to evidence-driven learning and adaptation.
 - Frames cultural work as a prerequisite for executing later phases.
 :::
+
+  </div>
+  <div className="col col--6">
 
 :::warning What this chapter does not do
 - Does not provide a full change-management playbook.
@@ -22,12 +30,21 @@ redirect_from:
 - Does not prescribe a single set of rituals or tools.
 :::
 
+  </div>
+</div>
+
+<div className="row">
+  <div className="col col--6">
+
 :::tip When you should read this
 - When innovation efforts stall due to resistance or fear of change.
 - When teams need shared behaviors and language to support experimentation.
 - When leadership wants to reinforce adaptive, learning-oriented culture.
 - Before scaling innovation practices across departments.
 :::
+
+  </div>
+  <div className="col col--6">
 
 :::info Derived from Canon
 This chapter is interpretive and explanatory. Its constraints and limits derive from the Canon pages below.
@@ -38,6 +55,12 @@ This chapter is interpretive and explanatory. Its constraints and limits derive 
 - [Canon - Epistemic stage model](/docs/canon/epistemic-model)
 :::
 
+  </div>
+</div>
+
+<div className="row">
+  <div className="col col--6">
+
 :::info Key terms (canonical)
 - Evidence
 - Evidence quality
@@ -47,6 +70,9 @@ This chapter is interpretive and explanatory. Its constraints and limits derive 
 - Reversibility
 :::
 
+  </div>
+  <div className="col col--6">
+
 :::note Minimal evidence expectations (non-prescriptive)
 Evidence used in this chapter should allow you to:
 - identify cultural barriers to evidence-driven innovation
@@ -54,6 +80,11 @@ Evidence used in this chapter should allow you to:
 - explain which changes are needed and why
 - justify whether culture is ready for the next phase
 :::
+
+  </div>
+</div>
+
+</div>
 
 ![Shifting from Structure to Flow](/img/ch4-transforming-culture-mindset.svg)
  

@@ -8,12 +8,20 @@ redirect_from:
   - /chapter15-marketing-engagement-sales
 ---
 
+<div className="mcf-contract-grid">
+
+<div className="row">
+  <div className="col col--6">
+
 :::note What this chapter does
 - Explains marketing, engagement, and sales as evidence-generating systems rather than promotion activities.
 - Shows how signals from acquisition, activation, and conversion constrain claims about demand and value.
 - Connects go-to-market actions to falsifiable assumptions about customers, channels, and willingness to pay.
 - Clarifies how early sales and engagement data inform decision thresholds in Discovery and Validation.
 :::
+
+  </div>
+  <div className="col col--6">
 
 :::warning What this chapter does not do
 - Does not provide a complete marketing playbook or channel checklist.
@@ -22,12 +30,21 @@ redirect_from:
 - Does not optimize for growth before epistemic clarity is established.
 :::
 
+  </div>
+</div>
+
+<div className="row">
+  <div className="col col--6">
+
 :::tip When you should read this
 - When you need evidence that customers will engage, not just express interest.
 - When multiple channels appear viable and require disciplined testing.
 - When early traction exists but its meaning is ambiguous.
 - Before committing to scale-up, automation, or paid acquisition.
 :::
+
+  </div>
+  <div className="col col--6">
 
 :::info Derived from Canon
 This chapter is interpretive and explanatory. Its constraints and limits derive from the Canon pages below.
@@ -38,6 +55,12 @@ This chapter is interpretive and explanatory. Its constraints and limits derive 
 - [Canon → Epistemic stage model](/docs/canon/epistemic-model)
 :::
 
+  </div>
+</div>
+
+<div className="row">
+  <div className="col col--6">
+
 :::info Key terms (canonical)
 - Evidence
 - Evidence quality
@@ -47,6 +70,9 @@ This chapter is interpretive and explanatory. Its constraints and limits derive 
 - Signal vs noise
 :::
 
+  </div>
+  <div className="col col--6">
+
 :::note Minimal evidence expectations (non-prescriptive)
 Evidence used in this chapter should allow you to:
 - distinguish observed engagement from stated intent
@@ -54,6 +80,11 @@ Evidence used in this chapter should allow you to:
 - explain what would invalidate a go-to-market assumption
 - justify why scaling a channel is reversible or intentionally irreversible
 :::
+
+  </div>
+</div>
+
+</div>
 
 ![From Message to Market](/img/ch15-marketing-engagement-sales.svg)
 

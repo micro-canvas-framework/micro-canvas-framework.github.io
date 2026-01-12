@@ -412,6 +412,7 @@ DONE:
 - phase landing pages + ordering normalized
 - FrontMatter moved under Book with collisions resolved
 - Chapter 11 header contract applied + canon links resolved
+- Refactor chapter header contract into 2x2 card grid layout (DONE once applied across book)
 
 PENDING:
 - Apply Book header contract to remaining chapters (Phase 1/Phase 2/Phase 3-5 completed; admonitions applied site-wide)
@@ -445,6 +446,7 @@ Global Rules:
 - Canon defines rules; diagrams illustrate relationships
 - No diagram may contradict Canon constraints
 - No diagram may imply linear progression unless explicitly stated as local
+- All figures are Mermaid diagrams enclosed in Docusaurus admonitions
 
 Figure Governance:
 - Every diagram must have:
@@ -454,6 +456,7 @@ Figure Governance:
 - Figure numbering is sequential by Book order
 - Figures are referenced explicitly in text (e.g., "see Figure 12.1")
 - Figure numbering: global sequence, Figure 1 reserved for system map.
+- Figures index lists figure numbers and where used (not file paths)
 
 Backlog - Diagram Remediation (GLOBAL):
 - [ ] Audit all existing diagrams for MCF 2.1 assumptions
@@ -475,7 +478,7 @@ Per-Chapter Requirement:
 - Diagram status must be tracked per chapter in CONTEXT.md
 - Foreword: no diagrams required; confirmed N/A
 - Preface: no diagrams required; confirmed N/A
-- How to Use This Book: Figure 1 embedded (MCF 2.2 system map).
+- How to Use This Book: Figure 1 embedded (Mermaid system map in admonition).
 - Evidence-First Thinking: no figure required (text-only) — confirm on review.
 - Epistemic Stages: Figure X — MCF 2.2 epistemic stages as reversible decision states (PENDING)
 - Decision Logic: Figure X — Decision thresholds vs reversibility and risk (PENDING)

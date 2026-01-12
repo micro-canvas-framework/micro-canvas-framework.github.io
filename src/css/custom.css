@@ -109,3 +109,33 @@
     font-size: 0.85rem;
     line-height: 1.45;
 }
+
+/* MCF Book chapter contract — card/grid styling */
+.mcf-contract-grid .row {
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
+}
+
+.mcf-contract-grid .col {
+    display: flex;
+}
+
+.mcf-contract-grid .theme-admonition {
+    width: 100%;
+    border-radius: 18px;
+    border: 1px solid var(--ifm-toc-border-color);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.06);
+    padding: 0.75rem 0.9rem;
+}
+
+.mcf-contract-grid .theme-admonition > div {
+    width: 100%;
+}
+
+.mcf-contract-grid .theme-admonition-title {
+    font-weight: 650;
+}
+
+.mcf-contract-grid .theme-admonition-content {
+    margin-top: 0.25rem;
+}

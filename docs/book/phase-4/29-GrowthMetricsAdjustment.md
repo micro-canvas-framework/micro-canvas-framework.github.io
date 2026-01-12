@@ -8,12 +8,20 @@ redirect_from:
   - /chapter29-growth-metrics-continuous-adjustment
 ---
 
+<div className="mcf-contract-grid">
+
+<div className="row">
+  <div className="col col--6">
+
 :::note What this chapter does
 - Defines growth metrics as evidence signals.
 - Shows how metrics inform scaling adjustments.
 - Connects metric trends to decision thresholds.
 - Frames adjustment as part of governance.
 :::
+
+  </div>
+  <div className="col col--6">
 
 :::warning What this chapter does not do
 - Does not define a fixed KPI set.
@@ -22,12 +30,21 @@ redirect_from:
 - Does not treat metrics as goals alone.
 :::
 
+  </div>
+</div>
+
+<div className="row">
+  <div className="col col--6">
+
 :::tip When you should read this
 - When growth signals conflict or drift.
 - When scaling decisions require evidence updates.
 - When performance needs continuous adjustment.
 - Before expanding investment commitments.
 :::
+
+  </div>
+  <div className="col col--6">
 
 :::info Derived from Canon
 This chapter is interpretive and explanatory. Its constraints and limits derive from the Canon pages below.
@@ -38,6 +55,12 @@ This chapter is interpretive and explanatory. Its constraints and limits derive 
 - [Canon - Epistemic stage model](/docs/canon/epistemic-model)
 :::
 
+  </div>
+</div>
+
+<div className="row">
+  <div className="col col--6">
+
 :::info Key terms (canonical)
 - Evidence
 - Evidence quality
@@ -47,6 +70,9 @@ This chapter is interpretive and explanatory. Its constraints and limits derive 
 - Reversibility
 :::
 
+  </div>
+  <div className="col col--6">
+
 :::note Minimal evidence expectations (non-prescriptive)
 Evidence used in this chapter should allow you to:
 - define which metrics signal readiness
@@ -54,6 +80,11 @@ Evidence used in this chapter should allow you to:
 - explain why adjustments are required
 - justify whether to continue scaling
 :::
+
+  </div>
+</div>
+
+</div>
 
 Growth metrics are evidence signals, not goals. This chapter explains how to
 interpret metrics as inputs to scaling decisions and how to adjust when signals

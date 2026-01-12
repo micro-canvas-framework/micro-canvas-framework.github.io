@@ -8,12 +8,20 @@ redirect_from:
   - /chapter33-sustaining-innovation-long-term
 ---
 
+<div className="mcf-contract-grid">
+
+<div className="row">
+  <div className="col col--6">
+
 :::note What this chapter does
 - Defines sustainability as long-term innovation capacity.
 - Shows how systems reinforce consistent outcomes.
 - Connects sustainability to evidence of impact.
 - Frames long-term success as iterative renewal.
 :::
+
+  </div>
+  <div className="col col--6">
 
 :::warning What this chapter does not do
 - Does not guarantee long-term performance.
@@ -22,12 +30,21 @@ redirect_from:
 - Does not treat sustainability as static.
 :::
 
+  </div>
+</div>
+
+<div className="row">
+  <div className="col col--6">
+
 :::tip When you should read this
 - When innovation must persist beyond pilots.
 - When organizational memory erodes progress.
 - When success needs to be sustained over cycles.
 - Before exiting the transformation program.
 :::
+
+  </div>
+  <div className="col col--6">
 
 :::info Derived from Canon
 This chapter is interpretive and explanatory. Its constraints and limits derive from the Canon pages below.
@@ -38,6 +55,12 @@ This chapter is interpretive and explanatory. Its constraints and limits derive 
 - [Canon - Epistemic stage model](/docs/canon/epistemic-model)
 :::
 
+  </div>
+</div>
+
+<div className="row">
+  <div className="col col--6">
+
 :::info Key terms (canonical)
 - Evidence
 - Evidence quality
@@ -47,6 +70,9 @@ This chapter is interpretive and explanatory. Its constraints and limits derive 
 - Reversibility
 :::
 
+  </div>
+  <div className="col col--6">
+
 :::note Minimal evidence expectations (non-prescriptive)
 Evidence used in this chapter should allow you to:
 - document sustainability signals
@@ -54,6 +80,11 @@ Evidence used in this chapter should allow you to:
 - explain where renewal is needed
 - justify whether systems are durable
 :::
+
+  </div>
+</div>
+
+</div>
 
 Sustaining innovation means keeping decision integrity after the initial
 transformation. This chapter explains how to interpret long-term sustainability
