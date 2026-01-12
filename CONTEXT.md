@@ -434,9 +434,12 @@ Conclusion and Tools
 - 1d9d9a7 fix(book): fix figure 5 mermaid and meta 3-card grid layout
 - 1bff865 fix(figures): remove stray tokens causing figure 5 mermaid parse error
 - 1820a8e feat(book): add derived-from-canon card to meta explanatory contract
+- (pending) docs(book): complete governance and roles page structure and headings
 
 ## 12) Backlog (live)
 DONE:
+- Governance and Roles: complete explanatory body + restore headings (no trailing stubs)
+- Governance and Roles: add minimal evidence expectations section
 - Fix: eliminate stale localhost:3000 chunk loads by enforcing clean serve/dev port discipline
 - Fix: Figure 5 Mermaid runtime parse error - ensure no PowerShell prompt lines inside mermaid fences; use safe labels first
 - Rule: Any runtime UI verification must be against npm run serve on a known port (default 4400) before trusting dev output
