@@ -1,10 +1,10 @@
 import React from 'react';
-import type { Props } from '@theme/DocItem/Layout';
+import type { Props } from '@theme-original/DocItem/Layout';
 import OriginalLayout from '@theme-original/DocItem/Layout';
 import { useDoc } from '@docusaurus/plugin-content-docs/client';
 import EntityHeader from '@site/src/components/EntityHeader';
 
-const DocItemLayout = (props: Props): JSX.Element => {
+const DocItemLayout = (props: Props) => {
     const doc = useDoc() as {
         metadata?: {
             lastUpdatedAt?: number;
