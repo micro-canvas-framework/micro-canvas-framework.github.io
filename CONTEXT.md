@@ -385,6 +385,7 @@ Conclusion and Tools
 - dacaa29 chore(cleanup): remove default markdown page
 - 9fc1767 chore(cleanup): remove unused static images
 - 4c3b44a docs(book): customize phase 1 headers and finish canon links
+- cd39447 docs(book): add phase 3-5 drafts, conclusion content, and 404 overrides
 
 ## 12) Backlog (live)
 DONE:
