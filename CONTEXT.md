@@ -433,7 +433,7 @@ Conclusion and Tools
 - afa3852 docs(book): add decision thresholds figure and align decision logic page
 - 1d9d9a7 fix(book): fix figure 5 mermaid and meta 3-card grid layout
 - 1bff865 fix(figures): remove stray tokens causing figure 5 mermaid parse error
-- (pending) feat(book): add derived-from-canon card to meta explanatory contract
+- 1820a8e feat(book): add derived-from-canon card to meta explanatory contract
 
 ## 12) Backlog (live)
 DONE:
