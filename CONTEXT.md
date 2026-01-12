@@ -172,6 +172,8 @@ Book core pages (explanatory)
   - Figure added: YES
   - Mermaid: YES
   - Status: COMPLETE (structure)
+- Failure Modes
+  - Status: COMPLETE
 
 Phase 1 - Foundations
 - Chapter 1: Introduction to Innovation Maturity
@@ -414,6 +416,7 @@ Conclusion and Tools
 - f723905 fix(figures): close figure admonition and compact system map layout
 - 5c94684 docs(book): add figures index to sidebar and lock figure governance
 - 928d888 docs(book): add governance figure and index entry
+- c3eb473 fix(book): render figure 4 and align failure modes page
 
 ## 12) Backlog (live)
 DONE:
@@ -441,6 +444,7 @@ DONE:
 - Add Figures index to sidebar (Front matter)
 - Sidebar includes Figures index
 - Governance and Roles: Figure 4 added
+- Governance and Roles: Figure 4 render fixed
 - demo markdown page removed
 - unused images cleaned
 - phase landing pages + ordering normalized
