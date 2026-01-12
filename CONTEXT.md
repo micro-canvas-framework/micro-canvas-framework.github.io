@@ -143,6 +143,10 @@ J. BOOK CHAPTER INVENTORY & STATUS
 =====================================================================
 
 Front matter (prefatory)
+- Front matter intro
+  - Header contract applied: YES
+  - Canon links resolved: YES
+  - Status: COMPLETE
 - Foreword
   - Header contract applied: YES (admonitions)
   - Canon links resolved: NO
@@ -414,3 +418,47 @@ DEFERRED:
 - IMM mapping/scoring
 - academic article
 - templates/case studies
+
+=====================================================================
+K. DIAGRAMS & FIGURES — GLOBAL CONTRACT (LOCKED)
+=====================================================================
+
+Purpose:
+- Ensure all diagrams in the Book layer are consistent with MCF 2.2 Canon
+- Eliminate legacy (MCF 2.1) linear or maturity-ladder representations
+- Provide academic-quality, referenceable figures
+
+Global Rules:
+- Diagrams are explanatory, not normative
+- Canon defines rules; diagrams illustrate relationships
+- No diagram may contradict Canon constraints
+- No diagram may imply linear progression unless explicitly stated as local
+
+Figure Governance:
+- Every diagram must have:
+  - A figure number (Figure X.Y)
+  - A title
+  - A caption explaining scope and limits
+- Figure numbering is sequential by Book order
+- Figures are referenced explicitly in text (e.g., “see Figure 12.1”)
+
+Backlog — Diagram Remediation (GLOBAL):
+- [ ] Audit all existing diagrams for MCF 2.1 assumptions
+- [ ] Redraw diagrams to reflect:
+      - epistemic stages vs capability layers
+      - parallelism
+      - regression
+      - optionality preservation
+- [ ] Remove any funnel, pipeline, or maturity-ladder visuals
+- [ ] Add missing diagrams where concepts are abstract or easily misread
+- [ ] Produce a centralized **List of Figures** (Book-wide)
+
+Per-Chapter Requirement:
+- Each Book chapter must be evaluated for:
+  - diagrams to fix
+  - diagrams to remove
+  - diagrams to add
+- Diagram status must be tracked per chapter in CONTEXT.md
+
+Status: LOCKED
+
