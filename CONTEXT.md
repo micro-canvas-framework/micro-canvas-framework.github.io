@@ -167,6 +167,12 @@ Front matter (prefatory)
   - Canon links resolved: NO
   - Status: PENDING
 
+Book core pages (explanatory)
+- Governance and Roles
+  - Figure added: YES
+  - Mermaid: YES
+  - Status: COMPLETE (structure)
+
 Phase 1 - Foundations
 - Chapter 1: Introduction to Innovation Maturity
 - Chapter 1: Introduction to Innovation Maturity
@@ -407,6 +413,7 @@ Conclusion and Tools
 - (pending) docs(book): add figures index to sidebar and lock figure governance
 - f723905 fix(figures): close figure admonition and compact system map layout
 - 5c94684 docs(book): add figures index to sidebar and lock figure governance
+- (pending) docs(book): add governance figure and index entry
 
 ## 12) Backlog (live)
 DONE:
@@ -433,6 +440,7 @@ DONE:
 - Figure 3 added (Evidence-first loop diagram)
 - Add Figures index to sidebar (Front matter)
 - Sidebar includes Figures index
+- Governance and Roles: Figure 4 added
 - demo markdown page removed
 - unused images cleaned
 - phase landing pages + ordering normalized
@@ -472,7 +480,7 @@ Global Rules:
 - Canon defines rules; diagrams illustrate relationships
 - No diagram may contradict Canon constraints
 - No diagram may imply linear progression unless explicitly stated as local
-- All figures are Mermaid diagrams enclosed in Docusaurus admonitions
+- All figures are Mermaid diagrams inside Docusaurus admonitions
 - Mermaid must be enabled in Docusaurus (markdown.mermaid + theme-mermaid)
 - Mermaid global style enforced via themeConfig.mermaid (fontSize 18; Inter)
 
@@ -490,10 +498,10 @@ Figure Governance:
 - Default Mermaid styling is **global**, but **per-figure init is allowed** only for readability.
 - Baseline readability target: **fontSize >= 28px** for figure diagrams when needed.
 - Figure numbering is **monotonic** and tracked in the figures index.
-- Single source of truth for the list: **docs/book/front-matter/figures.mdx** (the figures index).
+- Single source of truth for the list: **docs/meta/figures.mdx** (the figures index).
 - Figures index lists figure numbers and where used (not file paths)
 - Per-diagram init blocks should be avoided; only used when necessary; must match global font sizing
-- Per-diagram Mermaid init is allowed for Figures when readability requires it (must use Phase-2 init style; fontSize >= 22px)
+- Per-diagram Mermaid init is allowed for Figures when readability requires it (must use Phase-2 init style; fontSize >= 28px)
 - Figures may use Mermaid markdown labels (**bold**, *italic*) where rendered
 - Figure 1 uses <br/> for node label line breaks; spacer nodes to avoid title overlap
 - Figure 1 admonition boundary fixed (admonition closes before body text)
@@ -528,6 +536,7 @@ Per-Chapter Requirement:
 - Decision Logic: Figure X - Decision thresholds vs reversibility and risk (PENDING)
 - Figure 2: Epistemic stages vs phases (decision state vs activity) - DRAFT
 - Figure 3: Evidence-first loop (claim -> evidence -> decision state) - DRAFT
+- Figure 4: Governance as Decision Integrity (explanatory) - DRAFT
 
 Status: LOCKED
 
