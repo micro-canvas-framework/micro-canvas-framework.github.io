@@ -13,7 +13,12 @@ redirect_from:
 <div className="row">
   <div className="col col--6">
 
-:::note What this chapter does
+<div className="mcf-contract-grid">
+
+<div className="row">
+  <div className="col col--6">
+
+:::info What this chapter does
 - Defines innovation maturity as a repeatable capability rather than a one-off outcome.
 - Establishes the baseline concepts that anchor the Phase 1 foundation.
 - Connects maturity to evidence, governance, and strategic alignment.
@@ -46,7 +51,7 @@ redirect_from:
   </div>
   <div className="col col--6">
 
-:::info Derived from Canon
+:::note Derived from Canon
 This chapter is interpretive and explanatory. Its constraints and limits derive from the Canon pages below.
 
 - [Canon - Definitions](/docs/canon/definitions)
@@ -73,13 +78,18 @@ This chapter is interpretive and explanatory. Its constraints and limits derive 
   </div>
   <div className="col col--6">
 
-:::note Minimal evidence expectations (non-prescriptive)
+:::warning Minimal evidence expectations (non-prescriptive)
 Evidence used in this chapter should allow you to:
 - articulate a baseline maturity definition for the organization
 - connect maturity goals to observable practices and outcomes
 - state what evidence would show progress or regression
 - justify why the organization should invest in maturity work
 :::
+
+  </div>
+</div>
+
+</div>
 
   </div>
 </div>

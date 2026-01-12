@@ -13,7 +13,12 @@ redirect_from:
 <div className="row">
   <div className="col col--6">
 
-:::note What this chapter does
+<div className="mcf-contract-grid">
+
+<div className="row">
+  <div className="col col--6">
+
+:::info What this chapter does
 - Defines automation as a leverage point for reliability.
 - Shows how data signals improve decision cadence.
 - Connects metrics to evidence thresholds.
@@ -46,7 +51,7 @@ redirect_from:
   </div>
   <div className="col col--6">
 
-:::info Derived from Canon
+:::note Derived from Canon
 This chapter is interpretive and explanatory. Its constraints and limits derive from the Canon pages below.
 
 - [Canon - Definitions](/docs/canon/definitions)
@@ -73,13 +78,18 @@ This chapter is interpretive and explanatory. Its constraints and limits derive 
   </div>
   <div className="col col--6">
 
-:::note Minimal evidence expectations (non-prescriptive)
+:::warning Minimal evidence expectations (non-prescriptive)
 Evidence used in this chapter should allow you to:
 - define which signals drive which decisions
 - show data quality and limitations
 - explain why automation changes outcomes
 - justify when to escalate or pause
 :::
+
+  </div>
+</div>
+
+</div>
 
   </div>
 </div>

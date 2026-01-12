@@ -14,7 +14,12 @@ redirect_from:
 <div className="row">
   <div className="col col--6">
 
-:::note What this chapter does
+<div className="mcf-contract-grid">
+
+<div className="row">
+  <div className="col col--6">
+
+:::info What this chapter does
 - Explains how to navigate the Book layer across phases.
 - Clarifies how to apply chapters without assuming linear progression.
 - Defines how readers should use examples, tools, and templates.
@@ -24,7 +29,7 @@ redirect_from:
   </div>
   <div className="col col--6">
 
-:::note What this chapter does not do
+:::warning What this chapter does not do
 - Does not redefine Canon rules, terms, or constraints.
 - Does not prescribe a mandatory reading order.
 - Does not guarantee outcomes from following the phases.
@@ -37,7 +42,7 @@ redirect_from:
 <div className="row">
   <div className="col col--6">
 
-:::note When you should read this
+:::tip When you should read this
 - After the Foreword and Preface.
 - Before engaging with any phase-based chapters.
 - When onboarding new teams or stakeholders to MCF 2.2.
@@ -60,7 +65,7 @@ This chapter is constrained by the following Canon sources:
 <div className="row">
   <div className="col col--6">
 
-:::note Key terms (canonical)
+:::info Key terms (canonical)
 - Phase
 - Evidence
 - Decision threshold
@@ -71,7 +76,7 @@ This chapter is constrained by the following Canon sources:
   </div>
   <div className="col col--6">
 
-:::note Minimal evidence expectations (non-prescriptive)
+:::warning Minimal evidence expectations (non-prescriptive)
 This chapter introduces no new evidence requirements. It explains how evidence
 is interpreted and applied throughout the Book.
 :::
@@ -81,7 +86,13 @@ is interpreted and applied throughout the Book.
 
 </div>
 
+  </div>
+</div>
+
+</div>
+
 :::tip[Figure 1 — MCF 2.2 System Map (Canonical + Explanatory Layers)]
+
 ```mermaid
 %%{init: {"theme":"base","flowchart":{"nodeSpacing":28,"rankSpacing":36},"fontFamily":"Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial","fontSize":16}}%%
 flowchart TB

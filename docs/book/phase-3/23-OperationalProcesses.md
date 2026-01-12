@@ -13,7 +13,12 @@ redirect_from:
 <div className="row">
   <div className="col col--6">
 
-:::note What this chapter does
+<div className="mcf-contract-grid">
+
+<div className="row">
+  <div className="col col--6">
+
+:::info What this chapter does
 - Defines operational process design as a delivery enabler.
 - Shows how streamlining removes friction and delays.
 - Connects process choices to evidence and decision thresholds.
@@ -46,7 +51,7 @@ redirect_from:
   </div>
   <div className="col col--6">
 
-:::info Derived from Canon
+:::note Derived from Canon
 This chapter is interpretive and explanatory. Its constraints and limits derive from the Canon pages below.
 
 - [Canon - Definitions](/docs/canon/definitions)
@@ -73,13 +78,18 @@ This chapter is interpretive and explanatory. Its constraints and limits derive 
   </div>
   <div className="col col--6">
 
-:::note Minimal evidence expectations (non-prescriptive)
+:::warning Minimal evidence expectations (non-prescriptive)
 Evidence used in this chapter should allow you to:
 - document current process constraints and risks
 - show which changes reduce uncertainty
 - explain how outcomes improved after changes
 - justify whether operations are ready to scale
 :::
+
+  </div>
+</div>
+
+</div>
 
   </div>
 </div>

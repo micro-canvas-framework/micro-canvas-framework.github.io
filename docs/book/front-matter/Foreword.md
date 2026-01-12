@@ -14,7 +14,12 @@ redirect_from:
 <div className="row">
   <div className="col col--6">
 
-:::note What this chapter does
+<div className="mcf-contract-grid">
+
+<div className="row">
+  <div className="col col--6">
+
+:::info What this chapter does
 - Introduces the epistemic stance of MCF 2.2 before any operational material.
 - Clarifies the separation between **Canon** (normative) and **Book** (explanatory).
 - Frames innovation as a system of decisions grounded in evidence and governance.
@@ -24,7 +29,7 @@ redirect_from:
   </div>
   <div className="col col--6">
 
-:::note What this chapter does not do
+:::warning What this chapter does not do
 - Does not define rules, stages, or decision thresholds.
 - Does not provide instructions, methods, or tools.
 - Does not replace or summarize Canon content.
@@ -37,7 +42,7 @@ redirect_from:
 <div className="row">
   <div className="col col--6">
 
-:::note When you should read this
+:::tip When you should read this
 - Before engaging with any phase-based Book chapters.
 - When orienting new readers to the intent and limits of MCF 2.2.
 - When clarifying whether a page is explanatory or normative.
@@ -59,7 +64,7 @@ This foreword is constrained by the following Canon sources:
 <div className="row">
   <div className="col col--6">
 
-:::note Key terms (canonical)
+:::info Key terms (canonical)
 - Canon
 - Book
 - Evidence
@@ -70,10 +75,15 @@ This foreword is constrained by the following Canon sources:
   </div>
   <div className="col col--6">
 
-:::note Minimal evidence expectations (non-prescriptive)
+:::warning Minimal evidence expectations (non-prescriptive)
 This chapter does not introduce evidence requirements. It exists solely to
 establish orientation and reading discipline.
 :::
+
+  </div>
+</div>
+
+</div>
 
   </div>
 </div>

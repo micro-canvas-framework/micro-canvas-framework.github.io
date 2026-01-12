@@ -13,7 +13,12 @@ redirect_from:
 <div className="row">
   <div className="col col--6">
 
-:::note What this chapter does
+<div className="mcf-contract-grid">
+
+<div className="row">
+  <div className="col col--6">
+
+:::info What this chapter does
 - Defines Phase 1 review as a consolidation of evidence and readiness.
 - Shows how to evaluate outcomes, adjust processes, and set new baselines.
 - Connects lessons learned to decision thresholds for Phase 2 entry.
@@ -46,7 +51,7 @@ redirect_from:
   </div>
   <div className="col col--6">
 
-:::info Derived from Canon
+:::note Derived from Canon
 This chapter is interpretive and explanatory. Its constraints and limits derive from the Canon pages below.
 
 - [Canon - Definitions](/docs/canon/definitions)
@@ -73,13 +78,18 @@ This chapter is interpretive and explanatory. Its constraints and limits derive 
   </div>
   <div className="col col--6">
 
-:::note Minimal evidence expectations (non-prescriptive)
+:::warning Minimal evidence expectations (non-prescriptive)
 Evidence used in this chapter should allow you to:
 - summarize Phase 1 outcomes against objectives
 - identify which gaps remain and why
 - justify readiness to proceed or pause
 - document adjustments required before Phase 2
 :::
+
+  </div>
+</div>
+
+</div>
 
   </div>
 </div>

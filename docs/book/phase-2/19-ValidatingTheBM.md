@@ -13,7 +13,12 @@ redirect_from:
 <div className="row">
   <div className="col col--6">
 
-:::note What this chapter does
+<div className="mcf-contract-grid">
+
+<div className="row">
+  <div className="col col--6">
+
+:::info What this chapter does
 - Frames business model validation as evidence gathering for revenue, cost, and channel assumptions.
 - Shows how hypotheses are prioritized and tested before scale commitments.
 - Connects financial feasibility and product-market fit to decision thresholds.
@@ -46,7 +51,7 @@ redirect_from:
   </div>
   <div className="col col--6">
 
-:::info Derived from Canon
+:::note Derived from Canon
 This chapter is interpretive and explanatory. Its constraints and limits derive from the Canon pages below.
 
 - [Canon - Definitions](/docs/canon/definitions)
@@ -73,13 +78,18 @@ This chapter is interpretive and explanatory. Its constraints and limits derive 
   </div>
   <div className="col col--6">
 
-:::note Minimal evidence expectations (non-prescriptive)
+:::warning Minimal evidence expectations (non-prescriptive)
 Evidence used in this chapter should allow you to:
 - show which business model assumptions are being tested
 - compare outcomes against explicit success criteria
 - explain why a model change is warranted or deferred
 - justify whether the decision state should advance, pause, or pivot
 :::
+
+  </div>
+</div>
+
+</div>
 
   </div>
 </div>

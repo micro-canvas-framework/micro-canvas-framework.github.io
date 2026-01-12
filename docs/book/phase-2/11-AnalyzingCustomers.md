@@ -13,7 +13,12 @@ redirect_from:
 <div className="row">
   <div className="col col--6">
 
-:::note What this chapter does
+<div className="mcf-contract-grid">
+
+<div className="row">
+  <div className="col col--6">
+
+:::info What this chapter does
 - Explains how opportunities are uncovered through structured observation of markets and customers, rather than ideation alone.
 - Shows how customer analysis supports epistemic clarification by making assumptions explicit and testable.
 - Introduces TAM, SAM, and SOM as scoping lenses, not forecasts.
@@ -46,7 +51,7 @@ redirect_from:
   </div>
   <div className="col col--6">
 
-:::info Derived from Canon
+:::note Derived from Canon
 This chapter is interpretive and explanatory. Its constraints and limits derive from the Canon pages below.
 
 - [Canon → Definitions](/docs/canon/definitions)
@@ -73,13 +78,18 @@ This chapter is interpretive and explanatory. Its constraints and limits derive 
   </div>
   <div className="col col--6">
 
-:::note Minimal evidence expectations (non-prescriptive)
+:::warning Minimal evidence expectations (non-prescriptive)
 Evidence used in this chapter should allow you to:
 - distinguish observed customer behavior from inferred intent
 - justify why a segment is prioritized over alternatives
 - state what observations would falsify the opportunity hypothesis
 - explain how customer insights constrain, rather than justify, solution choices
 :::
+
+  </div>
+</div>
+
+</div>
 
   </div>
 </div>

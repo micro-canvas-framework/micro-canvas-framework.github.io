@@ -13,7 +13,12 @@ redirect_from:
 <div className="row">
   <div className="col col--6">
 
-:::note What this chapter does
+<div className="mcf-contract-grid">
+
+<div className="row">
+  <div className="col col--6">
+
+:::info What this chapter does
 - Defines training as the capability-building layer for agile and lean practice.
 - Shows how curriculum, cadence, and coaching create repeatable execution skills.
 - Connects training outcomes to evidence of adoption and performance.
@@ -46,7 +51,7 @@ redirect_from:
   </div>
   <div className="col col--6">
 
-:::info Derived from Canon
+:::note Derived from Canon
 This chapter is interpretive and explanatory. Its constraints and limits derive from the Canon pages below.
 
 - [Canon - Definitions](/docs/canon/definitions)
@@ -73,13 +78,18 @@ This chapter is interpretive and explanatory. Its constraints and limits derive 
   </div>
   <div className="col col--6">
 
-:::note Minimal evidence expectations (non-prescriptive)
+:::warning Minimal evidence expectations (non-prescriptive)
 Evidence used in this chapter should allow you to:
 - define training objectives and expected outcomes
 - show adoption of practices in real work
 - link training to measurable performance shifts
 - justify whether additional training is required
 :::
+
+  </div>
+</div>
+
+</div>
 
   </div>
 </div>

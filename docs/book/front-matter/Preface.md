@@ -14,7 +14,12 @@ redirect_from:
 <div className="row">
   <div className="col col--6">
 
-:::note What this chapter does
+<div className="mcf-contract-grid">
+
+<div className="row">
+  <div className="col col--6">
+
+:::info What this chapter does
 - Explains the motivation behind MCF 2.2 and why a structured framework is necessary.
 - Frames innovation as a repeatable system of evidence-backed decisions.
 - Introduces the phase structure of the Book at a high level.
@@ -24,7 +29,7 @@ redirect_from:
   </div>
   <div className="col col--6">
 
-:::note What this chapter does not do
+:::warning What this chapter does not do
 - Does not define or modify Canon rules, constraints, or terminology.
 - Does not prescribe how phases must be executed.
 - Does not provide operational tools or templates.
@@ -37,7 +42,7 @@ redirect_from:
 <div className="row">
   <div className="col col--6">
 
-:::note When you should read this
+:::tip When you should read this
 - After the Foreword and before engaging with phase-based chapters.
 - When seeking context for why the framework is structured as it is.
 - When orienting stakeholders to the intent and scope of MCF 2.2.
@@ -59,7 +64,7 @@ This preface is constrained by the following Canon sources:
 <div className="row">
   <div className="col col--6">
 
-:::note Key terms (canonical)
+:::info Key terms (canonical)
 - Evidence
 - Decision
 - Governance
@@ -70,10 +75,15 @@ This preface is constrained by the following Canon sources:
   </div>
   <div className="col col--6">
 
-:::note Minimal evidence expectations (non-prescriptive)
+:::warning Minimal evidence expectations (non-prescriptive)
 This chapter introduces no evidence requirements. It provides orientation and
 conceptual grounding only.
 :::
+
+  </div>
+</div>
+
+</div>
 
   </div>
 </div>

@@ -11,6 +11,15 @@ const headingOrder = [
   "Minimal evidence expectations (non-prescriptive)",
 ];
 
+const typeByHeading = {
+  "What this chapter does": "info",
+  "What this chapter does not do": "warning",
+  "When you should read this": "tip",
+  "Derived from Canon": "note",
+  "Key terms (canonical)": "info",
+  "Minimal evidence expectations (non-prescriptive)": "warning",
+};
+
 function walk(dir, files = []) {
   const entries = fs.readdirSync(dir, { withFileTypes: true });
   for (const entry of entries) {
@@ -52,7 +61,7 @@ function findAdmonitionBlock(lines, startIndex, heading) {
   if (end === -1) {
     return null;
   }
-  return { start, end, lines: lines.slice(start, end + 1) };
+  return { start, end, heading, lines: lines.slice(start, end + 1) };
 }
 
 function buildGrid(blocks) {
@@ -68,8 +77,14 @@ function buildGrid(blocks) {
   for (const row of rows) {
     out.push('<div className="row">');
     for (const block of row) {
+      const normalizedLines = [...block.lines];
+      const desiredType = typeByHeading[block.heading];
+      if (desiredType) {
+        normalizedLines[0] = `:::${desiredType} ${block.heading}`;
+      }
+
       out.push('  <div className="col col--6">', "");
-      out.push(...block.lines, "");
+      out.push(...normalizedLines, "");
       out.push("  </div>");
     }
     out.push("</div>", "");

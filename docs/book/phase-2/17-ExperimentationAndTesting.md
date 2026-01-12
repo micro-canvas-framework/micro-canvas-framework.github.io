@@ -13,7 +13,12 @@ redirect_from:
 <div className="row">
   <div className="col col--6">
 
-:::note What this chapter does
+<div className="mcf-contract-grid">
+
+<div className="row">
+  <div className="col col--6">
+
+:::info What this chapter does
 - Explains experimentation as a controlled method for reducing epistemic uncertainty.
 - Shows how tests generate decision-relevant evidence rather than confirmation.
 - Clarifies the relationship between hypotheses, experiments, and falsification.
@@ -46,7 +51,7 @@ redirect_from:
   </div>
   <div className="col col--6">
 
-:::info Derived from Canon
+:::note Derived from Canon
 This chapter is interpretive and explanatory. Its constraints and limits derive from the Canon pages below.
 
 - [Canon → Definitions](/docs/canon/definitions)
@@ -73,13 +78,18 @@ This chapter is interpretive and explanatory. Its constraints and limits derive 
   </div>
   <div className="col col--6">
 
-:::note Minimal evidence expectations (non-prescriptive)
+:::warning Minimal evidence expectations (non-prescriptive)
 Evidence used in this chapter should allow you to:
 - state which hypothesis an experiment is testing
 - distinguish signal from noise in experimental results
 - explain why an outcome strengthens, weakens, or invalidates an assumption
 - justify whether a decision state should change based on results
 :::
+
+  </div>
+</div>
+
+</div>
 
   </div>
 </div>

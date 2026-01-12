@@ -13,7 +13,12 @@ redirect_from:
 <div className="row">
   <div className="col col--6">
 
-:::note What this chapter does
+<div className="mcf-contract-grid">
+
+<div className="row">
+  <div className="col col--6">
+
+:::info What this chapter does
 - Explains user stories and rapid prototyping as instruments for making assumptions explicit and testable.
 - Shows how prototypes generate evidence about comprehension, usability, and adoption frictions—not just design preference.
 - Connects story-based requirements to observable behaviors and measurable outcomes.
@@ -46,7 +51,7 @@ redirect_from:
   </div>
   <div className="col col--6">
 
-:::info Derived from Canon
+:::note Derived from Canon
 This chapter is interpretive and explanatory. Its constraints and limits derive from the Canon pages below.
 
 - [Canon → Definitions](/docs/canon/definitions)
@@ -73,13 +78,18 @@ This chapter is interpretive and explanatory. Its constraints and limits derive 
   </div>
   <div className="col col--6">
 
-:::note Minimal evidence expectations (non-prescriptive)
+:::warning Minimal evidence expectations (non-prescriptive)
 Evidence used in this chapter should allow you to:
 - distinguish observed user behavior from subjective preference
 - justify why a prototype outcome changes (or does not change) the decision state
 - identify which assumptions a prototype is testing, and which it is not
 - state what observations would invalidate a story, flow, or feature hypothesis
 :::
+
+  </div>
+</div>
+
+</div>
 
   </div>
 </div>

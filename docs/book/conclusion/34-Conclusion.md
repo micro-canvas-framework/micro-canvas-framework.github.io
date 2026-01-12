@@ -14,7 +14,12 @@ redirect_from:
 <div className="row">
   <div className="col col--6">
 
-:::note What this chapter does
+<div className="mcf-contract-grid">
+
+<div className="row">
+  <div className="col col--6">
+
+:::info What this chapter does
 - Synthesizes the five-phase journey.
 - Reinforces the evidence-first framing.
 - Clarifies how to continue beyond the book.
@@ -47,7 +52,7 @@ redirect_from:
   </div>
   <div className="col col--6">
 
-:::info Derived from Canon
+:::note Derived from Canon
 This chapter is interpretive and explanatory. Its constraints and limits derive from the Canon pages below.
 
 - [Canon - Definitions](/docs/canon/definitions)
@@ -74,13 +79,18 @@ This chapter is interpretive and explanatory. Its constraints and limits derive 
   </div>
   <div className="col col--6">
 
-:::note Minimal evidence expectations (non-prescriptive)
+:::warning Minimal evidence expectations (non-prescriptive)
 Evidence used in this chapter should allow you to:
 - summarize outcomes and gaps
 - show evidence of transformation
 - explain ongoing commitments
 - justify future priorities
 :::
+
+  </div>
+</div>
+
+</div>
 
   </div>
 </div>

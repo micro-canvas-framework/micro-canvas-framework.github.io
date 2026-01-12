@@ -13,7 +13,12 @@ redirect_from:
 <div className="row">
   <div className="col col--6">
 
-:::note What this chapter does
+<div className="mcf-contract-grid">
+
+<div className="row">
+  <div className="col col--6">
+
+:::info What this chapter does
 - Frames strategic review as a consolidation of evidence across prior validation steps.
 - Shows how to evaluate outcomes against objectives and decision thresholds.
 - Connects review findings to roadmap adjustments and next validation cycles.
@@ -46,7 +51,7 @@ redirect_from:
   </div>
   <div className="col col--6">
 
-:::info Derived from Canon
+:::note Derived from Canon
 This chapter is interpretive and explanatory. Its constraints and limits derive from the Canon pages below.
 
 - [Canon - Definitions](/docs/canon/definitions)
@@ -73,13 +78,18 @@ This chapter is interpretive and explanatory. Its constraints and limits derive 
   </div>
   <div className="col col--6">
 
-:::note Minimal evidence expectations (non-prescriptive)
+:::warning Minimal evidence expectations (non-prescriptive)
 Evidence used in this chapter should allow you to:
 - synthesize outcomes from prior validation steps
 - compare results against explicit objectives and thresholds
 - explain what changes are required before advancing
 - justify whether the decision state should advance, pause, or rework
 :::
+
+  </div>
+</div>
+
+</div>
 
   </div>
 </div>

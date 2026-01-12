@@ -407,6 +407,8 @@ DONE:
 - Book chapter header contract now uses admonitions
 - Phase docs moved under Book
 - client-redirects in place
+- Mermaid rendering enabled globally
+- Standardized contract admonition types
 - demo blog posts removed
 - demo markdown page removed
 - unused images cleaned
@@ -448,6 +450,7 @@ Global Rules:
 - No diagram may contradict Canon constraints
 - No diagram may imply linear progression unless explicitly stated as local
 - All figures are Mermaid diagrams enclosed in Docusaurus admonitions
+- Mermaid must be enabled in Docusaurus (markdown.mermaid + theme-mermaid)
 
 Figure Governance:
 - Every diagram must have:
@@ -477,6 +480,7 @@ Per-Chapter Requirement:
   - diagrams to remove
   - diagrams to add
 - Diagram status must be tracked per chapter in CONTEXT.md
+- All chapter contract blocks use standardized admonition types per section
 - Foreword: no diagrams required; confirmed N/A
 - Preface: no diagrams required; confirmed N/A
 - How to Use This Book: Figure 1 embedded (Mermaid system map in admonition).

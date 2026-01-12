@@ -13,7 +13,12 @@ redirect_from:
 <div className="row">
   <div className="col col--6">
 
-:::note What this chapter does
+<div className="mcf-contract-grid">
+
+<div className="row">
+  <div className="col col--6">
+
+:::info What this chapter does
 - Frames regulatory review as evidence-gathering for legal and compliance constraints.
 - Shows how to assess gaps, prioritize remediation, and document compliance actions.
 - Connects scalability planning to decision thresholds and risk management.
@@ -46,7 +51,7 @@ redirect_from:
   </div>
   <div className="col col--6">
 
-:::info Derived from Canon
+:::note Derived from Canon
 This chapter is interpretive and explanatory. Its constraints and limits derive from the Canon pages below.
 
 - [Canon - Definitions](/docs/canon/definitions)
@@ -73,13 +78,18 @@ This chapter is interpretive and explanatory. Its constraints and limits derive 
   </div>
   <div className="col col--6">
 
-:::note Minimal evidence expectations (non-prescriptive)
+:::warning Minimal evidence expectations (non-prescriptive)
 Evidence used in this chapter should allow you to:
 - identify the compliance assumptions being tested or verified
 - document gaps, remediation steps, and responsible owners
 - show how regulatory constraints affect scale decisions
 - justify whether the decision state should advance, pause, or defer
 :::
+
+  </div>
+</div>
+
+</div>
 
   </div>
 </div>

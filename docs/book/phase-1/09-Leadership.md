@@ -13,7 +13,12 @@ redirect_from:
 <div className="row">
   <div className="col col--6">
 
-:::note What this chapter does
+<div className="mcf-contract-grid">
+
+<div className="row">
+  <div className="col col--6">
+
+:::info What this chapter does
 - Defines leadership alignment as the governance multiplier for innovation.
 - Shows how roles, sponsorship, and cross-functional support reduce friction.
 - Connects leadership actions to evidence-based decision making.
@@ -46,7 +51,7 @@ redirect_from:
   </div>
   <div className="col col--6">
 
-:::info Derived from Canon
+:::note Derived from Canon
 This chapter is interpretive and explanatory. Its constraints and limits derive from the Canon pages below.
 
 - [Canon - Definitions](/docs/canon/definitions)
@@ -73,13 +78,18 @@ This chapter is interpretive and explanatory. Its constraints and limits derive 
   </div>
   <div className="col col--6">
 
-:::note Minimal evidence expectations (non-prescriptive)
+:::warning Minimal evidence expectations (non-prescriptive)
 Evidence used in this chapter should allow you to:
 - map leadership roles to decision rights
 - show how leadership actions change outcomes
 - document alignment signals across teams
 - justify whether leadership support is sufficient to scale
 :::
+
+  </div>
+</div>
+
+</div>
 
   </div>
 </div>

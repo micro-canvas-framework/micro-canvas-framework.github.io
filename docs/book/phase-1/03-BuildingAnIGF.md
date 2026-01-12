@@ -13,7 +13,12 @@ redirect_from:
 <div className="row">
   <div className="col col--6">
 
-:::note What this chapter does
+<div className="mcf-contract-grid">
+
+<div className="row">
+  <div className="col col--6">
+
+:::info What this chapter does
 - Defines governance as the decision structure that guides innovation work.
 - Shows how roles, criteria, and checkpoints reduce execution risk.
 - Connects governance to evidence standards and strategic alignment.
@@ -46,7 +51,7 @@ redirect_from:
   </div>
   <div className="col col--6">
 
-:::info Derived from Canon
+:::note Derived from Canon
 This chapter is interpretive and explanatory. Its constraints and limits derive from the Canon pages below.
 
 - [Canon - Definitions](/docs/canon/definitions)
@@ -73,13 +78,18 @@ This chapter is interpretive and explanatory. Its constraints and limits derive 
   </div>
   <div className="col col--6">
 
-:::note Minimal evidence expectations (non-prescriptive)
+:::warning Minimal evidence expectations (non-prescriptive)
 Evidence used in this chapter should allow you to:
 - document governance roles and decision rights
 - show how decisions are tied to evidence criteria
 - explain how governance reduces execution risk
 - justify which decisions can advance, pause, or stop work
 :::
+
+  </div>
+</div>
+
+</div>
 
   </div>
 </div>

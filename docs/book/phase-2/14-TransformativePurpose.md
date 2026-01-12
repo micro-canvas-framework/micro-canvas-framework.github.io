@@ -13,7 +13,12 @@ redirect_from:
 <div className="row">
   <div className="col col--6">
 
-:::note What this chapter does
+<div className="mcf-contract-grid">
+
+<div className="row">
+  <div className="col col--6">
+
+:::info What this chapter does
 - Explains how “purpose” functions as a constraint system: it narrows what solutions are acceptable and what outcomes matter.
 - Distinguishes aspirational narratives from testable strategic intent by forcing purpose statements to imply observable commitments.
 - Shows how purpose interacts with evidence: purpose can guide hypotheses, but cannot substitute for validation.
@@ -46,7 +51,7 @@ redirect_from:
   </div>
   <div className="col col--6">
 
-:::info Derived from Canon
+:::note Derived from Canon
 This chapter is interpretive and explanatory. Its constraints and limits derive from the Canon pages below.
 
 - [Canon → Definitions](/docs/canon/definitions)
@@ -73,13 +78,18 @@ This chapter is interpretive and explanatory. Its constraints and limits derive 
   </div>
   <div className="col col--6">
 
-:::note Minimal evidence expectations (non-prescriptive)
+:::warning Minimal evidence expectations (non-prescriptive)
 Evidence used in this chapter should allow you to:
 - show how a purpose claim constrains choices (what is ruled out, not only what is desired)
 - state which outcomes are intended vs acceptable side-effects
 - identify trade-offs and define what evidence would indicate harm or mission drift
 - justify continued investment when metrics improve but purpose-aligned outcomes do not
 :::
+
+  </div>
+</div>
+
+</div>
 
   </div>
 </div>

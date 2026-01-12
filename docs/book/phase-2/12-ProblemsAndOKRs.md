@@ -13,7 +13,12 @@ redirect_from:
 <div className="row">
   <div className="col col--6">
 
-:::note What this chapter does
+<div className="mcf-contract-grid">
+
+<div className="row">
+  <div className="col col--6">
+
+:::info What this chapter does
 - Defines what “problem” means in MCF terms: a decision-relevant constraint framed by evidence, not a slogan.
 - Shows how to move from observed symptoms to testable causal hypotheses (root causes) without premature solution selection.
 - Provides a structured way to represent causes and effects (e.g., problem tree) as an explanatory model that can be falsified.
@@ -48,7 +53,7 @@ redirect_from:
   </div>
   <div className="col col--6">
 
-:::info Derived from Canon
+:::note Derived from Canon
 This chapter is interpretive and explanatory. Its constraints and limits derive from the Canon pages below.
 
 - [Canon → Definitions](/docs/canon/definitions)
@@ -76,7 +81,7 @@ This chapter is interpretive and explanatory. Its constraints and limits derive 
   </div>
   <div className="col col--6">
 
-:::note Minimal evidence expectations (non-prescriptive)
+:::warning Minimal evidence expectations (non-prescriptive)
 Evidence used in this chapter should allow you to:
 - distinguish symptoms (observations) from causes (hypotheses)
 - justify why the stated problem is decision-relevant (not merely descriptive)
@@ -90,6 +95,11 @@ Evidence used in this chapter should allow you to:
 - Does not replace experimentation and validation required for solution selection in later chapters.
 - Does not justify irreversible commitments when evidence remains below the decision threshold.
 :::
+
+  </div>
+</div>
+
+</div>
 
   </div>
 </div>

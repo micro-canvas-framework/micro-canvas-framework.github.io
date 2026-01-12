@@ -13,7 +13,12 @@ redirect_from:
 <div className="row">
   <div className="col col--6">
 
-:::note What this chapter does
+<div className="mcf-contract-grid">
+
+<div className="row">
+  <div className="col col--6">
+
+:::info What this chapter does
 - Defines feedback loops as evidence mechanisms that update assumptions and decisions.
 - Shows how to structure feedback channels, cadence, and integration into iteration.
 - Connects feedback quality to decision thresholds and progression rules.
@@ -46,7 +51,7 @@ redirect_from:
   </div>
   <div className="col col--6">
 
-:::info Derived from Canon
+:::note Derived from Canon
 This chapter is interpretive and explanatory. Its constraints and limits derive from the Canon pages below.
 
 - [Canon - Definitions](/docs/canon/definitions)
@@ -73,13 +78,18 @@ This chapter is interpretive and explanatory. Its constraints and limits derive 
   </div>
   <div className="col col--6">
 
-:::note Minimal evidence expectations (non-prescriptive)
+:::warning Minimal evidence expectations (non-prescriptive)
 Evidence used in this chapter should allow you to:
 - trace feedback signals to the assumptions they update
 - separate noise from meaningful change over time
 - explain why a refinement was made and what it changes
 - show whether the decision state should advance, pause, or reverse
 :::
+
+  </div>
+</div>
+
+</div>
 
   </div>
 </div>

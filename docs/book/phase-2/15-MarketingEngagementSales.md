@@ -13,7 +13,12 @@ redirect_from:
 <div className="row">
   <div className="col col--6">
 
-:::note What this chapter does
+<div className="mcf-contract-grid">
+
+<div className="row">
+  <div className="col col--6">
+
+:::info What this chapter does
 - Explains marketing, engagement, and sales as evidence-generating systems rather than promotion activities.
 - Shows how signals from acquisition, activation, and conversion constrain claims about demand and value.
 - Connects go-to-market actions to falsifiable assumptions about customers, channels, and willingness to pay.
@@ -46,7 +51,7 @@ redirect_from:
   </div>
   <div className="col col--6">
 
-:::info Derived from Canon
+:::note Derived from Canon
 This chapter is interpretive and explanatory. Its constraints and limits derive from the Canon pages below.
 
 - [Canon → Definitions](/docs/canon/definitions)
@@ -73,13 +78,18 @@ This chapter is interpretive and explanatory. Its constraints and limits derive 
   </div>
   <div className="col col--6">
 
-:::note Minimal evidence expectations (non-prescriptive)
+:::warning Minimal evidence expectations (non-prescriptive)
 Evidence used in this chapter should allow you to:
 - distinguish observed engagement from stated intent
 - compare channels using comparable, decision-relevant metrics
 - explain what would invalidate a go-to-market assumption
 - justify why scaling a channel is reversible or intentionally irreversible
 :::
+
+  </div>
+</div>
+
+</div>
 
   </div>
 </div>
