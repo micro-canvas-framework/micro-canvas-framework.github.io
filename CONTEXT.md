@@ -412,6 +412,7 @@ DONE:
 PENDING:
 - Apply Book header contract to remaining chapters (Phase 1/Phase 2/Phase 3-5 completed; admonitions applied site-wide)
 - Convert "Derived from Canon" to real links for each chapter (Phase 1/Phase 2/Phase 3-5 completed)
+- Evidence-first thinking page: editorial + citations alignment (DONE)
 - Write Phase 3-5 and conclusion content (draft explanatory text added; needs review)
 - Book content modernization (core Book pages updated with explanatory text + admonitions; phase content in progress)
 - ES translation (deferred)
@@ -466,6 +467,7 @@ Per-Chapter Requirement:
 - Preface: no diagrams required; confirmed N/A
 - How to Use This Book: requires inclusion of the MCF 2.2 master framework diagram
   (phases + epistemic flow). Figure number to be assigned globally.
+- Evidence-First Thinking: no figure required (text-only) — confirm on review.
 
 Status: LOCKED
 
