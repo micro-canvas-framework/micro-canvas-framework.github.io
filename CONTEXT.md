@@ -402,6 +402,7 @@ Conclusion and Tools
 - d644038 fix(ui): correct contract card grid sizing and standardize mermaid styling
 - e85ca28 fix(figures): increase figure 1 mermaid font and spacing for readability
 - d3cea2b fix(figures): restyle figure 1 and model tools as acceleration layer
+- eb1aefe fix(figures): render line breaks and add subgraph spacing in figure 1
 
 ## 12) Backlog (live)
 DONE:
