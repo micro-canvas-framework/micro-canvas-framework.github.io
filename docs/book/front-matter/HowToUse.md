@@ -34,9 +34,9 @@ redirect_from:
 :::note Derived from Canon
 This chapter is constrained by the following Canon sources:
 
-- [Canon → Introduction](/docs/canon/_intro)
-- [Canon → Definitions](/docs/canon/definitions)
-- [Canon → Epistemic model](/docs/canon/epistemic-model)
+- [Canon -> Introduction](/docs/canon/_intro)
+- [Canon -> Definitions](/docs/canon/definitions)
+- [Canon -> Epistemic model](/docs/canon/epistemic-model)
 :::
 
 :::info Key terms (canonical)
@@ -54,92 +54,113 @@ is interpreted and applied throughout the Book.
 
 </div>
 
-:::tip[Figure 1 — MCF 2.2 System Map (Canonical + Explanatory Layers)]
+:::tip[Figure 1 - MCF 2.2 System Map (Canonical + Explanatory Layers)]
 
 ```mermaid
-%%{init: {"theme":"base","themeVariables":{"fontFamily":"Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial","fontSize":"26px","lineHeight":"1.25"},"flowchart":{"nodeSpacing":54,"rankSpacing":74,"curve":"basis"}} }%%
+%%{init: {'theme':'base','themeVariables': {'fontSize':'24px'}, 'flowchart': {'nodeSpacing': 70, 'rankSpacing': 90}} }%%
 flowchart TB
-  %% =========================
-  %% Figure 1 — MCF 2.2 System Map
-  %% Canon + Book, with Tools as an Acceleration Layer
-  %% =========================
 
-  subgraph CANON["**Canon (normative)**<br/>*Rules · boundaries · definitions*"]
-    R_CANON["<br/><br/><br/>"]:::spacer
-    C1["**Definitions**<br/><i>Terms & primitives</i>"]
-    C2["**Evidence logic**<br/><i>Quality · decay · validity</i>"]
-    C3["**Decision theory**<br/><i>Thresholds · reversibility</i>"]
-    C4["**Epistemic stage model**<br/><i>States of resolution</i>"]
-    C5["**Stage mechanics**<br/><i>Progress · pause · regress</i>"]
-  end
-
-  subgraph BOOK["**Book (explanatory)**<br/>*Interpretation · application guidance*"]
-    R_BOOK["<br/><br/><br/>"]:::spacer
-    B0["**How to read MCF 2.2**<br/><i>Reading order & hierarchy</i>"]
-    B1["**Front matter**<br/><i>Intent · scope · boundaries</i>"]
-    B2["**Phase 1**<br/><i>Pre-Discovery (capability layer)</i>"]
-    B3["**Phase 2**<br/><i>Discovery & Validation</i>"]
-    B4["**Phase 3**<br/><i>Efficiency</i>"]
-    B5["**Phase 4**<br/><i>Scaling</i>"]
-    B6["**Phase 5**<br/><i>Continuous improvement</i>"]
-  end
-
-  subgraph META["**Meta (governance)**<br/>*References · change control*"]
-    R_META["<br/><br/><br/>"]:::spacer
-    M1["**References**<br/><i>Harvard citations (central)</i>"]
-    M2["**Changelog**<br/><i>Governance-level changes</i>"]
-  end
-
-  %% Canon → Book guidance flow (non-prescriptive)
-  C1 --> B0
-  C2 --> B0
-  C3 --> B0
-  C4 --> B0
-  C5 --> B0
-
-  %% Book structure flow (reading guidance)
-  B0 --> B1
-  B1 --> B2
-  B2 --> B3
-  B3 --> B4
-  B4 --> B5
-  B5 --> B6
-
-  %% Meta supports everything (references apply across)
-  M1 -.-> CANON
-  M1 -.-> BOOK
-  M2 -.-> CANON
-  M2 -.-> BOOK
-
-  %% Tools as acceleration layer (cross-cutting, not normative)
-  subgraph TOOLS["**Tools (acceleration layer)**<br/>*Abstraction · instrumentation · speed*<br/>*Never normative; cannot override Canon*"]
-    R_TOOLS["<br/><br/><br/>"]:::spacer
-    T1["**Templates**<br/><i>Reduce setup friction</i>"]
-    T2["**Checklists**<br/><i>Surface gaps & dependencies</i>"]
-    T3["**Dashboards**<br/><i>Make evidence visible</i>"]
-    T4["**Automations**<br/><i>Reduce manual overhead</i>"]
-  end
-
-  TOOLS -.-> CANON
-  TOOLS -.-> BOOK
-  TOOLS -.-> META
-
-  R_TOOLS --> T1
-  R_META --> M1
-  R_CANON --> C1
-  R_BOOK --> B0
-
-  linkStyle 18 stroke:transparent,stroke-width:0px;
-  linkStyle 19 stroke:transparent,stroke-width:0px;
-  linkStyle 20 stroke:transparent,stroke-width:0px;
-  linkStyle 21 stroke:transparent,stroke-width:0px;
-
+%% ---- Shared styling ----
+classDef node fill:#F7E7C6,stroke:#E2C27A,stroke-width:1px,color:#111;
+classDef cluster fill:#F3F6FA,stroke:#D7DEE8,stroke-width:1px,color:#111;
 classDef spacer fill:transparent,stroke:transparent,color:transparent;
+
+%% =========================
+%% TOP ROW: META + TOOLS
+%% =========================
+
+subgraph META["**Meta**<br/><i>governance / references / change control</i>"]
+direction LR
+class META cluster
+R_META["<br/><br/><br/>"]:::spacer
+M_REF["**References**<br/><i>Harvard citations (central)</i>"]:::node
+M_CHG["**Changelog**<br/><i>Governance-level changes</i>"]:::node
+R_META --> M_REF
+end
+
+subgraph TOOLS["**Tools**<br/><i>acceleration layer</i>"]
+direction TB
+class TOOLS cluster
+R_TOOLS["<br/><br/><br/>"]:::spacer
+T_TPL["**Templates**<br/><i>Reduce setup friction</i>"]:::node
+T_CHK["**Checklists**<br/><i>Surface gaps & dependencies</i>"]:::node
+T_DSH["**Dashboards**<br/><i>Make evidence visible</i>"]:::node
+T_AUT["**Automations**<br/><i>Reduce manual overhead</i>"]:::node
+R_TOOLS --> T_TPL
+end
+
+%% keep Meta and Tools on same rank
+META --- TOOLS
+
+%% =========================
+%% CORE: CANON (CENTER)
+%% =========================
+
+subgraph CANON["**Canon**<br/><i>rules / boundaries / definitions</i>"]
+direction LR
+class CANON cluster
+R_CANON["<br/><br/><br/>"]:::spacer
+C_DEF["**Definitions**<br/><i>Terms & primitives</i>"]:::node
+C_EVD["**Evidence logic**<br/><i>Quality / decay / validity</i>"]:::node
+C_DEC["**Decision theory**<br/><i>Thresholds / reversibility</i>"]:::node
+C_EPI["**Epistemic stage model**<br/><i>States of resolution</i>"]:::node
+C_STG["**Stage mechanics**<br/><i>Progress / pause / regress</i>"]:::node
+R_CANON --> C_DEF
+end
+
+%% =========================
+%% BOOK BELOW CANON (COMPACT)
+%% =========================
+
+subgraph BOOK["**Book**<br/><i>interpretation / application / guidance</i>"]
+direction TB
+class BOOK cluster
+R_BOOK["<br/><br/><br/>"]:::spacer
+B_READ["**How to read MCF 2.2**<br/><i>Reading order & hierarchy</i>"]:::node
+B_FM["**Front matter**<br/><i>Intent / scope / boundaries</i>"]:::node
+B_P1["**Phase 1**<br/><i>Pre-Discovery (capability layer)</i>"]:::node
+B_P2["**Phase 2**<br/><i>Discovery & Validation</i>"]:::node
+B_P3["**Phase 3**<br/><i>Efficiency</i>"]:::node
+R_BOOK --> B_READ
+B_READ --> B_FM --> B_P1 --> B_P2 --> B_P3
+end
+
+%% =========================
+%% RELATIONSHIPS (MINIMAL, READABLE)
+%% =========================
+
+%% Meta constrains Canon & Book (governance + references)
+M_REF -.-> CANON
+M_REF -.-> BOOK
+M_CHG -.-> CANON
+
+%% Canon is source for Book
+C_DEF --> B_READ
+C_EVD --> B_READ
+C_DEC --> B_READ
+C_EPI --> B_READ
+C_STG --> B_READ
+
+%% Tools accelerate Book execution (not normative)
+T_TPL -.-> BOOK
+T_CHK -.-> BOOK
+T_DSH -.-> BOOK
+T_AUT -.-> BOOK
+
+linkStyle 0 stroke:transparent,stroke-width:0px;
+linkStyle 1 stroke:transparent,stroke-width:0px;
+linkStyle 3 stroke:transparent,stroke-width:0px;
+linkStyle 4 stroke:transparent,stroke-width:0px;
+
+class M_REF,M_CHG,T_TPL,T_CHK,T_DSH,T_AUT,C_DEF,C_EVD,C_DEC,C_EPI,C_STG,B_READ,B_FM,B_P1,B_P2,B_P3 node
+class R_META,R_TOOLS,R_CANON,R_BOOK spacer
 style R_TOOLS opacity:0;
 style R_META opacity:0;
 style R_CANON opacity:0;
 style R_BOOK opacity:0;
 ```
+
+:::
 
 Welcome to The MicroCanvas Framework. This chapter shows you how to use the
 Book layer effectively while staying aligned with **MCF 2.2 Canon**. Whether

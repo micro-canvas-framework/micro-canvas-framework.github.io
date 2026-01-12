@@ -423,6 +423,10 @@ DONE:
 - Figure 1: fix literal \\n labels + add subgraph spacing via spacer nodes
 - Figure 1: enforce subgraph label clearance via rank rails + invisible edges
 - Figure 1: node label line breaks + bold/italic styling
+- Figure 1: enforce subgraph label clearance via rank rails + invisible edges
+- Figure 1: node label line breaks + bold/italic styling
+- Figure 1 admonition boundary fixed (admonition closes before body text)
+- Figure 1 layout compacted (Meta+Tools row, Canon core, Book below)
 - demo markdown page removed
 - unused images cleaned
 - phase landing pages + ordering normalized
@@ -479,6 +483,8 @@ Figure Governance:
 - Per-diagram Mermaid init is allowed for Figures when readability requires it (must use Phase-2 init style; fontSize >= 22px)
 - Figures may use Mermaid markdown labels (**bold**, *italic*) where rendered
 - Figure 1 uses <br/> for node label line breaks; spacer nodes to avoid title overlap
+- Figure 1 admonition boundary fixed (admonition closes before body text)
+- Figure 1 layout compacted (Meta+Tools row, Canon core, Book below)
 
 Backlog - Diagram Remediation (GLOBAL):
 - [ ] Audit all existing diagrams for MCF 2.1 assumptions
