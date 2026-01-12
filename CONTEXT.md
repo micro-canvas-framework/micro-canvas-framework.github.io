@@ -436,9 +436,13 @@ Conclusion and Tools
 - 1820a8e feat(book): add derived-from-canon card to meta explanatory contract
 - (pending) docs(book): complete governance and roles page structure and headings
 - (pending) docs(book): complete failure modes page structure and remove duplicate canon section
+- (pending) docs(book): complete boundaries and misuse page and align with meta contract
 
 ## 12) Backlog (live)
 DONE:
+- Boundaries & Misuse: apply meta/explanatory contract grid
+- Boundaries & Misuse: remove duplicate Derived-from-Canon section
+- Boundaries & Misuse: add full explanatory H2/H3 structure
 - Failure Modes: remove duplicated "Derived from Canon" section
 - Failure Modes: add complete explanatory structure with diagnostic framing
 - Governance and Roles: complete explanatory body + restore headings (no trailing stubs)
