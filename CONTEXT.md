@@ -397,6 +397,7 @@ Conclusion and Tools
 - feaa366 docs(book): align epistemic stages with canon and add diagram placeholder
 - dcced63 docs(book): align decision logic with canon and add diagram placeholder
 - 6b66ac4 docs(book): add figure 1 system map and figures index
+- 185c9f9 feat(book): convert figures to mermaid and render contract headers as cards
 
 ## 12) Backlog (live)
 DONE:
