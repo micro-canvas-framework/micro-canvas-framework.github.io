@@ -420,6 +420,8 @@ DONE:
 - Figure 1 Mermaid readability improved (Phase-2 init applied)
 - Figure 1 updated: bigger font + styled labels + tools as acceleration layer; conclusion removed
 - Figure 1: fix literal \\n labels + add subgraph spacing via spacer nodes
+- Figure 1: enforce subgraph label clearance via rank rails + invisible edges
+- Figure 1: node label line breaks + bold/italic styling
 - demo markdown page removed
 - unused images cleaned
 - phase landing pages + ordering normalized

@@ -65,29 +65,29 @@ flowchart TB
   %% =========================
 
   subgraph CANON["**Canon (normative)**<br/>*Rules · boundaries · definitions*"]
-    S_CANON[" "]:::spacer
-    C1["**Definitions**<br/>Terms & primitives"]
-    C2["**Evidence logic**<br/>Quality · decay · validity"]
-    C3["**Decision theory**<br/>Thresholds · reversibility"]
-    C4["**Epistemic stage model**<br/>States of resolution"]
-    C5["**Stage mechanics**<br/>Progress · pause · regress"]
+    R_CANON["<br/><br/><br/>"]:::spacer
+    C1["**Definitions**<br/><i>Terms & primitives</i>"]
+    C2["**Evidence logic**<br/><i>Quality · decay · validity</i>"]
+    C3["**Decision theory**<br/><i>Thresholds · reversibility</i>"]
+    C4["**Epistemic stage model**<br/><i>States of resolution</i>"]
+    C5["**Stage mechanics**<br/><i>Progress · pause · regress</i>"]
   end
 
   subgraph BOOK["**Book (explanatory)**<br/>*Interpretation · application guidance*"]
-    S_BOOK[" "]:::spacer
-    B0["**How to read MCF 2.2**<br/>Reading order & hierarchy"]
-    B1["**Front matter**<br/>Intent · scope · boundaries"]
-    B2["**Phase 1**<br/>Pre-Discovery (capability layer)"]
-    B3["**Phase 2**<br/>Discovery & Validation"]
-    B4["**Phase 3**<br/>Efficiency"]
-    B5["**Phase 4**<br/>Scaling"]
-    B6["**Phase 5**<br/>Continuous improvement"]
+    R_BOOK["<br/><br/><br/>"]:::spacer
+    B0["**How to read MCF 2.2**<br/><i>Reading order & hierarchy</i>"]
+    B1["**Front matter**<br/><i>Intent · scope · boundaries</i>"]
+    B2["**Phase 1**<br/><i>Pre-Discovery (capability layer)</i>"]
+    B3["**Phase 2**<br/><i>Discovery & Validation</i>"]
+    B4["**Phase 3**<br/><i>Efficiency</i>"]
+    B5["**Phase 4**<br/><i>Scaling</i>"]
+    B6["**Phase 5**<br/><i>Continuous improvement</i>"]
   end
 
   subgraph META["**Meta (governance)**<br/>*References · change control*"]
-    S_META[" "]:::spacer
-    M1["**References**<br/>Harvard citations (central)"]
-    M2["**Changelog**<br/>Governance-level changes"]
+    R_META["<br/><br/><br/>"]:::spacer
+    M1["**References**<br/><i>Harvard citations (central)</i>"]
+    M2["**Changelog**<br/><i>Governance-level changes</i>"]
   end
 
   %% Canon → Book guidance flow (non-prescriptive)
@@ -113,21 +113,33 @@ flowchart TB
 
   %% Tools as acceleration layer (cross-cutting, not normative)
   subgraph TOOLS["**Tools (acceleration layer)**<br/>*Abstraction · instrumentation · speed*<br/>*Never normative; cannot override Canon*"]
-    S_TOOLS[" "]:::spacer
-    T1["**Templates**<br/>Reduce setup friction"]
-    T2["**Checklists**<br/>Surface gaps & dependencies"]
-    T3["**Dashboards**<br/>Make evidence visible"]
-    T4["**Automations**<br/>Reduce manual overhead"]
+    R_TOOLS["<br/><br/><br/>"]:::spacer
+    T1["**Templates**<br/><i>Reduce setup friction</i>"]
+    T2["**Checklists**<br/><i>Surface gaps & dependencies</i>"]
+    T3["**Dashboards**<br/><i>Make evidence visible</i>"]
+    T4["**Automations**<br/><i>Reduce manual overhead</i>"]
   end
 
   TOOLS -.-> CANON
   TOOLS -.-> BOOK
   TOOLS -.-> META
 
+  R_TOOLS --> T1
+  R_META --> M1
+  R_CANON --> C1
+  R_BOOK --> B0
+
+  linkStyle 18 stroke:transparent,stroke-width:0px;
+  linkStyle 19 stroke:transparent,stroke-width:0px;
+  linkStyle 20 stroke:transparent,stroke-width:0px;
+  linkStyle 21 stroke:transparent,stroke-width:0px;
+
 classDef spacer fill:transparent,stroke:transparent,color:transparent;
-class S_TOOLS,S_META,S_CANON,S_BOOK spacer;
+style R_TOOLS opacity:0;
+style R_META opacity:0;
+style R_CANON opacity:0;
+style R_BOOK opacity:0;
 ```
-:::
 
 Welcome to The MicroCanvas Framework. This chapter shows you how to use the
 Book layer effectively while staying aligned with **MCF 2.2 Canon**. Whether
