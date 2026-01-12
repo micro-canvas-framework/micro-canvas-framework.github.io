@@ -396,6 +396,7 @@ Conclusion and Tools
 - c9a147e docs(book): align evidence-first thinking with canon and add citations
 - feaa366 docs(book): align epistemic stages with canon and add diagram placeholder
 - dcced63 docs(book): align decision logic with canon and add diagram placeholder
+- 6b66ac4 docs(book): add figure 1 system map and figures index
 
 ## 12) Backlog (live)
 DONE:
