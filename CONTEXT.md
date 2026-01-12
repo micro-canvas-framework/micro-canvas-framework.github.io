@@ -435,9 +435,12 @@ Conclusion and Tools
 - 1bff865 fix(figures): remove stray tokens causing figure 5 mermaid parse error
 - 1820a8e feat(book): add derived-from-canon card to meta explanatory contract
 - (pending) docs(book): complete governance and roles page structure and headings
+- (pending) docs(book): complete failure modes page structure and remove duplicate canon section
 
 ## 12) Backlog (live)
 DONE:
+- Failure Modes: remove duplicated "Derived from Canon" section
+- Failure Modes: add complete explanatory structure with diagnostic framing
 - Governance and Roles: complete explanatory body + restore headings (no trailing stubs)
 - Governance and Roles: add minimal evidence expectations section
 - Fix: eliminate stale localhost:3000 chunk loads by enforcing clean serve/dev port discipline
