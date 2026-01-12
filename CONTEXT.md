@@ -394,6 +394,7 @@ Conclusion and Tools
 - 4c3b44a docs(book): customize phase 1 headers and finish canon links
 - cd39447 docs(book): add phase 3-5 drafts, conclusion content, and 404 overrides
 - c9a147e docs(book): align evidence-first thinking with canon and add citations
+- feaa366 docs(book): align epistemic stages with canon and add diagram placeholder
 
 ## 12) Backlog (live)
 DONE:
