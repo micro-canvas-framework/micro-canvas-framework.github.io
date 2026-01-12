@@ -418,6 +418,7 @@ DONE:
 - Mermaid diagrams standardized to global style (font size aligned with Phase 2)
 - Figure 1 Mermaid readability improved (Phase-2 init applied)
 - Figure 1 updated: bigger font + styled labels + tools as acceleration layer; conclusion removed
+- Figure 1: fix literal \\n labels + add subgraph spacing via spacer nodes
 - demo markdown page removed
 - unused images cleaned
 - phase landing pages + ordering normalized
@@ -473,6 +474,7 @@ Figure Governance:
 - Per-diagram init blocks should be avoided; only used when necessary; must match global font sizing
 - Per-diagram Mermaid init is allowed for Figures when readability requires it (must use Phase-2 init style; fontSize >= 22px)
 - Figures may use Mermaid markdown labels (**bold**, *italic*) where rendered
+- Figure 1 uses <br/> for node label line breaks; spacer nodes to avoid title overlap
 
 Backlog - Diagram Remediation (GLOBAL):
 - [ ] Audit all existing diagrams for MCF 2.1 assumptions
