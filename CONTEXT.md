@@ -404,6 +404,7 @@ Conclusion and Tools
 - d3cea2b fix(figures): restyle figure 1 and model tools as acceleration layer
 - eb1aefe fix(figures): render line breaks and add subgraph spacing in figure 1
 - fd38d07 fix(figures): enforce figure 1 label clearance and improve node label formatting
+- f723905 fix(figures): close figure admonition and compact system map layout
 
 ## 12) Backlog (live)
 DONE:
