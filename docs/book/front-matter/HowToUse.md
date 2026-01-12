@@ -57,49 +57,68 @@ is interpreted and applied throughout the Book.
 :::tip[Figure 1 — MCF 2.2 System Map (Canonical + Explanatory Layers)]
 
 ```mermaid
-%%{init: {"theme":"base","themeVariables":{"fontFamily":"Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial","fontSize":"22px"},"flowchart":{"nodeSpacing":36,"rankSpacing":44}} }%%
+%%{init: {"theme":"base","themeVariables":{"fontFamily":"Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial","fontSize":"26px","lineHeight":"1.25"},"flowchart":{"nodeSpacing":44,"rankSpacing":60,"curve":"basis"}} }%%
 flowchart TB
+  %% =========================
+  %% Figure 1 — MCF 2.2 System Map
+  %% Canon + Book, with Tools as an Acceleration Layer
+  %% =========================
 
-  subgraph CANON["Canon (normative)"]
-    C1["Definitions"]
-    C2["Evidence logic"]
-    C3["Decision theory"]
-    C4["Epistemic stage model"]
-    C5["Stage mechanics"]
+  subgraph CANON["**Canon (normative)**\n*Rules · boundaries · definitions*"]
+    C1["**Definitions**\nTerms & primitives"]
+    C2["**Evidence logic**\nQuality · decay · validity"]
+    C3["**Decision theory**\nThresholds · reversibility"]
+    C4["**Epistemic stage model**\nStates of resolution"]
+    C5["**Stage mechanics**\nProgress · pause · regress"]
   end
 
-  subgraph BOOK["Book (explanatory)"]
-    B0["Front matter"]
-    B1["Phase 1 — Foundations"]
-    B2["Phase 2 — Discovery & Validation"]
-    B3["Phase 3 — Efficiency"]
-    B4["Phase 4 — Scaling"]
-    B5["Phase 5 — Continuous improvement"]
-    B6["Conclusion & tools"]
+  subgraph BOOK["**Book (explanatory)**\n*Interpretation · application guidance*"]
+    B0["**How to read MCF 2.2**\nReading order & hierarchy"]
+    B1["**Front matter**\nIntent · scope · boundaries"]
+    B2["**Phase 1**\nPre-Discovery (capability layer)"]
+    B3["**Phase 2**\nDiscovery & Validation"]
+    B4["**Phase 3**\nEfficiency"]
+    B5["**Phase 4**\nScaling"]
+    B6["**Phase 5**\nContinuous improvement"]
   end
 
-  subgraph CAP["Capability layer (parallel)"]
-    P0["Pre-Discovery (maturity, governance, readiness)"]
+  subgraph META["**Meta (governance)**\n*References · change control*"]
+    M1["**References**\nHarvard citations (central)"]
+    M2["**Changelog**\nGovernance-level changes"]
   end
 
-  subgraph EPI["Epistemic resolution (non-linear)"]
-    S1["Explore signals"]
-    S2["Clarify hypotheses"]
-    S3["Test & falsify"]
-    S4["Validate claims"]
-    S5["Commit (only when defensible)"]
+  %% Canon → Book guidance flow (non-prescriptive)
+  C1 --> B0
+  C2 --> B0
+  C3 --> B0
+  C4 --> B0
+  C5 --> B0
+
+  %% Book structure flow (reading guidance)
+  B0 --> B1
+  B1 --> B2
+  B2 --> B3
+  B3 --> B4
+  B4 --> B5
+  B5 --> B6
+
+  %% Meta supports everything (references apply across)
+  M1 -.-> CANON
+  M1 -.-> BOOK
+  M2 -.-> CANON
+  M2 -.-> BOOK
+
+  %% Tools as acceleration layer (cross-cutting, not normative)
+  subgraph TOOLS["**Tools (acceleration layer)**\n*Abstraction · instrumentation · speed*\n*Never normative; cannot override Canon*"]
+    T1["**Templates**\nReduce setup friction"]
+    T2["**Checklists**\nSurface gaps & dependencies"]
+    T3["**Dashboards**\nMake evidence visible"]
+    T4["**Automations**\nReduce manual overhead"]
   end
 
-  CANON --> BOOK
-  P0 -. "enables capacity" .-> BOOK
-  BOOK -. "interprets constraints" .-> CANON
-
-  S1 <--> S2
-  S2 <--> S3
-  S3 <--> S4
-  S4 <--> S5
-  S3 <--> S2
-  S4 <--> S3
+  TOOLS -.-> CANON
+  TOOLS -.-> BOOK
+  TOOLS -.-> META
 :::
 
 Welcome to The MicroCanvas Framework. This chapter shows you how to use the
