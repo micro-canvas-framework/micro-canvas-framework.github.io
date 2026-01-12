@@ -9,6 +9,8 @@ last_updated: 2026-01-09
 This page explains decision thresholds and reversibility in the Canon without
 prescribing workflows.
 
+<div className="mcf-contract-grid">
+
 :::note Purpose
 Explain how decisions advance, pause, or reverse based on evidence quality and
 thresholds.
@@ -21,25 +23,41 @@ thresholds.
 - How decision integrity prevents premature scaling.
 :::
 
+:::tip How to use this page
+- Use it to interpret decision language in Book chapters.
+- Use Canon pages when you need formal definitions or constraints.
+- Treat thresholds as evidence gates, not timelines.
+:::
+
+</div>
+
 :::info FIGURE 5 — DECISION THRESHOLDS, REVERSIBILITY, AND OPTIONALITY (EXPLANATORY)
 ```mermaid
-%%{init: {"theme":"base","flowchart":{"nodeSpacing":70,"rankSpacing":90},"themeVariables":{"fontSize":"28px"}} }%%
+%%{init: {"theme":"base","flowchart":{"nodeSpacing":60,"rankSpacing":80},"themeVariables":{"fontSize":"28px"}} }%%
 flowchart TB
 
-  E["**Evidence quality**<br/>Signal / strength / relevance"]
-  O["**Optionality preserved**<br/>Hold reversible paths"]
-  D{"**Decision threshold met?**"}
-  R["**Reversible decision**<br/>Low threshold"]
-  I["**Irreversible decision**<br/>High threshold"]
-  RG["**Regression**<br/>Evidence weakens"]
+  %% Core claim
+  E["**Evidence quality**<br/>relevance · strength · limits"] --> T{"**Decision threshold**<br/>met?"}
 
-  E --> D
-  D -->|No| O
-  D -->|Yes (low)| R
-  D -->|Yes (high)| I
-  R -->|New evidence| E
-  I -->|New evidence| RG
-  RG --> E
+  %% Threshold outcomes
+  T -->|No| O["**Preserve optionality**<br/>do not commit resources"]
+  T -->|Yes| R{"**Reversibility**<br/>high or low?"}
+
+  %% Reversible vs irreversible
+  R -->|High (reversible)| L["**Proceed with low commitment**<br/>cheap test · bounded scope"]
+  R -->|Low (irreversible)| H["**Proceed with high commitment**<br/>higher assurance required"]
+
+  %% Learning loop + regression
+  L --> M["**Measure outcomes**<br/>learning signal"]
+  H --> M
+
+  M --> W{"**New evidence weakens claim**<br/>or invalidates assumption?"}
+  W -->|Yes| B["**Regress / revise**<br/>update claim and threshold"]
+  W -->|No| S["**Sustain / scale**<br/>only when still defensible"]
+
+  %% Return paths
+  B --> E
+  O --> E
 ```
 :::
 
@@ -55,12 +73,6 @@ threshold can be lower because the cost of being wrong is limited. If a decision
 is irreversible, the threshold must be higher because the cost of error is
 systemic (Taleb, 2012). Preserving **optionality** keeps future paths open until
 evidence justifies commitment.
-
-:::tip How to use this page
-- Use it to interpret decision language in Book chapters.
-- Use Canon pages when you need formal definitions or constraints.
-- Treat thresholds as evidence gates, not timelines.
-:::
 
 ## Derived from Canon
 

@@ -112,6 +112,9 @@ Book Chapter Header Contract:
   5) Key terms (canonical)
   6) Minimal evidence expectations (non-prescriptive)
 
+Meta/Explanatory Page Contract:
+- Purpose / What this explains / How to use this page admonitions render as a 2x2 grid using `mcf-contract-grid`.
+
 =====================================================================
 I. BOOK LAYER - EDITORIAL CONTRACT (LOCKED)
 =====================================================================
@@ -450,6 +453,7 @@ DONE:
 - Sidebar includes Figures index
 - Governance and Roles: Figure 4 added
 - Governance and Roles: Figure 4 render fixed
+- Meta/explanatory pages use 2x2 grid for Purpose/What/How admonitions
 - demo markdown page removed
 - unused images cleaned
 - phase landing pages + ordering normalized
