@@ -403,6 +403,7 @@ Conclusion and Tools
 - e85ca28 fix(figures): increase figure 1 mermaid font and spacing for readability
 - d3cea2b fix(figures): restyle figure 1 and model tools as acceleration layer
 - eb1aefe fix(figures): render line breaks and add subgraph spacing in figure 1
+- fd38d07 fix(figures): enforce figure 1 label clearance and improve node label formatting
 
 ## 12) Backlog (live)
 DONE:
