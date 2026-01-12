@@ -21,6 +21,28 @@ thresholds.
 - How decision integrity prevents premature scaling.
 :::
 
+:::info FIGURE 5 — DECISION THRESHOLDS, REVERSIBILITY, AND OPTIONALITY (EXPLANATORY)
+```mermaid
+%%{init: {"theme":"base","flowchart":{"nodeSpacing":70,"rankSpacing":90},"themeVariables":{"fontSize":"28px"}} }%%
+flowchart TB
+
+  E["**Evidence quality**<br/>Signal / strength / relevance"]
+  O["**Optionality preserved**<br/>Hold reversible paths"]
+  D{"**Decision threshold met?**"}
+  R["**Reversible decision**<br/>Low threshold"]
+  I["**Irreversible decision**<br/>High threshold"]
+  RG["**Regression**<br/>Evidence weakens"]
+
+  E --> D
+  D -->|No| O
+  D -->|Yes (low)| R
+  D -->|Yes (high)| I
+  R -->|New evidence| E
+  I -->|New evidence| RG
+  RG --> E
+```
+:::
+
 ## Decision thresholds (explanatory)
 A decision threshold is the minimum evidence required to defend a specific
 decision. The threshold is not universal; it depends on risk, cost, and

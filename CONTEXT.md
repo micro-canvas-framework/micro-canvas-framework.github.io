@@ -174,6 +174,10 @@ Book core pages (explanatory)
   - Status: COMPLETE (structure)
 - Failure Modes
   - Status: COMPLETE
+- Decision Logic
+  - Figure added: YES
+  - Mermaid: YES
+  - Status: COMPLETE
 
 Phase 1 - Foundations
 - Chapter 1: Introduction to Innovation Maturity
@@ -541,6 +545,7 @@ Per-Chapter Requirement:
 - Figure 2: Epistemic stages vs phases (decision state vs activity) - DRAFT
 - Figure 3: Evidence-first loop (claim -> evidence -> decision state) - DRAFT
 - Figure 4: Governance as Decision Integrity (explanatory) - DRAFT
+- Figure 5: Decision thresholds, reversibility, and optionality (explanatory) - DRAFT
 
 Status: LOCKED
 
