@@ -395,6 +395,7 @@ Conclusion and Tools
 - cd39447 docs(book): add phase 3-5 drafts, conclusion content, and 404 overrides
 - c9a147e docs(book): align evidence-first thinking with canon and add citations
 - feaa366 docs(book): align epistemic stages with canon and add diagram placeholder
+- dcced63 docs(book): align decision logic with canon and add diagram placeholder
 
 ## 12) Backlog (live)
 DONE:
