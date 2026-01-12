@@ -21,6 +21,26 @@ progression and decisions in MCF 2.2.
 - How to interpret evidence without turning it into a checklist.
 :::
 
+:::tip Figure 3 - Evidence-first loop (claim -> evidence -> decision state)
+```mermaid
+%%{init: {"theme":"neutral","flowchart":{"nodeSpacing":60,"rankSpacing":70},"themeVariables":{"fontSize":"28px"}}}%%
+flowchart TB
+
+  A["Claim<br/>(decision-relevant)"] --> B["Evidence collected<br/>(observable, testable)"]
+  B --> C["Quality check<br/>(relevance / validity / recency)"]
+  C --> D{"Decision threshold met?"}
+
+  D -->|Yes| E["Advance decision state<br/>(proceed / commit)"]
+  D -->|Not yet| F["Pause / defer<br/>(preserve optionality)"]
+  D -->|No / falsifies claim| G["Regress / revise<br/>(update hypothesis)"]
+
+  %% Optional: show that new evidence can change state
+  E -. "New evidence" .-> C
+  F -. "More evidence" .-> B
+  G -. "Reframed claim" .-> A
+```
+:::
+
 ## Evidence-first thinking (explanatory)
 Evidence-first thinking means you treat decisions as claims that must be
 supported by observable, testable information. Activity, effort, or consensus

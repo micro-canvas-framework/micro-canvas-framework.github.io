@@ -428,6 +428,7 @@ DONE:
 - Figure 1: node label line breaks + bold/italic styling
 - Figure 1 admonition boundary fixed (admonition closes before body text)
 - Figure 1 layout compacted (Meta+Tools row, Canon core, Book below)
+- Figure 3 added (Evidence-first loop diagram)
 - demo markdown page removed
 - unused images cleaned
 - phase landing pages + ordering normalized
@@ -487,6 +488,7 @@ Figure Governance:
 - Figure 1 admonition boundary fixed (admonition closes before body text)
 - Figure 1 layout compacted (Meta+Tools row, Canon core, Book below)
 - Figure 2 follows Mermaid-only, per-diagram init, and admonition rules (same as Figure 1)
+- Figure 3 follows Mermaid-only, per-diagram init, and admonition rules (same as Figure 1)
 
 Backlog - Diagram Remediation (GLOBAL):
 - [ ] Audit all existing diagrams for MCF 2.1 assumptions
@@ -514,6 +516,7 @@ Per-Chapter Requirement:
 - Epistemic Stages: Figure X - MCF 2.2 epistemic stages as reversible decision states (PENDING)
 - Decision Logic: Figure X - Decision thresholds vs reversibility and risk (PENDING)
 - Figure 2: Epistemic stages vs phases (decision state vs activity) - DRAFT
+- Figure 3: Evidence-first loop (claim -> evidence -> decision state) - DRAFT
 
 Status: LOCKED
 
