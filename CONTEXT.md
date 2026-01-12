@@ -154,8 +154,9 @@ Front matter (prefatory)
   - Status: COMPLETE
 - Preface
   - Header contract applied: YES (admonitions)
-  - Canon links resolved: NO
-  - Status: PENDING
+  - Canon links resolved: YES
+  - Diagram status: NO DIAGRAMS (N/A)
+  - Status: COMPLETE
 - How to Use This Book
   - Header contract applied: YES (admonitions)
   - Canon links resolved: NO
@@ -461,6 +462,7 @@ Per-Chapter Requirement:
   - diagrams to add
 - Diagram status must be tracked per chapter in CONTEXT.md
 - Foreword: no diagrams required; confirmed N/A
+- Preface: no diagrams required; confirmed N/A
 
 Status: LOCKED
 

@@ -9,6 +9,46 @@ redirect_from:
   - /frontmatter/preface
 ---
 
+:::note What this chapter does
+- Explains the motivation behind MCF 2.2 and why a structured framework is necessary.
+- Frames innovation as a repeatable system of evidence-backed decisions.
+- Introduces the phase structure of the Book at a high level.
+- Positions the Book as an explanatory companion to the Canon.
+:::
+
+:::note What this chapter does not do
+- Does not define or modify Canon rules, constraints, or terminology.
+- Does not prescribe how phases must be executed.
+- Does not provide operational tools or templates.
+- Does not claim universality or guaranteed outcomes.
+:::
+
+:::note When you should read this
+- After the Foreword and before engaging with phase-based chapters.
+- When seeking context for why the framework is structured as it is.
+- When orienting stakeholders to the intent and scope of MCF 2.2.
+:::
+
+:::note Derived from Canon
+This preface is constrained by the following Canon sources:
+
+- [Canon → Introduction](/docs/canon/_intro)
+- [Canon → Definitions](/docs/canon/definitions)
+:::
+
+:::note Key terms (canonical)
+- Evidence
+- Decision
+- Governance
+- Epistemic stage
+- Canon
+:::
+
+:::note Minimal evidence expectations (non-prescriptive)
+This chapter introduces no evidence requirements. It provides orientation and
+conceptual grounding only.
+:::
+
 Innovation is not rare. What is rare is a **repeatable system** that turns it
 into defensible outcomes. MCF 2.2 is built for that purpose. It treats
 innovation as a sequence of **evidence-backed decisions**, not a series of
