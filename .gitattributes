@@ -1,2 +1,9 @@
 * text=auto
 *.md text eol=lf
+# Enforce LF for project memory + key docs (Windows-safe)
+CONTEXT.md text eol=lf
+AGENTS.md  text eol=lf
+docs/**/*.md  text eol=lf
+docs/**/*.mdx text eol=lf
+sidebars.ts text eol=lf
+docusaurus.config.ts text eol=lf
