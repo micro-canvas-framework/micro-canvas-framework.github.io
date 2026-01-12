@@ -37,6 +37,7 @@ const sidebars: SidebarsConfig = {
                         'book/front-matter/frontmatter-foreword',
                         'book/front-matter/frontmatter-preface',
                         'book/front-matter/frontmatter-how-to-use',
+                        'meta/figures',
                         'book/front-matter/frontmatter-the-author',
                     ],
                 },

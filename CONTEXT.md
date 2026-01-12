@@ -404,6 +404,7 @@ Conclusion and Tools
 - d3cea2b fix(figures): restyle figure 1 and model tools as acceleration layer
 - eb1aefe fix(figures): render line breaks and add subgraph spacing in figure 1
 - fd38d07 fix(figures): enforce figure 1 label clearance and improve node label formatting
+- (pending) docs(book): add figures index to sidebar and lock figure governance
 - f723905 fix(figures): close figure admonition and compact system map layout
 
 ## 12) Backlog (live)
@@ -429,6 +430,8 @@ DONE:
 - Figure 1 admonition boundary fixed (admonition closes before body text)
 - Figure 1 layout compacted (Meta+Tools row, Canon core, Book below)
 - Figure 3 added (Evidence-first loop diagram)
+- Add Figures index to sidebar (Front matter)
+- Sidebar includes Figures index
 - demo markdown page removed
 - unused images cleaned
 - phase landing pages + ordering normalized
@@ -480,6 +483,13 @@ Figure Governance:
 - Figure numbering is sequential by Book order
 - Figures are referenced explicitly in text (e.g., "see Figure 12.1")
 - Figure numbering: global sequence, Figure 1 reserved for system map.
+- Figures are **Book-layer** explanatory artifacts (non-normative).
+- All figures must be **Mermaid diagrams** (no SVG/PNG as canonical figures).
+- Every figure must be wrapped in a **Docusaurus admonition** and the admonition must **close before** chapter text continues.
+- Default Mermaid styling is **global**, but **per-figure init is allowed** only for readability.
+- Baseline readability target: **fontSize >= 28px** for figure diagrams when needed.
+- Figure numbering is **monotonic** and tracked in the figures index.
+- Single source of truth for the list: **docs/book/front-matter/figures.mdx** (the figures index).
 - Figures index lists figure numbers and where used (not file paths)
 - Per-diagram init blocks should be avoided; only used when necessary; must match global font sizing
 - Per-diagram Mermaid init is allowed for Figures when readability requires it (must use Phase-2 init style; fontSize >= 22px)
