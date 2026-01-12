@@ -437,6 +437,9 @@ Conclusion and Tools
 
 ## 12) Backlog (live)
 DONE:
+- Fix: eliminate stale localhost:3000 chunk loads by enforcing clean serve/dev port discipline
+- Fix: Figure 5 Mermaid runtime parse error - ensure no PowerShell prompt lines inside mermaid fences; use safe labels first
+- Rule: Any runtime UI verification must be against npm run serve on a known port (default 4400) before trusting dev output
 - Canon published + frozen
 - Book IA created
 - EntityHeader site-wide, title de-dup, legacy behavior

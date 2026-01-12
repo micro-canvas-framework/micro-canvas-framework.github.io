@@ -39,26 +39,15 @@ thresholds.
 
 :::info FIGURE 5 — DECISION THRESHOLDS, REVERSIBILITY, AND OPTIONALITY (EXPLANATORY)
 ```mermaid
-%%{init: {"theme":"base","flowchart":{"nodeSpacing":60,"rankSpacing":80},"themeVariables":{"fontSize":"28px"}} }%%
+%%{init: {"flowchart": {"nodeSpacing": 60, "rankSpacing": 70}, "themeVariables": {"fontSize": "28px"}} }%%
 flowchart TB
-
-  E["**Evidence quality**<br/>relevance · strength · limits"] --> T{"**Decision threshold**<br/>met?"}
-
-  T -->|No| O["**Preserve optionality**<br/>do not commit resources"]
-  T -->|Yes| R{"**Reversibility**<br/>high or low?"}
-
-  R -->|High (reversible)| L["**Proceed with low commitment**<br/>cheap test · bounded scope"]
-  R -->|Low (irreversible)| H["**Proceed with high commitment**<br/>higher assurance required"]
-
-  L --> M["**Measure outcomes**<br/>learning signal"]
-  H --> M
-
-  M --> W{"**New evidence weakens claim**<br/>or invalidates assumption?"}
-  W -->|Yes| B["**Regress / revise**<br/>update claim and threshold"]
-  W -->|No| S["**Sustain / scale**<br/>only when still defensible"]
-
-  B --> E
-  O --> E
+  A[Decision needed] --> B{Evidence above<br/>threshold?}
+  B -- "No" --> P[Pause and collect evidence]
+  B -- "Yes" --> C{Reversible?}
+  C -- "Yes" --> L[Proceed with low commitment]
+  C -- "No" --> D{High risk/cost?}
+  D -- "Yes" --> H[Raise threshold and re-test]
+  D -- "No" --> R[Proceed with safeguards]
 ```
 :::
 
