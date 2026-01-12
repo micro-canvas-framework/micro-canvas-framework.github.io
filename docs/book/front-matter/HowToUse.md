@@ -72,7 +72,7 @@ classDef spacer fill:transparent,stroke:transparent,color:transparent;
 subgraph META["**Meta**<br/><i>governance / references / change control</i>"]
 direction LR
 class META cluster
-R_META["<br/><br/><br/>"]:::spacer
+R_META["<br/><br/>"]:::spacer
 M_REF["**References**<br/><i>Harvard citations (central)</i>"]:::node
 M_CHG["**Changelog**<br/><i>Governance-level changes</i>"]:::node
 R_META --> M_REF
@@ -81,7 +81,7 @@ end
 subgraph TOOLS["**Tools**<br/><i>acceleration layer</i>"]
 direction TB
 class TOOLS cluster
-R_TOOLS["<br/><br/><br/>"]:::spacer
+R_TOOLS["<br/><br/>"]:::spacer
 T_TPL["**Templates**<br/><i>Reduce setup friction</i>"]:::node
 T_CHK["**Checklists**<br/><i>Surface gaps & dependencies</i>"]:::node
 T_DSH["**Dashboards**<br/><i>Make evidence visible</i>"]:::node
@@ -99,7 +99,7 @@ META --- TOOLS
 subgraph CANON["**Canon**<br/><i>rules / boundaries / definitions</i>"]
 direction LR
 class CANON cluster
-R_CANON["<br/><br/><br/>"]:::spacer
+R_CANON["<br/><br/>"]:::spacer
 C_DEF["**Definitions**<br/><i>Terms & primitives</i>"]:::node
 C_EVD["**Evidence logic**<br/><i>Quality / decay / validity</i>"]:::node
 C_DEC["**Decision theory**<br/><i>Thresholds / reversibility</i>"]:::node
@@ -115,7 +115,7 @@ end
 subgraph BOOK["**Book**<br/><i>interpretation / application / guidance</i>"]
 direction TB
 class BOOK cluster
-R_BOOK["<br/><br/><br/>"]:::spacer
+R_BOOK["<br/><br/>"]:::spacer
 B_READ["**How to read MCF 2.2**<br/><i>Reading order & hierarchy</i>"]:::node
 B_FM["**Front matter**<br/><i>Intent / scope / boundaries</i>"]:::node
 B_P1["**Phase 1**<br/><i>Pre-Discovery (capability layer)</i>"]:::node
