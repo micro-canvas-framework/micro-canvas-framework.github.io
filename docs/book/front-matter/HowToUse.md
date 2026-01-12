@@ -9,6 +9,47 @@ redirect_from:
   - /frontmatter/howtouse
 ---
 
+:::note What this chapter does
+- Explains how to navigate the Book layer across phases.
+- Clarifies how to apply chapters without assuming linear progression.
+- Defines how readers should use examples, tools, and templates.
+- Reinforces how evidence gates and decision thresholds guide movement.
+:::
+
+:::note What this chapter does not do
+- Does not redefine Canon rules, terms, or constraints.
+- Does not prescribe a mandatory reading order.
+- Does not guarantee outcomes from following the phases.
+- Does not replace governance or decision authority.
+:::
+
+:::note When you should read this
+- After the Foreword and Preface.
+- Before engaging with any phase-based chapters.
+- When onboarding new teams or stakeholders to MCF 2.2.
+:::
+
+:::note Derived from Canon
+This chapter is constrained by the following Canon sources:
+
+- [Canon → Introduction](/docs/canon/_intro)
+- [Canon → Definitions](/docs/canon/definitions)
+- [Canon → Epistemic model](/docs/canon/epistemic-model)
+:::
+
+:::note Key terms (canonical)
+- Phase
+- Evidence
+- Decision threshold
+- Governance
+- Optionality
+:::
+
+:::note Minimal evidence expectations (non-prescriptive)
+This chapter introduces no new evidence requirements. It explains how evidence
+is interpreted and applied throughout the Book.
+:::
+
 Welcome to The MicroCanvas Framework. This chapter shows you how to use the
 Book layer effectively while staying aligned with **MCF 2.2 Canon**. Whether
 you are new to innovation or experienced in transformation, the goal is the

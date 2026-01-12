@@ -159,8 +159,9 @@ Front matter (prefatory)
   - Status: COMPLETE
 - How to Use This Book
   - Header contract applied: YES (admonitions)
-  - Canon links resolved: NO
-  - Status: PENDING
+  - Canon links resolved: YES
+  - Diagram status: REQUIRES DIAGRAM
+  - Status: COMPLETE
 - The Author
   - Header contract applied: YES (admonitions)
   - Canon links resolved: NO
@@ -463,6 +464,8 @@ Per-Chapter Requirement:
 - Diagram status must be tracked per chapter in CONTEXT.md
 - Foreword: no diagrams required; confirmed N/A
 - Preface: no diagrams required; confirmed N/A
+- How to Use This Book: requires inclusion of the MCF 2.2 master framework diagram
+  (phases + epistemic flow). Figure number to be assigned globally.
 
 Status: LOCKED
 
