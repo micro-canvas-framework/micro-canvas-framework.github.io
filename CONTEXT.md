@@ -401,6 +401,7 @@ Conclusion and Tools
 - 4641214 fix(book): enable mermaid rendering and standardize contract admonition types
 - d644038 fix(ui): correct contract card grid sizing and standardize mermaid styling
 - e85ca28 fix(figures): increase figure 1 mermaid font and spacing for readability
+- d3cea2b fix(figures): restyle figure 1 and model tools as acceleration layer
 
 ## 12) Backlog (live)
 DONE:
