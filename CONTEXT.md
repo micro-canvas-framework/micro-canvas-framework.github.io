@@ -113,6 +113,10 @@ Book Chapter Header Contract:
   6) Minimal evidence expectations (non-prescriptive)
 
 Meta/Explanatory Page Contract:
+- Card order in source MUST be: Purpose -> What this explains -> Derived from Canon -> How to use this page
+- Cards 1-4 render as a 2x2 grid; Derived from Canon should not be omitted.
+- Derived from Canon must be a link list; relative links like ../canon/... are preferred.
+
 - Purpose / What this explains / How to use this page admonitions render as a 2x2 grid using `mcf-contract-grid`.
 - If only 3 cards are present, the 3rd ("How to use this page") MUST span full width.
 
@@ -429,6 +433,7 @@ Conclusion and Tools
 - afa3852 docs(book): add decision thresholds figure and align decision logic page
 - 1d9d9a7 fix(book): fix figure 5 mermaid and meta 3-card grid layout
 - 1bff865 fix(figures): remove stray tokens causing figure 5 mermaid parse error
+- (pending) feat(book): add derived-from-canon card to meta explanatory contract
 
 ## 12) Backlog (live)
 DONE:
@@ -460,7 +465,9 @@ DONE:
 - Meta/explanatory pages use 2x2 grid for Purpose/What/How admonitions
 - Meta pages: enforce 3-card order and full-width last card
 - Fix Figure 5 Mermaid parse error by replacing block
+- Meta/Explanatory contract: add Derived from Canon card and enforce 2x2 order
 - Figure 5: remove stray paste artifacts (PS prompt / Mermaid error line) from Mermaid fence; rebuild clean block
+- Figure 5: eliminated stale Mermaid parse error by cleaning build caches + serving production build
 - demo markdown page removed
 - unused images cleaned
 - phase landing pages + ordering normalized
