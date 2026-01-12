@@ -422,6 +422,7 @@ PENDING:
 IN-PROGRESS / COMPLETED:
 - Evidence-first thinking page: editorial + citations alignment (DONE)
 - Epistemic stages page: editorial + citations alignment (DONE)
+- Decision Logic page: editorial + citations alignment (DONE)
 
 DEFERRED:
 - IMM mapping/scoring
@@ -474,6 +475,7 @@ Per-Chapter Requirement:
   (phases + epistemic flow). Figure number to be assigned globally.
 - Evidence-First Thinking: no figure required (text-only) — confirm on review.
 - Epistemic Stages: Figure X — MCF 2.2 epistemic stages as reversible decision states (PENDING)
+- Decision Logic: Figure X — Decision thresholds vs reversibility and risk (PENDING)
 
 Status: LOCKED
 
