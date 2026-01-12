@@ -437,9 +437,13 @@ Conclusion and Tools
 - (pending) docs(book): complete governance and roles page structure and headings
 - (pending) docs(book): complete failure modes page structure and remove duplicate canon section
 - (pending) docs(book): complete boundaries and misuse page and align with meta contract
+- (pending) docs(book): complete versioning and change control page and align with meta contract
 
 ## 12) Backlog (live)
 DONE:
+- Versioning & Change Control: apply meta/explanatory contract grid (Purpose/What/Derived/How)
+- Versioning & Change Control: remove duplicate Derived-from-Canon section
+- Versioning & Change Control: replace body with full H2/H3 structure
 - Boundaries & Misuse: apply meta/explanatory contract grid
 - Boundaries & Misuse: remove duplicate Derived-from-Canon section
 - Boundaries & Misuse: add full explanatory H2/H3 structure

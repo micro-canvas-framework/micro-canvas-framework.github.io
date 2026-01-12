@@ -10,6 +10,8 @@ last_updated: 2026-01-09
 This page explains how canonical versions and change control are framed,
 without defining new rules.
 
+<div className="mcf-contract-grid">
+
 :::note Purpose
 Clarify how versioning protects the integrity of the Canon and how derivative
 materials are managed over time.
@@ -22,28 +24,67 @@ materials are managed over time.
 - How to interpret legacy vs current material.
 :::
 
-## Versioning in MCF 2.2 (explanatory)
-MCF versions are documentation snapshots, not release cycles. The Canon is
-stable by design. Changes to Canon content require explicit decisions and a
-version increment so that downstream materials can be evaluated consistently.
-
-Book content may evolve as explanations improve, but it cannot introduce new
-semantics that conflict with Canon. If a conflict appears, Canon wins.
-
-## Change control and termination
-Termination logic exists to prevent drift or misrepresentation. If a derivative
-material conflicts with Canon or exceeds defined boundaries, it must be revised
-or removed. This is a governance safeguard, not a content preference.
+:::note Derived from Canon
+- [Canon -> Versioning and termination](../canon/versioning-termination)
+- [Canon -> Definitions](../canon/definitions)
+- [Canon -> Framework boundaries](../canon/framework-boundaries)
+:::
 
 :::tip How to use this page
 - Use it to interpret versioning language in Book chapters.
 - Use Canon pages when you need formal rules or constraints.
-- Treat legacy content as non-authoritative unless explicitly mapped to current
-  Canon.
+- Treat legacy content as non-authoritative unless explicitly mapped to current Canon.
 :::
 
-## Derived from Canon
+</div>
 
-- [Versioning and termination](../canon/versioning-termination)
-- [Definitions](../canon/definitions)
-- [Framework boundaries](../canon/framework-boundaries)
+## Versioning in MCF 2.2
+Versioning in MCF 2.2 exists to preserve interpretability over time. A version
+represents a stable semantic snapshot of the Canon, not a delivery or release
+cadence.
+
+Canonical versions change only when the meaning of constraints, stages, or
+decision logic changes. This ensures that evidence and decisions made under a
+given version remain interpretable and auditable later.
+
+## Canon stability and explicit increments
+The Canon is stable by design. Any change to Canon content requires:
+- explicit governance review
+- a documented rationale
+- a version increment
+
+Silent or informal Canon changes are not permitted, because they undermine
+decision traceability and downstream trust.
+
+## Evolution of derivative materials
+Book content and other derivative materials may evolve independently as long as
+they do not introduce new semantics, constraints, or guarantees.
+
+Improvements in clarity, examples, or pedagogy are allowed. Changes that alter
+meaning are not. When conflicts arise, Canon always takes precedence.
+
+## Legacy material and interpretability
+Legacy material may remain available for historical or educational reasons, but
+it is non-authoritative unless explicitly mapped to a current Canon version.
+
+Readers should assume that unmapped legacy content may reflect outdated
+assumptions or thresholds.
+
+## Change control and termination logic
+Termination logic exists to prevent drift and misuse. If a derivative material:
+- conflicts with Canon
+- exceeds defined boundaries
+- introduces implicit guarantees
+
+it must be revised or removed. This is a governance safeguard, not a content
+preference or editorial judgment.
+
+## Using versioning defensively
+Versioning should be used to:
+- challenge ambiguous or outdated references
+- clarify which rules applied at the time of a decision
+- prevent retroactive reinterpretation of evidence
+
+A useful versioning test is:
+“Which Canon version was this decision made under, and does the interpretation
+still hold?”
