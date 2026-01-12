@@ -404,8 +404,8 @@ DONE:
 PENDING:
 - Apply Book header contract to remaining chapters (Phase 1/Phase 2/Phase 3-5 completed; admonitions applied site-wide)
 - Convert "Derived from Canon" to real links for each chapter (Phase 1/Phase 2/Phase 3-5 completed)
-- Write Phase 3-5 and conclusion content (skeletons present)
-- Book content modernization (core Book pages updated with explanatory text + admonitions; phase content pending)
+- Write Phase 3-5 and conclusion content (draft explanatory text added; needs review)
+- Book content modernization (core Book pages updated with explanatory text + admonitions; phase content in progress)
 - ES translation (deferred)
 - Docusaurus update decision (3.7 -> 3.9) deferred until stability checkpoint
 
