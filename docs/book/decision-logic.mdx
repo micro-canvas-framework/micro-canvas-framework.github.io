@@ -36,18 +36,14 @@ thresholds.
 %%{init: {"theme":"base","flowchart":{"nodeSpacing":60,"rankSpacing":80},"themeVariables":{"fontSize":"28px"}} }%%
 flowchart TB
 
-  %% Core claim
   E["**Evidence quality**<br/>relevance · strength · limits"] --> T{"**Decision threshold**<br/>met?"}
 
-  %% Threshold outcomes
   T -->|No| O["**Preserve optionality**<br/>do not commit resources"]
   T -->|Yes| R{"**Reversibility**<br/>high or low?"}
 
-  %% Reversible vs irreversible
   R -->|High (reversible)| L["**Proceed with low commitment**<br/>cheap test · bounded scope"]
   R -->|Low (irreversible)| H["**Proceed with high commitment**<br/>higher assurance required"]
 
-  %% Learning loop + regression
   L --> M["**Measure outcomes**<br/>learning signal"]
   H --> M
 
@@ -55,7 +51,6 @@ flowchart TB
   W -->|Yes| B["**Regress / revise**<br/>update claim and threshold"]
   W -->|No| S["**Sustain / scale**<br/>only when still defensible"]
 
-  %% Return paths
   B --> E
   O --> E
 ```

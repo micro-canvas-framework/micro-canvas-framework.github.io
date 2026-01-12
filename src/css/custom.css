@@ -129,6 +129,11 @@
     flex: 1;
 }
 
+/* Meta explanatory grid: if there are exactly 3 cards, make the last one span both columns */
+.mcf-contract-grid:has(> :nth-child(3):last-child) > :nth-child(3) {
+    grid-column: 1 / -1;
+}
+
 @media (max-width: 996px) {
     .mcf-contract-grid {
         grid-template-columns: 1fr;

@@ -114,6 +114,7 @@ Book Chapter Header Contract:
 
 Meta/Explanatory Page Contract:
 - Purpose / What this explains / How to use this page admonitions render as a 2x2 grid using `mcf-contract-grid`.
+- If only 3 cards are present, the 3rd ("How to use this page") MUST span full width.
 
 =====================================================================
 I. BOOK LAYER - EDITORIAL CONTRACT (LOCKED)
@@ -455,6 +456,8 @@ DONE:
 - Governance and Roles: Figure 4 added
 - Governance and Roles: Figure 4 render fixed
 - Meta/explanatory pages use 2x2 grid for Purpose/What/How admonitions
+- Meta pages: enforce 3-card order and full-width last card
+- Fix Figure 5 Mermaid parse error by replacing block
 - demo markdown page removed
 - unused images cleaned
 - phase landing pages + ordering normalized
