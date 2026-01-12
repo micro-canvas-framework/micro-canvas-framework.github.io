@@ -149,8 +149,9 @@ Front matter (prefatory)
   - Status: COMPLETE
 - Foreword
   - Header contract applied: YES (admonitions)
-  - Canon links resolved: NO
-  - Status: PENDING
+  - Canon links resolved: YES
+  - Diagram status: NO DIAGRAMS (N/A)
+  - Status: COMPLETE
 - Preface
   - Header contract applied: YES (admonitions)
   - Canon links resolved: NO
@@ -459,6 +460,7 @@ Per-Chapter Requirement:
   - diagrams to remove
   - diagrams to add
 - Diagram status must be tracked per chapter in CONTEXT.md
+- Foreword: no diagrams required; confirmed N/A
 
 Status: LOCKED
 

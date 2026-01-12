@@ -9,6 +9,46 @@ redirect_from:
   - /frontmatter/foreword
 ---
 
+:::note What this chapter does
+- Introduces the epistemic stance of MCF 2.2 before any operational material.
+- Clarifies the separation between **Canon** (normative) and **Book** (explanatory).
+- Frames innovation as a system of decisions grounded in evidence and governance.
+- Sets expectations about rigor, constraints, and responsibility.
+:::
+
+:::note What this chapter does not do
+- Does not define rules, stages, or decision thresholds.
+- Does not provide instructions, methods, or tools.
+- Does not replace or summarize Canon content.
+- Does not promise outcomes or prescribe success.
+:::
+
+:::note When you should read this
+- Before engaging with any phase-based Book chapters.
+- When orienting new readers to the intent and limits of MCF 2.2.
+- When clarifying whether a page is explanatory or normative.
+:::
+
+:::note Derived from Canon
+This foreword is constrained by the following Canon sources:
+
+- [Canon → Introduction](/docs/canon/_intro)
+- [Canon → Definitions](/docs/canon/definitions)
+:::
+
+:::note Key terms (canonical)
+- Canon
+- Book
+- Evidence
+- Decision system
+- Governance
+:::
+
+:::note Minimal evidence expectations (non-prescriptive)
+This chapter does not introduce evidence requirements. It exists solely to
+establish orientation and reading discipline.
+:::
+
 Innovation is often treated as a moment of inspiration. The MicroCanvas
 Framework treats it as a **disciplined system of decisions**. MCF 2.2 brings
 that system into focus by separating what is authoritative (**Canon**) from
