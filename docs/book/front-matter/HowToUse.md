@@ -50,6 +50,10 @@ This chapter introduces no new evidence requirements. It explains how evidence
 is interpreted and applied throughout the Book.
 :::
 
+![Figure 1 — MCF 2.2 System Map (Canonical + Explanatory Layers)](/img/mcf-22-system-map.svg)
+
+*Figure 1 — A map of how Canon (normative) and Book (explanatory) relate, and how capability-building (Pre-Discovery) runs orthogonally to epistemic stage resolution.*
+
 Welcome to The MicroCanvas Framework. This chapter shows you how to use the
 Book layer effectively while staying aligned with **MCF 2.2 Canon**. Whether
 you are new to innovation or experienced in transformation, the goal is the

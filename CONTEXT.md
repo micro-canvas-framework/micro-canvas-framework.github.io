@@ -160,7 +160,7 @@ Front matter (prefatory)
 - How to Use This Book
   - Header contract applied: YES (admonitions)
   - Canon links resolved: YES
-  - Diagram status: REQUIRES DIAGRAM
+  - Diagram status: Figure 1 embedded (YES)
   - Status: COMPLETE
 - The Author
   - Header contract applied: YES (admonitions)
@@ -451,9 +451,10 @@ Figure Governance:
   - A title
   - A caption explaining scope and limits
 - Figure numbering is sequential by Book order
-- Figures are referenced explicitly in text (e.g., “see Figure 12.1”)
+- Figures are referenced explicitly in text (e.g., "see Figure 12.1")
+- Figure numbering: global sequence, Figure 1 reserved for system map.
 
-Backlog — Diagram Remediation (GLOBAL):
+Backlog - Diagram Remediation (GLOBAL):
 - [ ] Audit all existing diagrams for MCF 2.1 assumptions
 - [ ] Redraw diagrams to reflect:
       - epistemic stages vs capability layers
@@ -463,6 +464,7 @@ Backlog — Diagram Remediation (GLOBAL):
 - [ ] Remove any funnel, pipeline, or maturity-ladder visuals
 - [ ] Add missing diagrams where concepts are abstract or easily misread
 - [ ] Produce a centralized **List of Figures** (Book-wide)
+- [ ] Create per-chapter diagram audit + assign figure numbers (PENDING)
 
 Per-Chapter Requirement:
 - Each Book chapter must be evaluated for:
@@ -472,8 +474,7 @@ Per-Chapter Requirement:
 - Diagram status must be tracked per chapter in CONTEXT.md
 - Foreword: no diagrams required; confirmed N/A
 - Preface: no diagrams required; confirmed N/A
-- How to Use This Book: requires inclusion of the MCF 2.2 master framework diagram
-  (phases + epistemic flow). Figure number to be assigned globally.
+- How to Use This Book: Figure 1 embedded (MCF 2.2 system map).
 - Evidence-First Thinking: no figure required (text-only) — confirm on review.
 - Epistemic Stages: Figure X — MCF 2.2 epistemic stages as reversible decision states (PENDING)
 - Decision Logic: Figure X — Decision thresholds vs reversibility and risk (PENDING)
