@@ -413,7 +413,7 @@ Conclusion and Tools
 - (pending) docs(book): add figures index to sidebar and lock figure governance
 - f723905 fix(figures): close figure admonition and compact system map layout
 - 5c94684 docs(book): add figures index to sidebar and lock figure governance
-- (pending) docs(book): add governance figure and index entry
+- 928d888 docs(book): add governance figure and index entry
 
 ## 12) Backlog (live)
 DONE:
