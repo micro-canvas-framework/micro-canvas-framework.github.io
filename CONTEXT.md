@@ -425,6 +425,7 @@ Conclusion and Tools
 - 928d888 docs(book): add governance figure and index entry
 - c3eb473 fix(book): render figure 4 and align failure modes page
 - 3f70002 docs(book): add decision thresholds figure and align decision logic page
+- afa3852 docs(book): add decision thresholds figure and align decision logic page
 
 ## 12) Backlog (live)
 DONE:
