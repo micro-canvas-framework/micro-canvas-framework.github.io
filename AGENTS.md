@@ -199,6 +199,10 @@ Headings (mandatory order; use headings, not admonitions):
 - Build command: `npm run build:cf`
 - Build output directory: `build`
 - Node version: >=18
+- **Cloudflare build settings are manual-only (not versioned in repo)**:  
+  Build command: `npm run build:cf`  
+  Output directory: `build`  
+  Node version: `>=18`
 
 ### Mermaid Policy
 - Mermaid is enabled globally via themeConfig and `theme-mermaid`.
@@ -243,6 +247,13 @@ DONE:
 
 IN-PROGRESS:
 - None
+
+NEXT:
+- **NEXT**: Apply Canon Page Contract (non-visual) to all `docs/canon/**` pages:
+  - Enforce front-matter invariants via `check:canon`
+  - Confirm no Book/meta contracts leak into Canon
+  - Confirm zero Mermaid, grids, admonition contracts in Canon
+  - Outcome: validation-only pass, no content edits expected
 
 PENDING:
 - Review Phase 3-5 and conclusion draft content
