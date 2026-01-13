@@ -438,9 +438,14 @@ Conclusion and Tools
 - (pending) docs(book): complete failure modes page structure and remove duplicate canon section
 - (pending) docs(book): complete boundaries and misuse page and align with meta contract
 - (pending) docs(book): complete versioning and change control page and align with meta contract
+- Book explanatory layer consistency pass completed
 
 ## 12) Backlog (live)
 DONE:
+- Meta/explanatory 2x2 contract applied to all Book pages
+- Derived-from-Canon integrated into contract grid
+- Figures 1–5 validated and rendering
+- Governance, Failure Modes, Boundaries, Versioning completed
 - Versioning & Change Control: apply meta/explanatory contract grid (Purpose/What/Derived/How)
 - Versioning & Change Control: remove duplicate Derived-from-Canon section
 - Versioning & Change Control: replace body with full H2/H3 structure
