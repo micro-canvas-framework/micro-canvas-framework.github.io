@@ -564,8 +564,8 @@ Conclusion and Tools
 - Book explanatory layer consistency pass completed
 - 0501120 docs(book): normalize book headers, add phase 3-5 skeletons, update nav
 - 76a2204 docs(repo): log milestone updates in CONTEXT
-- (pending) docs(repo): formalize canon + book content contracts in context
-- (pending) docs(canon): enforce canon page structural contract
+- 66cc4dd docs(repo): formalize canon + book content contracts in context
+- a3b86f0 docs(canon): enforce canon page structural contract
 
 ## 12) Backlog (live)
 DONE:
