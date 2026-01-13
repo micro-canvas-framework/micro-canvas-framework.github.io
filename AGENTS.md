@@ -293,3 +293,4 @@ PENDING:
 - 4b99cd6 docs(repo): log canon front matter normalization
 - 9ea680f docs(repo): log canon audit milestone
 - a137a8f docs(repo): consolidate contracts library and project memory
+- 4815e55 feat(repo): enforce canon contract via lints
