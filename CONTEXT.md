@@ -176,6 +176,8 @@ Front matter (prefatory)
   - Status: PENDING
 
 Book core pages (explanatory)
+- How to Read MCF 2.2
+  - Status: COMPLETE
 - Governance and Roles
   - Figure added: YES
   - Mermaid: YES
@@ -439,13 +441,15 @@ Conclusion and Tools
 - (pending) docs(book): complete boundaries and misuse page and align with meta contract
 - (pending) docs(book): complete versioning and change control page and align with meta contract
 - Book explanatory layer consistency pass completed
+- (pending) docs(book): expand how to read and align with meta contract
 
 ## 12) Backlog (live)
 DONE:
 - Meta/explanatory 2x2 contract applied to all Book pages
 - Derived-from-Canon integrated into contract grid
-- Figures 1–5 validated and rendering
+- Figures 1-5 validated and rendering
 - Governance, Failure Modes, Boundaries, Versioning completed
+- Applied meta contract + expanded How to Read MCF 2.2
 - Versioning & Change Control: apply meta/explanatory contract grid (Purpose/What/Derived/How)
 - Versioning & Change Control: remove duplicate Derived-from-Canon section
 - Versioning & Change Control: replace body with full H2/H3 structure
