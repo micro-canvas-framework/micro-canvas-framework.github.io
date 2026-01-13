@@ -567,6 +567,7 @@ Conclusion and Tools
 - 66cc4dd docs(repo): formalize canon + book content contracts in context
 - a3b86f0 docs(canon): enforce canon page structural contract
 - bda1994 chore(canon): complete structural audit and normalize headings (no canon content changes)
+- 3e29927 docs(canon): normalize canon front matter to contract
 
 ## 12) Backlog (live)
 DONE:
