@@ -315,3 +315,4 @@ PENDING:
 - a137a8f docs(repo): consolidate contracts library and project memory
 - 4815e55 feat(repo): enforce canon contract via lints
 - aebc201 chore(repo): add verify gate and cloudflare build command
+- f3fc75f docs(repo): note cloudflare build settings are manual
