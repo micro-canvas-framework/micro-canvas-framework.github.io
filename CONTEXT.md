@@ -18,6 +18,7 @@ This file is the project's external memory:
 - Known issues/gotchas
 - Backlog + completion status
 It must be updated after every meaningful change.
+Contracts and content rules live here. If a contract is missing here, it is not authoritative.
 
 ## 2) Workflow contract (Human <-> CODEX)
 - Assistant outputs CODEX task instructions in a code block
@@ -79,6 +80,13 @@ Includes: references, changelog (governance-level)
 Redirect script:
 - `npm run gen:redirects`
 
+Redirect runbook (authoritative):
+- Run `npm run gen:redirects` whenever new docs are added, moved, or slugs change.
+- Verify redirects via `npm run serve -- --port 4400`.
+- Use an incognito window and hard refresh to avoid cached 404s.
+- Confirm that old URLs resolve to the intended canonical permalinks.
+- On Windows, watch for case-only differences that collide at runtime.
+
 ## 7) Guardrails & Scripts Inventory (LOCKED)
 Guardrails and what they prevent:
 - `check:no-inline-entityheader` -> blocks inline EntityHeader in docs
@@ -100,25 +108,143 @@ EntityHeader Contract:
 - Legacy: meta-only EntityHeader; content provides title
 - Opt-out supported via front matter `entityHeader: false`
 
-Book Chapter Header Contract:
-- Header appears immediately after front matter
-- Uses admonitions for header sections (no H3 headings)
-- Identical section titles across all Book chapters
-- Sections:
-  1) What this chapter does
-  2) What this chapter does not do
-  3) When you should read this
-  4) Derived from Canon
-  5) Key terms (canonical)
-  6) Minimal evidence expectations (non-prescriptive)
+CONTENT CONTRACTS - CANONICAL TEMPLATES (LOCKED)
 
-Meta/Explanatory Page Contract:
-- Card order in source MUST be: Purpose -> What this explains -> Derived from Canon -> How to use this page
-- Cards 1-4 render as a 2x2 grid; Derived from Canon should not be omitted.
-- Derived from Canon must be a link list; relative links like ../canon/... are preferred.
+Book Chapter Header Contract (6-card, admonitions)
+This header is mandatory and SHALL appear immediately after front matter on
+every Book chapter page. The six cards, titles, and admonition types MUST be
+identical across the Book. Book content remains explanatory and non-normative.
+Canon remains the sole normative source; Book text may interpret but never
+override Canon.
 
-- Purpose / What this explains / How to use this page admonitions render as a 2x2 grid using `mcf-contract-grid`.
-- If only 3 cards are present, the 3rd ("How to use this page") MUST span full width.
+Template (copy/paste):
+```md
+:::note What this chapter does
+- ...
+:::
+
+:::warning What this chapter does not do
+- ...
+:::
+
+:::tip When you should read this
+- ...
+:::
+
+:::info Derived from Canon
+This chapter is interpretive and explanatory. Its constraints and limits derive from the Canon pages below.
+- [Canon - ...](/docs/canon/...)
+:::
+
+:::info Key terms (canonical)
+- **Term:** short canonical meaning (link)
+:::
+
+:::note Minimal evidence expectations (non-prescriptive)
+Evidence used in this chapter should allow you to:
+- ...
+:::
+```
+
+Meta / Explanatory Page Contract (4-card grid, admonitions)
+Meta/Explanatory pages MUST use the 4-card contract in the exact order:
+Purpose -> What this explains -> Derived from Canon -> How to use this page.
+These cards render as a 2x2 grid. "Derived from Canon" is mandatory and MUST be
+a link list (relative links like "../canon/..." preferred). If an exception ever
+requires only 3 cards, the 3rd card ("How to use this page") MUST span full
+width and the order MUST still be preserved. These pages are explanatory-only
+and MUST NOT introduce new norms or rules.
+
+Template (copy/paste):
+```md
+<div className="mcf-contract-grid mcf-contract-grid--meta">
+:::note Purpose
+...
+:::
+
+:::info What this explains
+- ...
+:::
+
+:::note Derived from Canon
+- [Canon - ...](/docs/canon/...)
+:::
+
+:::tip How to use this page
+...
+:::
+</div>
+```
+
+Canon Page Contract (NEW - LOCKED, normative, NO admonitions)
+Canon pages are normative. They define rules, semantics, and invariants. Canon
+pages MUST be concise, defensible, and free of explanatory or speculative
+language. Canon is not derived from Book or Meta. Canon MUST never include
+templates, checklists, operational workflows, maturity scoring, or guarantees.
+Canon MUST NOT include diagrams, Mermaid, or admonition grids. Canon MUST use
+stable definitions and constraints, and MUST cite sources via
+`docs/meta/references.mdx` when external grounding is required.
+
+Structural rules (mandatory order; use headings, not admonitions):
+- ## Purpose (Normative)
+- ## What this defines
+- ## Sources & grounding
+- ## How to apply
+
+What Canon pages may contain:
+- Normative definitions and constraints
+- Formal rules, invariants, and thresholds
+- Canon-internal references (other canon pages)
+- External citations that already exist in `docs/meta/references.mdx`
+
+What Canon pages must never contain:
+- Explanatory-only framing, anecdotes, or guidance for implementation
+- Mermaid diagrams, figures, or embedded visuals
+- Templates, checklists, operational workflows, maturity scoring, or guarantees
+- "Derived from Canon" language (Canon is not derived from itself)
+
+Relationship to Book and Meta:
+- Book interprets Canon; Book cannot override Canon.
+- Meta governs references, changelog, and governance artifacts.
+- If any conflict appears, Canon prevails.
+
+Change rules (versioning + termination):
+- Canon changes require explicit decision and version increment.
+- Conflicting derivative content must be revised or removed.
+- If a Canon page violates contract, it must be reverted to the last compliant
+  version before any further edits.
+Canon changes MUST preserve backward interpretability; if termination is
+required, it must be explicit and versioned.
+
+Diagrams & Figures Contract (LOCKED, authoritative)
+Diagrams are explanatory artifacts in the Book layer and MUST never contradict
+Canon. Canon remains normative; diagrams only illustrate relationships and
+must not introduce new rules. All figures MUST be Mermaid diagrams inside
+Docusaurus admonitions. Mermaid is enabled via `theme-mermaid`, and the global
+style is enforced by `themeConfig` (baseline font size 18; per-diagram init may
+raise to 28px for readability).
+
+Rules:
+- Mermaid-only figures; no external SVG/PNG diagrams.
+- Each figure MUST be inside a Docusaurus admonition and MUST close before body text.
+- Figure numbering is global and monotonic across the Book.
+- The List of Figures in `docs/meta/figures.mdx` is the single source of truth.
+- Figures MUST be referenced explicitly in text (e.g., "see Figure 12.1").
+- Canon pages MUST NOT include diagrams or figures.
+
+Change Control & Enforcement (LOCKED)
+If any page violates a contract, work MUST stop on that page and the last
+compliant version MUST be restored before further edits. A corrective task MUST
+be logged in the CONTEXT backlog. Canon conflicts require explicit Owner
+decision and version increment. Book/Meta conflicts MUST be revised to align
+with Canon, not vice versa. Rewrites that introduce new concepts or norms are
+not allowed during contract enforcement; revert first, then scope changes.
+
+Build/Serve Discipline (LOCKED)
+- Dev: `npm run start -- --port <free-port>`
+- Prod-like: `npm run build -- --locale en` then `npm run serve -- --port 4400`
+- If ChunkLoadError occurs: stop node, delete `build/`, `.docusaurus/`,
+  and `node_modules/.cache`, then rebuild and serve again.
 
 =====================================================================
 I. BOOK LAYER - EDITORIAL CONTRACT (LOCKED)
@@ -387,8 +513,8 @@ Conclusion and Tools
   - Status: PENDING
 
 ## 9) Local run commands (correct usage)
-- Dev server (interactive): `npm run start -- --port 3000`
-- Production-like verification (redirects): `npm run serve -- --port 3000`
+- Dev server (interactive): `npm run start -- --port <free-port>`
+- Production-like verification (redirects): `npm run serve -- --port 4400`
 
 ## 10) Cleanup completed
 - Demo blog posts removed
@@ -426,7 +552,6 @@ Conclusion and Tools
 - d3cea2b fix(figures): restyle figure 1 and model tools as acceleration layer
 - eb1aefe fix(figures): render line breaks and add subgraph spacing in figure 1
 - fd38d07 fix(figures): enforce figure 1 label clearance and improve node label formatting
-- (pending) docs(book): add figures index to sidebar and lock figure governance
 - f723905 fix(figures): close figure admonition and compact system map layout
 - 5c94684 docs(book): add figures index to sidebar and lock figure governance
 - 928d888 docs(book): add governance figure and index entry
@@ -436,161 +561,54 @@ Conclusion and Tools
 - 1d9d9a7 fix(book): fix figure 5 mermaid and meta 3-card grid layout
 - 1bff865 fix(figures): remove stray tokens causing figure 5 mermaid parse error
 - 1820a8e feat(book): add derived-from-canon card to meta explanatory contract
-- (pending) docs(book): complete governance and roles page structure and headings
-- (pending) docs(book): complete failure modes page structure and remove duplicate canon section
-- (pending) docs(book): complete boundaries and misuse page and align with meta contract
-- (pending) docs(book): complete versioning and change control page and align with meta contract
 - Book explanatory layer consistency pass completed
-- (pending) docs(book): expand how to read and align with meta contract
+- 0501120 docs(book): normalize book headers, add phase 3-5 skeletons, update nav
+- 76a2204 docs(repo): log milestone updates in CONTEXT
+- (pending) docs(repo): formalize canon + book content contracts in context
+- (pending) docs(canon): enforce canon page structural contract
 
 ## 12) Backlog (live)
 DONE:
 - Meta/explanatory 2x2 contract applied to all Book pages
 - Derived-from-Canon integrated into contract grid
 - Figures 1-5 validated and rendering
+- Book core pages modernized with explanatory text + admonitions
 - Governance, Failure Modes, Boundaries, Versioning completed
 - Applied meta contract + expanded How to Read MCF 2.2
-- Versioning & Change Control: apply meta/explanatory contract grid (Purpose/What/Derived/How)
-- Versioning & Change Control: remove duplicate Derived-from-Canon section
-- Versioning & Change Control: replace body with full H2/H3 structure
-- Boundaries & Misuse: apply meta/explanatory contract grid
-- Boundaries & Misuse: remove duplicate Derived-from-Canon section
-- Boundaries & Misuse: add full explanatory H2/H3 structure
-- Failure Modes: remove duplicated "Derived from Canon" section
-- Failure Modes: add complete explanatory structure with diagnostic framing
-- Governance and Roles: complete explanatory body + restore headings (no trailing stubs)
-- Governance and Roles: add minimal evidence expectations section
-- Fix: eliminate stale localhost:3000 chunk loads by enforcing clean serve/dev port discipline
-- Fix: Figure 5 Mermaid runtime parse error - ensure no PowerShell prompt lines inside mermaid fences; use safe labels first
-- Rule: Any runtime UI verification must be against npm run serve on a known port (default 4400) before trusting dev output
+- Enforced serve/dev port discipline (serve on 4400)
 - Canon published + frozen
-- Book IA created
+- Book IA created; phase landing pages ordered
 - EntityHeader site-wide, title de-dup, legacy behavior
-- Book chapter header contract now uses admonitions
-- Phase docs moved under Book
+- Book chapter header contract uses admonitions
 - client-redirects in place
 - Mermaid rendering enabled globally
 - Standardized contract admonition types
-- demo blog posts removed
 - Contract grid (2x2 scaling) fixed: stretch + equal-height cards
-- Mermaid diagrams standardized to global style (font size aligned with Phase 2)
-- Figure 1 Mermaid readability improved (Phase-2 init applied)
-- Figure 1 updated: bigger font + styled labels + tools as acceleration layer; conclusion removed
-- Figure 1: fix literal \\n labels + add subgraph spacing via spacer nodes
-- Figure 1: enforce subgraph label clearance via rank rails + invisible edges
-- Figure 1: node label line breaks + bold/italic styling
-- Figure 1: enforce subgraph label clearance via rank rails + invisible edges
-- Figure 1: node label line breaks + bold/italic styling
-- Figure 1 admonition boundary fixed (admonition closes before body text)
-- Figure 1 layout compacted (Meta+Tools row, Canon core, Book below)
-- Figure 3 added (Evidence-first loop diagram)
-- Add Figures index to sidebar (Front matter)
-- Sidebar includes Figures index
-- Governance and Roles: Figure 4 added
-- Governance and Roles: Figure 4 render fixed
-- Meta/explanatory pages use 2x2 grid for Purpose/What/How admonitions
-- Meta pages: enforce 3-card order and full-width last card
-- Fix Figure 5 Mermaid parse error by replacing block
-- Meta/Explanatory contract: add Derived from Canon card and enforce 2x2 order
-- Figure 5: remove stray paste artifacts (PS prompt / Mermaid error line) from Mermaid fence; rebuild clean block
-- Figure 5: eliminated stale Mermaid parse error by cleaning build caches + serving production build
-- demo markdown page removed
+- Figures governance: index in sidebar, numbering monotonic, Mermaid-only
+- demo blog posts removed
 - unused images cleaned
-- phase landing pages + ordering normalized
 - FrontMatter moved under Book with collisions resolved
 - Chapter 11 header contract applied + canon links resolved
-- Refactor chapter header contract into 2x2 card grid layout (DONE once applied across book)
+- CONTEXT contract prose expansion (DONE)
+- Canon structural contract pass across docs/canon/** (DONE)
 
 PENDING:
-- Apply Book header contract to remaining chapters (Phase 1/Phase 2/Phase 3-5 completed; admonitions applied site-wide)
-- Convert "Derived from Canon" to real links for each chapter (Phase 1/Phase 2/Phase 3-5 completed)
-- Write Phase 3-5 and conclusion content (draft explanatory text added; needs review)
-- Book content modernization (core Book pages updated with explanatory text + admonitions; phase content in progress)
+- Review Phase 3-5 and conclusion draft content
 - ES translation (deferred)
 - Docusaurus update decision (3.7 -> 3.9) deferred until stability checkpoint
+- IMM mapping/scoring (deferred)
+- academic article (deferred)
+- templates/case studies (deferred)
 
-IN-PROGRESS / COMPLETED:
-- Evidence-first thinking page: editorial + citations alignment (DONE)
-- Epistemic stages page: editorial + citations alignment (DONE)
-- Decision Logic page: editorial + citations alignment (DONE)
 
-DEFERRED:
-- IMM mapping/scoring
-- academic article
-- templates/case studies
+
+
+
 
 =====================================================================
-K. DIAGRAMS & FIGURES — GLOBAL CONTRACT (LOCKED)
+K. DIAGRAMS & FIGURES - GLOBAL CONTRACT (LOCKED)
 =====================================================================
+Moved to Section 8 "Diagrams & Figures Contract (LOCKED, authoritative)".
+This appendix remains as a pointer only; do not maintain competing rules here.
 
-Purpose:
-- Ensure all diagrams in the Book layer are consistent with MCF 2.2 Canon
-- Eliminate legacy (MCF 2.1) linear or maturity-ladder representations
-- Provide academic-quality, referenceable figures
-
-Global Rules:
-- Diagrams are explanatory, not normative
-- Canon defines rules; diagrams illustrate relationships
-- No diagram may contradict Canon constraints
-- No diagram may imply linear progression unless explicitly stated as local
-- All figures are Mermaid diagrams inside Docusaurus admonitions
-- Mermaid must be enabled in Docusaurus (markdown.mermaid + theme-mermaid)
-- Mermaid global style enforced via themeConfig.mermaid (fontSize 18; Inter)
-
-Figure Governance:
-- Every diagram must have:
-  - A figure number (Figure X.Y)
-  - A title
-  - A caption explaining scope and limits
-- Figure numbering is sequential by Book order
-- Figures are referenced explicitly in text (e.g., "see Figure 12.1")
-- Figure numbering: global sequence, Figure 1 reserved for system map.
-- Figures are **Book-layer** explanatory artifacts (non-normative).
-- All figures must be **Mermaid diagrams** (no SVG/PNG as canonical figures).
-- Every figure must be wrapped in a **Docusaurus admonition** and the admonition must **close before** chapter text continues.
-- Default Mermaid styling is **global**, but **per-figure init is allowed** only for readability.
-- Baseline readability target: **fontSize >= 28px** for figure diagrams when needed.
-- Figure numbering is **monotonic** and tracked in the figures index.
-- Single source of truth for the list: **docs/meta/figures.mdx** (the figures index).
-- Figures index lists figure numbers and where used (not file paths)
-- Per-diagram init blocks should be avoided; only used when necessary; must match global font sizing
-- Per-diagram Mermaid init is allowed for Figures when readability requires it (must use Phase-2 init style; fontSize >= 28px)
-- Figures may use Mermaid markdown labels (**bold**, *italic*) where rendered
-- Figure 1 uses <br/> for node label line breaks; spacer nodes to avoid title overlap
-- Figure 1 admonition boundary fixed (admonition closes before body text)
-- Figure 1 layout compacted (Meta+Tools row, Canon core, Book below)
-- Figure 2 follows Mermaid-only, per-diagram init, and admonition rules (same as Figure 1)
-- Figure 3 follows Mermaid-only, per-diagram init, and admonition rules (same as Figure 1)
-
-Backlog - Diagram Remediation (GLOBAL):
-- [ ] Audit all existing diagrams for MCF 2.1 assumptions
-- [ ] Redraw diagrams to reflect:
-      - epistemic stages vs capability layers
-      - parallelism
-      - regression
-      - optionality preservation
-- [ ] Remove any funnel, pipeline, or maturity-ladder visuals
-- [ ] Add missing diagrams where concepts are abstract or easily misread
-- [ ] Produce a centralized **List of Figures** (Book-wide)
-- [ ] Create per-chapter diagram audit + assign figure numbers (PENDING)
-
-Per-Chapter Requirement:
-- Each Book chapter must be evaluated for:
-  - diagrams to fix
-  - diagrams to remove
-  - diagrams to add
-- Diagram status must be tracked per chapter in CONTEXT.md
-- All chapter contract blocks use standardized admonition types per section
-- Foreword: no diagrams required; confirmed N/A
-- Preface: no diagrams required; confirmed N/A
-- How to Use This Book: Figure 1 embedded (Mermaid system map in admonition).
-- Evidence-First Thinking: no figure required (text-only) — confirm on review.
-- Epistemic Stages: Figure X - MCF 2.2 epistemic stages as reversible decision states (PENDING)
-- Decision Logic: Figure X - Decision thresholds vs reversibility and risk (PENDING)
-- Figure 2: Epistemic stages vs phases (decision state vs activity) - DRAFT
-- Figure 3: Evidence-first loop (claim -> evidence -> decision state) - DRAFT
-- Figure 4: Governance as Decision Integrity (explanatory) - DRAFT
-- Figure 5: Decision thresholds, reversibility, and optionality (explanatory) - DRAFT
-
-Status: LOCKED
 
