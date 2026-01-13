@@ -161,6 +161,10 @@ Headings (mandatory order; use headings, not admonitions):
 - Current: 2.2 (current); Legacy: 2.1 (legacy) under `versioned_docs/version-2.1`.
 - Canon changes require explicit decision and version bump.
 
+### Canon Enforcement (LOCKED)
+- Running `npm run check:canon` is mandatory after any Canon edits or before release.
+- Canon must never include contract grids, figures, Mermaid, or Book/meta constructs.
+
 ### EntityHeader Contract
 - Current docs: meta + title in EntityHeader (single H1).
 - Legacy docs: meta-only EntityHeader; content provides title.
@@ -178,6 +182,7 @@ Headings (mandatory order; use headings, not admonitions):
 - `check:no-h1-in-sections` -> prevents H1 in FrontMatter/Part01/Part02 sections
 - `fix:dedupe-title-headings` -> removes duplicate title headings
 - `check:no-duplicate-title-headings` -> blocks duplicate title headings
+- `check:canon` -> enforces Canon front matter and structural prohibitions
 - `gen:redirects` -> generates client redirect pages from redirect_from
 - `fix:redirects-docs-prefix` -> adds /docs-prefixed redirect_from entries
 - `check:unused-images` -> audits unused static images
