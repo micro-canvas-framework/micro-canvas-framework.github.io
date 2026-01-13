@@ -20,6 +20,8 @@
     "fix:dedupe-title-headings": "node scripts/remove-duplicate-title-heading.mjs",
     "check:no-duplicate-title-headings": "node scripts/check-no-duplicate-title-heading.mjs",
     "check:canon": "node scripts/check-canon-contract.mjs",
+    "verify": "npm run check:canon && npm run typecheck && npm run build -- --locale en",
+    "build:cf": "npm run verify",
     "fix:redirects-docs-prefix": "node scripts/prefix-docs-in-redirects.mjs",
     "gen:redirects": "node scripts/generate-client-redirects.mjs",
     "check:unused-images": "node scripts/find-unused-static-images.mjs"

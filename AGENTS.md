@@ -183,6 +183,8 @@ Headings (mandatory order; use headings, not admonitions):
 - `fix:dedupe-title-headings` -> removes duplicate title headings
 - `check:no-duplicate-title-headings` -> blocks duplicate title headings
 - `check:canon` -> enforces Canon front matter and structural prohibitions
+- `verify` -> runs check:canon + typecheck + build (EN); required before push
+- `build:cf` -> alias to verify; Cloudflare Pages must use this command
 - `gen:redirects` -> generates client redirect pages from redirect_from
 - `fix:redirects-docs-prefix` -> adds /docs-prefixed redirect_from entries
 - `check:unused-images` -> audits unused static images
@@ -192,6 +194,11 @@ Headings (mandatory order; use headings, not admonitions):
   `node_modules/.cache`, then rerun build.
 - Case-insensitive collisions: avoid redirect_from entries that differ only by case.
 - CRLF/LF: git may normalize; avoid mixed line endings.
+
+### Cloudflare Pages Deployment
+- Build command: `npm run build:cf`
+- Build output directory: `build`
+- Node version: >=18
 
 ### Mermaid Policy
 - Mermaid is enabled globally via themeConfig and `theme-mermaid`.
@@ -231,6 +238,8 @@ DONE:
 - CONTEXT contract prose expansion (DONE)
 - Canon structural contract pass across docs/canon/** (DONE)
 - Canon front matter normalization audit completed (DONE)
+- Add verify gate script (canon + typecheck + build en)
+- Set Cloudflare build command to npm run build:cf
 
 IN-PROGRESS:
 - None
