@@ -74,13 +74,12 @@ irreversible risk.
 
 For example, a regional rollout may appear ready after one market succeeds, yet
 logistics, compliance, and support evidence may not generalize. The strategy is
-defensible only if the evidence explains what transfers and what remains
-uncertain.
+defensible only if the evidence shows what transfers and what remains uncertain.
 
 In MCF 2.2, scale is warranted when evidence meets the thresholds for
 irreversibility. That means decisions must be grounded in traceable outcomes,
-not ambition. A scaling strategy is therefore an evidence-backed map of which
-commitments you can defend and which you must defer.
+not ambition. A scaling strategy is an evidence-backed map of which commitments
+you can defend and which you must defer.
 
 ## What “Good” Looks Like (Explanatory)
 Good scaling strategy has three explanatory properties:
@@ -144,8 +143,6 @@ Use `/docs/book/boundaries-and-misuse` to keep strategy aligned with Canon.
 - Canon: `/docs/canon/definitions`, `/docs/canon/evidence-logic`,
   `/docs/canon/decision-theory`, `/docs/canon/governance-boundaries`,
   `/docs/canon/versioning-termination`
-capacity, or dependency risk. A defensible strategy makes these constraints
-explicit and uses them to sequence expansion.
 
 ## 4. Common scaling errors (explanatory)
 - **Signal substitution:** confusing demand signals with readiness signals.

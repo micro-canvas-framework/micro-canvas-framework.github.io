@@ -139,11 +139,6 @@ over-commitment.
   `/docs/book/failure-modes`, `/docs/book/boundaries-and-misuse`
 - Canon: `/docs/canon/definitions`, `/docs/canon/evidence-logic`,
   `/docs/canon/decision-theory`, `/docs/canon/governance-boundaries`
-- stable performance under increased load
-- clear escalation paths for decision conflicts
-- predictable delivery outcomes across teams
-
-These signals must be tied to explicit scale decisions.
 
 ## 4. Common misalignment patterns
 - **Capacity drift:** demand rises faster than system readiness.

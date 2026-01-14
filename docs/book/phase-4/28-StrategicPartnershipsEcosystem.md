@@ -136,9 +136,6 @@ Use `/docs/book/boundaries-and-misuse` to guard against boundary violations.
   `/docs/book/failure-modes`, `/docs/book/boundaries-and-misuse`
 - Canon: `/docs/canon/definitions`, `/docs/canon/evidence-logic`,
   `/docs/canon/decision-theory`, `/docs/canon/framework-boundaries`
-- **Governance gaps:** unclear decision authority across boundaries.
-
-These risks should inform thresholds and sequencing.
 
 ## 4. Applying this chapter
 Use this chapter when scale depends on external partners or platform
