@@ -396,3 +396,5 @@ PENDING:
 - f3fc75f docs(repo): note cloudflare build settings are manual
 - c88d3f0 docs(repo): add canon page contract to agents
 - 1a77b19 chore(canon): validate canon pages against contract (no changes)
+- f9bf16e docs(repo): log canon contract validation pass
+- 8eb6ee4 docs(repo): mark cloudflare build command configured
