@@ -442,5 +442,5 @@ PENDING:
 - 76ef6b2 docs(repo): log phase 4 authoring milestone
 - 5710ef4 docs(repo): fix phase 4 milestone log
 
-- (pending) docs(book): draft phase 5 chapters 30-33 first-pass content
+- 504bcca docs(book): draft phase 5 chapters 30-33 first-pass content
 - (pending) docs(repo): log phase 5 authoring milestone
