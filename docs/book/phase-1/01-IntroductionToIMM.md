@@ -116,12 +116,33 @@ and learning. Mature innovation cultures tolerate experimentation, accept
 evidence-based challenge to assumptions, and avoid penalizing well-designed
 failure.
 
-Signals of cultural readiness include:
-- willingness to question existing practices using evidence
-- psychological safety for proposing and testing new ideas
-- leadership behaviors that reinforce learning over blame
+Cultural readiness is not a single trait; it emerges from reinforcing
+behaviors, norms, and leadership signals that shape how people act when
+outcomes are uncertain.
 
-Without cultural readiness, other maturity investments tend to remain symbolic.
+Key sub-elements include:
+
+- **Innovation Mindset**  
+  A shared orientation toward learning and improvement, where challenges
+  are treated as opportunities to generate insight rather than as threats
+  to stability.
+
+- **Psychological Safety**  
+  The ability for individuals and teams to propose, test, and challenge
+  ideas without fear of personal or professional penalty when work is
+  conducted in good faith.
+
+- **Evidence-Informed Decision Behavior**  
+  A preference for observable signals, experiments, and learning over
+  opinion, hierarchy, or narrative certainty.
+
+- **Leadership Modeling and Reinforcement**  
+  Visible leadership behaviors that reward learning, protect optionality,
+  and discourage performative innovation activity.
+
+Without cultural readiness, other maturity investments tend to remain
+symbolic: processes are followed mechanically, structures exist only on
+paper, and technology adoption fails to translate into learning.
 
 ### 2. Human Talent and Structure
 
