@@ -64,6 +64,11 @@ Assessing innovation maturity is about making evidence visible, not assigning a
 score. This chapter reframes assessment as a way to surface decision readiness,
 threshold awareness, and the limits of current evidence.
 
+Assessment is about evidence sufficiency for decisions, not measuring
+"innovation" as a trait. A product expansion decision, for example, may depend
+on retention evidence crossing a defined threshold; without that evidence, the
+decision remains reversible and should be deferred.
+
 ## Why This Matters In Phase 1
 Phase 1 is about orientation. An assessment clarifies what evidence exists,
 where it is weak, and which decisions cannot yet be justified. This reduces
@@ -73,6 +78,11 @@ reverse.
 Assessment is not benchmarking. High activity without evidence discipline is a
 lower maturity signal because decision integrity degrades and thresholds become
 unclear.
+
+Decision thresholds are not fixed. Reversible decisions can tolerate lower
+evidence thresholds, while irreversible commitments require stronger evidence.
+Optionality preservation keeps decisions deferrable until evidence is
+sufficient.
 
 ## What "Good" Looks Like (Explanatory)
 An evidence-first assessment emphasizes decision readiness over scorecards. It
@@ -112,9 +122,27 @@ Boundary violations appear when assessment becomes a proxy for certainty:
 
 Use `/docs/book/boundaries-and-misuse` to keep assessment aligned with Canon.
 
+Assessment output is not a score and should not be marketed as certification or
+compliance. Canon boundaries treat evidence visibility as a decision input, not
+a badge or external claim.
+
 ## Diagram Audit Note
 No diagram is introduced in Pass 1. This chapter relies on text-only framing to
-avoid ladder or scoring interpretations.
+avoid ladder or scoring interpretations. Any future visual must avoid linear
+ladders, reinforce non-linearity and regression, and preserve decision
+optionality. If a diagram is added later, it must follow the global figure
+contract and be indexed in `docs/meta/figures.mdx`.
+
+## Common Assessment Misuse Patterns
+Common Misuse Signals (diagnostic, not blame):
+- score obsession or rank comparisons.
+- proxy metrics replacing evidence quality.
+- narrative certainty without disconfirming tests.
+- tool completion presented as learning.
+- governance bypass ("we already know").
+- premature scaling justification.
+- lack of reversibility consideration.
+- evidence that cannot be audited or reproduced.
 
 ## Cross-References
 - Book: `/docs/book/decision-logic`, `/docs/book/failure-modes`,
