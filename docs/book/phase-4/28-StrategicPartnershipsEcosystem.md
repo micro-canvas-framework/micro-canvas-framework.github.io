@@ -70,6 +70,10 @@ external dependencies that shape decision integrity and evidence quality. In
 Phase 4, the question is not "Can a partner help?" but "Is a partner
 commitment defensible under Canon constraints?"
 
+For example, a company might integrate a logistics partner to expand delivery
+coverage. The decision is defensible only if service-level evidence and failure
+boundaries can be audited across the partnership boundary.
+
 Ecosystem integration can reduce friction, but it can also reduce optionality.
 The decision must be grounded in evidence of fit, risk boundaries, and the
 ability to audit outcomes across organizational seams.
@@ -85,6 +89,10 @@ Good partnership strategy shows evidence of:
 The goal is to treat partnerships as decision hypotheses, not as growth
 guarantees.
 
+Clarification: partnership evidence does not replace internal evidence. It
+extends it, and may need higher thresholds when reversibility is constrained by
+contractual commitments.
+
 ## Typical Failure Modes
 Partnership failures often appear after commitments are made:
 
@@ -92,6 +100,9 @@ Partnership failures often appear after commitments are made:
 - **Integration drift:** mismatched timelines or quality standards.
 - **Signal contamination:** external data obscures internal evidence quality.
 - **Boundary confusion:** unclear governance over shared outcomes.
+
+Misuse signal: a partner is retained despite repeated boundary violations
+because exit costs are treated as sunk.
 
 These patterns signal that the partnership decision lacks defensible evidence.
 
@@ -104,6 +115,8 @@ Evidence that supports a partnership decision should include:
 - Traceable data and accountability across the boundary.
 
 If evidence is ambiguous, deferral preserves optionality.
+Evidence sufficiency must scale with dependency depth. The more a partner
+becomes a single point of failure, the higher the evidence bar becomes.
 
 ## Common Misuse And Boundary Notes
 Misuse happens when partnerships are treated as substitutes for internal
@@ -112,6 +125,9 @@ capability or validation:
 - Using a partner to bypass unresolved uncertainty.
 - Treating integration progress as evidence of market fit.
 - Locking dependencies before governance review.
+
+Partnership maturity is not linear. Evidence can degrade as incentives change,
+so decisions may need to pause, renegotiate, or unwind.
 
 Use `/docs/book/boundaries-and-misuse` to guard against boundary violations.
 

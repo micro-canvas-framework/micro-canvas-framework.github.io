@@ -72,6 +72,11 @@ defines which commitments are justified, in what order, and under which
 constraints. Without a defensible strategy, scaling converts uncertainty into
 irreversible risk.
 
+For example, a regional rollout may appear ready after one market succeeds, yet
+logistics, compliance, and support evidence may not generalize. The strategy is
+defensible only if the evidence explains what transfers and what remains
+uncertain.
+
 In MCF 2.2, scale is warranted when evidence meets the thresholds for
 irreversibility. That means decisions must be grounded in traceable outcomes,
 not ambition. A scaling strategy is therefore an evidence-backed map of which
@@ -88,6 +93,10 @@ Good strategy does not eliminate risk. It clarifies where risk is acceptable,
 where it is bounded, and where it must trigger a pause. The result is a
 sequence of defensible commitments rather than a single "go/no-go" event.
 
+Clarification: staged strategy is not a promise of linear progress. Evidence
+may require deferral, rollback, or redesign even after early steps appear
+successful.
+
 ## Typical Failure Modes
 Scaling often fails not because growth is impossible, but because evidence is
 misread. Common failure patterns include:
@@ -96,6 +105,9 @@ misread. Common failure patterns include:
 - **Constraint blindness:** regulatory or capacity limits ignored in planning.
 - **Evidence overreach:** pilot evidence treated as proof of systemic readiness.
 - **Irreversibility creep:** optionality lost without explicit decisions.
+
+Misuse signal: the plan advances because the calendar says "scale now," while
+decision thresholds remain undocumented.
 
 Use `/docs/book/failure-modes` to diagnose whether the issue is epistemic,
 executional, or governance-related.
@@ -110,6 +122,8 @@ Evidence for scaling strategy should be decision-relevant and auditable:
 
 If the evidence cannot justify a commitment, the correct response is deferral,
 not acceleration.
+Evidence sufficiency is not static: as commitments become less reversible, the
+threshold for acceptable evidence rises.
 
 ## Common Misuse And Boundary Notes
 Scaling strategy is often misused as a performance target rather than a
@@ -118,6 +132,9 @@ decision framework. Boundary violations include:
 - Treating growth projections as evidence.
 - Locking commitments before governance review.
 - Using scale to compensate for unresolved validation gaps.
+
+Scale is not inherently directional. Organizations may pause, retrench, or
+resequence when evidence weakens or optionality erodes.
 
 Use `/docs/book/boundaries-and-misuse` to keep strategy aligned with Canon.
 

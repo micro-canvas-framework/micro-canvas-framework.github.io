@@ -71,6 +71,10 @@ design determine whether decisions remain executable at higher volume and
 complexity. If alignment fails, evidence quality drops and governance loses
 visibility.
 
+For example, a product team may scale features quickly, but if the data
+pipeline cannot support decision timing or the support function lacks
+escalation paths, the evidence about outcomes becomes unreliable.
+
 Alignment is therefore a decision integrity issue. When responsibilities, data
 flows, and systems are mismatched, decisions become inconsistent. Evidence may
 appear to support scaling, but the underlying system cannot sustain it.
@@ -86,6 +90,10 @@ Good alignment is visible in properties rather than structures:
 This does not mandate a specific org chart. It describes the conditions that
 support reliable execution and evidence preservation during scale.
 
+Clarification: alignment is not a one-time structural fix. It is an ongoing
+check that the organization can still interpret evidence as scale, risk, and
+dependencies change.
+
 ## Typical Failure Modes
 Alignment failure often appears as operational noise:
 
@@ -93,6 +101,9 @@ Alignment failure often appears as operational noise:
 - **Hidden dependencies:** cross-team inputs are unowned or untracked.
 - **Capacity mirage:** infrastructure appears stable until demand spikes.
 - **Role drift:** accountability shifts without explicit governance.
+
+Misuse signal: teams meet delivery targets but cannot explain who owns cross-
+functional decisions or why escalation paths are bypassed.
 
 These patterns reduce auditability. Use `/docs/book/failure-modes` to interpret
 whether the breakdown is governance, execution, or evidence-related.
@@ -107,6 +118,8 @@ Evidence that alignment is sufficient should include:
 
 If evidence shows variance is rising, the scaling decision must pause until the
 alignment gap is closed.
+Evidence sufficiency depends on reversibility: the harder it is to unwind a
+capacity decision, the higher the evidence threshold must be.
 
 ## Common Misuse And Boundary Notes
 Misuse occurs when alignment is treated as a one-time checklist:
@@ -114,6 +127,9 @@ Misuse occurs when alignment is treated as a one-time checklist:
 - Scaling before governance roles are explicit.
 - Treating infrastructure upgrades as proof of readiness.
 - Ignoring dependency risks because outputs appear acceptable.
+
+Alignment progress is not linear. Scale, reorganizations, or technology shifts
+can reopen alignment gaps even after earlier fixes appeared to work.
 
 Use `/docs/book/boundaries-and-misuse` to preserve reversibility and avoid
 over-commitment.

@@ -69,6 +69,10 @@ that can invalidate prior evidence. Metrics provide the signals that show
 whether the decision environment is still stable. Without disciplined
 interpretation, metrics become noise or justification rather than evidence.
 
+For example, a subscription business may see acquisition growth while churn
+quietly rises. The evidence is insufficient unless the metrics explain whether
+the system is becoming more reversible or less.
+
 Adjustment is not a sign of failure. It is the mechanism that keeps scaling
 aligned with evidence thresholds and preserves reversibility when conditions
 change.
@@ -83,6 +87,10 @@ Good metric practice is defined by decision relevance:
 
 Good metrics support decision integrity; they do not replace it.
 
+Clarification: "continuous adjustment" does not mean perpetual change. It means
+decisions are revisited when evidence shifts, not when pressure or optimism
+spikes.
+
 ## Typical Failure Modes
 Common metric failures distort decisions:
 
@@ -90,6 +98,9 @@ Common metric failures distort decisions:
 - **Lag bias:** signals arrive too late to protect reversibility.
 - **Local optimization:** a metric improves while system integrity declines.
 - **Confirmation bias:** metrics selected to justify a prior decision.
+
+Misuse signal: the dashboard is active, but no one can point to a threshold that
+would trigger a decision reversal.
 
 Use `/docs/book/failure-modes` to interpret whether the issue is evidence,
 execution, or governance.
@@ -104,6 +115,8 @@ Evidence that metrics are decision-useful includes:
 
 If the evidence cannot be interpreted against a threshold, it should not drive
 scaling decisions.
+Evidence sufficiency rises as optionality shrinks. The same metric may be
+adequate in early scale and inadequate once commitments become harder to undo.
 
 ## Common Misuse And Boundary Notes
 Metrics are often misused as targets or proxies for success:
@@ -111,6 +124,9 @@ Metrics are often misused as targets or proxies for success:
 - Using metrics to justify irreversible commitments.
 - Ignoring boundary conditions that invalidate signals.
 - Treating adjustment as a performance failure rather than governance.
+
+Metric maturity is non-linear. Signals can degrade after scaling, requiring
+deferral or de-escalation rather than onward expansion.
 
 Use `/docs/book/boundaries-and-misuse` to keep adjustments aligned with Canon.
 
