@@ -365,6 +365,7 @@ DONE:
 - Chapter 1 pass 2 conceptual depth + misuse clarity completed
 - Figure 6 canon-safety refinement completed (non-linear, explanatory caption)
 - Chapter 2 pass 1 completed (assessment reframed as evidence-first sense-making)
+- Chapter 2 pass 2 completed (thresholds, reversibility, misuse signals)
 
 IN-PROGRESS:
 - None
@@ -477,3 +478,4 @@ PENDING:
 - 857b4c8 docs(book): chapter 1 pass 2 conceptual depth and misuse clarity
 - 041250c docs(book): harden figure 6 against linear interpretation
 - 009b0bc docs(book): chapter 2 pass 1 — assessment as evidence-first sense-making
+- 97997c6 docs(book): chapter 2 pass 2 — thresholds, reversibility, and misuse signals
