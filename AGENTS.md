@@ -372,6 +372,7 @@ DONE:
 - Chapter 4 pass 2 completed (thresholds, reversibility, misuse clarity)
 - Chapter 5 pass 1 completed (agile as evidence-first execution context)
 - Chapter 5 pass 2 completed (thresholds, reversibility, misuse clarity)
+- Chapter 6 pass 1 completed (OKRs as decision alignment)
 
 IN-PROGRESS:
 - None
@@ -491,3 +492,4 @@ PENDING:
 - f722d74 docs(book): chapter 4 pass 2 — thresholds, reversibility, and misuse clarity
 - bc16cec docs(book): chapter 5 pass 1 — agile as evidence-first execution context
 - 2aa91cc docs(book): chapter 5 pass 2 — thresholds, reversibility, and misuse clarity
+- f5b43e8 docs(book): chapter 6 pass 1 — okrs as decision alignment
