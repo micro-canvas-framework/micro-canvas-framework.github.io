@@ -466,3 +466,4 @@ PENDING:
 - 2b9cd73 docs(book): editorial polish phase 5 chapters 30-33
 - 1b7206a docs(book): refactor chapter 1 structure and add figure 6
 - f501b2b docs(meta): index figure 6 in figures list
+- ffc83ca fix(book): repair figure 6 mermaid block
