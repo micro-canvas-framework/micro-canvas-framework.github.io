@@ -59,57 +59,79 @@ Evidence used in this chapter should allow you to:
 
 </div>
 Operational processes are the repeatable pathways that turn decisions into
-consistent outcomes. In Phase 3, the focus is not on speed alone, but on
-reliability: can the organization deliver the same result with predictable
-quality when conditions change? This chapter explains how to interpret
-operational design through the evidence-first lens and how to recognize when
-process changes are justified.
+consistent outcomes. In Phase 3, the focus is not speed alone, but reliability:
+can the organization deliver the same result with predictable quality when
+conditions change? This chapter explains how to interpret operational design
+through the evidence-first lens and how to recognize when process changes are
+justified.
 
-## 1. Why operational process design matters
-Innovation initiatives often fail during handoff from discovery to delivery.
-The reason is not the idea itself, but the operational path that executes it.
-Process design provides the infrastructure for repeatability, and repeatability
-is what makes evidence meaningful at scale.
+## Why This Matters In Phase 3
+Phase 3 is where uncertainty shifts from discovery to execution. The decision
+question changes from "Should we pursue this?" to "Can we deliver it
+consistently?" Operational processes are the mechanism that makes evidence
+repeatable. Without repeatability, evidence is noisy and cannot support
+threshold-based decisions.
 
-When processes are inconsistent, the evidence you collect becomes noisy. You
-cannot tell whether outcomes are caused by the innovation or by variability in
-execution. Streamlining reduces that noise and clarifies decision signals.
+Operational design matters because it creates stable decision contexts. If the
+same inputs produce different outputs, you cannot determine whether the product
+or the process is responsible. Streamlining is not about optimizing for speed;
+it is about lowering variance so evidence can be trusted. This is the
+foundation for scale and for later governance review.
 
-## 2. Process clarity vs process rigidity
-MCF 2.2 does not require heavy process. It requires clear decision points,
-ownership, and evidence checkpoints. The goal is to reduce ambiguity, not to
-create bureaucracy.
+## What “Good” Looks Like (Explanatory)
+"Good" operations in MCF 2.2 are not defined by a specific methodology. They
+are defined by properties that preserve decision integrity:
 
-Explanatory framing:
-- Clarity means roles, inputs, and outputs are explicit.
-- Rigidity means the process cannot adapt to new evidence.
-- Evidence-first operations are clear but flexible.
+- Clear handoffs: owners and decision rights are explicit.
+- Repeatable steps: the same work yields comparable outcomes.
+- Evidenced outcomes: results are captured with traceable evidence.
+- Adaptable flow: the process can change when evidence invalidates assumptions.
 
-## 3. Evidence signals in operations
-Operational processes should produce signals that support decisions:
-- consistency of outputs across cycles
-- repeatability of key steps without rework
-- predictable variance within known limits
+Good operations reduce ambiguity without creating rigidity. They enable
+learning by making cause-and-effect relationships visible. This is especially
+important when the organization is balancing optionality preservation and
+progress in parallel.
 
-These signals help determine whether a process is ready to scale or whether it
-requires revision.
+## Typical Failure Modes
+Operational failure modes often show up as evidence quality problems rather
+than obvious delivery breakdowns. Common patterns include:
 
-## 4. Typical bottlenecks (explanatory)
-Common bottlenecks are not failures; they are evidence of process gaps:
-- unclear handoffs between teams or functions
-- dependencies that are not tracked or owned
-- tooling that produces inconsistent results
-- undocumented assumptions about timing or capacity
+- Hidden rework that distorts delivery timelines and masks true effort.
+- Unowned dependencies that delay decisions without accountability.
+- Tooling mismatches that produce inconsistent outputs across teams.
+- Process exceptions that are never reconciled back into the canonical flow.
 
-The goal is to identify which bottlenecks change decision confidence and which
-are tolerable in the current stage.
+These are not moral failures; they are signals that operational evidence is
+insufficient or misleading. When they appear, use the Failure Modes framing in
+`/docs/book/failure-modes` to diagnose whether the issue is epistemic,
+executional, or governance-related.
 
-## 5. Interpreting change proposals
-Process changes should be treated as hypotheses. Before changing a process,
-define the expected outcome and the evidence that would confirm or refute it.
-This keeps improvements aligned with decision thresholds instead of preference.
+## Evidence You Should Expect To See
+Evidence for operational process readiness should be concrete and decision
+relevant. Examples include:
 
-## 6. Applying this chapter
-Use this chapter when a delivery path blocks progress or when scale depends on
-repeatability. It is not a prescription for operations teams. It is a lens for
-deciding when operational work is required and what evidence should result.
+- Stable cycle times across comparable work units.
+- Reduced variance after a process change (not just average improvement).
+- Documented decision checkpoints with traceable inputs and outcomes.
+- Observable reductions in rework, handoff friction, or escalations.
+
+These signals help determine whether the process is ready to scale or whether
+additional iteration is required. The evidence should align with the decision
+thresholds defined in Canon.
+
+## Common Misuse And Boundary Notes
+Operational optimization can be misused when it becomes detached from evidence
+and decision integrity. Typical boundary violations include:
+
+- Treating process efficiency as a substitute for evidential adequacy.
+- Locking processes prematurely and reducing reversibility.
+- Using operational metrics as success claims without supporting evidence.
+
+Use `/docs/book/boundaries-and-misuse` as the interpretive boundary check. The
+goal is to preserve optionality and auditability while improving reliability.
+
+## Cross-References
+- Book: `/docs/book/decision-logic`, `/docs/book/governance-and-roles`,
+  `/docs/book/failure-modes`, `/docs/book/boundaries-and-misuse`
+- Canon: `/docs/canon/definitions`, `/docs/canon/evidence-logic`,
+  `/docs/canon/decision-theory`, `/docs/canon/epistemic-model`

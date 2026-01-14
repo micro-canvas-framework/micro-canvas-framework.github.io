@@ -38,6 +38,7 @@ This chapter is interpretive and explanatory. Its constraints and limits derive 
 - [Canon - Evidence logic](../../canon/evidence-logic)
 - [Canon - Decision theory](../../canon/decision-theory)
 - [Canon - Epistemic stage model](../../canon/epistemic-model)
+- [Canon - Governance boundaries](../../canon/governance-boundaries)
 :::
 
 :::info Key terms (canonical)
@@ -63,41 +64,63 @@ Automation reduces variability; data clarifies whether decisions are justified.
 This chapter explains how to interpret automation and data signals without
 treating metrics as goals.
 
-## 1. Why automation belongs in Phase 3
-Early phases focus on proving assumptions. Phase 3 focuses on reducing
-execution noise. Automation standardizes repeatable actions so evidence is more
-trustworthy. The decision is not “automate everything,” but “automate what
-reduces uncertainty and protects quality.”
+## Why This Matters In Phase 3
+Phase 3 is where the cost of inconsistency becomes visible. Decisions are no
+longer made in isolated pilots; they occur repeatedly across teams and time.
+Automation helps stabilize execution, and data helps determine whether the
+stability is real. The purpose is not speed for its own sake. It is to reduce
+variance so evidence can support defensible decisions.
 
-## 2. Data as decision evidence
-Data is only useful when it is tied to a decision. An evidence-first approach
-requires defining:
-- what decision a metric supports
-- what threshold would change the decision
-- what limitations or biases affect the signal
+Automation also affects governance. When a decision is encoded in a workflow or
+system, the decision is effectively pre-committed. That makes auditability and
+traceability more important, not less. Data-driven decisions must remain
+reviewable against canonical thresholds.
 
-If a metric cannot change a decision, it is operational noise.
+## What “Good” Looks Like (Explanatory)
+Good automation in MCF 2.2 has three explanatory properties:
 
-## 3. Automation without governance is risk
-Automated systems can scale errors as quickly as they scale success. Governance
-exists to define where automation is safe, where human judgment is required,
-and how failures are detected. Evidence-first automation pairs control with
-learning.
+- It is traceable: the decision logic and inputs can be audited.
+- It is bounded: the system knows when to defer or escalate.
+- It is evidence-aligned: metrics map to specific decision thresholds.
 
-## 4. Common data pitfalls (explanatory)
+Good data use is not about maximizing dashboards. It is about using a small set
+of defensible signals to support specific decisions. When data is tied to
+decisions, it increases confidence without creating false certainty.
+
+## Typical Failure Modes
+Automation and data fail most often when they detach from decision integrity:
+
 - **Proxy drift:** metrics become targets and lose meaning.
-- **Latency blindness:** decisions lag behind real conditions.
-- **Signal dilution:** too many metrics obscure the few that matter.
-- **Coverage gaps:** important decisions lack usable data.
+- **Coverage gaps:** critical decisions lack reliable signals.
+- **Latency blindness:** decisions are made on stale evidence.
+- **Over-automation:** reversible decisions are treated as irreversible.
 
-These pitfalls reduce decision integrity even when dashboards look complete.
+These are failure modes because they reduce epistemic quality. Use
+`/docs/book/failure-modes` to interpret whether the issue is evidence, execution,
+or governance.
 
-## 5. Interpreting automation proposals
-Treat automation changes as hypotheses. Define expected outcomes, then specify
-the evidence that would confirm improvement or reveal harm. This keeps
-automation aligned with decision thresholds rather than convenience.
+## Evidence You Should Expect To See
+Evidence that supports automation and data-driven decisions should include:
 
-## 6. Applying this chapter
-Use this chapter when scale depends on repeatability or when manual work slows
-decision cycles. It is not a tooling guide; it is a decision lens for when
-automation and data are justified.
+- Explicit mapping from metrics to decision thresholds.
+- Evidence of signal reliability over time (not just point-in-time wins).
+- Clear escalation rules when signals fall outside bounds.
+- Audit trails that show who approved automation changes and why.
+
+If the evidence cannot justify a decision threshold, automation is premature.
+
+## Common Misuse And Boundary Notes
+Automation is often misused as a substitute for governance or as a shortcut to
+scale. Boundary violations include:
+
+- Treating efficiency metrics as proof of strategic fit.
+- Using automation to lock decisions that should remain reversible.
+- Expanding data collection without defining decision relevance.
+
+Use `/docs/book/boundaries-and-misuse` to keep automation aligned with Canon.
+
+## Cross-References
+- Book: `/docs/book/decision-logic`, `/docs/book/governance-and-roles`,
+  `/docs/book/failure-modes`, `/docs/book/boundaries-and-misuse`
+- Canon: `/docs/canon/definitions`, `/docs/canon/evidence-logic`,
+  `/docs/canon/decision-theory`, `/docs/canon/governance-boundaries`

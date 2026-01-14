@@ -348,6 +348,7 @@ DONE:
 - Traceability gate scoped to meta-contract pages (check:traceability)
 - Chapter-level traceability gate added (check:traceability:chapters)
 - Normalize traceability artifacts to absolute /docs/canon routes
+- Phase 3 chapters 23-25 first-pass content drafted
 
 IN-PROGRESS:
 - None
@@ -431,3 +432,4 @@ PENDING:
 - d1caa32 feat(repo): add chapter-level book-canon traceability gate
 - d9d3ff4 fix(meta): normalize traceability links and accept /docs/canon routes
 - f3bd4c4 docs(repo): document canonical traceability link policy
+- (pending) docs(book): draft phase 3 chapters 23-25 first-pass content

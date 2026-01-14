@@ -38,6 +38,9 @@ This chapter is interpretive and explanatory. Its constraints and limits derive 
 - [Canon - Evidence logic](../../canon/evidence-logic)
 - [Canon - Decision theory](../../canon/decision-theory)
 - [Canon - Epistemic stage model](../../canon/epistemic-model)
+- [Canon - Governance boundaries](../../canon/governance-boundaries)
+- [Canon - Failure modes](../../canon/failure-modes)
+- [Canon - Versioning and termination](../../canon/versioning-termination)
 :::
 
 :::info Key terms (canonical)
@@ -63,36 +66,65 @@ scales. In Phase 3, the goal is not to eliminate risk, but to make it visible,
 owned, and governed. This chapter explains how to interpret quality and risk
 signals without turning them into rigid compliance steps.
 
-## 1. Quality as evidence
-Quality control provides evidence that a process is producing reliable
-outcomes. If quality is unstable, evidence from later phases is unreliable.
-Consistency is therefore a prerequisite for scaling.
+## Why This Matters In Phase 3
+Phase 3 is where execution risk becomes structural. The organization is no
+longer testing isolated pilots; it is building repeatable delivery. If quality
+is unstable or risks are unowned, the evidence used to justify scaling is
+invalid. Quality control and risk management are therefore epistemic
+requirements, not administrative add-ons.
 
-Quality signals may include defect rates, rework cycles, or customer impact
-metrics. The key is not the specific measure, but whether it changes the
-decision state.
+These practices also protect reversibility. The more you scale, the harder it
+is to unwind a decision. Risk controls help identify when optionality is being
+lost and when termination logic should be considered.
 
-## 2. Risk management as decision protection
-Risk management identifies where a decision could cause irreversible harm or
-reputational loss. Evidence-first risk management asks:
-- what failure would invalidate the decision?
-- what evidence would show we are exposed?
-- what mitigations reduce uncertainty?
+## What “Good” Looks Like (Explanatory)
+Good quality and risk practices are aligned with decision thresholds:
 
-## 3. Common failure patterns (explanatory)
-- **Hidden variance:** quality looks stable until scale reveals defects.
-- **Unowned risk:** no clear owner for monitoring or response.
-- **Late detection:** problems appear after irreversible commitments.
-- **Compliance drift:** governance is bypassed under pressure.
+- Quality checks are tied to decisions, not to habit.
+- Risks are defined as conditions that would invalidate a decision.
+- Controls are proportional to potential irreversible harm.
+- Evidence is traceable to responsible owners and decisions.
 
-These patterns are signals to pause or revise decisions.
+The aim is to maintain decision integrity, not to maximize compliance
+documentation. Quality is meaningful only when it changes how decisions are
+made.
 
-## 4. Interpreting control proposals
-Controls should be justified by decision risk, not by habit. A control that
-does not reduce uncertainty or protect reversibility is overhead. A control that
-clearly reduces exposure is an evidence investment.
+## Typical Failure Modes
+Common patterns indicate that quality and risk evidence is insufficient:
 
-## 5. Applying this chapter
-Use this chapter when outcomes must be reliable under scale, or when regulatory
-exposure increases. It is not legal advice. It is a decision lens for when
-quality and risk controls are required.
+- **Hidden variance:** quality appears stable until scale exposes defects.
+- **Late detection:** failures surface after irreversible commitments.
+- **Unowned exposure:** no clear decision owner for risk monitoring.
+- **Compliance drift:** controls are bypassed under delivery pressure.
+
+These are signals to pause and reassess. Use `/docs/book/failure-modes` to
+categorize whether the issue is epistemic, executional, or governance related.
+
+## Evidence You Should Expect To See
+Evidence that quality and risk are under control should include:
+
+- Stable outcomes over multiple cycles, not one-off successes.
+- Documented thresholds for acceptable defect rates or exposure.
+- Traceable escalation paths when thresholds are breached.
+- Evidence that controls reduce uncertainty, not just add process steps.
+
+If a control does not reduce uncertainty or protect reversibility, it is
+overhead rather than evidence.
+
+## Common Misuse And Boundary Notes
+Quality and risk management can be misused when they become detached from
+decision relevance:
+
+- Treating compliance artifacts as proof of decision readiness.
+- Using controls to block change rather than to clarify evidence.
+- Defining risk in ways that cannot be tested or observed.
+
+Use `/docs/book/boundaries-and-misuse` as the interpretive boundary. Canon
+defines what counts as defensible change, not local policy.
+
+## Cross-References
+- Book: `/docs/book/decision-logic`, `/docs/book/governance-and-roles`,
+  `/docs/book/failure-modes`, `/docs/book/boundaries-and-misuse`
+- Canon: `/docs/canon/definitions`, `/docs/canon/evidence-logic`,
+  `/docs/canon/failure-modes`, `/docs/canon/governance-boundaries`,
+  `/docs/canon/versioning-termination`
