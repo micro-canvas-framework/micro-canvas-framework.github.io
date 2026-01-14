@@ -368,6 +368,7 @@ DONE:
 - Chapter 2 pass 2 completed (thresholds, reversibility, misuse signals)
 - Chapter 3 pass 1 completed (IGF boundaries and evidence framing)
 - Chapter 3 pass 2 completed (decision thresholds, reversibility, example, misuse signals)
+- Chapter 4 pass 1 completed (culture as decision behavior)
 
 IN-PROGRESS:
 - None
@@ -483,3 +484,4 @@ PENDING:
 - 97997c6 docs(book): chapter 2 pass 2 — thresholds, reversibility, and misuse signals
 - d5c8eb3 docs(book): chapter 3 pass 1 — IGF boundaries and evidence framing
 - df70e85 docs(book): chapter 3 pass 2 — thresholds, reversibility, and misuse clarity
+- fc4bbb6 docs(book): chapter 4 pass 1 — culture as decision behavior
