@@ -241,7 +241,7 @@ Status: LOCKED
 - Running `npm run check:canon` is mandatory after any Canon edits or before release.
 - Canon must never include contract grids, figures, Mermaid, or Book/meta constructs.
 
-### Book↔Canon Traceability (LOCKED)
+### Book<->Canon Traceability (LOCKED)
 - Applies ONLY to pages using the META/EXPLANATORY 4-card contract.
 - Any meta-contract Book page MUST include at least one `Canon ->` link in the
   Derived-from-Canon card.
@@ -249,6 +249,11 @@ Status: LOCKED
   are excluded from this gate.
 - Chapter pages that use the 6-card header contract MUST include at least two
   `Canon ->` links inside the Derived-from-Canon section.
+- Traceability artifacts (Meta maps, governance indexes) MUST use absolute
+  `/docs/canon/...` routes.
+- In-page Book chapter links MAY use relative links when necessary, but absolute
+  `/docs/canon/...` is preferred for governance artifacts.
+- Lint gates SHALL accept `../canon/...`, `../../canon/...`, and `/docs/canon/...`.
 
 ### EntityHeader Contract
 - Current docs: meta + title in EntityHeader (single H1).
@@ -268,8 +273,8 @@ Status: LOCKED
 - `fix:dedupe-title-headings` -> removes duplicate title headings
 - `check:no-duplicate-title-headings` -> blocks duplicate title headings
 - `check:canon` -> enforces Canon front matter and structural prohibitions
-- `check:traceability` -> enforces Canon links in meta-contract Book pages only
-- `check:traceability:chapters` -> enforces Canon links in chapter header contracts
+- `check:traceability` -> enforces Canon links in meta-contract Book pages only (accepts /docs/canon)
+- `check:traceability:chapters` -> enforces Canon links in chapter header contracts (accepts /docs/canon)
 - `verify` -> runs check:canon + check:traceability + check:traceability:chapters + typecheck + build (EN); required before push
 - `build:cf` -> alias to verify; Cloudflare Pages must use this command
 - `gen:redirects` -> generates client redirect pages from redirect_from
@@ -339,9 +344,10 @@ DONE:
 - Set Cloudflare build command to npm run build:cf
 - DONE: Cloudflare Pages build command set to `npm run build:cf` and output dir `build`.
 - Manual verification required in Cloudflare UI.
-- Book ↔ Canon Traceability Map added (meta)
+- Book<->Canon Traceability Map added (meta)
 - Traceability gate scoped to meta-contract pages (check:traceability)
 - Chapter-level traceability gate added (check:traceability:chapters)
+- Normalize traceability artifacts to absolute /docs/canon routes
 
 IN-PROGRESS:
 - None
@@ -423,3 +429,5 @@ PENDING:
 - 36f9da7 docs(meta): add book-to-canon traceability map
 - 66d102c fix(repo): scope book-canon traceability gate to meta contract pages
 - d1caa32 feat(repo): add chapter-level book-canon traceability gate
+- d9d3ff4 fix(meta): normalize traceability links and accept /docs/canon routes
+- (pending) docs(repo): document canonical traceability link policy
