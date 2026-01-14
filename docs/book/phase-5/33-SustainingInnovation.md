@@ -38,6 +38,8 @@ This chapter is interpretive and explanatory. Its constraints and limits derive 
 - [Canon - Evidence logic](../../canon/evidence-logic)
 - [Canon - Decision theory](../../canon/decision-theory)
 - [Canon - Epistemic stage model](../../canon/epistemic-model)
+- [Canon - Governance boundaries](../../canon/governance-boundaries)
+- [Canon - Failure modes](../../canon/failure-modes)
 :::
 
 :::info Key terms (canonical)
@@ -62,22 +64,60 @@ Sustaining innovation means keeping decision integrity after the initial
 transformation. This chapter explains how to interpret long-term sustainability
 in MCF 2.2 as a system of reinforcing practices, not a fixed state.
 
-## 1. Sustainability as renewal
-Sustainability is achieved when evidence, governance, and learning continue to
-function after the initial program ends. If those mechanisms degrade, the
-system reverts.
+## Why This Matters In Phase 5
+Phase 5 is where innovation either becomes a durable capability or decays into
+legacy habits. Sustainability is not about maintaining momentum; it is about
+maintaining decision integrity and evidence quality over time.
 
-## 2. Evidence of sustainability
-Signals of sustained innovation may include:
-- continued use of evidence thresholds in decisions
-- stable governance without external pressure
-- renewal of assumptions as contexts change
+Sustained innovation depends on renewal. Evidence expires, contexts change, and
+governance must adapt. A sustainable system can revalidate assumptions without
+losing accountability.
 
-These signals indicate a living system, not a frozen one.
+## What “Good” Looks Like (Explanatory)
+Good sustainability shows in observable properties:
 
-## 3. Common sustainability risks (explanatory)
+- Evidence thresholds remain in active use.
+- Governance continues without external pressure.
+- Learning systems update assumptions as conditions shift.
+- Optionality is preserved rather than locked.
+
+Sustainability is therefore a living system, not a static outcome.
+
+## Typical Failure Modes
+Sustainability failures are often slow:
+
 - **Institutional memory loss:** practices fade as people change roles.
 - **Metric decay:** evidence signals lose relevance over time.
+- **Governance drift:** decision integrity weakens as urgency declines.
+- **Ritualization:** practices persist without evidential justification.
+
+Use `/docs/book/failure-modes` to interpret whether the breakdown is epistemic
+or governance-related.
+
+## Evidence You Should Expect To See
+Evidence of sustainability includes:
+
+- Continued use of decision thresholds in review cycles.
+- Documented revalidation of assumptions and outcomes.
+- Stable accountability for governance decisions.
+- Evidence that learning changes decisions, not just documentation.
+
+If evidence is not refreshed, sustainability becomes symbolic.
+
+## Common Misuse And Boundary Notes
+Misuse happens when sustainability becomes compliance theater:
+
+- Treating documentation as proof of capability.
+- Ignoring evidence expiration because outcomes look stable.
+- Using sustainability language to avoid necessary change.
+
+Use `/docs/book/boundaries-and-misuse` to keep sustainability defensible.
+
+## Cross-References
+- Book: `/docs/book/decision-logic`, `/docs/book/failure-modes`,
+  `/docs/book/boundaries-and-misuse`, `/docs/book/versioning-and-change-control`
+- Canon: `/docs/canon/definitions`, `/docs/canon/evidence-logic`,
+  `/docs/canon/decision-theory`, `/docs/canon/governance-boundaries`
 - **Complacency drift:** success reduces attention to decision rigor.
 
 ## 4. Applying this chapter

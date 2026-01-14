@@ -38,6 +38,8 @@ This chapter is interpretive and explanatory. Its constraints and limits derive 
 - [Canon - Evidence logic](../../canon/evidence-logic)
 - [Canon - Decision theory](../../canon/decision-theory)
 - [Canon - Epistemic stage model](../../canon/epistemic-model)
+- [Canon - Governance boundaries](../../canon/governance-boundaries)
+- [Canon - Failure modes](../../canon/failure-modes)
 :::
 
 :::info Key terms (canonical)
@@ -62,22 +64,62 @@ Continuous learning is the long-term stabilizer of innovation systems. This
 chapter explains how to interpret learning as evidence quality over time, not
 as training volume.
 
-## 1. Learning as a system property
-In MCF 2.2, learning is not a one-time event. It is a feedback system that
-retains evidence, improves decisions, and prevents regression. Without learning
-systems, innovation resets with each cycle.
+## Why This Matters In Phase 5
+Phase 5 is about sustaining decision integrity after scale. Without continuous
+learning, evidence decays and decisions drift. Learning keeps the organization
+aligned with its own evidence, allowing reversibility when assumptions change.
 
-## 2. Evidence of learning
-Learning shows up as:
-- reduced repetition of known failures
-- faster decision cycles with clearer evidence
-- improved alignment between assumptions and outcomes
+Learning also preserves auditability. When a decision is revisited, learning
+artifacts show why a prior commitment was justified and whether the evidence
+still holds. This is what prevents silent regression to intuition-only
+decisions.
 
-These are signals that the system is adapting, not just moving.
+## What “Good” Looks Like (Explanatory)
+Good learning systems show a few consistent properties:
 
-## 3. Learning vs performance (explanatory)
-High performance without learning is fragile. Learning without performance is
-incomplete. The goal is to sustain both by capturing evidence and applying it
+- Evidence is retained, not just produced.
+- Decisions are revisited when evidence expires or contexts shift.
+- Learning signals are linked to decision thresholds.
+- Feedback loops are transparent and traceable.
+
+This is not a training program; it is a system that keeps decisions
+evidence-aligned across cycles.
+
+## Typical Failure Modes
+Learning failures often appear as evidence quality failures:
+
+- **Knowledge loss:** decisions repeat past mistakes because evidence is lost.
+- **Signal stagnation:** feedback loops exist but do not change decisions.
+- **Incentive mismatch:** learning is discouraged when it threatens delivery.
+- **Over-correction:** reacting to weak signals and destabilizing commitments.
+
+Use `/docs/book/failure-modes` to classify whether the breakdown is epistemic,
+executional, or governance-related.
+
+## Evidence You Should Expect To See
+Learning evidence should include:
+
+- Documented decision updates based on new evidence.
+- Reduced recurrence of known failure modes.
+- Observable improvement in evidence quality over time.
+- Traceable changes in thresholds when conditions shift.
+
+If learning does not change decisions, it is not functioning.
+
+## Common Misuse And Boundary Notes
+Learning can be misused as activity without decision impact:
+
+- Treating training attendance as evidence of learning.
+- Accumulating insights without revising thresholds.
+- Ignoring evidence expiration and revalidation needs.
+
+Use `/docs/book/boundaries-and-misuse` to prevent symbolic learning practices.
+
+## Cross-References
+- Book: `/docs/book/decision-logic`, `/docs/book/failure-modes`,
+  `/docs/book/boundaries-and-misuse`, `/docs/book/versioning-and-change-control`
+- Canon: `/docs/canon/definitions`, `/docs/canon/evidence-logic`,
+  `/docs/canon/decision-theory`, `/docs/canon/governance-boundaries`
 to future decisions.
 
 ## 4. Applying this chapter

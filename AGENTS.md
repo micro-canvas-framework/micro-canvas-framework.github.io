@@ -350,6 +350,7 @@ DONE:
 - Normalize traceability artifacts to absolute /docs/canon routes
 - Phase 3 chapters 23-25 first-pass content drafted
 - Phase 4 chapters 26-29 first-pass content drafted
+- Phase 5 chapters 30-33 first-pass content drafted
 
 IN-PROGRESS:
 - None
@@ -440,3 +441,6 @@ PENDING:
 - eee880d docs(book): draft phase 4 chapters 26-29 first-pass content
 - 76ef6b2 docs(repo): log phase 4 authoring milestone
 - 5710ef4 docs(repo): fix phase 4 milestone log
+
+- (pending) docs(book): draft phase 5 chapters 30-33 first-pass content
+- (pending) docs(repo): log phase 5 authoring milestone

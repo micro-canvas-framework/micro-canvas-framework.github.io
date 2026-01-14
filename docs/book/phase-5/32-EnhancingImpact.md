@@ -38,6 +38,8 @@ This chapter is interpretive and explanatory. Its constraints and limits derive 
 - [Canon - Evidence logic](../../canon/evidence-logic)
 - [Canon - Decision theory](../../canon/decision-theory)
 - [Canon - Epistemic stage model](../../canon/epistemic-model)
+- [Canon - Governance boundaries](../../canon/governance-boundaries)
+- [Canon - Framework boundaries](../../canon/framework-boundaries)
 :::
 
 :::info Key terms (canonical)
@@ -61,22 +63,60 @@ Evidence used in this chapter should allow you to:
 Impact is not a claim; it is evidence of change. This chapter explains how to
 interpret impact measurement in MCF 2.2 without turning it into marketing.
 
-## 1. Impact as evidence
-Impact is meaningful when it is linked to a decision. If an impact metric cannot
-change a decision, it is a narrative. Evidence-first impact connects outcomes
-to thresholds that justify continued investment or revision.
+## Why This Matters In Phase 5
+Phase 5 is where impact claims become durable. Stakeholders, partners, and
+governance bodies expect evidence that outcomes are real and sustained. If
+impact is overstated or weakly supported, decision integrity collapses and the
+framework is misrepresented.
 
-## 2. Communicating impact responsibly
-Communication is part of governance. Claims must match evidence quality. When
-claims exceed evidence, the framework is misrepresented. This chapter helps
-clarify how to avoid overstatement.
+Impact evidence also determines whether innovation efforts should continue,
+pause, or be re-scoped. Without credible impact signals, decisions become
+performative rather than defensible.
 
-## 3. Common impact distortions (explanatory)
-- **Attribution inflation:** claiming outcomes that were not caused by the work.
-- **Selection bias:** highlighting only positive signals.
-- **Proxy drift:** using a weak metric as a stand-in for a stronger one.
+## What “Good” Looks Like (Explanatory)
+Good impact practice has three characteristics:
 
-## 4. Applying this chapter
-Use this chapter when impact claims influence strategy or stakeholder trust. It
+- Claims are tied to measurable outcomes with clear baselines.
+- Evidence quality is stated alongside the claim.
+- Communication preserves boundaries and avoids overreach.
+
+Impact is not a metric dashboard; it is a decision input. The goal is to show
+what changed, why it matters, and how confident you can be about the claim.
+
+## Typical Failure Modes
+Impact failure modes are often epistemic:
+
+- **Attribution inflation:** crediting outcomes not caused by the work.
+- **Selection bias:** reporting only favorable signals.
+- **Proxy drift:** substituting weak metrics for meaningful outcomes.
+- **Narrative drift:** claims grow while evidence stays constant.
+
+Use `/docs/book/failure-modes` to interpret whether the issue is evidence,
+governance, or execution.
+
+## Evidence You Should Expect To See
+Impact evidence should include:
+
+- Baselines and comparison periods that make change visible.
+- Methods that explain how outcomes were measured.
+- Evidence of durability, not just point-in-time gains.
+- Traceable links between decisions and observed impact.
+
+If evidence cannot be reviewed, impact claims should be deferred.
+
+## Common Misuse And Boundary Notes
+Impact communication is often misused to justify decisions:
+
+- Treating marketing narratives as evidence.
+- Using impact claims to bypass governance review.
+- Ignoring boundary conditions that limit generalization.
+
+Use `/docs/book/boundaries-and-misuse` to keep impact defensible.
+
+## Cross-References
+- Book: `/docs/book/decision-logic`, `/docs/book/failure-modes`,
+  `/docs/book/boundaries-and-misuse`, `/docs/book/versioning-and-change-control`
+- Canon: `/docs/canon/definitions`, `/docs/canon/evidence-logic`,
+  `/docs/canon/decision-theory`, `/docs/canon/framework-boundaries`
 is not a reporting template. It is a lens for deciding whether impact evidence
 is strong enough to stand behind.

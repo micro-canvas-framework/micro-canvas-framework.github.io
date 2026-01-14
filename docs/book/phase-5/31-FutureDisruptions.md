@@ -38,6 +38,8 @@ This chapter is interpretive and explanatory. Its constraints and limits derive 
 - [Canon - Evidence logic](../../canon/evidence-logic)
 - [Canon - Decision theory](../../canon/decision-theory)
 - [Canon - Epistemic stage model](../../canon/epistemic-model)
+- [Canon - Governance boundaries](../../canon/governance-boundaries)
+- [Canon - Failure modes](../../canon/failure-modes)
 :::
 
 :::info Key terms (canonical)
@@ -62,22 +64,60 @@ Anticipating disruptions is an evidence exercise, not a prediction exercise.
 This chapter explains how to interpret adaptive strategy in MCF 2.2 and how to
 respond to weak signals without overreacting.
 
-## 1. Disruptions as decision risk
-Disruptions matter because they change the validity of current evidence. If the
-context shifts, the decision thresholds must be reassessed. Anticipation is
-therefore about monitoring signals that could invalidate prior assumptions.
+## Why This Matters In Phase 5
+Phase 5 is where long-term commitments meet shifting environments. Disruptions
+matter because they can invalidate prior evidence and move decisions past their
+safe thresholds. The goal is not to predict the future, but to detect when the
+evidence landscape changes enough to warrant a decision review.
 
-## 2. Adaptive strategy signals
-Adaptive strategies are justified when:
-- signals indicate structural change, not short-term noise
-- existing commitments are reversible
-- evidence suggests current paths will degrade
+Adaptive strategy preserves optionality. It creates pathways to defer, pause,
+or revise commitments without breaking governance integrity.
 
-## 3. Overreaction and underreaction (explanatory)
-- **Overreaction:** pivoting on weak signals and losing strategic coherence.
+## What “Good” Looks Like (Explanatory)
+Good adaptive strategy is evidence-aligned:
+
+- Signals are monitored for structural change, not noise.
+- Decisions include explicit revalidation points.
+- Reversibility is preserved until thresholds are crossed.
+- Governance ownership is clear when adjustments are required.
+
+Adaptation is a decision discipline, not a reaction cycle.
+
+## Typical Failure Modes
+Disruption handling often fails at the extremes:
+
+- **Overreaction:** pivoting on weak signals and losing coherence.
 - **Underreaction:** ignoring signals until options are gone.
+- **Signal cherry-picking:** selecting evidence that confirms prior bets.
+- **Delayed governance:** adapting without accountability or audit trails.
 
-The evidence-first approach seeks the middle ground: act when signals cross a
+Use `/docs/book/failure-modes` to interpret whether the issue is evidence,
+execution, or governance.
+
+## Evidence You Should Expect To See
+Evidence that supports adaptive strategy includes:
+
+- Tracked signals tied to explicit decision thresholds.
+- Documented revalidation of assumptions as conditions shift.
+- Clear criteria for pausing, deferring, or revising commitments.
+- Evidence that adaptation improved decision integrity, not just speed.
+
+If signals cannot be tied to thresholds, adaptation becomes guesswork.
+
+## Common Misuse And Boundary Notes
+Misuse occurs when adaptation is used to avoid accountability:
+
+- Treating volatility as a reason to abandon evidence thresholds.
+- Rebranding panic as agility without traceable decisions.
+- Making irreversible changes without governance review.
+
+Use `/docs/book/boundaries-and-misuse` to keep adaptation defensible.
+
+## Cross-References
+- Book: `/docs/book/decision-logic`, `/docs/book/failure-modes`,
+  `/docs/book/boundaries-and-misuse`, `/docs/book/versioning-and-change-control`
+- Canon: `/docs/canon/definitions`, `/docs/canon/evidence-logic`,
+  `/docs/canon/decision-theory`, `/docs/canon/governance-boundaries`
 threshold that justifies change.
 
 ## 4. Applying this chapter
