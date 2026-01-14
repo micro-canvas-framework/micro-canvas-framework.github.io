@@ -468,3 +468,4 @@ PENDING:
 - f501b2b docs(meta): index figure 6 in figures list
 - ffc83ca fix(book): repair figure 6 mermaid block
 - 3633a4a docs(book): align chapter 1 key elements with IMM maturity pillars
+- 7d81d86 docs(book): expand cultural readiness sub-elements in chapter 1
