@@ -430,4 +430,4 @@ PENDING:
 - 66d102c fix(repo): scope book-canon traceability gate to meta contract pages
 - d1caa32 feat(repo): add chapter-level book-canon traceability gate
 - d9d3ff4 fix(meta): normalize traceability links and accept /docs/canon routes
-- (pending) docs(repo): document canonical traceability link policy
+- f3bd4c4 docs(repo): document canonical traceability link policy
