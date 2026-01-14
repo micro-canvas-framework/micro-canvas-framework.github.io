@@ -116,29 +116,29 @@ and learning. Mature innovation cultures tolerate experimentation, accept
 evidence-based challenge to assumptions, and avoid penalizing well-designed
 failure.
 
-Cultural readiness is not a single trait; it emerges from reinforcing
-behaviors, norms, and leadership signals that shape how people act when
-outcomes are uncertain.
+Cultural readiness is a system of norms, incentives, and behaviors that shape
+how evidence is treated under uncertainty. It is observable in how people
+learn, challenge, and adapt when outcomes are not yet proven.
 
 Key sub-elements include:
 
 - **Innovation Mindset**  
-  A shared orientation toward learning and improvement, where challenges
-  are treated as opportunities to generate insight rather than as threats
-  to stability.
+  A shared orientation toward learning and improvement. Challenges are framed
+  as opportunities to generate insight rather than as threats to stability.
 
-- **Psychological Safety**  
-  The ability for individuals and teams to propose, test, and challenge
-  ideas without fear of personal or professional penalty when work is
-  conducted in good faith.
+- **Data-Driven Decision-Making**  
+  A preference for measurable signals that inform choices. Evidence is used to
+  reduce uncertainty and clarify thresholds instead of relying on opinion or
+  hierarchy.
 
-- **Evidence-Informed Decision Behavior**  
-  A preference for observable signals, experiments, and learning over
-  opinion, hierarchy, or narrative certainty.
+- **Project Execution Using Agile Methodologies**  
+  Short learning cycles support iteration and evidence capture. Agile practices
+  are used to test claims without overcommitting resources.
 
-- **Leadership Modeling and Reinforcement**  
-  Visible leadership behaviors that reward learning, protect optionality,
-  and discourage performative innovation activity.
+- **Leadership and Governance of Innovation**  
+  Visible leadership behaviors reinforce learning, protect optionality, and
+  clarify decision rights. Governance signals that evidence, not theater,
+  drives progress.
 
 Without cultural readiness, other maturity investments tend to remain
 symbolic: processes are followed mechanically, structures exist only on
