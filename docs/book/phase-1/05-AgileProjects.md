@@ -76,6 +76,10 @@ is not learning; delivery is not decision quality. Iterations that do not
 change a decision posture are signals of insufficient evidence rather than
 progress.
 
+Agile is an execution context for reducing decision risk, not a rule set. It
+helps determine when evidence is sufficient to proceed and when deferral is
+more defensible.
+
 ## Decision Thresholds in Agile Contexts
 Agile supports threshold-based decisions by keeping optionality high when
 reversibility is strong. As reversibility declines, thresholds rise and evidence
@@ -86,6 +90,10 @@ claim is tested and a single measured signal is logged. Later-stage execution
 may require repeated evidence, an explicit threshold statement, and a reversal
 trigger because the cost of error is higher.
 
+Regression is expected; iteration is not linear progression. Timeboxed
+experiments are most useful when optionality is preserved and decisions can be
+reversed without disproportionate cost.
+
 ## Common Misuse Signals
 Misuse signals indicate agile activity that does not improve decision integrity:
 
@@ -94,11 +102,23 @@ Misuse signals indicate agile activity that does not improve decision integrity:
 - Mandated agility without decision rights or thresholds.
 - Treating agile as a cultural value instead of a constraint system.
 - Delivery momentum used to bypass reversibility analysis.
+- Experimentation without explicit decision thresholds.
+- “Everything is urgent” collapsing deferral discipline.
+
+## Auditable Artifacts (Examples, Not Requirements)
+Artifacts that can be inspected for evidence quality include:
+
+- Decision log entries that state thresholds and outcomes.
+- Experiment briefs with results snapshots tied to a claim.
+- WIP limits or queue discipline evidence that protects optionality.
+- Retrospective outcomes that change constraints, not just sentiment.
 
 ## Diagram Audit Note
 No diagram is included in Pass 1. Any future diagram must be non-linear, show
 regression and reversibility, avoid funnels, ladders, or maturity curves, and be
 explicitly labeled explanatory and non-normative.
+If a figure is added later, it must explicitly show non-linearity, regression,
+and decision-threshold escalation.
 
 ## How This Chapter Connects Forward
 Later phases depend on whether agile work changes decisions under evidence
