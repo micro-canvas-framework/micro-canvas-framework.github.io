@@ -69,6 +69,10 @@ governance bodies expect evidence that outcomes are real and sustained. If
 impact is overstated or weakly supported, decision integrity collapses and the
 framework is misrepresented.
 
+For example, an innovation program may claim reduced customer churn, but if the
+baseline period excludes a seasonality shift, the evidence is insufficient for
+decisions that lock in resources.
+
 Impact evidence also determines whether innovation efforts should continue,
 pause, or be re-scoped. Without credible impact signals, decisions become
 performative rather than defensible.
@@ -83,6 +87,9 @@ Good impact practice has three characteristics:
 Impact is not a metric dashboard; it is a decision input. The goal is to show
 what changed, why it matters, and how confident you can be about the claim.
 
+Clarification: impact communication is not a replacement for governance. It
+must acknowledge uncertainty and reversibility rather than imply inevitability.
+
 ## Typical Failure Modes
 Impact failure modes are often epistemic:
 
@@ -90,6 +97,9 @@ Impact failure modes are often epistemic:
 - **Selection bias:** reporting only favorable signals.
 - **Proxy drift:** substituting weak metrics for meaningful outcomes.
 - **Narrative drift:** claims grow while evidence stays constant.
+
+Misuse signal: impact claims are updated more frequently than the evidence used
+to justify them.
 
 Use `/docs/book/failure-modes` to interpret whether the issue is evidence,
 governance, or execution.
@@ -103,6 +113,8 @@ Impact evidence should include:
 - Traceable links between decisions and observed impact.
 
 If evidence cannot be reviewed, impact claims should be deferred.
+Evidence sufficiency rises with irreversibility. The more permanent the
+decision, the stronger the impact evidence must be.
 
 ## Common Misuse And Boundary Notes
 Impact communication is often misused to justify decisions:
@@ -110,6 +122,9 @@ Impact communication is often misused to justify decisions:
 - Treating marketing narratives as evidence.
 - Using impact claims to bypass governance review.
 - Ignoring boundary conditions that limit generalization.
+
+Impact progress is non-linear. Evidence can weaken or reverse over time, and
+decisions must remain revisable as that happens.
 
 Use `/docs/book/boundaries-and-misuse` to keep impact defensible.
 

@@ -69,6 +69,10 @@ Phase 5 is where innovation either becomes a durable capability or decays into
 legacy habits. Sustainability is not about maintaining momentum; it is about
 maintaining decision integrity and evidence quality over time.
 
+For example, a post-transformation team may keep the same rituals but stop
+tracking evidence thresholds. The activity remains, yet the decisions become
+less defensible.
+
 Sustained innovation depends on renewal. Evidence expires, contexts change, and
 governance must adapt. A sustainable system can revalidate assumptions without
 losing accountability.
@@ -83,6 +87,9 @@ Good sustainability shows in observable properties:
 
 Sustainability is therefore a living system, not a static outcome.
 
+Clarification: sustainability does not imply linear improvement. It requires
+the ability to pause, re-evaluate, or reverse commitments when evidence weakens.
+
 ## Typical Failure Modes
 Sustainability failures are often slow:
 
@@ -90,6 +97,9 @@ Sustainability failures are often slow:
 - **Metric decay:** evidence signals lose relevance over time.
 - **Governance drift:** decision integrity weakens as urgency declines.
 - **Ritualization:** practices persist without evidential justification.
+
+Misuse signal: the organization reports stability while decision thresholds are
+no longer referenced in reviews.
 
 Use `/docs/book/failure-modes` to interpret whether the breakdown is epistemic
 or governance-related.
@@ -103,6 +113,8 @@ Evidence of sustainability includes:
 - Evidence that learning changes decisions, not just documentation.
 
 If evidence is not refreshed, sustainability becomes symbolic.
+Evidence sufficiency rises as optionality narrows. Long-lived commitments
+require stronger proof to remain defensible.
 
 ## Common Misuse And Boundary Notes
 Misuse happens when sustainability becomes compliance theater:
@@ -110,6 +122,9 @@ Misuse happens when sustainability becomes compliance theater:
 - Treating documentation as proof of capability.
 - Ignoring evidence expiration because outcomes look stable.
 - Using sustainability language to avoid necessary change.
+
+Sustainability is non-linear. It can regress as contexts shift, and it can
+recover when evidence improves.
 
 Use `/docs/book/boundaries-and-misuse` to keep sustainability defensible.
 

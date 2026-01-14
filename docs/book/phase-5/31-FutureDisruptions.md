@@ -70,6 +70,10 @@ matter because they can invalidate prior evidence and move decisions past their
 safe thresholds. The goal is not to predict the future, but to detect when the
 evidence landscape changes enough to warrant a decision review.
 
+For example, a regulatory change may not block a business, but it can shift the
+evidence required to keep a data practice defensible. The response is a review
+of thresholds, not a reflexive pivot.
+
 Adaptive strategy preserves optionality. It creates pathways to defer, pause,
 or revise commitments without breaking governance integrity.
 
@@ -83,6 +87,10 @@ Good adaptive strategy is evidence-aligned:
 
 Adaptation is a decision discipline, not a reaction cycle.
 
+Clarification: adaptive strategy is not a permanent state of reactivity. It is
+the capacity to pause or reverse when evidence weakens, even if earlier progress
+looked stable.
+
 ## Typical Failure Modes
 Disruption handling often fails at the extremes:
 
@@ -90,6 +98,9 @@ Disruption handling often fails at the extremes:
 - **Underreaction:** ignoring signals until options are gone.
 - **Signal cherry-picking:** selecting evidence that confirms prior bets.
 - **Delayed governance:** adapting without accountability or audit trails.
+
+Misuse signal: changes are announced as "agile" but no threshold is documented
+to explain why the decision environment changed.
 
 Use `/docs/book/failure-modes` to interpret whether the issue is evidence,
 execution, or governance.
@@ -103,6 +114,8 @@ Evidence that supports adaptive strategy includes:
 - Evidence that adaptation improved decision integrity, not just speed.
 
 If signals cannot be tied to thresholds, adaptation becomes guesswork.
+Evidence sufficiency rises with irreversibility. The more a decision locks in
+resources, the more disruption evidence must be explicit and traceable.
 
 ## Common Misuse And Boundary Notes
 Misuse occurs when adaptation is used to avoid accountability:
@@ -110,6 +123,9 @@ Misuse occurs when adaptation is used to avoid accountability:
 - Treating volatility as a reason to abandon evidence thresholds.
 - Rebranding panic as agility without traceable decisions.
 - Making irreversible changes without governance review.
+
+Adaptation is non-linear. It may require stepping back, deferring, or reversing
+prior commitments when new evidence weakens earlier assumptions.
 
 Use `/docs/book/boundaries-and-misuse` to keep adaptation defensible.
 

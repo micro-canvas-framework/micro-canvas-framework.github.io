@@ -69,6 +69,10 @@ Phase 5 is about sustaining decision integrity after scale. Without continuous
 learning, evidence decays and decisions drift. Learning keeps the organization
 aligned with its own evidence, allowing reversibility when assumptions change.
 
+For example, a platform team might revisit a deprecation decision after new
+usage evidence shows unintended dependencies. The learning value is in the
+decision revision, not the volume of training sessions.
+
 Learning also preserves auditability. When a decision is revisited, learning
 artifacts show why a prior commitment was justified and whether the evidence
 still holds. This is what prevents silent regression to intuition-only
@@ -85,6 +89,10 @@ Good learning systems show a few consistent properties:
 This is not a training program; it is a system that keeps decisions
 evidence-aligned across cycles.
 
+Clarification: continuous learning does not mean constant change. It means the
+ability to revise thresholds when evidence weakens, without assuming progress is
+linear or permanent.
+
 ## Typical Failure Modes
 Learning failures often appear as evidence quality failures:
 
@@ -92,6 +100,9 @@ Learning failures often appear as evidence quality failures:
 - **Signal stagnation:** feedback loops exist but do not change decisions.
 - **Incentive mismatch:** learning is discouraged when it threatens delivery.
 - **Over-correction:** reacting to weak signals and destabilizing commitments.
+
+Misuse signal: retrospectives occur, but decision thresholds remain unchanged
+even when evidence contradicts them.
 
 Use `/docs/book/failure-modes` to classify whether the breakdown is epistemic,
 executional, or governance-related.
@@ -105,6 +116,8 @@ Learning evidence should include:
 - Traceable changes in thresholds when conditions shift.
 
 If learning does not change decisions, it is not functioning.
+Evidence sufficiency rises as optionality declines. When reversibility is low,
+learning must be stronger before a commitment is reaffirmed.
 
 ## Common Misuse And Boundary Notes
 Learning can be misused as activity without decision impact:
@@ -112,6 +125,9 @@ Learning can be misused as activity without decision impact:
 - Treating training attendance as evidence of learning.
 - Accumulating insights without revising thresholds.
 - Ignoring evidence expiration and revalidation needs.
+
+Learning maturity is non-linear. Evidence can degrade, and decisions may need
+deferral or reversal even after prior progress.
 
 Use `/docs/book/boundaries-and-misuse` to prevent symbolic learning practices.
 
