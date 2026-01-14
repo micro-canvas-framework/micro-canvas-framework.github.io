@@ -241,6 +241,13 @@ Status: LOCKED
 - Running `npm run check:canon` is mandatory after any Canon edits or before release.
 - Canon must never include contract grids, figures, Mermaid, or Book/meta constructs.
 
+### Book↔Canon Traceability (LOCKED)
+- Applies ONLY to pages using the META/EXPLANATORY 4-card contract.
+- Any meta-contract Book page MUST include at least one `Canon ->` link in the
+  Derived-from-Canon card.
+- Book chapters and front-matter use the separate 6-card chapter contract and
+  are excluded from this gate.
+
 ### EntityHeader Contract
 - Current docs: meta + title in EntityHeader (single H1).
 - Legacy docs: meta-only EntityHeader; content provides title.
@@ -259,7 +266,8 @@ Status: LOCKED
 - `fix:dedupe-title-headings` -> removes duplicate title headings
 - `check:no-duplicate-title-headings` -> blocks duplicate title headings
 - `check:canon` -> enforces Canon front matter and structural prohibitions
-- `verify` -> runs check:canon + typecheck + build (EN); required before push
+- `check:traceability` -> enforces Canon links in meta-contract Book pages only
+- `verify` -> runs check:canon + check:traceability + typecheck + build (EN); required before push
 - `build:cf` -> alias to verify; Cloudflare Pages must use this command
 - `gen:redirects` -> generates client redirect pages from redirect_from
 - `fix:redirects-docs-prefix` -> adds /docs-prefixed redirect_from entries
@@ -329,6 +337,7 @@ DONE:
 - DONE: Cloudflare Pages build command set to `npm run build:cf` and output dir `build`.
 - Manual verification required in Cloudflare UI.
 - Book ↔ Canon Traceability Map added (meta)
+- Traceability gate scoped to meta-contract pages (check:traceability)
 
 IN-PROGRESS:
 - None
@@ -342,7 +351,7 @@ NEXT:
 
 PENDING:
 - Review Phase 3-5 and conclusion draft content
-- Resolve Unmapped Book Pages: add Derived-from-Canon card links or justify unmapped
+- Resolve unmapped META-contract Book pages: add Derived-from-Canon links or justify unmapped
 - ES translation (deferred)
 - Docusaurus update decision (3.7 -> 3.9) deferred until stability checkpoint
 - IMM mapping/scoring (deferred)
