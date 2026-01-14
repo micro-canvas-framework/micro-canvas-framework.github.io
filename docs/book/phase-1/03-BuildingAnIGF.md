@@ -34,10 +34,10 @@ redirect_from:
 :::note Derived from Canon
 This chapter is interpretive and explanatory. Its constraints and limits derive from the Canon pages below.
 
-- [Canon - Definitions](../../canon/definitions)
-- [Canon - Evidence logic](../../canon/evidence-logic)
-- [Canon - Decision theory](../../canon/decision-theory)
-- [Canon - Epistemic stage model](../../canon/epistemic-model)
+- [Canon - Definitions](/docs/canon/definitions)
+- [Canon - Evidence logic](/docs/canon/evidence-logic)
+- [Canon - Decision theory](/docs/canon/decision-theory)
+- [Canon - Epistemic stage model](/docs/canon/epistemic-model)
 :::
 
 :::info Key terms (canonical)
@@ -86,6 +86,17 @@ are explicit. Evidence should show:
 
 Formal creation without decision artifacts does not count as evidence.
 
+Decision rights act as constraints on who can move a decision across a
+threshold, not as authority to override evidence. Evidence is insufficient when
+it cannot justify the threshold change or when reversibility has not been
+explicitly considered.
+
+Auditable artifacts should include:
+- Decision log entry (what decision, when, by whom).
+- Evidence references (what was checked, and against which claim).
+- Threshold statement (why evidence is sufficient or insufficient).
+- Reversal trigger (what would change the decision).
+
 ## Core Concepts (Interpretive, Non-Prescriptive)
 The IGF coordinates decision integrity across epistemic stages. It adapts by
 stage because uncertainty and evidence sufficiency change over time. Roles exist
@@ -102,6 +113,15 @@ Key ideas include:
 - **Optionality Preservation:** IGF keeps decisions reversible when evidence is
   weak and constrains commitments when reversibility is low.
 
+An IGF is expected to evolve as epistemic stages change; backtracking and
+restructuring are normal when evidence weakens or uncertainty increases.
+
+Example: An early-stage opportunity may require a falsifiable claim, a single
+measured signal, and a decision log entry before moving to a pilot. A later
+scale decision may require replicated evidence, explicit threshold approval,
+and a documented reversal trigger because reversibility is lower and optionality
+is constrained.
+
 ## Common Misuse Signals
 Misuse signals indicate governance that looks active but does not improve
 decision integrity:
@@ -110,11 +130,14 @@ decision integrity:
 - Role proliferation without clearer decision rights or thresholds.
 - Meetings without evidence artifacts, decisions, or explicit outcomes.
 - IGF frozen across phases despite changing uncertainty and evidence sufficiency.
+- Progress theater: activity without learning or decision impact.
+- Narrative lock-in: commitments made without reversibility analysis.
+- Boundary breach: IGF presented as certification or guarantee.
 
 ## Diagram Audit Note
-No diagram is introduced in Pass 1. A future visual may be needed to clarify
-how evidence thresholds and roles shift by epistemic stage. The decision to add
-a diagram is deferred to Pass 2.
+No diagram is required in Pass 2. If a future visual is added, it should resolve
+ambiguity about how thresholds and roles shift by epistemic stage, and it must
+avoid linear ladders by reinforcing non-linearity, regression, and optionality.
 
 ## Cross-References
 - Book: `/docs/book/decision-logic`, `/docs/book/governance-and-roles`,
