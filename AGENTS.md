@@ -361,6 +361,7 @@ DONE:
 - Chapter 1 refactored to Phase 3-5 structure
 - Figure 6 added and indexed
 - SVG canonical figure removed and replaced with Mermaid
+- Chapter 1 Cultural Readiness sub-elements restored and refined (innovation mindset, data-driven decision-making, agile execution, leadership/governance)
 
 IN-PROGRESS:
 - None
@@ -469,3 +470,4 @@ PENDING:
 - ffc83ca fix(book): repair figure 6 mermaid block
 - 3633a4a docs(book): align chapter 1 key elements with IMM maturity pillars
 - 7d81d86 docs(book): expand cultural readiness sub-elements in chapter 1
+- 6ee1739 docs(book): refine chapter 1 cultural readiness sub-elements
