@@ -447,5 +447,5 @@ PENDING:
 - a6c9693 docs(repo): log phase 5 authoring milestone
 - 4b4b8fd docs(repo): fix phase 5 milestone log
 
-- (pending) docs(book): author conclusion and appendices chapters
+- a41f3a5 docs(book): author conclusion and appendices chapters
 - (pending) docs(repo): log conclusion and appendices authoring milestone
