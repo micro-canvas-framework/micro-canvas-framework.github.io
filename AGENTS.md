@@ -371,6 +371,7 @@ DONE:
 - Chapter 4 pass 1 completed (culture as decision behavior)
 - Chapter 4 pass 2 completed (thresholds, reversibility, misuse clarity)
 - Chapter 5 pass 1 completed (agile as evidence-first execution context)
+- Chapter 5 pass 2 completed (thresholds, reversibility, misuse clarity)
 
 IN-PROGRESS:
 - None
@@ -489,3 +490,4 @@ PENDING:
 - fc4bbb6 docs(book): chapter 4 pass 1 — culture as decision behavior
 - f722d74 docs(book): chapter 4 pass 2 — thresholds, reversibility, and misuse clarity
 - bc16cec docs(book): chapter 5 pass 1 — agile as evidence-first execution context
+- 2aa91cc docs(book): chapter 5 pass 2 — thresholds, reversibility, and misuse clarity
