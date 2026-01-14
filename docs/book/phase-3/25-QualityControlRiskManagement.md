@@ -73,6 +73,10 @@ is unstable or risks are unowned, the evidence used to justify scaling is
 invalid. Quality control and risk management are therefore epistemic
 requirements, not administrative add-ons.
 
+For example, a manufacturing line may add a secondary verification step after a
+new supplier change. The step is justified only if it reduces uncertainty about
+defect rates and preserves reversibility when the supplier performance changes.
+
 These practices also protect reversibility. The more you scale, the harder it
 is to unwind a decision. Risk controls help identify when optionality is being
 lost and when termination logic should be considered.
@@ -89,6 +93,10 @@ The aim is to maintain decision integrity, not to maximize compliance
 documentation. Quality is meaningful only when it changes how decisions are
 made.
 
+Clarification: risk management is not a universal gate. It is evidence about
+which decisions remain reversible and which should be deferred, not a blanket
+permission to proceed or stop.
+
 ## Typical Failure Modes
 Common patterns indicate that quality and risk evidence is insufficient:
 
@@ -96,6 +104,9 @@ Common patterns indicate that quality and risk evidence is insufficient:
 - **Late detection:** failures surface after irreversible commitments.
 - **Unowned exposure:** no clear decision owner for risk monitoring.
 - **Compliance drift:** controls are bypassed under delivery pressure.
+
+Misuse signal: controls exist, but nobody can explain which decision they
+protect or what threshold would trigger a pause.
 
 These are signals to pause and reassess. Use `/docs/book/failure-modes` to
 categorize whether the issue is epistemic, executional, or governance related.
@@ -110,6 +121,8 @@ Evidence that quality and risk are under control should include:
 
 If a control does not reduce uncertainty or protect reversibility, it is
 overhead rather than evidence.
+Evidence sufficiency is contextual: as optionality decreases, the same defect
+rate may no longer be adequate proof of readiness.
 
 ## Common Misuse And Boundary Notes
 Quality and risk management can be misused when they become detached from
@@ -118,6 +131,9 @@ decision relevance:
 - Treating compliance artifacts as proof of decision readiness.
 - Using controls to block change rather than to clarify evidence.
 - Defining risk in ways that cannot be tested or observed.
+
+Quality is not a linear progression. It may improve, regress, and stabilize
+again as scope changes, evidence degrades, or governance evolves.
 
 Use `/docs/book/boundaries-and-misuse` as the interpretive boundary. Canon
 defines what counts as defensible change, not local policy.

@@ -78,6 +78,11 @@ or the process is responsible. Streamlining is not about optimizing for speed;
 it is about lowering variance so evidence can be trusted. This is the
 foundation for scale and for later governance review.
 
+A concrete example: a services team standardizes intake and handoff for a
+repeatable experiment type. The change does not "prove success," but it
+reduces variance in cycle time and clarifies whether evidence thresholds are
+being met. That makes reversibility credible when signals degrade.
+
 ## What “Good” Looks Like (Explanatory)
 "Good" operations in MCF 2.2 are not defined by a specific methodology. They
 are defined by properties that preserve decision integrity:
@@ -91,6 +96,10 @@ Good operations reduce ambiguity without creating rigidity. They enable
 learning by making cause-and-effect relationships visible. This is especially
 important when the organization is balancing optionality preservation and
 progress in parallel.
+
+Clarification: repeatability is not uniformity. A process can be repeatable and
+still allow non-linear adjustments when evidence shifts. The goal is to preserve
+optionality while keeping evidence sufficient and comparable across cycles.
 
 ## Typical Failure Modes
 Operational failure modes often show up as evidence quality problems rather
@@ -106,6 +115,10 @@ insufficient or misleading. When they appear, use the Failure Modes framing in
 `/docs/book/failure-modes` to diagnose whether the issue is epistemic,
 executional, or governance-related.
 
+Misuse signal: teams celebrate shorter cycle times while evidence quality
+declines. That pattern often indicates hidden rework or missing decision
+checkpoints rather than true reliability.
+
 ## Evidence You Should Expect To See
 Evidence for operational process readiness should be concrete and decision
 relevant. Examples include:
@@ -119,6 +132,10 @@ These signals help determine whether the process is ready to scale or whether
 additional iteration is required. The evidence should align with the decision
 thresholds defined in Canon.
 
+Evidence sufficiency matters more than volume. A small, auditable set of
+signals that can change a decision is stronger than a large set of metrics that
+cannot. This keeps reversibility intact when assumptions must be revisited.
+
 ## Common Misuse And Boundary Notes
 Operational optimization can be misused when it becomes detached from evidence
 and decision integrity. Typical boundary violations include:
@@ -129,6 +146,10 @@ and decision integrity. Typical boundary violations include:
 
 Use `/docs/book/boundaries-and-misuse` as the interpretive boundary check. The
 goal is to preserve optionality and auditability while improving reliability.
+
+Non-linearity is expected: processes may regress to earlier designs when new
+evidence invalidates a change. This is not failure; it is the mechanism that
+protects decision integrity.
 
 ## Cross-References
 - Book: `/docs/book/decision-logic`, `/docs/book/governance-and-roles`,

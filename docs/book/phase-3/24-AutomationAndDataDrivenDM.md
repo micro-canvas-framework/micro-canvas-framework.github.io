@@ -71,6 +71,11 @@ Automation helps stabilize execution, and data helps determine whether the
 stability is real. The purpose is not speed for its own sake. It is to reduce
 variance so evidence can support defensible decisions.
 
+For example, a support organization might automate escalation triage based on
+response-time signals. The automation is useful only if the signals are stable,
+the exception paths are explicit, and reversibility remains possible when the
+signal context changes.
+
 Automation also affects governance. When a decision is encoded in a workflow or
 system, the decision is effectively pre-committed. That makes auditability and
 traceability more important, not less. Data-driven decisions must remain
@@ -87,6 +92,10 @@ Good data use is not about maximizing dashboards. It is about using a small set
 of defensible signals to support specific decisions. When data is tied to
 decisions, it increases confidence without creating false certainty.
 
+Clarification: "data-driven" does not mean "data-determined." Evidence is
+necessary but not sufficient; decisions still require judgment about
+reversibility, optionality, and boundary conditions.
+
 ## Typical Failure Modes
 Automation and data fail most often when they detach from decision integrity:
 
@@ -94,6 +103,9 @@ Automation and data fail most often when they detach from decision integrity:
 - **Coverage gaps:** critical decisions lack reliable signals.
 - **Latency blindness:** decisions are made on stale evidence.
 - **Over-automation:** reversible decisions are treated as irreversible.
+
+Misuse signal: the automation still runs even when known exception conditions
+appear, because no human review path exists.
 
 These are failure modes because they reduce epistemic quality. Use
 `/docs/book/failure-modes` to interpret whether the issue is evidence, execution,
@@ -108,6 +120,8 @@ Evidence that supports automation and data-driven decisions should include:
 - Audit trails that show who approved automation changes and why.
 
 If the evidence cannot justify a decision threshold, automation is premature.
+Evidence sufficiency also depends on optionality: if reversing a decision is
+costly, the evidence bar is higher even when the signal looks strong.
 
 ## Common Misuse And Boundary Notes
 Automation is often misused as a substitute for governance or as a shortcut to
@@ -116,6 +130,9 @@ scale. Boundary violations include:
 - Treating efficiency metrics as proof of strategic fit.
 - Using automation to lock decisions that should remain reversible.
 - Expanding data collection without defining decision relevance.
+
+Automation maturity is not linear. Teams may move forward and backward as
+signals degrade, governance changes, or new uncertainties appear.
 
 Use `/docs/book/boundaries-and-misuse` to keep automation aligned with Canon.
 
