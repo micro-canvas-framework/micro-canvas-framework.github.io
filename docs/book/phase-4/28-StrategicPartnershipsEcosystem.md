@@ -38,6 +38,8 @@ This chapter is interpretive and explanatory. Its constraints and limits derive 
 - [Canon - Evidence logic](../../canon/evidence-logic)
 - [Canon - Decision theory](../../canon/decision-theory)
 - [Canon - Epistemic stage model](../../canon/epistemic-model)
+- [Canon - Governance boundaries](../../canon/governance-boundaries)
+- [Canon - Framework boundaries](../../canon/framework-boundaries)
 :::
 
 :::info Key terms (canonical)
@@ -62,22 +64,62 @@ Strategic partnerships and ecosystem integration extend capability, reach, and
 resilience. This chapter explains how to interpret partnerships in MCF 2.2 as
 evidence-backed commitments, not as shortcuts to scale.
 
-## 1. Partnerships as leverage
-Partnerships are justified when external capability reduces uncertainty or
-accelerates validated outcomes. A partnership is not evidence; it is a decision
-that should be supported by evidence.
+## Why This Matters In Phase 4
+Partnerships often become irreversible commitments at scale. They introduce
+external dependencies that shape decision integrity and evidence quality. In
+Phase 4, the question is not "Can a partner help?" but "Is a partner
+commitment defensible under Canon constraints?"
 
-## 2. Evidence signals for partner fit
-Evidence that supports a partnership may include:
-- consistent performance in pilot collaborations
-- alignment of incentives and decision cadence
-- clear ownership of integration risk
+Ecosystem integration can reduce friction, but it can also reduce optionality.
+The decision must be grounded in evidence of fit, risk boundaries, and the
+ability to audit outcomes across organizational seams.
 
-These signals protect against over-reliance or misaligned dependencies.
+## What “Good” Looks Like (Explanatory)
+Good partnership strategy shows evidence of:
 
-## 3. Ecosystem integration risks (explanatory)
-- **Dependency lock-in:** losing optionality due to single-source reliance.
+- Complementary capability that reduces uncertainty rather than replacing it.
+- Shared decision cadence and escalation paths.
+- Clear ownership of integration risk and data quality.
+- Governance boundaries that preserve reversibility.
+
+The goal is to treat partnerships as decision hypotheses, not as growth
+guarantees.
+
+## Typical Failure Modes
+Partnership failures often appear after commitments are made:
+
+- **Dependency lock-in:** optionality is lost due to single-source reliance.
 - **Integration drift:** mismatched timelines or quality standards.
+- **Signal contamination:** external data obscures internal evidence quality.
+- **Boundary confusion:** unclear governance over shared outcomes.
+
+These patterns signal that the partnership decision lacks defensible evidence.
+
+## Evidence You Should Expect To See
+Evidence that supports a partnership decision should include:
+
+- Consistent performance in pilot collaborations.
+- Evidence that incentives align with decision thresholds.
+- Explicit risk ownership for integration failures.
+- Traceable data and accountability across the boundary.
+
+If evidence is ambiguous, deferral preserves optionality.
+
+## Common Misuse And Boundary Notes
+Misuse happens when partnerships are treated as substitutes for internal
+capability or validation:
+
+- Using a partner to bypass unresolved uncertainty.
+- Treating integration progress as evidence of market fit.
+- Locking dependencies before governance review.
+
+Use `/docs/book/boundaries-and-misuse` to guard against boundary violations.
+
+## Cross-References
+- Book: `/docs/book/decision-logic`, `/docs/book/governance-and-roles`,
+  `/docs/book/failure-modes`, `/docs/book/boundaries-and-misuse`
+- Canon: `/docs/canon/definitions`, `/docs/canon/evidence-logic`,
+  `/docs/canon/decision-theory`, `/docs/canon/framework-boundaries`
 - **Governance gaps:** unclear decision authority across boundaries.
 
 These risks should inform thresholds and sequencing.

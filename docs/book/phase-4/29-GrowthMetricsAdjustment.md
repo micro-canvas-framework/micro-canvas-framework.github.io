@@ -38,6 +38,7 @@ This chapter is interpretive and explanatory. Its constraints and limits derive 
 - [Canon - Evidence logic](../../canon/evidence-logic)
 - [Canon - Decision theory](../../canon/decision-theory)
 - [Canon - Epistemic stage model](../../canon/epistemic-model)
+- [Canon - Governance boundaries](../../canon/governance-boundaries)
 :::
 
 :::info Key terms (canonical)
@@ -62,22 +63,62 @@ Growth metrics are evidence signals, not goals. This chapter explains how to
 interpret metrics as inputs to scaling decisions and how to adjust when signals
 shift.
 
-## 1. Metrics as decision inputs
-Metrics should exist because they change a decision. If a metric does not
-inform a threshold, it is noise. The Book layer explains how to interpret
-metrics; the Canon defines the decision logic.
+## Why This Matters In Phase 4
+Phase 4 requires continuous decision review. Scaling introduces new variables
+that can invalidate prior evidence. Metrics provide the signals that show
+whether the decision environment is still stable. Without disciplined
+interpretation, metrics become noise or justification rather than evidence.
 
-## 2. Adjustment as governance
-Adjustment is not failure. It is the mechanism that keeps scale aligned with
-evidence. When metrics show drift, the decision is whether to pause, revise, or
-re-sequence scale commitments.
+Adjustment is not a sign of failure. It is the mechanism that keeps scaling
+aligned with evidence thresholds and preserves reversibility when conditions
+change.
 
-## 3. Common metric traps (explanatory)
-- **Vanity metrics:** high numbers without decision relevance.
-- **Lag bias:** slow signals masking rapid changes.
-- **Local optimization:** improving a metric that harms system outcomes.
+## What “Good” Looks Like (Explanatory)
+Good metric practice is defined by decision relevance:
 
-These traps reduce decision integrity.
+- Each metric is tied to a decision threshold.
+- The metric's limitations are explicitly documented.
+- Signals are monitored for variance, not just averages.
+- Adjustments are logged with evidence and rationale.
+
+Good metrics support decision integrity; they do not replace it.
+
+## Typical Failure Modes
+Common metric failures distort decisions:
+
+- **Vanity metrics:** high numbers with no threshold relevance.
+- **Lag bias:** signals arrive too late to protect reversibility.
+- **Local optimization:** a metric improves while system integrity declines.
+- **Confirmation bias:** metrics selected to justify a prior decision.
+
+Use `/docs/book/failure-modes` to interpret whether the issue is evidence,
+execution, or governance.
+
+## Evidence You Should Expect To See
+Evidence that metrics are decision-useful includes:
+
+- Documented thresholds and how they change decisions.
+- Evidence of signal stability under scale, not just early wins.
+- Clear actions taken when thresholds are breached.
+- Audit trails tying adjustments to evidence, not preference.
+
+If the evidence cannot be interpreted against a threshold, it should not drive
+scaling decisions.
+
+## Common Misuse And Boundary Notes
+Metrics are often misused as targets or proxies for success:
+
+- Using metrics to justify irreversible commitments.
+- Ignoring boundary conditions that invalidate signals.
+- Treating adjustment as a performance failure rather than governance.
+
+Use `/docs/book/boundaries-and-misuse` to keep adjustments aligned with Canon.
+
+## Cross-References
+- Book: `/docs/book/decision-logic`, `/docs/book/governance-and-roles`,
+  `/docs/book/failure-modes`, `/docs/book/boundaries-and-misuse`
+- Canon: `/docs/canon/definitions`, `/docs/canon/evidence-logic`,
+  `/docs/canon/decision-theory`, `/docs/canon/governance-boundaries`
 
 ## 4. Applying this chapter
 Use this chapter when growth data informs scaling decisions. It is not a KPI

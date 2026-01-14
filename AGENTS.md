@@ -349,6 +349,7 @@ DONE:
 - Chapter-level traceability gate added (check:traceability:chapters)
 - Normalize traceability artifacts to absolute /docs/canon routes
 - Phase 3 chapters 23-25 first-pass content drafted
+- Phase 4 chapters 26-29 first-pass content drafted
 
 IN-PROGRESS:
 - None
@@ -435,3 +436,6 @@ PENDING:
 - 2e8795e docs(book): draft phase 3 chapters 23-25 first-pass content
 - ebdfcec docs(repo): log traceability link policy milestone
 - 87a579c docs(repo): log phase 3 authoring milestone
+
+- (pending) docs(book): draft phase 4 chapters 26-29 first-pass content
+- (pending) docs(repo): log phase 4 authoring milestone
