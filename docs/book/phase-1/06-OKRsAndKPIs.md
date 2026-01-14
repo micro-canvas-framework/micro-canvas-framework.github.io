@@ -75,11 +75,36 @@ map to those decisions. KPIs are signals that inform whether thresholds are met
 or still uncertain. Alignment means decision owners can explain why a threshold
 was sufficient, not just that a metric moved.
 
+Example: An OKR claim to "increase retention" requires evidence that a retention
+signal crosses a defined threshold before scaling an initiative. The evidence
+needed to start a pilot is lower than the evidence needed to scale or to stop
+and defer, because reversibility declines as commitments harden.
+
+Evidence to stop or defer should be explicit. When thresholds are not met,
+strategic deferral preserves optionality instead of forcing progress.
+
 ## Decision Thresholds and Evidence Sufficiency
 Evidence sufficiency depends on reversibility and optionality. Lower-regret
 decisions can proceed on lighter evidence; higher-regret commitments require
 stronger signals and explicit reversal triggers. OKRs and KPIs help state those
 conditions without treating measurement as proof.
+
+Strategic deferral is a valid outcome. If evidence is insufficient, the
+threshold is not met and optionality should be preserved until stronger signals
+appear.
+
+KPI hygiene matters. A KPI is not evidence by default; it becomes evidence only
+when validity conditions are defined.
+
+Proxy risk signals include:
+- KPI movement that contradicts observed outcomes.
+- A metric that trends while the underlying claim is untested.
+- KPI shifts that do not change any decision posture.
+
+Gaming risk signals include:
+- Improvements that appear only after target changes.
+- Discontinuities that are not explained by evidence updates.
+- Metrics optimized without documented governance review.
 
 ## Common Misuse Signals
 Misuse signals show when OKRs or KPIs are used as proxies for certainty:
@@ -88,11 +113,22 @@ Misuse signals show when OKRs or KPIs are used as proxies for certainty:
 - OKRs used as compliance checklists rather than evidence alignment.
 - KPI movement used to justify irreversible commitments.
 - Targets optimized while evidence quality remains weak.
+- OKRs treated as performance theater with no learning.
+- Output OKRs substituting for outcome evidence.
+- Targets set without an evidence plan.
+- Conflicting metrics ignored with no escalation or decision rights.
+
+Auditable artifacts (examples only) include:
+- OKR evidence plan (what will be observed, when, by whom).
+- Decision log entries referencing the OKR and threshold.
+- Metric definition notes with validity conditions and known failure modes.
+- Review outcomes that confirm, challenge, or reverse decisions.
 
 ## Diagram Audit Note
 No diagram is included in Pass 1. Any future diagram must be non-linear, avoid
 maturity ladders, show regression and reversibility, and be explicitly labeled
-explanatory and non-normative.
+explanatory and non-normative. Any future figure must also show threshold
+escalation as reversibility declines.
 
 ## How This Chapter Connects Forward
 Later phases depend on whether OKRs and KPIs improve decision integrity rather
