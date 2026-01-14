@@ -247,6 +247,8 @@ Status: LOCKED
   Derived-from-Canon card.
 - Book chapters and front-matter use the separate 6-card chapter contract and
   are excluded from this gate.
+- Chapter pages that use the 6-card header contract MUST include at least two
+  `Canon ->` links inside the Derived-from-Canon section.
 
 ### EntityHeader Contract
 - Current docs: meta + title in EntityHeader (single H1).
@@ -267,7 +269,8 @@ Status: LOCKED
 - `check:no-duplicate-title-headings` -> blocks duplicate title headings
 - `check:canon` -> enforces Canon front matter and structural prohibitions
 - `check:traceability` -> enforces Canon links in meta-contract Book pages only
-- `verify` -> runs check:canon + check:traceability + typecheck + build (EN); required before push
+- `check:traceability:chapters` -> enforces Canon links in chapter header contracts
+- `verify` -> runs check:canon + check:traceability + check:traceability:chapters + typecheck + build (EN); required before push
 - `build:cf` -> alias to verify; Cloudflare Pages must use this command
 - `gen:redirects` -> generates client redirect pages from redirect_from
 - `fix:redirects-docs-prefix` -> adds /docs-prefixed redirect_from entries
@@ -338,6 +341,7 @@ DONE:
 - Manual verification required in Cloudflare UI.
 - Book ↔ Canon Traceability Map added (meta)
 - Traceability gate scoped to meta-contract pages (check:traceability)
+- Chapter-level traceability gate added (check:traceability:chapters)
 
 IN-PROGRESS:
 - None
@@ -352,6 +356,7 @@ NEXT:
 PENDING:
 - Review Phase 3-5 and conclusion draft content
 - Resolve unmapped META-contract Book pages: add Derived-from-Canon links or justify unmapped
+- Resolve chapter-level Canon links where missing (Derived-from-Canon card)
 - ES translation (deferred)
 - Docusaurus update decision (3.7 -> 3.9) deferred until stability checkpoint
 - IMM mapping/scoring (deferred)

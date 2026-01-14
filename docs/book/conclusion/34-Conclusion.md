@@ -35,10 +35,10 @@ redirect_from:
 :::note Derived from Canon
 This chapter is interpretive and explanatory. Its constraints and limits derive from the Canon pages below.
 
-- [Canon - Definitions](/docs/canon/definitions)
-- [Canon - Evidence logic](/docs/canon/evidence-logic)
-- [Canon - Decision theory](/docs/canon/decision-theory)
-- [Canon - Epistemic stage model](/docs/canon/epistemic-model)
+- [Canon - Definitions](../../canon/definitions)
+- [Canon - Evidence logic](../../canon/evidence-logic)
+- [Canon - Decision theory](../../canon/decision-theory)
+- [Canon - Epistemic stage model](../../canon/epistemic-model)
 :::
 
 :::info Key terms (canonical)
