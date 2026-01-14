@@ -432,4 +432,4 @@ PENDING:
 - d1caa32 feat(repo): add chapter-level book-canon traceability gate
 - d9d3ff4 fix(meta): normalize traceability links and accept /docs/canon routes
 - f3bd4c4 docs(repo): document canonical traceability link policy
-- (pending) docs(book): draft phase 3 chapters 23-25 first-pass content
+- 2e8795e docs(book): draft phase 3 chapters 23-25 first-pass content
