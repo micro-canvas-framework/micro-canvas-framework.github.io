@@ -374,6 +374,7 @@ DONE:
 - Chapter 5 pass 2 completed (thresholds, reversibility, misuse clarity)
 - Chapter 6 pass 1 completed (OKRs as decision alignment)
 - Chapter 6 pass 2 completed (thresholds, KPI hygiene, misuse clarity)
+- Chapter 7 pass 1 completed (training as evidence-first capability enabling)
 
 IN-PROGRESS:
 - None
@@ -495,3 +496,4 @@ PENDING:
 - 2aa91cc docs(book): chapter 5 pass 2 — thresholds, reversibility, and misuse clarity
 - f5b43e8 docs(book): chapter 6 pass 1 — okrs as decision alignment
 - 35c0c49 docs(book): chapter 6 pass 2 — thresholds, KPI hygiene, and misuse clarity
+- 6d89552 docs(book): chapter 7 pass 1 — training as evidence-first capability enabling
