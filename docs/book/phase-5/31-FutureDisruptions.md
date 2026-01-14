@@ -134,7 +134,6 @@ Use `/docs/book/boundaries-and-misuse` to keep adaptation defensible.
   `/docs/book/boundaries-and-misuse`, `/docs/book/versioning-and-change-control`
 - Canon: `/docs/canon/definitions`, `/docs/canon/evidence-logic`,
   `/docs/canon/decision-theory`, `/docs/canon/governance-boundaries`
-threshold that justifies change.
 
 ## 4. Applying this chapter
 Use this chapter when external conditions threaten the validity of current

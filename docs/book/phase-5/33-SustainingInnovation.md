@@ -133,7 +133,6 @@ Use `/docs/book/boundaries-and-misuse` to keep sustainability defensible.
   `/docs/book/boundaries-and-misuse`, `/docs/book/versioning-and-change-control`
 - Canon: `/docs/canon/definitions`, `/docs/canon/evidence-logic`,
   `/docs/canon/decision-theory`, `/docs/canon/governance-boundaries`
-- **Complacency drift:** success reduces attention to decision rigor.
 
 ## 4. Applying this chapter
 Use this chapter when long-term resilience depends on continued evidence

@@ -133,5 +133,3 @@ Use `/docs/book/boundaries-and-misuse` to keep impact defensible.
   `/docs/book/boundaries-and-misuse`, `/docs/book/versioning-and-change-control`
 - Canon: `/docs/canon/definitions`, `/docs/canon/evidence-logic`,
   `/docs/canon/decision-theory`, `/docs/canon/framework-boundaries`
-is not a reporting template. It is a lens for deciding whether impact evidence
-is strong enough to stand behind.

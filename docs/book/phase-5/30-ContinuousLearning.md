@@ -136,7 +136,6 @@ Use `/docs/book/boundaries-and-misuse` to prevent symbolic learning practices.
   `/docs/book/boundaries-and-misuse`, `/docs/book/versioning-and-change-control`
 - Canon: `/docs/canon/definitions`, `/docs/canon/evidence-logic`,
   `/docs/canon/decision-theory`, `/docs/canon/governance-boundaries`
-to future decisions.
 
 ## 4. Applying this chapter
 Use this chapter when long-term innovation depends on retention of evidence and
