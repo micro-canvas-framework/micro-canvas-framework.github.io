@@ -79,6 +79,7 @@ flowchart TB
 
   classDef layer fill:#ffffff,stroke:#c7c7c7,stroke-width:1px;
   class IMM,CAP,GOV,EVI,THR,OUT layer;
+```
 Innovation maturity describes how reliably an organization can make innovation decisions under evidence constraints. It is not a maturity ladder or a promise of outcomes.
 :::
 
