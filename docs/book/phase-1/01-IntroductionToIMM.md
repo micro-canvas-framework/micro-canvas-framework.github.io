@@ -90,6 +90,10 @@ guarantee of progress. In MCF 2.2, maturity refers to how consistently an
 organization can generate, test, and scale ideas while preserving decision
 integrity.
 
+Maturity is not the same as activity volume. High throughput without evidence
+discipline is a lower maturity signal because decision quality degrades and
+reversibility is harder to defend.
+
 This chapter sets the baseline language for Phase 1. It frames maturity as a
 repeatable capability that can be examined through evidence quality, governance
 clarity, and strategic alignment.
@@ -100,25 +104,30 @@ activity volume. When evidence is weak, optionality should remain high and
 thresholds should be conservative. When evidence strengthens, thresholds may
 shift, but reversibility and governance still bound what can be claimed.
 
+High activity with weak evidence is not maturity. It indicates fragile decision
+integrity and low reversibility even if output appears strong.
+
 This framing keeps innovation maturity tied to decision quality under
 constraints rather than to linear progress or static milestones.
 
 ## Key Elements of Innovation Maturity (Explanatory)
-Innovation maturity emerges from the interaction of multiple organizational
-capabilities. These elements do not progress linearly and should not be treated
-as a checklist. Instead, they form a system in which weaknesses in one area can
-constrain the effectiveness of others.
+Innovation maturity emerges from the interaction of observable decision
+behaviors under constraints. These elements do not progress linearly and
+should not be treated as a checklist. Instead, they form a system in which
+weaknesses in one area can constrain the effectiveness of others.
 
 ### 1. Cultural Readiness
 
 Cultural readiness reflects how an organization relates to change, uncertainty,
-and learning. Mature innovation cultures tolerate experimentation, accept
+and learning. It is observable in decision integrity when evidence is weak or
+contested. Mature innovation cultures tolerate experimentation, accept
 evidence-based challenge to assumptions, and avoid penalizing well-designed
 failure.
 
 Cultural readiness is a system of norms, incentives, and behaviors that shape
 how evidence is treated under uncertainty. It is observable in how people
-learn, challenge, and adapt when outcomes are not yet proven.
+learn, challenge, and adapt when outcomes are not yet proven and reversibility
+is still required.
 
 Key sub-elements include:
 
@@ -140,6 +149,12 @@ Key sub-elements include:
   clarify decision rights. Governance signals that evidence, not theater,
   drives progress.
 
+Common Misuse Signals (Cultural Readiness):
+- Claims of an innovation mindset without tolerance for invalidated experiments.
+- Data dashboards without decision thresholds or reversible decision paths.
+- Agile rituals that do not produce learning loops or evidence updates.
+- Leadership sponsorship without decision accountability or governance follow-through.
+
 Without cultural readiness, other maturity investments tend to remain
 symbolic: processes are followed mechanically, structures exist only on
 paper, and technology adoption fails to translate into learning.
@@ -147,7 +162,8 @@ paper, and technology adoption fails to translate into learning.
 ### 2. Human Talent and Structure
 
 Innovation maturity depends on how people are enabled, organized, and supported
-to make decisions. This includes skills, roles, incentives, and decision rights.
+to make decisions under evidence constraints. This includes skills, roles,
+incentives, and decision rights.
 
 Key aspects include:
 - clarity of innovation-related roles and responsibilities
@@ -155,34 +171,35 @@ Key aspects include:
 - organizational structures that allow cross-functional collaboration
 
 Talent alone is insufficient if structures prevent people from acting on
-evidence or coordinating decisions.
+evidence or coordinating decisions with clear thresholds and reversibility.
 
 ### 3. Structured Processes
 
 Structured processes provide repeatability without enforcing rigidity. They
-define how ideas move from exploration to validation and learning while preserving
-optionality and reversibility.
+define how ideas move from exploration to validation and learning while
+preserving optionality and reversibility.
 
 Examples include:
 - defined but adaptable discovery and validation flows
 - explicit decision points tied to evidence thresholds
 - feedback loops that inform iteration or termination
 
-Processes support maturity when they enable learning, not when they optimize
-throughput or compliance.
+Processes support maturity when they enable learning and decision integrity,
+not when they optimize throughput or compliance.
 
 ### 4. Customer Experience and Technology Readiness
 
 Innovation maturity is constrained by how well organizations understand customer
-contexts and how effectively technology supports experimentation and delivery.
+contexts and how effectively technology supports experimentation and delivery
+decisions under evidence conditions.
 
 This element includes:
 - mechanisms for observing and validating real customer needs
 - technology platforms that enable rapid testing and iteration
 - data infrastructure that supports evidence quality and traceability
 
-Technology amplifies maturity only when aligned with customer insight and
-decision governance.
+Technology amplifies maturity only when aligned with customer insight,
+decision thresholds, and governance.
 
 ## Common Misinterpretations and Misuse Signals
 Misinterpretations often appear as signals that maturity is being framed as a
@@ -237,10 +254,11 @@ but not translated into defensible thresholds.
 :::
 
 ## Final Thoughts
-Innovation maturity is a way to keep decisions evidence-aligned under
-constraints. It supports decision integrity, not guarantees of success. The
-framework is most useful when it clarifies what can be justified, deferred, or
-reversed as evidence changes.
+Innovation maturity keeps decisions evidence-aligned under constraints. It
+supports decision integrity, not guarantees of success. Progress can advance or
+regress as evidence changes, and Phase 1 is about orientation and
+constraint-setting, not execution. The framework is most useful when it
+clarifies what can be justified, deferred, or reversed as conditions shift.
 
 ## Optional Tools and Next Actions (Non-Canonical)
 These are optional, non-canonical support materials.
