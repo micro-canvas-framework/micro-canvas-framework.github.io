@@ -147,6 +147,82 @@ Headings (mandatory order; use headings, not admonitions):
 - ## Sources & grounding
 - ## How to apply
 
+=====================================================================
+CANON PAGE CONTRACT (LOCKED)
+=====================================================================
+
+Scope:
+This contract governs **all pages under `docs/canon/**`**.
+Canon pages are **normative**, **non-operational**, and **authoritative**.
+No Book, Meta, or derivative content may override Canon semantics.
+
+Non-Negotiable Principles:
+- Canon defines **rules, constraints, and semantics**.
+- Canon does **not** provide workflows, templates, scoring, or guidance.
+- Canon content must be academically defensible and citation-backed where applicable.
+- If any conflict exists between Canon and Book, **Canon always wins**.
+
+Structural Rules (MUST):
+1. Canon pages MUST NOT contain:
+   - Mermaid diagrams
+   - Images, charts, or figures
+   - Contract grids or card layouts
+   - “How to use”, “Purpose”, or explanatory admonitions
+   - Examples, templates, or prescriptive language
+
+2. Canon pages MUST use:
+   - Exactly one H1 (provided by EntityHeader only)
+   - H2/H3 headings in **Title Case**
+   - Plain prose paragraphs and bullet lists only
+
+3. Canon pages MUST NOT include:
+   - Body-level H1 headings
+   - Admonitions of any kind
+   - Tables used for instruction or comparison
+   - Inline UI elements or visual metaphors
+
+Front-Matter Contract (MUST):
+Every Canon page MUST include the following front matter:
+
+---
+title: "<Title Case>"
+version: MCF 2.2
+status: canonical
+hide_title: true
+last_updated: 2026-01-09
+---
+
+EntityHeader Rules:
+- Canon pages ALWAYS use EntityHeader.
+- EntityHeader provides the only H1.
+- Canon pages MUST NOT opt out of EntityHeader.
+
+Semantic Rules:
+- Language MUST be declarative, not instructional.
+- Use “defines”, “constrains”, “requires”, “prohibits”.
+- MUST / SHALL / MAY terminology is allowed where appropriate.
+- Avoid examples unless strictly necessary to define a boundary.
+
+Citations:
+- Canon references MUST point to:
+  - `docs/meta/references.mdx`
+  - External academic or standards sources where applicable
+- Inline citation style must be consistent across Canon.
+
+Versioning Rules:
+- Any semantic change to Canon content REQUIRES:
+  - Explicit decision
+  - Version bump
+  - Changelog entry
+- Editorial changes (grammar, casing) do NOT constitute semantic change.
+
+Enforcement:
+- Canon pages are validated by `npm run check:canon`.
+- Build MUST fail if Canon contract is violated.
+- No Canon exception is permitted without explicit governance approval.
+
+Status: LOCKED
+
 ### E) Routing/Redirect Contract
 - Use `redirect_from` in front matter when canonical slugs change.
 - Docusaurus redirect_from alone is insufficient for hard-hit old URLs; client-redirects is required.
