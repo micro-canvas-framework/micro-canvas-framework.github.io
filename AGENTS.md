@@ -392,3 +392,4 @@ PENDING:
 - 4815e55 feat(repo): enforce canon contract via lints
 - aebc201 chore(repo): add verify gate and cloudflare build command
 - f3fc75f docs(repo): note cloudflare build settings are manual
+- c88d3f0 docs(repo): add canon page contract to agents
