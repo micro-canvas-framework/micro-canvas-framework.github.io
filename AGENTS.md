@@ -393,3 +393,4 @@ PENDING:
 - aebc201 chore(repo): add verify gate and cloudflare build command
 - f3fc75f docs(repo): note cloudflare build settings are manual
 - c88d3f0 docs(repo): add canon page contract to agents
+- 1a77b19 chore(canon): validate canon pages against contract (no changes)
