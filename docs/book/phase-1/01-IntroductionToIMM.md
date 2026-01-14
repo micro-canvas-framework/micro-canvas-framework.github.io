@@ -104,36 +104,64 @@ This framing keeps innovation maturity tied to decision quality under
 constraints rather than to linear progress or static milestones.
 
 ## Key Elements of Innovation Maturity (Explanatory)
-Innovation maturity is supported by properties that preserve decision integrity
-over time:
+Innovation maturity emerges from the interaction of multiple organizational
+capabilities. These elements do not progress linearly and should not be treated
+as a checklist. Instead, they form a system in which weaknesses in one area can
+constrain the effectiveness of others.
 
-- **Structured Processes:**  
-  Organizations commonly use repeatable methods for idea generation, testing,
-  and scaling so outcomes are comparable.
+### 1. Cultural Readiness
 
-- **Cultural Readiness:**  
-  A mature system typically includes conditions that enable learning:
+Cultural readiness reflects how an organization relates to change, uncertainty,
+and learning. Mature innovation cultures tolerate experimentation, accept
+evidence-based challenge to assumptions, and avoid penalizing well-designed
+failure.
 
-  - **Innovation Mindset:**  
-    A learning-oriented stance that treats uncertainty as evidence to be
-    refined, not ignored.
+Signals of cultural readiness include:
+- willingness to question existing practices using evidence
+- psychological safety for proposing and testing new ideas
+- leadership behaviors that reinforce learning over blame
 
-  - **Data-Driven Decision-Making:**  
-    Evidence signals are used to reduce uncertainty and clarify thresholds.
+Without cultural readiness, other maturity investments tend to remain symbolic.
 
-  - **Iterative Delivery Practices:**  
-    Short learning cycles help test claims without overcommitting resources.
+### 2. Human Talent and Structure
 
-  - **Leadership and Governance of Innovation:**  
-    Decision rights and accountability are explicit so evidence can be acted on
-    without ambiguity.
+Innovation maturity depends on how people are enabled, organized, and supported
+to make decisions. This includes skills, roles, incentives, and decision rights.
 
-- **Strategic Alignment:**  
-  Initiatives are connected to strategy so evidence supports meaningful
-  decisions rather than isolated activity.
+Key aspects include:
+- clarity of innovation-related roles and responsibilities
+- access to relevant skills (strategic, technical, customer-facing)
+- organizational structures that allow cross-functional collaboration
 
-These elements describe typical characteristics, not mandated steps or a single
-implementation model.
+Talent alone is insufficient if structures prevent people from acting on
+evidence or coordinating decisions.
+
+### 3. Structured Processes
+
+Structured processes provide repeatability without enforcing rigidity. They
+define how ideas move from exploration to validation and learning while preserving
+optionality and reversibility.
+
+Examples include:
+- defined but adaptable discovery and validation flows
+- explicit decision points tied to evidence thresholds
+- feedback loops that inform iteration or termination
+
+Processes support maturity when they enable learning, not when they optimize
+throughput or compliance.
+
+### 4. Customer Experience and Technology Readiness
+
+Innovation maturity is constrained by how well organizations understand customer
+contexts and how effectively technology supports experimentation and delivery.
+
+This element includes:
+- mechanisms for observing and validating real customer needs
+- technology platforms that enable rapid testing and iteration
+- data infrastructure that supports evidence quality and traceability
+
+Technology amplifies maturity only when aligned with customer insight and
+decision governance.
 
 ## Common Misinterpretations and Misuse Signals
 Misinterpretations often appear as signals that maturity is being framed as a
