@@ -69,6 +69,7 @@ flowchart TB
   EVI["Evidence Quality<br/>claim → tests → learning"]
   THR["Decision Thresholds<br/>risk & reversibility"]
   OUT["Outcomes<br/>observed value over time"]
+  NOTE["Decision Quality<br/>under evidence constraints"]
 
   IMM --> CAP
   IMM --> GOV
@@ -78,9 +79,11 @@ flowchart TB
   EVI --> OUT
 
   classDef layer fill:#ffffff,stroke:#c7c7c7,stroke-width:1px;
-  class IMM,CAP,GOV,EVI,THR,OUT layer;
+  class IMM,CAP,GOV,EVI,THR,OUT,NOTE layer;
 ```
-Innovation maturity describes how reliably an organization can make innovation decisions under evidence constraints. It is not a maturity ladder or a promise of outcomes.
+This diagram is explanatory, not normative. Innovation maturity is non-linear,
+regression is expected, and reversibility remains relevant. It illustrates
+decision quality under evidence constraints rather than a maturity ladder.
 :::
 
 ## What This Chapter Establishes
