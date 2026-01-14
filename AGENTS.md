@@ -439,3 +439,4 @@ PENDING:
 
 - eee880d docs(book): draft phase 4 chapters 26-29 first-pass content
 - 76ef6b2 docs(repo): log phase 4 authoring milestone
+- 5710ef4 docs(repo): fix phase 4 milestone log
