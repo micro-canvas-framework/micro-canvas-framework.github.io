@@ -328,6 +328,7 @@ DONE:
 - Set Cloudflare build command to npm run build:cf
 - DONE: Cloudflare Pages build command set to `npm run build:cf` and output dir `build`.
 - Manual verification required in Cloudflare UI.
+- Book ↔ Canon Traceability Map added (meta)
 
 IN-PROGRESS:
 - None
@@ -405,3 +406,4 @@ PENDING:
 - 1a77b19 chore(canon): validate canon pages against contract (no changes)
 - f9bf16e docs(repo): log canon contract validation pass
 - 8eb6ee4 docs(repo): mark cloudflare build command configured
+- 36f9da7 docs(meta): add book-to-canon traceability map
