@@ -13,7 +13,7 @@ const HAS_META_GRID = /mcf-contract-grid--meta/;
 const HAS_META_DERIVED_CARD = /:::note\s+Derived\s+from\s+Canon\b/;
 
 // Canon link pattern used in derived card bullets
-const CANON_LINK = /\((?:\.\.\/){1,2}canon\/[^\)]+\)/g;
+const CANON_LINK = /\((?:\.\.\/){1,2}canon\/[^\)]+\)|\(\/docs\/canon\/[^\)]+\)/g;
 
 function walk(dir) {
   const out = [];

@@ -11,7 +11,7 @@ const HAS_DERIVED_SECTION = /:::(note|tip|info|warning)\s+Derived\s+from\s+Canon
 const HAS_CHAPTER_HEADER_SIGNAL =
   /:::(note|tip|info|warning)\s+What\s+this\s+chapter\s+does\b/;
 
-const CANON_LINK = /\((?:\.\.\/){1,2}canon\/[^\)]+\)/g;
+const CANON_LINK = /\((?:\.\.\/){1,2}canon\/[^\)]+\)|\(\/docs\/canon\/[^\)]+\)/g;
 
 function walk(dir) {
   const out = [];
