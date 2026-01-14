@@ -105,10 +105,10 @@ Common patterns indicate that quality and risk evidence is insufficient:
 - **Unowned exposure:** no clear decision owner for risk monitoring.
 - **Compliance drift:** controls are bypassed under delivery pressure.
 
-Misuse signal: controls exist, but nobody can explain which decision they
+Misuse signal: controls exist, but no one can explain which decision they
 protect or what threshold would trigger a pause.
 
-These are signals to pause and reassess. Use `/docs/book/failure-modes` to
+These signals warrant a reassessment. Use `/docs/book/failure-modes` to
 categorize whether the issue is epistemic, executional, or governance related.
 
 ## Evidence You Should Expect To See

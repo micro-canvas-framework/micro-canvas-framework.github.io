@@ -78,7 +78,7 @@ signal context changes.
 
 Automation also affects governance. When a decision is encoded in a workflow or
 system, the decision is effectively pre-committed. That makes auditability and
-traceability more important, not less. Data-driven decisions must remain
+traceability more important, not less. Data-driven decisions should remain
 reviewable against canonical thresholds.
 
 ## What “Good” Looks Like (Explanatory)
@@ -104,12 +104,11 @@ Automation and data fail most often when they detach from decision integrity:
 - **Latency blindness:** decisions are made on stale evidence.
 - **Over-automation:** reversible decisions are treated as irreversible.
 
-Misuse signal: the automation still runs even when known exception conditions
-appear, because no human review path exists.
+Misuse signal: automation keeps running even when known exception conditions
+appear because no review path exists.
 
-These are failure modes because they reduce epistemic quality. Use
-`/docs/book/failure-modes` to interpret whether the issue is evidence, execution,
-or governance.
+These signals reduce epistemic quality. Use `/docs/book/failure-modes` to
+interpret whether the issue is evidence, execution, or governance.
 
 ## Evidence You Should Expect To See
 Evidence that supports automation and data-driven decisions should include:
@@ -121,7 +120,7 @@ Evidence that supports automation and data-driven decisions should include:
 
 If the evidence cannot justify a decision threshold, automation is premature.
 Evidence sufficiency also depends on optionality: if reversing a decision is
-costly, the evidence bar is higher even when the signal looks strong.
+costly, the evidence bar is higher even when signals look strong.
 
 ## Common Misuse And Boundary Notes
 Automation is often misused as a substitute for governance or as a shortcut to

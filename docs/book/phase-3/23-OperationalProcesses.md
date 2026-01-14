@@ -62,8 +62,7 @@ Operational processes are the repeatable pathways that turn decisions into
 consistent outcomes. In Phase 3, the focus is not speed alone, but reliability:
 can the organization deliver the same result with predictable quality when
 conditions change? This chapter explains how to interpret operational design
-through the evidence-first lens and how to recognize when process changes are
-justified.
+through the evidence-first lens and when process changes are justified.
 
 ## Why This Matters In Phase 3
 Phase 3 is where uncertainty shifts from discovery to execution. The decision
@@ -75,8 +74,8 @@ threshold-based decisions.
 Operational design matters because it creates stable decision contexts. If the
 same inputs produce different outputs, you cannot determine whether the product
 or the process is responsible. Streamlining is not about optimizing for speed;
-it is about lowering variance so evidence can be trusted. This is the
-foundation for scale and for later governance review.
+it is about lowering variance so evidence can be trusted. This underpins scale
+and later governance review.
 
 A concrete example: a services team standardizes intake and handoff for a
 repeatable experiment type. The change does not "prove success," but it
@@ -92,10 +91,9 @@ are defined by properties that preserve decision integrity:
 - Evidenced outcomes: results are captured with traceable evidence.
 - Adaptable flow: the process can change when evidence invalidates assumptions.
 
-Good operations reduce ambiguity without creating rigidity. They enable
-learning by making cause-and-effect relationships visible. This is especially
-important when the organization is balancing optionality preservation and
-progress in parallel.
+Good operations reduce ambiguity without creating rigidity. They make
+cause-and-effect relationships visible, which helps preserve optionality while
+progress continues.
 
 Clarification: repeatability is not uniformity. A process can be repeatable and
 still allow non-linear adjustments when evidence shifts. The goal is to preserve
@@ -110,10 +108,9 @@ than obvious delivery breakdowns. Common patterns include:
 - Tooling mismatches that produce inconsistent outputs across teams.
 - Process exceptions that are never reconciled back into the canonical flow.
 
-These are not moral failures; they are signals that operational evidence is
-insufficient or misleading. When they appear, use the Failure Modes framing in
-`/docs/book/failure-modes` to diagnose whether the issue is epistemic,
-executional, or governance-related.
+These are signals that operational evidence is insufficient or misleading. When
+they appear, use the Failure Modes framing in `/docs/book/failure-modes` to
+diagnose whether the issue is epistemic, executional, or governance-related.
 
 Misuse signal: teams celebrate shorter cycle times while evidence quality
 declines. That pattern often indicates hidden rework or missing decision
@@ -129,8 +126,7 @@ relevant. Examples include:
 - Observable reductions in rework, handoff friction, or escalations.
 
 These signals help determine whether the process is ready to scale or whether
-additional iteration is required. The evidence should align with the decision
-thresholds defined in Canon.
+additional iteration is required. Evidence should align with Canon thresholds.
 
 Evidence sufficiency matters more than volume. A small, auditable set of
 signals that can change a decision is stronger than a large set of metrics that
