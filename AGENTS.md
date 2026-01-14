@@ -352,6 +352,9 @@ DONE:
 - Phase 4 chapters 26-29 first-pass content drafted
 - Phase 5 chapters 30-33 first-pass content drafted
 - Conclusion and Appendices first-pass content drafted
+- Phase 3 chapters 23-25 second-pass depth and examples completed
+- Phase 4 chapters 26-29 second-pass depth and examples completed
+- Phase 5 chapters 30-33 second-pass depth and examples completed
 
 IN-PROGRESS:
 - None
@@ -449,3 +452,6 @@ PENDING:
 
 - a41f3a5 docs(book): author conclusion and appendices chapters
 - 2211c4b docs(repo): log conclusion and appendices authoring milestone
+- a80cb41 docs(book): phase 3 second-pass depth and examples
+- 3137d90 docs(book): phase 4 second-pass depth and examples
+- 3345d1c docs(book): phase 5 second-pass depth and examples
