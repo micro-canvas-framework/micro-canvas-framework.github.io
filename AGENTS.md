@@ -355,6 +355,9 @@ DONE:
 - Phase 3 chapters 23-25 second-pass depth and examples completed
 - Phase 4 chapters 26-29 second-pass depth and examples completed
 - Phase 5 chapters 30-33 second-pass depth and examples completed
+- Phase 3 chapters 23-25 editorial polish completed
+- Phase 4 chapters 26-29 editorial polish completed
+- Phase 5 chapters 30-33 editorial polish completed
 
 IN-PROGRESS:
 - None
@@ -455,3 +458,6 @@ PENDING:
 - a80cb41 docs(book): phase 3 second-pass depth and examples
 - 3137d90 docs(book): phase 4 second-pass depth and examples
 - 3345d1c docs(book): phase 5 second-pass depth and examples
+- 441374c docs(book): editorial polish phase 3 chapters 23-25
+- 5025308 docs(book): editorial polish phase 4 chapters 26-29
+- 2b9cd73 docs(book): editorial polish phase 5 chapters 30-33
