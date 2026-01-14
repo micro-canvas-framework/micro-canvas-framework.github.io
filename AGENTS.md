@@ -320,6 +320,8 @@ DONE:
 - Canon front matter normalization audit completed (DONE)
 - Add verify gate script (canon + typecheck + build en)
 - Set Cloudflare build command to npm run build:cf
+- DONE: Cloudflare Pages build command set to `npm run build:cf` and output dir `build`.
+- Manual verification required in Cloudflare UI.
 
 IN-PROGRESS:
 - None
