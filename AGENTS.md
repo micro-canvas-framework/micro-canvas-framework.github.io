@@ -364,6 +364,7 @@ DONE:
 - Chapter 1 Cultural Readiness sub-elements restored and refined (innovation mindset, data-driven decision-making, agile execution, leadership/governance)
 - Chapter 1 pass 2 conceptual depth + misuse clarity completed
 - Figure 6 canon-safety refinement completed (non-linear, explanatory caption)
+- Chapter 2 pass 1 completed (assessment reframed as evidence-first sense-making)
 
 IN-PROGRESS:
 - None
@@ -475,3 +476,4 @@ PENDING:
 - 6ee1739 docs(book): refine chapter 1 cultural readiness sub-elements
 - 857b4c8 docs(book): chapter 1 pass 2 conceptual depth and misuse clarity
 - 041250c docs(book): harden figure 6 against linear interpretation
+- 009b0bc docs(book): chapter 2 pass 1 — assessment as evidence-first sense-making
