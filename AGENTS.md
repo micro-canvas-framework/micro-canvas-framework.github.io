@@ -416,3 +416,4 @@ PENDING:
 - f9bf16e docs(repo): log canon contract validation pass
 - 8eb6ee4 docs(repo): mark cloudflare build command configured
 - 36f9da7 docs(meta): add book-to-canon traceability map
+- 66d102c fix(repo): scope book-canon traceability gate to meta contract pages
