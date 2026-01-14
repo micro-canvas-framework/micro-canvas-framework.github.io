@@ -35,10 +35,10 @@ redirect_from:
 :::note Derived from Canon
 This chapter is interpretive and explanatory. Its constraints and limits derive from the Canon pages below.
 
-- [Canon - Definitions](../../canon/definitions)
-- [Canon - Evidence logic](../../canon/evidence-logic)
-- [Canon - Decision theory](../../canon/decision-theory)
-- [Canon - Epistemic stage model](../../canon/epistemic-model)
+- [Canon - Definitions](/docs/canon/definitions)
+- [Canon - Framework boundaries](/docs/canon/framework-boundaries)
+- [Canon - Governance boundaries](/docs/canon/governance-boundaries)
+- [Canon - Versioning and termination](/docs/canon/versioning-termination)
 :::
 
 :::info Key terms (canonical)
@@ -61,25 +61,60 @@ Evidence used in this chapter should allow you to:
 </div>
 MCF 2.2 is not a checklist. It is a decision system grounded in evidence. The
 five phases describe how uncertainty is reduced and how commitments become
-defensible over time. This conclusion summarizes the journey and clarifies how
-to continue once the book ends.
+defensible over time. This conclusion closes the narrative arc by reaffirming
+the epistemic nature of the framework and the boundary between Canon and Book.
 
-## 1. What the journey establishes
-Across the phases, you build:
-- a shared definition of innovation maturity
-- evidence-first decision logic
-- governance that protects integrity
-- operational reliability that supports scale
-- adaptive learning that sustains outcomes
+## Why This Matters In Phase 5
+Phase 5 is where continuity must outlast the initial program. The Book layer
+explains how the phases relate; the Canon defines what counts as valid. If that
+boundary blurs, the framework becomes a narrative rather than a decision
+system. The conclusion therefore reinforces that MCF is epistemic, not
+procedural, and that Canon remains the authoritative source.
 
-These are not endpoints. They are capabilities that must be maintained.
+## What “Good” Looks Like (Explanatory)
+The journey is coherent when the following are true:
 
-## 2. Continuing beyond the book
-The Book layer explains and interprets. The Canon defines rules and boundaries.
-If new programs or tools are developed, they must map back to Canon to avoid
-drift. Use the decision thresholds and evidence expectations as ongoing checks.
+- Evidence is consistently tied to decision thresholds.
+- Governance protects integrity as scope and scale expand.
+- Execution remains reversible until evidence justifies commitment.
+- Learning prevents regression to intuition-only decisions.
 
-## 3. Final reminder
-Innovation without evidence is narrative. Evidence without governance is
-fragile. Governance without learning is temporary. MCF 2.2 treats these as a
-system. Keep the system intact, and the outcomes will follow.
+These are not outcomes to claim; they are properties of a defensible decision
+system.
+
+## Typical Failure Modes
+Common misreadings undermine the framework:
+
+- **Framework ≠ guarantee:** outcomes are not promised by structure alone.
+- **Maturity ≠ linear progress:** the path includes reversals and deferrals.
+- **Tools ≠ rules:** artifacts do not replace Canon constraints.
+- **Book ≠ Canon:** explanatory text does not define norms.
+
+When these misreadings appear, revisit Canon boundaries and governance rules.
+
+## Evidence You Should Expect To See
+Evidence that the framework is functioning at maturity includes:
+
+- Decisions that are reversible until thresholds are met.
+- Traceable rationale for scale commitments and governance approvals.
+- Explicit use of boundary constraints when new tools or programs are proposed.
+- Evidence that learning updates assumptions rather than preserving narrative.
+
+If these signals are absent, the system is drifting from evidence-first
+decision integrity.
+
+## Common Misuse And Boundary Notes
+Misuse often shows up as narrative drift:
+
+- Treating the Book as a ruleset rather than an interpretation layer.
+- Using tools to assert compliance without evidence.
+- Claiming maturity progression as linear or guaranteed.
+
+Use `/docs/book/boundaries-and-misuse` to reassert the interpretive boundary.
+Canon defines what is valid; the Book explains how to read and apply it.
+
+## Cross-References
+- Book: `/docs/book/decision-logic`, `/docs/book/governance-and-roles`,
+  `/docs/book/failure-modes`, `/docs/book/boundaries-and-misuse`
+- Canon: `/docs/canon/definitions`, `/docs/canon/framework-boundaries`,
+  `/docs/canon/governance-boundaries`, `/docs/canon/versioning-termination`

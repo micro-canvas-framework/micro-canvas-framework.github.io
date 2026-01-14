@@ -351,6 +351,7 @@ DONE:
 - Phase 3 chapters 23-25 first-pass content drafted
 - Phase 4 chapters 26-29 first-pass content drafted
 - Phase 5 chapters 30-33 first-pass content drafted
+- Conclusion and Appendices first-pass content drafted
 
 IN-PROGRESS:
 - None
@@ -445,3 +446,6 @@ PENDING:
 - 504bcca docs(book): draft phase 5 chapters 30-33 first-pass content
 - a6c9693 docs(repo): log phase 5 authoring milestone
 - 4b4b8fd docs(repo): fix phase 5 milestone log
+
+- (pending) docs(book): author conclusion and appendices chapters
+- (pending) docs(repo): log conclusion and appendices authoring milestone

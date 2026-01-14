@@ -35,10 +35,10 @@ redirect_from:
 :::note Derived from Canon
 This chapter is interpretive and explanatory. Its constraints and limits derive from the Canon pages below.
 
-- [Canon - Definitions](../../canon/definitions)
-- [Canon - Evidence logic](../../canon/evidence-logic)
-- [Canon - Decision theory](../../canon/decision-theory)
-- [Canon - Epistemic stage model](../../canon/epistemic-model)
+- [Canon - Definitions](/docs/canon/definitions)
+- [Canon - Framework boundaries](/docs/canon/framework-boundaries)
+- [Canon - Governance boundaries](/docs/canon/governance-boundaries)
+- [Canon - Versioning and termination](/docs/canon/versioning-termination)
 :::
 
 :::info Key terms (canonical)
@@ -63,20 +63,54 @@ Appendices and tools are supporting artifacts, not sources of authority. This
 chapter explains how to use tools without turning them into substitutes for
 evidence or Canon.
 
-## 1. Tools as supports, not rules
-Tools help structure work, but they are not canonical. If a tool conflicts with
-Canon boundaries or definitions, the Canon wins. Treat tools as aids to improve
-clarity and consistency.
+## Why This Matters In Phase 5
+Phase 5 is where tools often become institutionalized. That creates risk: tools
+can be mistaken for rules, and examples can be mistaken for obligations. The
+framework depends on preserving the boundary between Canon (normative) and
+Book (explanatory). Tools are optional accelerators, not compliance guarantees.
 
-## 2. When tools are useful
-Tools are useful when they:
-- reduce ambiguity in decision inputs
-- make evidence collection repeatable
-- help teams communicate assumptions and outcomes
+## What “Good” Looks Like (Explanatory)
+Tools are used responsibly when:
 
-If a tool cannot change a decision, it is optional.
+- Their purpose and scope are explicit and evidence-aligned.
+- They clarify decision inputs rather than prescribe outcomes.
+- They remain replaceable without changing Canon semantics.
+- They are governed by the same boundaries and auditability rules.
 
-## 3. Applying this chapter
-Use this chapter when selecting or designing templates, checklists, or
-artifacts. It is not a tool catalog. It is a lens for deciding whether a tool
-supports evidence integrity.
+Good tooling reduces ambiguity without creating new rules.
+
+## Typical Failure Modes
+Tooling failures often come from boundary drift:
+
+- **Tool elevation:** templates treated as Canon rules.
+- **Checklist compliance:** evidence reduced to box-ticking.
+- **False certification:** tools interpreted as proof of maturity or readiness.
+- **Scope creep:** examples used as mandatory processes.
+
+These failures undermine decision integrity and misrepresent the framework.
+
+## Evidence You Should Expect To See
+Evidence that tools are being used correctly includes:
+
+- Clear mapping between tool outputs and decision thresholds.
+- Traceable decisions that cite evidence, not template completion.
+- Explicit statements that tools are optional and replaceable.
+- Governance review when tools influence irreversible commitments.
+
+If tools cannot change decisions, they should not be treated as evidence.
+
+## Common Misuse And Boundary Notes
+Boundary violations are most visible in tool claims:
+
+- Presenting tools as certification or compliance mechanisms.
+- Using tool completion as a substitute for evidence.
+- Treating diagrams as Canon without citation or governance.
+
+Use `/docs/book/boundaries-and-misuse` to keep tools within the Book layer.
+Canon definitions and boundaries remain authoritative.
+
+## Cross-References
+- Book: `/docs/book/decision-logic`, `/docs/book/governance-and-roles`,
+  `/docs/book/failure-modes`, `/docs/book/boundaries-and-misuse`
+- Canon: `/docs/canon/definitions`, `/docs/canon/framework-boundaries`,
+  `/docs/canon/governance-boundaries`, `/docs/canon/versioning-termination`
