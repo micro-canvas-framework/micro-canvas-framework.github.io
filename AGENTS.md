@@ -289,6 +289,12 @@ Status: LOCKED
 - Canon pages may cite only sources already in references, or update references
   as a separate, explicit task.
 
+### Governance Artifacts (Meta)
+- `docs/meta/changelog.mdx`
+- `docs/meta/references.mdx`
+- `docs/meta/figures.mdx`
+- `docs/meta/book-canon-traceability.mdx`
+
 ### Figures Index
 - Single source of truth: `docs/meta/figures.mdx`.
 - Figure numbering is global and monotonic; Figure 1 reserved for system map.
@@ -335,6 +341,7 @@ NEXT:
 
 PENDING:
 - Review Phase 3-5 and conclusion draft content
+- Resolve Unmapped Book Pages: add Derived-from-Canon card links or justify unmapped
 - ES translation (deferred)
 - Docusaurus update decision (3.7 -> 3.9) deferred until stability checkpoint
 - IMM mapping/scoring (deferred)

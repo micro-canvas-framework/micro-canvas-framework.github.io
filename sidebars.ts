@@ -22,7 +22,12 @@ const sidebars: SidebarsConfig = {
         {
             type: 'category',
             label: 'Meta',
-            items: ['meta/changelog', 'meta/references', 'meta/figures'],
+            items: [
+                'meta/changelog',
+                'meta/references',
+                'meta/book-canon-traceability',
+                'meta/figures',
+            ],
         },
         {
             type: 'category',
