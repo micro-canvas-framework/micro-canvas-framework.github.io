@@ -433,3 +433,5 @@ PENDING:
 - d9d3ff4 fix(meta): normalize traceability links and accept /docs/canon routes
 - f3bd4c4 docs(repo): document canonical traceability link policy
 - 2e8795e docs(book): draft phase 3 chapters 23-25 first-pass content
+- ebdfcec docs(repo): log traceability link policy milestone
+- 87a579c docs(repo): log phase 3 authoring milestone
