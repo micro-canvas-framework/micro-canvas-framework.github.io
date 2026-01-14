@@ -444,3 +444,4 @@ PENDING:
 
 - 504bcca docs(book): draft phase 5 chapters 30-33 first-pass content
 - a6c9693 docs(repo): log phase 5 authoring milestone
+- 4b4b8fd docs(repo): fix phase 5 milestone log
