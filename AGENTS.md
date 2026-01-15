@@ -500,3 +500,4 @@ PENDING:
 - f5b43e8 docs(book): chapter 6 pass 1 — okrs as decision alignment
 - 35c0c49 docs(book): chapter 6 pass 2 — thresholds, KPI hygiene, and misuse clarity
 - 6d89552 docs(book): chapter 7 pass 1 — training as evidence-first capability enabling
+- 3876a99 docs(book): chapter 9 pass 1 - framework boundaries alignment
