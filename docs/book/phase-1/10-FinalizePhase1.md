@@ -73,17 +73,42 @@ assumptions were clarified. Evidence should be consolidated across culture,
 governance, and early execution signals so the organization can make a clear
 proceed-or-pause decision.
 
+Phase 1 closeout relies on qualitative decision thresholds. The question is not
+how much activity occurred, but whether evidence is sufficient to justify a
+Phase 2 commitment, whether uncertainties remain material, and whether the
+conditions for proceed, defer, or stop are understood.
+
 ## Adjusting the Foundation
 Adjustments are about correcting the foundation before Phase 2 begins. This can
 include refining governance clarity, tightening decision ownership, or
 recalibrating how evidence is gathered. The goal is not to optimize but to
 remove friction that would distort later decisions.
 
+Reversibility and optionality matter at exit. Leaders should distinguish
+decisions that are hard to unwind from those that can be re-tested with low
+regret. When reversibility is low and evidence is thin, preserving optionality
+or deferring commitment is often a more defensible outcome than forcing a move
+into Phase 2.
+
 ## Finalizing Phase 1 and Handoff to Phase 2
 Finalizing Phase 1 means documenting what changed, what remains unresolved, and
 what conditions must hold for Phase 2 work to be interpretable. The next chapter
 introduces opportunity discovery and customer analysis as the entry into Phase
 2.
+
+**Misuse and Failure Signals (Descriptive)**  
+Signals that the Phase 1 closeout decision is weak include:
+- advancing to Phase 2 without sufficient evidence
+- re-running discovery to avoid a decision
+- treating Phase 1 outputs as guarantees
+- skipping explicit decision ownership at closeout
+
+**Auditable Artifacts for Phase 1 Finalization**  
+Auditable artifacts may include:
+- a Phase 1 decision record (proceed/defer/stop + rationale)
+- an evidence summary linked to those decisions
+- an explicit statement of remaining unknowns
+- leadership sign-off or sponsorship record tied to evidence
 
 ## Diagram Audit Note
 No diagram is included in Pass 1. If a future diagram is added, it must avoid
