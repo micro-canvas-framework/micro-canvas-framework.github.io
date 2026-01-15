@@ -432,6 +432,7 @@ PENDING:
 - 5d831b8 docs(book): chapter 8 pass 1 — governance pilots as evidence discipline
 - 5430d2d docs(book): chapter 8 pass 2 — thresholds, reversibility, and misuse clarity
 - 8f5472b docs(book): chapter 9 pass 2 — thresholds, reversibility, misuse, auditability
+- a7701e5 docs(book): chapter 10 pass 1 — phase 1 review boundaries
 - 5c94684 docs(book): add figures index to sidebar and lock figure governance
 - 928d888 docs(book): add governance figure and index entry
 - c3eb473 fix(book): render figure 4 and align failure modes page
