@@ -34,10 +34,10 @@ redirect_from:
 :::note Derived from Canon
 This chapter is interpretive and explanatory. Its constraints and limits derive from the Canon pages below.
 
-- [Canon - Definitions](../../canon/definitions)
-- [Canon - Evidence logic](../../canon/evidence-logic)
-- [Canon - Decision theory](../../canon/decision-theory)
-- [Canon - Epistemic stage model](../../canon/epistemic-model)
+- [Canon - Definitions](/docs/canon/definitions)
+- [Canon - Evidence logic](/docs/canon/evidence-logic)
+- [Canon - Decision theory](/docs/canon/decision-theory)
+- [Canon - Epistemic stage model](/docs/canon/epistemic-model)
 :::
 
 :::info Key terms (canonical)
@@ -58,109 +58,114 @@ Evidence used in this chapter should allow you to:
 :::
 
 </div>
-![Leading with Purpose and Reach](/img/ch9-leadership-alignment-expansion.svg)
 
-**Leading with Purpose and Reach**. *This graphic captures the essence of innovation leadership: aligning key players around shared goals while expanding the organization's influence. It reflects how the MicroCanvas&reg; Framework fosters cohesive leadership ecosystems that scale transformation effectively across teams and time*.
+Strong leadership matters in innovation, but in the MicroCanvas&reg; Framework,
+leadership alignment is not treated as a cultural attribute or a development
+program. It is treated as a governance condition that determines how decisions
+are authorized, escalated, deferred, and ultimately validated through evidence.
 
-Strong leadership drives innovation. In this chapter, you learn how to align your leadership with your innovation strategy, build cross-functional support, and expand your governance framework throughout your organization. You will follow actionable steps, use detailed examples, and complete practical exercises that you can implement immediately.
+This chapter explains leadership alignment and expansion as enabling conditions
+for evidence-based decision making at scale.
 
-## 1. Introduction
+## Leadership Alignment as a Governance Condition
+Leadership alignment exists when decision authority, evidence responsibility,
+and escalation paths are explicitly understood and consistently applied.
+Alignment does not require consensus or uniform leadership styles; it requires
+clarity.
 
-When your leadership team aligns with your strategic goals, you create a unified vision for innovation. Leaders set the tone, drive accountability, and model the behaviors that inspire teams to embrace change. This chapter teaches you how to secure top management commitment, build support across departments, and expand your innovation governance framework to cover the entire organization.
+When leadership alignment is present:
+- decision rights are explicit,
+- evidence expectations are understood,
+- escalation occurs intentionally rather than reactively.
 
-## 2. The Importance of Leadership Alignment
+When leadership alignment is absent, decisions depend on informal influence,
+personal authority, or repeated negotiation, introducing friction and governance
+risk.
 
-Aligned leadership accelerates decision-making and improves resource allocation. When leaders share a unified vision, internal friction is minimized, and teams are empowered to take decisive action. Unified leadership drives faster decisions, directs resources to high-impact projects, and builds resilience that adapts to market shifts.
+## Leadership Alignment and Decision Thresholds
+Leadership alignment shapes how decision thresholds are interpreted and applied.
+In the MicroCanvas&reg; Framework, thresholds are not numeric gates; they
+represent the level of evidence required to justify commitment at a given
+scope.
 
-*Example:*  
-A manufacturing firm realigned its executive team to prioritize innovation. Leaders streamlined decision-making and reallocated resources to promising projects, improving completion times by 20%.
+Aligned leadership ensures that:
+- the appropriate sponsor is accountable for accepting evidence,
+- decisions escalate when they exceed local authority,
+- deferral is used deliberately when evidence quality is insufficient.
 
-## 3. Defining Leadership Roles for Innovation
+Misalignment leads to thresholds being either bypassed (premature commitment) or
+over-applied (analysis paralysis).
 
-Define clear leadership roles to drive innovation across your organization. Each leader contributes to creating a robust, accountable innovation culture.
+## Reversibility, Optionality, and Leadership Decisions
+Not all innovation decisions are equally reversible. Leadership alignment
+ensures that the degree of reversibility is considered before commitments are
+made.
 
-- **Executive Sponsor:**  
-  Champions innovation at the highest level, secures funding, and communicates the strategic vision throughout the organization.
+Aligned leadership enables:
+- heightened scrutiny for low-reversibility decisions,
+- preservation of optionality under uncertainty,
+- timely escalation when irreversible commitments are proposed.
 
-- **Innovation Leader/Manager:**  
-  Coordinates innovation initiatives, oversees pilot projects, and ensures alignment with strategic goals.
+When leadership alignment is weak, irreversible decisions are often made without
+sufficient evidence, while reversible decisions are delayed unnecessarily.
 
-- **Cross-Functional Leaders:**  
-  Engage leaders from various departments, such as marketing, product development, and operations, to integrate innovation into all areas of the organization.
+## Cross-Functional Authority and Escalation
+Innovation decisions frequently span multiple functional domains. Leadership
+alignment requires that cross-functional authority is recognized and that
+escalation paths are defined before conflicts arise.
 
-*Exercise:*  
-Map your leadership roles using a responsibility matrix. List each role, detail its responsibilities, and describe how they interact to support innovation. Use a whiteboard or digital tool for this exercise.
+Alignment does not imply consensus. It implies:
+- clarity on who resolves conflicts when constraints collide,
+- acceptance that some decisions require escalation by design,
+- avoidance of informal vetoes or shadow governance.
 
-## 4. Building Cross-Functional Support
+## Leadership Expansion and Scaling Readiness
+Pilot initiatives often succeed under localized leadership alignment. Scaling
+requires that alignment expands with scope.
 
-Innovation thrives when diverse perspectives collaborate. Engage leaders from different departments to break down silos and create a shared sense of ownership.
+Leadership expansion occurs when:
+- decision authority is replicated at new organizational levels,
+- escalation paths remain effective as complexity increases,
+- evidence expectations remain consistent across teams.
 
-- **Form Cross-Functional Committees:**  
-  Establish committees that include representatives from all key areas. These committees regularly review innovation projects, share insights, and coordinate actions.
+Without leadership expansion, organizations accumulate governance debt that
+surfaces during scaling.
 
-- **Promote Open Communication:**  
-  Create forums where leaders discuss challenges, brainstorm solutions, and share successes. Integrate innovation into daily operations by having department heads include innovation goals in meetings and performance reviews.
+## Misuse and Failure Signals (Descriptive)
+Certain signals indicate misalignment between leadership authority and evidence
+responsibility. These signals are descriptive, not accusatory.
 
-*Example:*  
-A technology company created an innovation council that included members from IT, marketing, finance, and customer service. This council met bi-weekly to align priorities and review pilot outcomes, resulting in a cohesive innovation strategy across the organization.
+Common signals include:
+- claims of "alignment" without explicit decision rights,
+- escalation used to avoid ownership rather than resolve uncertainty,
+- repeated re-litigation of decisions already supported by evidence,
+- sponsorship acting as veto without articulated evidence criteria,
+- decisions blocked despite evidence meeting stated expectations.
 
-## 5. Expanding the Governance Framework Across the Organization
+These signals indicate a need to revisit leadership alignment, not to increase
+process.
 
-Expand your governance framework to ensure that every part of your organization supports innovation. Standardize processes and integrate innovation practices across all departments.
+## Auditable Artifacts of Leadership Alignment
+Leadership alignment becomes observable through its artifacts. The framework
+does not prescribe formats, but effective governance leaves a trace.
 
-- **Standardize Processes:**  
-  Roll out uniform innovation processes and tools throughout the organization. Develop a company-wide manual detailing roles, decision-making criteria, and evaluation methods.
+Auditable artifacts may include:
+- mappings of leadership roles to decision scopes,
+- defined escalation paths and escalation outcomes,
+- records of strategic deferrals and their rationale,
+- identification of evidence owners and evidence acceptors,
+- sponsorship decisions explicitly linked to evidence references.
 
-- **Scale Training and Workshops:**  
-  Extend agile and lean training programs to include all relevant teams. Create tailored sessions for different departments to address specific challenges.
+These artifacts allow organizations to assess whether leadership alignment
+exists in practice, not only in intent.
 
-- **Implement Organizational Metrics:**  
-  Establish KPIs and dashboards that track innovation performance across the organization. Require all departments to report progress using standardized metrics.
+## Relationship to Subsequent Phases
+Leadership alignment established in Phase 1 enables consistent decision making
+in Phase 2 and controlled progression in later phases. Thresholds,
+reversibility, and misuse patterns become more explicit as initiatives mature.
 
-*Example:*  
-A multinational enterprise integrated its pilot review system with an enterprise-wide dashboard. Each department tracked its innovation KPIs in real time, aligning efforts with the company's strategic vision.
+This chapter defines the leadership conditions required for those evaluations to
+be meaningful.
 
-## 6. Continuous Leadership Development
-
-Invest in continuous leadership development to maintain a strong innovation drive. Innovative leadership evolves, and leaders need ongoing support through training and mentorship.
-
-- **Develop Leadership Training Programs:**  
-  Create programs focusing on advanced innovation leadership skills, such as strategic thinking, change management, and digital transformation.
-
-- **Foster a Mentorship Culture:**  
-  Pair experienced leaders with emerging talent to transfer knowledge and build confidence in adopting innovative practices.
-
-- **Review and Update Skills Regularly:**  
-  Conduct performance reviews and use feedback to identify new training needs. Update leadership development programs to reflect emerging challenges and opportunities.
-
-*Example:*  
-A global consulting firm introduced an annual innovation summit featuring workshops, guest speakers, and breakout sessions. Leaders shared best practices and set new strategic priorities, refreshing and aligning the leadership team for the coming year.
-
-## 7. Measuring Leadership Impact
-
-Measure the impact of leadership on your innovation efforts by setting clear metrics and reviewing performance regularly.
-
-- **Set Leadership KPIs:**  
-  Define metrics such as the percentage of innovation projects meeting targets, improvements in team performance, and employee engagement scores.
-
-- **Conduct Regular Reviews:**  
-  Hold periodic review meetings to assess the effectiveness of leadership alignment and the overall governance framework.
-
-- **Gather Feedback:**  
-  Use surveys and focus groups to collect employee input on leadership support and clarity of vision. Adjust strategies based on this feedback.
-
-*Example:*  
-A company tracks the success of its innovation initiatives by measuring the rate at which projects move from pilot to full-scale implementation. Departments with high leadership engagement achieve a 30% faster transition, highlighting the value of aligned leadership.
-
-## 8. Final Thoughts
-
-Strong leadership and a unified governance framework drive your innovation journey. By aligning top management, engaging cross-functional teams, and expanding your governance framework, you ensure every part of your organization actively supports innovation. Developing clear roles, fostering continuous leadership development, and measuring impact builds a resilient system that adapts and thrives in a dynamic environment.
-
-The next chapter explores **Review, Adjust, and Finalize Phase 1**. You will learn how to evaluate the results of your initial innovation initiatives, identify areas for improvement, and make strategic adjustments that strengthen your foundation and prepare your organization for the next stage of transformation.
-
-## ToDo for this Chapter
-
-- [ ] Create Leadership Alignment Execution Chechlist Template, attach template to Google Drive and link to this page
-- [ ] Create Chapter Assesment questionnaire to Google Drive and attach to this page
-- [ ] Translate all content to Spanish and integrate to i18n
-- [ ] Record and embed video for this chapter
+The next chapter, **Review, Adjust, and Finalize Phase 1**, consolidates
+learning and governance readiness before advancing.
