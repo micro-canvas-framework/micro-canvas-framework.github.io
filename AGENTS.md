@@ -375,6 +375,7 @@ DONE:
 - Chapter 6 pass 1 completed (OKRs as decision alignment)
 - Chapter 6 pass 2 completed (thresholds, KPI hygiene, misuse clarity)
 - Chapter 7 pass 1 completed (training as evidence-first capability enabling)
+- Chapter 8 pass 1 completed (governance pilots as evidence discipline)
 
 IN-PROGRESS:
 - None
@@ -428,6 +429,7 @@ PENDING:
 - eb1aefe fix(figures): render line breaks and add subgraph spacing in figure 1
 - fd38d07 fix(figures): enforce figure 1 label clearance and improve node label formatting
 - f723905 fix(figures): close figure admonition and compact system map layout
+- 5d831b8 docs(book): chapter 8 pass 1 — governance pilots as evidence discipline
 - 5c94684 docs(book): add figures index to sidebar and lock figure governance
 - 928d888 docs(book): add governance figure and index entry
 - c3eb473 fix(book): render figure 4 and align failure modes page
