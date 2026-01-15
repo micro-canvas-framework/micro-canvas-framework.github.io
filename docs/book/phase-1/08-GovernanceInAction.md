@@ -76,11 +76,32 @@ Valid pilot outcomes include: continue, modify, pause, rollback, or terminate.
 Each outcome is acceptable if it follows from evidence sufficiency or
 insufficiency.
 
+Those outcomes are tied to threshold logic: as decisions become less reversible,
+evidence quality requirements increase, and optionality preservation becomes
+more valuable. A pilot can pause, rollback, or terminate when evidence is
+insufficient for a higher-irreversibility decision, without implying failure or
+loss of progress.
+
+Example (bounded, non-linear): A team proposes a claim that a new onboarding
+flow reduces activation friction. The pilot tests a small cohort with explicit
+thresholds and a rollback path. Evidence shows mixed results and unclear causal
+signals, so the decision is to pause and revert while updating the claim and
+evidence plan. Later, a revised pilot produces stronger signals, enabling a
+different threshold decision without assuming linear progress.
+
 ## Iteration Without Loss of Decision Integrity
 Iteration is useful when it updates evidence and changes decision posture.
 Iteration without evidence change is activity, not learning. Optionality is
 preserved early, and reversibility narrows as evidence strengthens. Regression
 or rollback is expected when evidence undermines prior assumptions.
+
+Auditable artifacts often include:
+
+- Decision log entry (what/why/who/when)
+- Pilot charter (claim, scope, stop conditions)
+- Evidence register (what evidence, quality notes)
+- Risk + reversibility note (rollback plan)
+- Governance review note (challenge/confirm/reverse)
 
 ## Decision Escalation During Pilots
 Escalation is the act of moving a decision across a threshold, not a reward for
@@ -94,14 +115,20 @@ Misuse signals suggest governance is bypassed or reduced to theater:
 
 - Output or enthusiasm substituted for evidence.
 - Iteration continues despite unresolved thresholds.
-- Governance bypassed “for speed.”
+- Governance bypassed "for speed."
 - A pilot becomes a de facto product without a threshold decision.
 - Escalation avoided due to sunk cost or internal politics.
+- "Pilot as theater" (activity without falsifiable learning).
+- Success criteria rewritten after results are known.
+- Scope creep introduced to avoid disconfirming evidence.
+- "Pilot" used to bypass decision rights or governance review.
+- Cherry-picked evidence with negative results left unreported.
 
 ## Diagram Audit Note
 No diagram is included in Pass 1. Any future diagram must:
 
 - show non-linearity and regression/rollback paths
 - make threshold crossings explicit
+- depict escalation in relation to reversibility and optionality
 - emphasize decisions over phases
 - avoid funnels, pipelines, or maturity ladders
