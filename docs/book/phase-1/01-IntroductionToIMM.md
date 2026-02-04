@@ -88,74 +88,95 @@ decision quality under evidence constraints rather than a maturity ladder.
 
 ## What Innovation Maturity Means in MCF 2.2
 
-Innovation maturity is a capability to make innovation decisions that remain defensible under evidence constraints. It is not a journey narrative or a maturity ladder. In MCF 2.2, maturity is defined by how consistently an organization can generate, test, and scale ideas while keeping decision thresholds explicit and reversibility available.
+Innovation maturity, in MCF 2.2, is the capability to make innovation decisions that remain defensible under uncertainty. It does not describe a journey, a ladder, or a level to be achieved. Instead, it reflects how consistently an organization can generate, test, and scale ideas while keeping decision thresholds explicit and reversibility available.
 
-Maturity signals include the ability to preserve optionality when evidence is weak, tighten thresholds as evidence improves, and accept regression without treating it as failure. A mature organization treats reversibility as a boundary condition, not a temporary inconvenience.
+A mature organization does not equate progress with activity. It distinguishes between exploration and commitment, preserves optionality when evidence is weak, and tightens thresholds only as evidence improves. Regression is expected and acceptable when reversibility is still the responsible choice.
+
+Innovation maturity therefore describes decision behavior under constraints, not output volume or success narratives.
 
 ## Why Innovation Maturity Matters (Decision-Centric Framing)
 
-Innovation maturity matters because decision quality, not output volume, determines whether investments are defensible. High activity without evidence discipline increases risk exposure and undermines governance. Strong maturity improves the integrity of decisions about what to test, what to defer, and what to scale.
+Innovation maturity matters because innovation decisions are made under uncertainty. Without evidence discipline, organizations drift toward over-commitment, premature scaling, and governance breakdowns.
 
-This framing preserves the motivational force of innovation work without promising outcomes. The value is in clearer, more reversible decisions under uncertainty, not in guarantees of success.
+Maturity improves the integrity of decisions about what to test, what to defer, and what to scale. It reduces exposure to irreversible errors by aligning commitments with evidence sufficiency rather than optimism or pressure.
 
-## Core Elements of Innovation Maturity (Non-Linear System)
+This framing preserves the motivational force of innovation work without promising outcomes. The value lies in clearer, more reversible decisions — not in guarantees of success.
 
-These elements form a system. Strength in one area does not compensate for weakness in another, and progress is not linear.
+## Core Elements of Innovation Maturity (A Non-Linear System)
 
-- **Cultural Readiness**  
-  Culture is mature when evidence can challenge status and assumptions without penalty. This includes tolerance for invalidated hypotheses, clarity about what counts as evidence, and a norm of learning before commitment.
+Innovation maturity emerges from the interaction of multiple elements. These elements do not progress linearly, and strength in one area does not compensate for weakness in another.
 
-- **Talent and Structure**  
-  Skills matter, but decision rights matter more. Maturity requires defined roles, clear accountability for thresholds, and structures that allow cross-functional decisions to be made and revisited as evidence changes.
+### Cultural Readiness
 
-- **Structured Processes**  
-  Processes should make experimentation repeatable without forcing rigidity. Mature processes define how claims are tested, when evidence is sufficient, and how reversibility is preserved when uncertainty remains.
+Cultural readiness reflects how an organization treats uncertainty, learning, and challenge. A mature culture allows evidence to question assumptions and status without penalty. Invalidated hypotheses are treated as learning, not failure.
 
-- **Customer and Technology Readiness**  
-  Customer insight and technical capability amplify evidence quality when they are used to test claims, not to justify premature scaling. Technology enables speed only when governance and thresholds are explicit.
+This includes tolerance for experimentation, clarity about what counts as evidence, and protection for teams when reversibility is exercised responsibly.
+
+Common misuse signals include celebrating experimentation rhetorically while penalizing reversal in practice, or collecting data without allowing it to influence decisions.
+
+### Talent and Structural Enablement
+
+Innovation maturity depends not only on skills, but on decision rights. Clear roles, accountability for thresholds, and cross-functional structures enable evidence to be interpreted and acted upon.
+
+Talent without structural authority produces analysis without impact. Structure without evidence discipline produces compliance without learning. Maturity requires alignment between people, roles, and decision ownership.
+
+### Structured Processes
+
+Processes support maturity when they make learning repeatable without enforcing rigidity. Mature processes clarify how claims are tested, when evidence is sufficient, and how decisions remain reversible when uncertainty persists.
+
+Process misuse appears when frameworks optimize throughput, ceremony, or reporting rather than evidence quality and decision integrity.
+
+### Customer and Technology Readiness
+
+Customer insight and technology capability amplify maturity only when they are used to test claims, not to justify premature scaling. Technology enables speed, but speed without thresholds increases risk.
+
+Mature organizations treat customer data and technical capability as evidence generators, bounded by governance and reversibility constraints.
 
 ## Common Misinterpretations and Misuse Signals
 
-- Treating maturity as a score, certification, or compliance label.
-- Equating activity volume with learning or evidence quality.
-- Agile theater that produces rituals without updated thresholds.
-- Leadership sponsorship without decision accountability or governance follow-through.
-- Scaling claims before evidence allows reversibility to be preserved.
+Innovation maturity is often misframed. Typical misuse patterns include:
+
+- Treating maturity as a score, certification, or compliance label
+- Equating activity volume with learning or evidence quality
+- Performing agile rituals without updating thresholds
+- Claiming leadership sponsorship without decision accountability
+- Scaling initiatives before reversibility can be preserved
+
+These signals indicate erosion of decision integrity rather than progress.
 
 ## How This Chapter Anchors Phase 1
 
-Phase 1 establishes shared definitions and evidence discipline. It does not execute transformation, implement tools, or promise outcomes. The work is about orientation: what claims can be made, what evidence is missing, and what decisions should be deferred.
+Phase 1 establishes shared language, evidence discipline, and decision boundaries. It does not execute transformation, implement tools, or promise results.
+
+The purpose of Phase 1 is orientation: clarifying what claims can be made, what evidence is missing, and which decisions should be deferred. This prevents premature commitment and protects optionality before investments become difficult to reverse.
 
 ## Setting Direction Without Locking Trajectories
 
-These prompts guide orientation without implying a fixed sequence. They emphasize hypothesis ordering, deferral, and reversibility.
+The prompts below guide orientation without implying a fixed path or maturity ladder. They emphasize hypothesis ordering, deferral, and reversibility.
 
-- [ ] 1. **Assess Current Decision Integrity**  
-  Example prompts:
-  - *Which innovation decisions are currently made without explicit evidence thresholds?*
-  - *Where are optionality and reversibility least protected?*
-  - *What evidence is missing for the next meaningful decision?*
+- [ ] **Assess Current Decision Integrity**
+  - Which innovation decisions are currently made without explicit evidence thresholds?
+  - Where is reversibility least protected?
+  - What evidence is missing for the next defensible decision?
 
-- [ ] 2. **Define Constraints and Decision Boundaries**  
-  Example prompts:
-  - *Which claims should be deferred until stronger evidence exists?*
-  - *What governance boundaries limit what can be scaled right now?*
+- [ ] **Define Constraints and Decision Boundaries**
+  - Which claims should be deferred until stronger evidence exists?
+  - What governance limits scaling at this stage?
 
-- [ ] 3. **Align Culture to Evidence Tolerance**  
-  Example prompts:
-  - *Where does the organization penalize learning or reversal?*
-  - *How is evidence used to challenge assumptions without escalation risk?*
+- [ ] **Align Culture to Evidence Tolerance**
+  - Where does the organization penalize learning or reversal?
+  - How is evidence allowed to challenge assumptions safely?
 
-- [ ] 4. **Order Hypotheses, Not Milestones**  
-  Example prompts:
-  - *Which hypotheses must be tested first to preserve reversibility?*
-  - *Where can uncertainty be reduced without overcommitting resources?*
+- [ ] **Order Hypotheses, Not Milestones**
+  - Which assumptions must be tested first to preserve optionality?
+  - Where can uncertainty be reduced without over-commitment?
 
-- [ ] 5. **Engage Stakeholders Around Decision Integrity**  
-  Example prompts:
-  - *Who owns threshold decisions and evidence interpretation?*
-  - *Where is decision accountability unclear or misaligned?*
+- [ ] **Engage Stakeholders Around Decision Integrity**
+  - Who owns threshold decisions?
+  - Where is decision accountability unclear or misaligned?
 
 ## Closing: Maturity as Constraint-Aware Progress
 
-Innovation maturity improves the defensibility of decisions under uncertainty. It does not guarantee outcomes or linear progress. In MCF 2.2, maturity is measured by how well an organization preserves optionality, updates thresholds as evidence changes, and accepts regression when reversibility is still the responsible choice.
+Innovation maturity improves the defensibility of decisions under uncertainty. It does not guarantee outcomes or linear progress. In MCF 2.2, maturity is reflected in how well an organization preserves optionality, updates thresholds as evidence evolves, and accepts regression when reversibility remains the responsible choice.
+
+This chapter establishes the foundation for disciplined innovation — one that advances through constraint-aware learning rather than optimism or inertia.
