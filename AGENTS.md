@@ -380,21 +380,40 @@ DONE:
 IN-PROGRESS:
 - None
 
-NEXT:
-- **NEXT**: Apply Canon Page Contract (non-visual) to all `docs/canon/**` pages:
-  - Enforce front-matter invariants via `check:canon`
-  - Confirm no Book/meta contracts leak into Canon
-  - Confirm zero Mermaid, grids, admonition contracts in Canon
-  - Outcome: validation-only pass, no content edits expected
-
 PENDING:
 - Review Phase 3-5 and conclusion draft content
 - Resolve unmapped META-contract Book pages: add Derived-from-Canon links or justify unmapped
 - Resolve chapter-level Canon links where missing (Derived-from-Canon card)
 - ES translation (deferred)
-- Docusaurus update decision (3.7 -> 3.9) deferred until stability checkpoint
+- Infra: Upgrade Docusaurus packages 3.7.0 -> 3.9.2 (isolated pass; no content edits; run npm run verify + serve smoke test).
 - IMM mapping/scoring (deferred)
-- academic article (deferred)
+- Epic: Backlog Formalization (MCF 2.2 governance)
+  - Define backlog schema (ID/type/scope/risk/acceptance/evidence)
+  - Decision log for canon semantic vs editorial changes
+  - Release gates for 2.2 citeability (changelog + verify + redirects + smoke test)
+- Epic: Academic Article (non-normative, meta layer)
+  - Research question freeze
+  - Claim map with citation anchors
+  - Methods note
+  - Comparative positioning (bounded)
+  - Limitations section
+- Epic: Phase 1 — Foundations Content Restoration (MCF 2.2 Book)
+  - Task 1: Inventory Phase 1 chapter files in `docs/book/phase-1/**` (or actual path)
+  - Task 2: For each chapter, confirm:
+    - front matter intact
+    - 6-card chapter header contract present
+    - Derived-from-Canon contains at least two Canon links
+  - Task 3: For each chapter flagged "content missing", restore body text verbatim from user-provided source (chapter-by-chapter)
+  - Task 4: Run `npm run verify` after each batch of restorations (or at minimum before final commit)
+  - Task 5: Update `docs/meta/changelog.mdx` with an editorial/content note (no canon semantic change)
+  - Task 6: Serve smoke test on port 4400 and spot-check Phase 1 nav and chapters
+  - Acceptance Criteria:
+    - No canon edits
+    - All restored content is verbatim
+    - All Phase 1 chapters retain the mandatory contract grid
+    - Verify gate passes
+    - Smoke test passes
+    - Changelog updated
 - templates/case studies (deferred)
 
 ## Milestones / commit log (append-only)
