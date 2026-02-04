@@ -169,3 +169,10 @@ be meaningful.
 
 The next chapter, **Review, Adjust, and Finalize Phase 1**, consolidates
 learning and governance readiness before advancing.
+
+## ToDo for this Chapter
+
+- [ ] Create Leadership Alignment Execution Chechlist Template, attach template to Google Drive and link to this page
+- [ ] Create Chapter Assesment questionnaire to Google Drive and attach to this page
+- [ ] Translate all content to Spanish and integrate to i18n
+- [ ] Record and embed video for this chapter

@@ -132,3 +132,10 @@ No diagram is included in Pass 1. Any future diagram must:
 - depict escalation in relation to reversibility and optionality
 - emphasize decisions over phases
 - avoid funnels, pipelines, or maturity ladders
+
+## ToDo for this Chapter
+
+- [ ] Create Pilot Program Execution Chechlist Template, attach template to Google Drive and link to this page
+- [ ] Create Chapter Assesment questionnaire to Google Drive and attach to this page
+- [ ] Translate all content to Spanish and integrate to i18n
+- [ ] Record and embed video for this chapter

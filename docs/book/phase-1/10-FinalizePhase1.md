@@ -114,3 +114,10 @@ Auditable artifacts may include:
 No diagram is included in Pass 1. If a future diagram is added, it must avoid
 maturity ladders and show the review/adjust cycle as a non-linear decision
 sequence, not a checklist.
+
+## ToDo for this Chapter
+
+- [ ] Create Phase 1 Review Chechlist Template, attach template to Google Drive and link to this page
+- [ ] Create Chapter Assesment questionnaire to Google Drive and attach to this page
+- [ ] Translate all content to Spanish and integrate to i18n
+- [ ] Record and embed video for this chapter
