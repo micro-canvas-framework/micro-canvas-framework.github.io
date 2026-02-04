@@ -12,3 +12,4 @@
 - Canon impact: None
 - Chapter 1 refactored by merging legacy 2.1 narrative into MCF 2.2 evidence-first framing. No Canon, contract, or figure changes.
 - Chapter 2 refactored by merging legacy 2.1 assessment narrative into MCF 2.2 evidence-first framing. Removed scoring/levels/weights; no Canon or contract changes.
+- Chapter 3 refactored to MCF 2.2 evidence-first governance framing. No Canon or contract changes.

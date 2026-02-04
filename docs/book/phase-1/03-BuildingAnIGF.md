@@ -60,87 +60,145 @@ Evidence used in this chapter should allow you to:
 </div>
 
 ## Purpose and Scope
-This chapter explains the Innovation Governance Framework (IGF) as a
-decision-support and coordination construct. It clarifies how an IGF helps
-reduce decision risk, align evidence thresholds, and preserve optionality as
-uncertainty changes.
 
-An IGF is not an org chart, not a steering committee, not a fixed operating
-model, and not ownership of innovation. It exists to make decision integrity
-visible and to coordinate how evidence is interpreted across roles.
+This chapter defines **Innovation Governance** as a decision-support system, not
+a management structure. Its purpose is to reduce decision risk under uncertainty
+by making evidence, thresholds, and reversibility explicit.
 
-## What This Chapter Does / Does Not Do
-This chapter defines what an IGF is intended to coordinate and what it is not
-intended to control. It does not prescribe a committee structure, role matrix,
-or operating cadence. It does not claim authority for governance beyond
-decision risk reduction.
+In MCF 2.2, governance does not “own” innovation. It coordinates how decisions
+are made, deferred, reversed, or escalated as evidence changes. Governance exists
+to preserve decision integrity, not to enforce hierarchy, process compliance, or
+velocity targets.
 
-## Evidence Expectations
-An IGF is functioning when evidence is traceable to decisions and thresholds
-are explicit. Evidence should show:
+An Innovation Governance Framework (IGF) is therefore **not**:
+- an org chart
+- a steering committee
+- a maturity checkpoint
+- a funding gate
+- a permanent operating model
 
-- Which decisions require evidence and who owns those decisions.
-- What thresholds govern advancement, pause, or termination.
-- Where reversibility is limited and optionality must be protected.
-- How evidence changes the decision posture, not just the meeting cadence.
+It is a **constraint-aware decision structure** that evolves as uncertainty,
+evidence quality, and reversibility change.
 
-Formal creation without decision artifacts does not count as evidence.
+## Governance as Decision Infrastructure
 
-Decision rights act as constraints on who can move a decision across a
-threshold, not as authority to override evidence. Evidence is insufficient when
-it cannot justify the threshold change or when reversibility has not been
-explicitly considered.
+Innovation governance bridges strategy and execution by defining:
+- who can move a decision across a threshold,
+- what evidence is required at that threshold,
+- and what makes a decision reversible or irreversible.
 
-Auditable artifacts should include:
-- Decision log entry (what decision, when, by whom).
-- Evidence references (what was checked, and against which claim).
-- Threshold statement (why evidence is sufficient or insufficient).
-- Reversal trigger (what would change the decision).
+Governance does not accelerate innovation by itself. It prevents **false speed**
+— activity that looks fast but creates long-term lock-in, sunk cost bias, or
+irreversible commitments under weak evidence.
 
-## Core Concepts (Interpretive, Non-Prescriptive)
-The IGF coordinates decision integrity across epistemic stages. It adapts by
-stage because uncertainty and evidence sufficiency change over time. Roles exist
-to reduce decision risk, not to accumulate authority.
+A governance system is effective only when:
+- decisions are traceable,
+- evidence is auditable,
+- thresholds are explicit,
+- and reversibility is actively considered.
 
-Key ideas include:
+Meetings, dashboards, and roles without decision artifacts do not constitute
+governance.
 
-- **Decision Support:** IGF ensures decisions are made with the evidence needed
-  at the current threshold, not with opinions or hierarchy alone.
-- **Coordination:** IGF aligns roles so evidence is evaluated consistently
-  across teams and phases.
-- **Stage Sensitivity:** IGF structures change as epistemic stages shift;
-  uncertainty in Phase 1 requires different thresholds than Phase 4.
-- **Optionality Preservation:** IGF keeps decisions reversible when evidence is
-  weak and constrains commitments when reversibility is low.
+## Evidence Expectations for a Functioning IGF
 
-An IGF is expected to evolve as epistemic stages change; backtracking and
-restructuring are normal when evidence weakens or uncertainty increases.
+An IGF is functioning when evidence can be traced directly to decisions.
+Minimum expected artifacts include:
 
-Example: An early-stage opportunity may require a falsifiable claim, a single
-measured signal, and a decision log entry before moving to a pilot. A later
-scale decision may require replicated evidence, explicit threshold approval,
-and a documented reversal trigger because reversibility is lower and optionality
-is constrained.
+- **Decision log entry**  
+  What decision was made, deferred, or rejected; when; and by whom.
+- **Claim–evidence linkage**  
+  What claim is being tested and which evidence supports or weakens it.
+- **Threshold statement**  
+  Why current evidence is sufficient or insufficient to cross a threshold.
+- **Reversal trigger**  
+  What evidence or condition would justify revisiting or reversing the decision.
+
+Decision rights constrain *who* can advance a decision, not *whether* evidence
+can be bypassed. Authority cannot override insufficient evidence without
+explicitly accepting irreversibility risk.
+
+## Core Governance Concepts (Interpretive, Non-Prescriptive)
+
+Governance adapts by epistemic stage because uncertainty, evidence sufficiency,
+and reversibility are not constant over time.
+
+Key coordinating principles include:
+
+- **Decision Support, Not Control**  
+  Governance ensures decisions are supported by appropriate evidence at the
+  current threshold — not by opinion, seniority, or momentum.
+
+- **Stage Sensitivity**  
+  Early-stage decisions tolerate weaker evidence because reversibility is high.
+  Later-stage decisions require stronger, replicated evidence because
+  reversibility is constrained.
+
+- **Optionality Preservation**  
+  Governance keeps options open when evidence is weak and constrains commitments
+  when evidence is insufficient for irreversible moves.
+
+- **Explicit Deferral**  
+  Choosing not to decide is a valid governance outcome when thresholds are not
+  met. Strategic deferral protects learning capacity.
+
+Governance structures are expected to evolve. Backtracking, restructuring, and
+threshold tightening are normal responses to new or contradictory evidence.
+
+## Illustrative Example (Explanatory)
+
+An early opportunity decision may require:
+- a falsifiable claim,
+- one observable signal,
+- and a logged deferral or pilot decision.
+
+A later scale decision may require:
+- replicated evidence across cohorts,
+- explicit threshold approval,
+- and a documented reversal trigger,
+because reversibility is lower and commitments are harder to unwind.
+
+Both decisions are governed — but under different evidence standards.
 
 ## Common Misuse Signals
-Misuse signals indicate governance that looks active but does not improve
-decision integrity:
 
-- IGF treated as a permanent committee rather than a decision-support construct.
-- Role proliferation without clearer decision rights or thresholds.
-- Meetings without evidence artifacts, decisions, or explicit outcomes.
-- IGF frozen across phases despite changing uncertainty and evidence sufficiency.
-- Progress theater: activity without learning or decision impact.
-- Narrative lock-in: commitments made without reversibility analysis.
-- Boundary breach: IGF presented as certification or guarantee.
+Governance failure often presents as activity without decision impact. Common
+misuse signals include:
+
+- treating the IGF as a permanent committee rather than a decision construct
+- multiplying roles without clarifying thresholds or decision rights
+- meetings without decisions, evidence artifacts, or reversibility analysis
+- freezing governance structures across phases despite changing uncertainty
+- progress theater: velocity without learning
+- narrative lock-in and sunk cost bias
+- presenting governance as certification, compliance, or maturity proof
+
+These signals indicate governance theater, not governance maturity.
+
+## Relationship to Phase 1
+
+Phase 1 governance establishes **orientation**, not execution control.
+Its role is to:
+- surface where decisions are currently being made without evidence,
+- clarify which thresholds are undefined or inconsistent,
+- and protect optionality before commitments become irreversible.
+
+Governance at this stage does not scale innovation. It prevents premature scaling.
 
 ## Diagram Audit Note
-No diagram is required in Pass 2. If a future visual is added, it should resolve
-ambiguity about how thresholds and roles shift by epistemic stage, and it must
-avoid linear ladders by reinforcing non-linearity, regression, and optionality.
+
+No diagram is introduced in this pass. Any future visual must:
+- avoid linear ladders or maturity hierarchies,
+- reinforce non-linearity and regression,
+- make threshold shifts and reversibility explicit,
+- and be indexed in `docs/meta/figures.mdx`.
 
 ## Cross-References
-- Book: `/docs/book/decision-logic`, `/docs/book/governance-and-roles`,
+
+- Book: `/docs/book/decision-logic`,
+  `/docs/book/governance-and-roles`,
   `/docs/book/boundaries-and-misuse`
-- Canon: `/docs/canon/definitions`, `/docs/canon/evidence-logic`,
-  `/docs/canon/decision-theory`, `/docs/canon/epistemic-model`
+- Canon: `/docs/canon/definitions`,
+  `/docs/canon/evidence-logic`,
+  `/docs/canon/decision-theory`,
+  `/docs/canon/epistemic-model`
