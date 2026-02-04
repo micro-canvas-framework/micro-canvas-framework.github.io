@@ -6,3 +6,7 @@
   - Removed legacy H1
   - Removed legacy SVG image + caption (Mermaid-only figures policy)
   - Unindented warning admonition (MDX safety)
+- Chapter: Chapter 1
+- Action: Narrative refactor to MCF 2.2
+- Source: Restored 2.1 text + 2.2 Canon alignment
+- Canon impact: None
