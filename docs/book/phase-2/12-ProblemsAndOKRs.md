@@ -61,6 +61,7 @@ Evidence used in this chapter should allow you to:
 :::
 
 </div>
+
 From Questions to Clarity. This visual shows how Phase 2 turns observed symptoms into a falsifiable causal model, then translates a decision-ready problem statement into objectives and measurable key results.
 
 :::note Figure 9 — Problem Analysis Loop (explanatory)
@@ -165,15 +166,11 @@ A problem tree is not “the truth.” It is a **model you can revise**. It help
 ## 2.4 Write a decision-ready problem statement
 A problem statement is decision-ready when it includes:
 
-the constraint (what limits progress),
-
-the observable symptom(s) (evidence),
-
-the stakeholder impact (why it matters),
-
-the causal hypothesis (why it might be happening),
-
-the reversibility note (risk of committing too early).
+- the constraint (what limits progress),
+- the observable symptom(s) (evidence),
+- the stakeholder impact (why it matters),
+- the causal hypothesis (why it might be happening),
+- the reversibility note (risk of committing too early).
 
 Template (Book layer, non-prescriptive):
 
@@ -196,11 +193,9 @@ We observe improved completion in a bounded pilot while manual review escalation
 ## 3) Strategic objectives and OKRs as governance commitments
 Once you have a decision-ready problem statement, OKRs become a governance artifact:
 
-they constrain solution space,
-
-they clarify what “progress” means,
-
-they prevent teams from shipping activity without evidence.
+- they constrain solution space,
+- they clarify what "progress" means,
+- they prevent teams from shipping activity without evidence.
 
 ## 3.1 Objective: the commitment you are making
 An objective is a directional commitment that responds to the problem constraint.
@@ -211,11 +206,6 @@ Objective hygiene (minimum):
 - has a named owner
 - grounded in baseline evidence
 - consistent with reversibility (avoid premature irreversible commitments)
-has a named owner
-
-grounded in baseline evidence
-
-consistent with reversibility (avoid premature irreversible commitments)
 
 ## 3.2 Key Results: the measurable changes you will accept as progress
 Key Results are not tasks. They are measurable outcomes that reduce uncertainty.
@@ -224,24 +214,18 @@ KR hygiene (minimum):
 - measurable and time-bound
 - tied to a baseline
 - tied to an evidence source
-- has a failure mode (how it could be “wrong”)
-
-tied to an evidence source
-
-has a failure mode (how it could be “wrong”)
+- has a failure mode (how it could be "wrong")
 
 ## 3.3 KPIs: health signals, not substitutes for KRs
 KPIs can be useful, but they often become a distraction. In Phase 2:
 
-use KPIs as system health and risk signals,
-
-keep KRs as commitment outcomes tied to the problem.
+- use KPIs as system health and risk signals,
+- keep KRs as commitment outcomes tied to the problem.
 
 Rule of thumb (Book layer):
 
-If it proves the objective is being achieved: it’s likely a KR.
-
-If it monitors system health or risk across time: it’s likely a KPI.
+- If it proves the objective is being achieved: it’s likely a KR.
+- If it monitors system health or risk across time: it’s likely a KPI.
 
 :::tip Example — Startup context
 Objective: Reduce checkout friction to improve conversion.
@@ -265,37 +249,32 @@ KPIs: Review queue time; exception rates; policy compliance signals.
 If OKRs are not traceable to the problem statement, they are not governance; they are decoration.
 
 Practical fields (minimum):
-
-Problem statement reference (short ID)
-
-Objective (text)
-
-KR (metric + target + deadline)
-
-Evidence source (analytics/logs/audits)
-
-Review cadence (weekly/biweekly/monthly)
-
-Reversibility note (what becomes harder to undo)
+- Problem statement reference (short ID)
+- Objective (text)
+- KR (metric + target + deadline)
+- Evidence source (analytics/logs/audits)
+- Review cadence (weekly/biweekly/monthly)
+- Reversibility note (what becomes harder to undo)
 
 ## 5) What you should have before Chapter 13
 Before moving into exploring alternatives, you should be able to say:
 
-We observed these symptoms (with baselines and sources).
+- We observed these symptoms (with baselines and sources).
+- We have 1-3 causal hypotheses (with falsifiers).
+- We have a decision-ready problem statement (bounded, evidence-linked).
+- We have draft OKRs traceable to that problem statement.
+- We know what is reversible vs potentially irreversible at this point.
 
 We have 1–3 causal hypotheses (with falsifiers).
 
-We have a decision-ready problem statement (bounded, evidence-linked).
 
-We have draft OKRs traceable to that problem statement.
 
-We know what is reversible vs potentially irreversible at this point.
 
 That is enough to proceed.
 
 The next chapter, Exploring Alternative Solutions, uses these constraints to explore options without turning uncertainty into “solution theater.”
 
-ToDo for this Chapter
+## ToDo for this Chapter
 - [ ] Create Problem Analysis and OKR questionnaire/template, attach template to Google Drive and link to this page
 - [ ] Create Chapter Assesment questionnaire to Google Drive and attach to this page
 - [ ] Translate all content to Spanish and integrate to i18n
