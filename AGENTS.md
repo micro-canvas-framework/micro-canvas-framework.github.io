@@ -230,6 +230,81 @@ Status: LOCKED
 - Verify via `npm run serve -- --port 4400`, in an incognito window with a hard refresh.
 - Windows case-insensitive collision caveat: avoid redirects that differ only by case.
 
+### F) Phase 2+ Book Style & Layering Contract (LOCKED)
+
+Purpose:
+Phase 2 chapters must remain epistemically rigorous while staying readable and
+usable for practitioners. The Book layer must guide real innovation work, not
+collapse into Canon-adjacent abstraction.
+
+Non-Negotiable Layer Separation:
+- Canon Layer (`docs/canon/**`): normative rules/constraints only; never instructional.
+- Book Layer (`docs/book/**`): interpretive and explanatory; guides thinking under uncertainty.
+- Product/Tooling Layer: templates/diagnostics/checklists; may be referenced, never embedded as required.
+
+Mandatory Phase 2 Chapter Structure (ALL FOUR REQUIRED):
+A) Conceptual Spine (Epistemic Core)
+- Clarify what uncertainty this activity addresses.
+- State what the activity can and cannot justify yet.
+- Connect to evidence, thresholds, reversibility, and optionality preservation.
+- Must stay non-prescriptive.
+
+B) Practitioner Translation Blocks (REQUIRED)
+- Each major concept MUST include at least one translation block.
+- Use this label and disclaimer:
+
+  > **Practitioner Lens (Illustrative)**  
+  > The following example shows how a team *might* apply this thinking in practice.  
+  > It does **not** imply correctness, sufficiency, or approval.
+
+- Examples must preserve ambiguity, include trade-offs, and may include deferral/rollback.
+- If a reader can copy it blindly, it is too strong.
+
+C) Observation Prompts (NOT “Fields”)
+- The Book must not instruct readers to “fill in” forms.
+- Use non-prescriptive language: “note”, “make visible”, “capture”, “observe”.
+- Prompts must help distinguish observed behavior vs inferred intent.
+- Avoid language: “complete”, “define”, “finalize”.
+
+D) Explicit Non-Prescription Signals
+- Each chapter must explicitly state limits: what it does not decide, what evidence is missing,
+  what decisions would be premature, and where deferral is valid.
+
+Tone & Readability Rules:
+- Plain language before abstract terms.
+- Short paragraphs; concrete verbs; human situations.
+- Avoid dense academic voice and excessive framework self-reference.
+- If a competent non-methodologist leader cannot follow it, it fails the Book test.
+
+Phase 2 Emphasis (must be reflected in wording):
+- Discovery ≠ validation
+- Observation ≠ explanation
+- Metrics ≠ evidence by default
+- Segmentation ≠ prioritization
+- Opportunity ≠ problem definition
+
+Hard Prohibitions (Phase 2):
+- No maturity ladders, funnels, or linear “step-by-step to success” narratives.
+- No hidden go/no-go gates or implied scoring thresholds.
+- No implied product decisions or “best practice” prescriptions.
+
+Longitudinal Example / Journey (MANDATORY ACROSS PHASES):
+- Introduce one continuous illustrative journey (startup or transformation) that spans Phase 1 → Phase 5.
+- The example MUST evolve, change assumptions, show mistakes, include at least one major reversal,
+  and preserve ambiguity (no early “wins” as validation).
+- The example is illustrative, not aspirational, and must never be framed as a benchmark or recommended path.
+
+CODEX Binding Rule (Do Not Over-Abstract):
+When generating or refactoring Phase 2 Book content:
+1) Do not remove examples.
+2) Do not compress practitioner language into Canon-adjacent prose.
+3) Do not “clean up” ambiguity.
+4) Do not strengthen claims.
+5) Do not convert observation prompts into decisions or requirements.
+
+Default choice under uncertainty:
+Preserve clarity over elegance. Preserve guidance over abstraction.
+
 ## Project Memory (authoritative)
 
 ### Versioning Model
