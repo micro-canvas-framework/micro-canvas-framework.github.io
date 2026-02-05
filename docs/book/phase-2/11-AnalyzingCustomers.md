@@ -62,7 +62,7 @@ Evidence used in this chapter should allow you to:
 
 :::note Figure 8 — From Insight to Opportunity (explanatory)
 ```mermaid
-%%{init: {"theme":"base","flowchart":{"nodeSpacing":40,"rankSpacing":40},"themeVariables":{"fontSize":"28px"}} }%%
+%%{init: {"theme":"base","flowchart":{"nodeSpacing":40,"rankSpacing":40},"themeVariables":{"fontSize":"18px"}} }%%
 flowchart TB
   subgraph S[Observable Signals]
     S1[Complaints & Escalations]
@@ -211,7 +211,7 @@ Then annotate:
 
 :::note Figure 7 — Opportunity → Segment → Journey → Evidence (explanatory)
 ```mermaid
-%%{init: {"theme":"base","flowchart":{"nodeSpacing":40,"rankSpacing":40},"themeVariables":{"fontSize":"28px"}} }%%
+%%{init: {"theme":"base","flowchart":{"nodeSpacing":40,"rankSpacing":40},"themeVariables":{"fontSize":"18px"}} }%%
 flowchart TB
   A[Observe Signals<br/>complaints, drop-offs, workarounds] --> B[Form Opportunity Hypotheses<br/>testable claims]
   B --> C[Prioritize Segments<br/>TAM/SAM/SOM + scoring]

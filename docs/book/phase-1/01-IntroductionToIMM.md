@@ -61,7 +61,7 @@ Evidence used in this chapter should allow you to:
 
 :::note Figure 6 — Innovation Maturity as Evidence-First Capability (explanatory)
 ```mermaid
-%%{init: {"theme":"base","flowchart":{"nodeSpacing":60,"rankSpacing":80},"themeVariables":{"fontSize":"28px"}} }%%
+%%{init: {"theme":"base","flowchart":{"nodeSpacing":60,"rankSpacing":80},"themeVariables":{"fontSize":"18px"}} }%%
 flowchart TB
   IMM["Innovation Maturity<br/>repeatable capability"]
   CAP["Capabilities<br/>people, process, tools"]

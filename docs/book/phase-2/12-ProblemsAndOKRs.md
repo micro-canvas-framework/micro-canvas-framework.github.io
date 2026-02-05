@@ -146,6 +146,7 @@ This process typically follows six main steps, which ensures you uncover the rea
 :::info Problem Analysis Steps
 
 ```mermaid
+%%{init: {"theme":"base","themeVariables":{"fontSize":"18px"} } }%%
     flowchart TB
     A(Identify the Main Problem) --> B(Describe Symptoms)
     B --> C(Analyze Root Causes)
@@ -199,6 +200,7 @@ Create a Problem Tree or similar diagram to visualize how root causes lead to sp
 :::info Example Problem Tree
 
 ```mermaid
+%%{init: {"theme":"base","themeVariables":{"fontSize":"18px"} } }%%
 flowchart LR
 
     subgraph **Causes**
@@ -282,6 +284,7 @@ Each step translates your validated problem into a structured plan for action an
 :::info OKR Steps + KPI
 
 ```mermaid
+%%{init: {"theme":"base","themeVariables":{"fontSize":"18px"} } }%%
 
 flowchart TB
     A(Start with the Problem) --> B(Define the Objective)
@@ -357,6 +360,7 @@ Integrate KPIs that reflect operational or strategic health:
 :::info Example Key Results & KPI Integration
 
 ```mermaid
+%%{init: {"theme":"base","themeVariables":{"fontSize":"18px"} } }%%
 flowchart LR
 
     %% Main Objective
@@ -403,6 +407,7 @@ flowchart LR
 :::info Steps to create a structured OKR framework
 
 ```mermaid
+%%{init: {"theme":"base","themeVariables":{"fontSize":"18px"} } }%%
 
 flowchart TB
     A(**Document Your OKRs**.

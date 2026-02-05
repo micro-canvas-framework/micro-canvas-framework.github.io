@@ -116,6 +116,7 @@ Develop a marketing strategy that resonates with your target customers. This inc
 :::info Marketing and Engagement Process Steps
 
    ```mermaid
+   %%{init: {"theme":"base","themeVariables":{"fontSize":"18px"} } }%%
     flowchart TB
     A["**Identify Target Audience**<br>(*Define segments & create profiles*)"]
     B["**Analyze Market Trends**<br>(*Research competitors & external influences*)"]
@@ -152,6 +153,7 @@ Develop a marketing strategy that resonates with your target customers. This inc
 :::info Marketing Funnel Journey
 
      ```mermaid
+     %%{init: {"theme":"base","themeVariables":{"fontSize":"18px"} } }%%
      flowchart LR
          A[Awareness] --> B[Interest]
          B --> C[Consideration]
@@ -233,6 +235,7 @@ A robust sales process:
 
 :::info Process Steps and Explanations  
      ```mermaid
+     %%{init: {"theme":"base","themeVariables":{"fontSize":"18px"} } }%%
      flowchart LR
          A[Lead Generation] --> B[Qualified Leads]
          B --> C[Proposal]

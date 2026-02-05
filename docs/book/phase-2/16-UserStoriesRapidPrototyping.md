@@ -94,6 +94,7 @@ User stories are short, narrative descriptions of product features written from 
 
 :::info Process Steps:
     ```mermaid
+    %%{init: {"theme":"base","themeVariables":{"fontSize":"18px"} } }%%
     flowchart TD
     A["**Identify Customer Pain Points**<br />(*Gather insights from surveys, interviews, and support channels to pinpoint the challenges your customers face*.)"]
     B["**Define User Roles**<br/ >(*Determine who will use your product (e.g., end-users, administrators, partners*) *and document these roles*.)"]

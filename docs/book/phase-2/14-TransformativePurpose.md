@@ -86,6 +86,7 @@ In order to craft your transformative purpose, follow these core steps:
 
 :::info Transformative Purpose Steps 
 ```mermaid
+%%{init: {"theme":"base","themeVariables":{"fontSize":"18px"} } }%%
 flowchart TB
     A1(**Envision the Future**. <br />*Imagine the world or market once your mission is achieved.*)
     A2(**Connect Emotionally**. <br />*Articulate why this mission resonates with your team and stakeholders*.)
@@ -138,6 +139,7 @@ Your Transformative Purpose must clearly state the positive change you aim to cr
 Use a **Core Impact** diagram to link your problem or solution with the intended outcome. In this example, the current issue (P) is high carbon emissions, and the positive change (CI) is reduced carbon footprint:
 
 ```mermaid
+%%{init: {"theme":"base","themeVariables":{"fontSize":"18px"} } }%%
 flowchart LR
 
     subgraph Problem/Opportunity

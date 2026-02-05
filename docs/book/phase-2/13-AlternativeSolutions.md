@@ -90,6 +90,7 @@ You've already defined the problem and set strategic objectives in previous chap
 :::info Solutions Alternatives steps
 
 ```mermaid
+%%{init: {"theme":"base","themeVariables":{"fontSize":"18px"} } }%%
 flowchart TB
     A1(Identify Alternative Solutions)
     A2(Evaluate Alternatives)
@@ -117,6 +118,7 @@ Start by brainstorming all possible ways to address your problem:
 :::info Example Visual Aid
 
 ```mermaid
+%%{init: {"theme":"base","themeVariables":{"fontSize":"18px"} } }%%
 flowchart LR
     subgraph Potential Solutions
       S1([Mobile Payment App])
@@ -232,6 +234,7 @@ Even the best solution needs to stand out. **Unique Advantages and Product Featu
 
 :::info Unique Advantages and Product Features steps 
 ```mermaid
+%%{init: {"theme":"base","themeVariables":{"fontSize":"18px"} } }%%
 flowchart TB
     B1(Identify Customer Priorities)
     B2(Map Competitor Features)
@@ -335,6 +338,7 @@ Product features should directly address the causes identified in your Problem A
 
 :::info Feature-Cause Alignment
 ```mermaid
+%%{init: {"theme":"base","themeVariables":{"fontSize":"18px"} } }%%
 flowchart LR
     subgraph Problem Causes
     C1((Outdated Payment Software))
