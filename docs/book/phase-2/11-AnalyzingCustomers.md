@@ -104,8 +104,16 @@ Start with what is observable:
 - Where do they abandon, delay, escalate, or complain?
 - What workarounds exist, and what do they cost?
 
+:::tip Example — Startup Context
+A startup sees repeated churn in a self-serve onboarding flow. The team does not assume the product is "bad" overall; it frames an opportunity hypothesis about one step: *"If we reduce friction at Step X, activation should improve without increasing support load."*
+:::
+
 :::tip Example — Institutional Context
-A public agency sees repeated escalations on the same service. The “issue” is not that citizens are confused in general; it is that a specific step consistently causes rework (missed documents, identity mismatch, long verification time). That step becomes an opportunity hypothesis: *“If we reduce verification friction at Step X, completion rates should increase without increasing fraud risk.”*
+A public agency sees repeated escalations on the same service. The "issue" is not that citizens are confused in general; it is that a specific step consistently causes rework (missed documents, identity mismatch, long verification time). That step becomes an opportunity hypothesis: *"If we reduce verification friction at Step X, completion rates should increase without increasing fraud risk."*
+:::
+
+:::tip Example — Hybrid Context
+An innovation unit inside a regulated enterprise sees workarounds emerging around a compliance step. The team frames a bounded hypothesis: *"If we make the compliance step observable and reversible at Step X, cycle time should improve without violating audit constraints."*
 :::
 
 ## 3) Segment selection using TAM / SAM / SOM as scoping lenses
@@ -129,6 +137,14 @@ Score each segment 1–5 on:
 
 :::tip Example — Startup Context
 A startup has 3 plausible segments. The team scores each quickly and chooses the segment where they can learn fastest (high Ease) even if TAM is smaller, because early evidence quality matters more than theoretical reach.
+:::
+
+:::tip Example — Institutional Context
+A public agency compares segments across service channels and chooses the segment with the clearest evidence hooks and the shortest feedback loop, even if total demand is lower, because decision readiness is higher.
+:::
+
+:::tip Example — Hybrid Context
+An innovation lab inside a large enterprise uses scoring to prioritize a segment that is small but observable, so it can generate evidence without triggering procurement or policy lock-in.
 :::
 
 ## 4) Personas as “assumption registries,” not storytelling
@@ -173,52 +189,48 @@ flowchart TB
   C --> D[Map Journey Breakpoints<br/>where behavior changes]
   D --> E[Define Evidence Hooks<br/>metrics + thresholds]
   E --> F[Decision Posture Update<br/>proceed / defer / revise]
+```
 This figure is explanatory. It shows a non-linear loop: evidence updates can revise hypotheses, re-rank segments, or change what is mapped next.
 :::
 
-6) Behavioral metrics (signals) you can actually use
+## 6) Behavioral metrics (signals) you can actually use
 At this stage, metrics are signals, not proof. Pick a small set that matches the journey breakpoints.
 
 Common signals:
-
-Activation / completion rate (did they finish the critical flow?)
-
-Time-to-complete (how long until value is reached?)
-
-Drop-off rate by step (where do they abandon?)
-
-Repeat attempts / rework (how often must they redo steps?)
-
-Escalation rate (support tickets, calls, supervisor intervention)
-
-Retention / return (do they come back, and why?)
+- Activation / completion rate (did they finish the critical flow?)
+- Time-to-complete (how long until value is reached?)
+- Drop-off rate by step (where do they abandon?)
+- Repeat attempts / rework (how often must they redo steps?)
+- Escalation rate (support tickets, calls, supervisor intervention)
+- Retention / return (do they come back, and why?)
 
 Define each metric with:
+- where it is measured,
+- how it can be wrong (failure mode),
+- what movement would change a decision later.
 
-where it is measured,
-
-how it can be wrong (failure mode),
-
-what movement would change a decision later.
-
-:::
-An innovation lab runs a bounded pilot under governance constraints. The team measures “drop-off at Step 3” and “escalations to manual review.” If drop-off improves but escalations spike, the decision posture does not improve — evidence is mixed, and the hypothesis must be revised before scaling.
+:::tip Example — Startup Context
+A startup tracks drop-off at Step 3 and time-to-complete. If time improves but drop-off stays flat, the team does not advance the decision posture; the evidence is mixed and the hypothesis is revised.
 :::
 
-7) Epistemic constraints (why this chapter is framed this way)
+:::tip Example — Institutional Context
+A public service team tracks escalations and repeat attempts. If escalations drop but repeat attempts rise, the team treats the evidence as insufficient for scaling and defers until the failure mode is understood.
+:::
+
+:::tip Example — Hybrid Context
+An innovation lab measures drop-off and manual review rate. If drop-off improves but manual review spikes, the decision posture does not improve; reversibility is preserved and the pilot is adjusted.
+:::
+
+## 7) Epistemic constraints (why this chapter is framed this way)
 In MCF 2.2, customer analysis is not about certainty. It is about improving decision integrity under uncertainty.
 
 This means:
+- treat intent as inferred until evidence supports it,
+- prefer observed behavior over reported preference,
+- state what would falsify your opportunity hypothesis,
+- use segment/journey work to constrain solutions, not justify them.
 
-treat intent as inferred until evidence supports it,
-
-prefer observed behavior over reported preference,
-
-state what would falsify your opportunity hypothesis,
-
-use segment/journey work to constrain solutions, not justify them.
-
-8) What you should have before moving to Chapter 12
+## 8) What you should have before moving to Chapter 12
 Before formal problem definition, you should be able to say:
 
 “We observed X, Y, Z behaviors.”
@@ -232,3 +244,4 @@ Before formal problem definition, you should be able to say:
 That is enough to proceed.
 
 The next chapter uses these inputs to define a problem statement and strategic objectives without converting uncertainty into theater.
+
