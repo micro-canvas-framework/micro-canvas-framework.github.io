@@ -58,185 +58,283 @@ Evidence used in this chapter should allow you to:
 :::
 
 </div>
-![From Insight to Interaction](/img/ch16-user-stories-rapid-prototyping.svg)
 
-**From Insight to Interaction**. *This illustration represents the process of transforming user needs into rapid, testable prototypes. Through storytelling and iterative design, the MicroCanvas&reg; Framework empowers teams to validate ideas quickly and meaningfully before full-scale development*.
+:::note Figure 13 — Stories → prototypes → evidence (explanatory)
+```mermaid
+%%{init: {"theme":"base","flowchart":{"nodeSpacing":35,"rankSpacing":40},"themeVariables":{"fontSize":"18px"}} }%%
+flowchart TB
+  A[Customer + Problem Evidence<br/>from Chapters 11–13] --> B[Assumptions made explicit<br/>stories, flows, constraints]
+  B --> C[Prototype(s)<br/>reversible artifacts]
+  C --> D[Observed Behavior<br/>tasks, errors, time-to-value]
+  D --> E[Interpretation<br/>signal vs preference]
+  E --> F[Decision update<br/>proceed / revise / defer / terminate]
+  F --> B
+```
+This figure is explanatory. It shows how stories and prototypes function as an evidence loop: they turn assumptions into testable artifacts, produce observations, and update the decision state.
+:::
 
-This chapter teaches you how to convert customer insights into detailed user stories and then transform your top-ranked solutions (from Chapter 13) into tangible prototypes. Rapid prototyping enables you to gather early feedback, minimize risks, and refine your ideas before committing significant resources. By the end of this chapter, you'll know how to plan, build, and test prototypes efficiently while keeping the user at the center of your design process.
+From Insight to Interaction. In the Book layer, user stories and prototypes are not “documentation” or “design output.” They are instruments for reducing uncertainty. They are valuable when they generate observations you can use to revise or defend decisions.
 
-**Key Inputs:**
-- Validated Solutions from Chapter 13: Exploring Alternative Solutions
-- Strategic Objectives and Key Results (OKRs) from Chapter 12
-- User Feedback and Market Insights from Chapter 11
-- Customer Analysis and Problem Analysis
+This chapter shows how to:
 
-**Expected Outputs:**
-- A comprehensive set of user stories that articulate customer needs
-- Low- or high-fidelity prototypes demonstrating your solution concepts
-- User feedback and performance data to guide further iterations
+- translate insights into testable stories tied to observable behavior, and
+- build reversible prototypes that surface comprehension, usability, and adoption frictions early.
 
----
+### Key inputs
+- Prioritized solution direction (Chapter 13)
+- Strategic objectives and constraints (OKRs) (Chapter 12)
+- Customer analysis and behavioral insights (Chapter 11)
+- Problem analysis and causal hypotheses (Chapter 12)
+
+### Expected outputs
+- A set of user stories mapped to assumptions and success criteria
+- Prototype artifacts (low to high fidelity) mapped to what they test (and what they do not)
+- Evidence captured from tests (behavior + metrics) and an updated decision state
 
 ## 1. Section 1: User Stories
+### 1.1 Overview (evidence-first)
+User stories are short, narrative statements of intended value and usage. In this framework, a story is useful when it makes an assumption explicit:
 
-### 1.1 Overview
+- who the user is (role),
+- what they are trying to do (goal),
+- why it matters (benefit),
+- and what success looks like (observable outcome).
 
-User stories are short, narrative descriptions of product features written from the customer's perspective. They capture user needs in clear, simple language and ensure that every functionality aligns with real-world scenarios.
+Stories do not guarantee correctness. They are hypotheses about behavior.
 
-:::tip Why User Stories Matter::  
+:::tip Triad examples (what a “story” is testing)
 
-    - **Clarity:** *They break down complex requirements into manageable pieces*.
-    - **Alignment:** *They keep product development focused on real customer needs*.
-    - **Guidance:** *They serve as the basis for design decisions and feature prioritization*.
+Startup: “Will the user reach first value without support?”
+
+Institutional: “Will a citizen complete a step without escalation or exclusion?”
+
+Hybrid: “Will multiple stakeholders accept the same workflow and constraints?”
 :::
 
-### 1.2 Process Steps
-
-:::info Process Steps:
-    ```mermaid
-    %%{init: {"theme":"base","themeVariables":{"fontSize":"18px"} } }%%
-    flowchart TD
-    A["**Identify Customer Pain Points**<br />(*Gather insights from surveys, interviews, and support channels to pinpoint the challenges your customers face*.)"]
-    B["**Define User Roles**<br/ >(*Determine who will use your product (e.g., end-users, administrators, partners*) *and document these roles*.)"]
-    C["**Write User Stories**<br />(*Use the template: 'As a [user role], I want [goal] so that [benefit].'*)"]
-    D["**Validate with Stakeholders**<br />(*Review the user stories with stakeholders and test groups to ensure they address genuine needs. Rank the stories based on impact and feasibility*.)"]
-    E["**Refine and Iterate**<br />(*Update the user stories based on continuous feedback and evolving customer requirements*.)"]
-    A --> B
-    B --> C
-    C --> D
-    D --> E
+### 1.2 Process steps
+:::info User story process steps
+```mermaid
+%%{init: {"theme":"base","themeVariables":{"fontSize":"18px"}} }%%
+flowchart TD
+  A[Extract pain points + jobs-to-be-done] --> B[Define roles + context]
+  B --> C[Write stories as hypotheses]
+  C --> D[Add acceptance signals<br/>observable outcomes]
+  D --> E[Validate + prioritize]
+  E --> F[Iterate as evidence changes]
+  F --> C
+```
 :::
 
+#### 1.2.1 Extract pain points and jobs-to-be-done
+Use evidence from interviews, support logs, analytics, and observation.
 
-### 1.3 Example and Exercise
+#### 1.2.2 Define roles and context
+Be explicit about who is acting and under what constraints.
 
-:::tip Example: "Eco-Friendly Delivery User Story"
-    "As an eco-conscious urban professional, I want to track my package in real-time so that I can plan my day efficiently and reduce my carbon footprint."
+:::tip Triad examples (roles)
+
+Startup: end user, admin, payer.
+
+Institutional: citizen, case worker, supervisor.
+
+Hybrid: user, partner operator, compliance or procurement role.
 :::
 
-:::info Exercise: "Draft Your User Stories"
-    Using the template provided, create at least three user stories for your product. Focus on different user roles and ensure each story clearly states the goal and the benefit.
+#### 1.2.3 Write stories as hypotheses
+Use a consistent template.
+
+Template:
+
+As a [role], I want [goal], so that [benefit].
+
+#### 1.2.4 Add acceptance signals (observable outcomes)
+Acceptance should include at least one observable signal. Examples:
+
+- task completion without help,
+- time-to-complete,
+- error rate,
+- comprehension check success,
+- successful handoff to next step.
+
+:::tip Triad examples (acceptance signals)
+
+Startup: “≥80% complete onboarding in ≤5 minutes without support.”
+
+Institutional: “≥70% complete the transaction without escalation; track exclusion reasons.”
+
+Hybrid: “Pilot users complete the workflow and stakeholders accept constraints in writing.”
+:::
+
+#### 1.2.5 Validate and prioritize
+Prioritize based on:
+
+- decision relevance (what uncertainty it reduces),
+- risk (what breaks if wrong),
+- and reversibility (how costly it is to change later).
+
+#### 1.2.6 Iterate as evidence changes
+Stories should evolve as you learn. Version them.
+
+### 1.3 Examples and exercises (triad)
+:::tip Example — Startup user story
+“As a first-time buyer, I want to complete checkout in under two minutes so that I can finish my purchase without frustration.”
+Acceptance signals: task completion rate, time-to-complete, error rate, drop-off reason codes.
+:::
+
+:::tip Example — Institutional user story
+“As a citizen, I want to complete the service request without visiting an office so that I can resolve my need without extra travel.”
+Acceptance signals: completion without escalation, accessibility issues captured, time-to-resolution.
+:::
+
+:::tip Example — Hybrid user story
+“As a partner operator, I want to submit a request with required compliance fields so that the request can be processed without rework.”
+Acceptance signals: completeness rate, rework rate, approval cycle time, rejection reason codes.
+:::
+
+:::info Exercise — Draft stories with signals
+Write 3 stories (Startup / Institutional / Hybrid). For each story, add:
+
+- one key assumption it tests,
+- two acceptance signals,
+- one observation that would invalidate the story hypothesis.
 :::
 
 ## 2. Section 2: Rapid Prototyping
+### 2.1 Overview (evidence-first)
+Rapid prototyping builds reversible artifacts that test high-uncertainty assumptions early. A prototype is valuable when you can state:
 
-### 2.1 Overview
-Rapid prototyping is the process of quickly turning your top solution ideas into tangible, testable models. This approach helps validate assumptions early, gather crucial user feedback, and refine your ideas without the high cost or time commitment of traditional development cycles.
+- what it is testing,
+- what it is not testing,
+- what observations matter,
+- and what decision update would follow from results.
 
-:::tip Why Rapid Prototyping Matters:  
+Prototypes do not prove scalability or full business viability. They reduce uncertainty about interaction, comprehension, and adoption frictions.
 
-    - **Early Validation**: *Test key assumptions about usability, technical feasibility, and market appeal*.
-    - **Efficiency**: *Accelerate development by creating low-cost, functional models*.
-    - **Iterative Improvement**: *Use user feedback to continuously refine the prototype and improve the final solution*.
+:::tip Triad examples (why prototype)
 
+Startup: reduce uncertainty about onboarding and first value.
+
+Institutional: reduce uncertainty about completion, trust, and accessibility barriers.
+
+Hybrid: reduce uncertainty about multi-stakeholder workflow acceptance and handoffs.
 :::
 
-### 2.2 Planning Your Prototyping Strategy
-Before building your prototype, define clear objectives, scope, and success criteria.
+### 2.2 Plan your prototyping strategy
+Before building, define the decision you are trying to update.
 
-- **Define Prototype Objectives**
-- **Align with Strategic Goals**: Each prototype should address a specific objective from your OKRs.
-- **Focus on Key Assumptions**: Identify the most critical assumptions (e.g., ease-of-use, technical viability) to validate.
-- **Set Success Criteria**: Determine the metrics or user feedback needed to consider the prototype successful.
-- **Select Prototyping Methods**: Choose from a variety of methods based on your scope and available resources:
-  - **Paper Prototypes**: *Quick sketches for initial user feedback*.
-  - **Digital Wireframes**: *Low-fidelity clickable models using tools like Figma or Sketch*.
-  - **Interactive Demos**: *Higher-fidelity prototypes that simulate key user flows*.
-  - **Physical Models**: *3D prints or tangible mockups for ergonomic testing*.
+Prototype objective (what uncertainty it reduces)
 
-:::tip Example:  
+Mapped stories (which stories/assumptions it tests)
 
-    A retail company aims to reduce checkout time by 20%. The prototype focuses on a simplified mobile payment interface, with a success criterion of a minimum 15% reduction in checkout steps for test users.
+Success criteria (observable metrics)
+
+Method (paper, wireframe, clickable, demo, physical)
+
+:::info Prototyping strategy steps
+```mermaid
+%%{init: {"theme":"base","themeVariables":{"fontSize":"18px"}} }%%
+flowchart TB
+  A[Select highest-uncertainty assumption] --> B[Choose lowest-cost prototype that can test it]
+  B --> C[Define tasks + success criteria]
+  C --> D[Test with target users]
+  D --> E[Capture behavior + metrics]
+  E --> F[Decide: iterate / pivot / proceed]
+```
 :::
 
-:::info Exercise: "Prototyping Method Matrix":  
+:::tip Triad example (prototype objective + metric)
 
-    Create a matrix comparing prototyping methods based on cost, speed, and fidelity. Choose the method(s) best aligned with your project's needs.
+Startup: objective = comprehension of checkout flow; metric = task completion in ≤2 minutes.
+
+Institutional: objective = completion without assistance; metric = completion rate + escalation rate.
+
+Hybrid: objective = workflow acceptance; metric = rework rate + stakeholder sign-off on constraints.
 :::
 
+### 2.3 Build the prototype (timeboxed, reversible)
+Allocate minimal resources. Avoid over-engineering.
 
-### 2.3 Building the Prototype
+Prefer existing tools/templates.
 
-#### Rapid Construction
-- **Allocate Minimal Resources**: Focus on speed and cost-effectiveness; avoid over-engineering.
-- **Use Existing Tools and Templates**: Leverage prototyping software or pre-built components to save time.
-- **Collaborate Cross-Functionally**: Involve designers, developers, and subject matter experts to ensure core requirements are met.
+Keep cycles short and versioned.
 
-:::tip Example:  
+:::info Exercise — Timebox plan (triad)
+Create a 1-week plan:
 
-    A tech startup uses a combination of paper sketches and a low-fidelity digital mockup in Figma to design a new checkout flow. In just two days, they create a functional click-through prototype that users can test.
+Startup: 2 prototype iterations + 1 user test round.
+
+Institutional: 1 prototype iteration + accessibility review + 1 user test round.
+
+Hybrid: 1 prototype iteration + stakeholder walkthrough + 1 pilot-path test.
 :::
 
-#### Iterative Development
-- **Version Control**: Clearly label each iteration to track changes.
-- **Continuous Feedback Loops**: Conduct brief feedback sessions after each iteration.
-- **Adapt Quickly**: Incorporate feedback, refine the prototype, and rebuild within tight cycles (daily or weekly sprints).
+### 2.4 Test and validate (observe behavior)
+**User testing**
+Recruit representative users.
 
-:::info Exercise: "Kanban for Prototyping":  
+Give task scenarios.
 
-    Set up a simple Kanban board (using Trello or similar) with columns such as "To Do," "In Progress," and "Feedback Incorporated." Update the board after each feedback session.
+Observe and record behavior, not opinions alone.
+
+Suggested metrics:
+
+- task completion,
+- time-to-complete,
+- error rate,
+- comprehension checks,
+- drop-off reasons.
+
+**Stakeholder walkthroughs**
+Validate constraints, compliance, and adoption frictions.
+
+Document disagreements and required trade-offs.
+
+:::tip Triad example (test scenario)
+
+Startup: “Create account and complete first action.”
+
+Institutional: “Complete transaction end-to-end without assistance.”
+
+Hybrid: “Submit request, pass validation, and handoff to partner processing.”
 :::
 
-### 2.4 Testing and Validation
+### 2.5 Refine and document outcomes
+Compare results to success criteria.
 
-#### User Testing
-- **Recruit Target Users**: Select participants that represent your prioritized customer segments.
-- **Prepare Test Scenarios**: Define tasks (e.g., "Complete a purchase") and success criteria (e.g., "Time to complete transaction").
-- **Observe and Record**: Monitor user interactions with the prototype, noting any confusion or friction points.
+Identify what changed the decision state.
 
-:::tip Example:  
+Record what you learned and what remains unknown.
 
-    A retail company tests its new mobile checkout prototype remotely with five urban professionals, tracking average checkout time and collecting satisfaction ratings.
+:::info Exercise — Decision update memo (triad)
+Write a short memo for each context:
+
+- what was tested,
+- what was observed,
+- what changed in the decision state,
+- what is the next reversible step.
 :::
 
-#### Stakeholder Demos
-- **Present Key Features**: Demonstrate how the prototype addresses strategic objectives.
-- **Gather Immediate Feedback**: Engage stakeholders to evaluate feasibility and alignment with goals.
-- **Document Responses**: Capture all suggestions and concerns for future iterations.
+### 2.6 Best practices and tools (non-prescriptive)
+Start small; test the core assumption first.
 
-:::tip Exercise: "Conduct a Stakeholder Demo"
-    Host a 30-minute demo with your leadership team, record their feedback, and categorize suggestions by priority (e.g., "Critical," "Nice-to-have," "Long-term").
-:::
+Timebox iterations.
 
-### 2.5 Refining and Documenting Outcomes
+Maintain a feedback repository (tagged by story and assumption).
 
-#### Analyze Feedback
-- **Quantitative Metrics**: Evaluate conversion rates, task completion times, and error rates.
-- **Qualitative Insights**: Consider user comments, stakeholder feedback, and suggestions.
-- **Compare with Success Criteria**: Determine if the prototype meets or exceeds your predefined objectives.
+Use appropriate tools:
 
-:::tip Example:
-    A startup observes that users complete checkout 25% faster than before, exceeding the target. However, 40% of users still find the payment flow confusing, indicating areas for redesign.
-:::
-
-#### Decide Next Steps
-- **Iterate**: If critical issues remain, plan another prototype cycle.
-- **Pivot**: If results indicate a fundamental misalignment, consider a different solution approach.
-- **Proceed**: If the prototype meets targets, move forward to pilot implementation or develop a higher-fidelity version.
-
-:::tip Exercise: "Lessons Learned Document"
-    A startup observes that users complete checkout 25% faster than before, exceeding the target. However, 40% of users still find the payment flow confusing, indicating areas for redesign.
-
-    Document test results, feedback, and improvements made during the prototyping cycle. Share this document with your cross-functional team for further discussion and planning.
-:::
-
-### 2.6 Best Practices and Tools
-- **Start Small**: Validate the core concept before adding extra features.
-- **Timebox Your Prototypes**: Set strict deadlines to keep iterations rapid.
-- **Maintain a Feedback Repository**: Centralize all user and stakeholder feedback (e.g., in a shared Trello board or spreadsheet).
-- **Use Prototyping Software**: Tools such as Figma, Sketch, or Adobe XD for digital prototypes, and 3D printing for physical models.
-- **Review Progress Regularly**: Schedule frequent meetings to discuss feedback and adjust prototypes accordingly.
+- Figma / Sketch / XD for wireframes and click-throughs
+- Docs/Sheets for scripts and observation logs
+- Simple forms for structured feedback capture
 
 ## 3. Final Thoughts
-By integrating detailed user stories with rapid prototyping, you establish a powerful feedback loop that minimizes risk and keeps your product development aligned with customer needs. User stories provide the narrative framework that ensures every prototype is grounded in real user insights, while rapid prototyping enables quick testing and iteration.
+User stories and prototyping are effective when they reduce uncertainty and preserve optionality. Stories express hypotheses about value and behavior; prototypes turn those hypotheses into observable interactions.
 
-#### Key Takeaways:
-- **User Stories**: Keep the customer at the center by clearly articulating needs and expected outcomes.
-- **Rapid Prototyping**: Validates ideas quickly and efficiently, reducing the risk of costly development errors.
-- **Iteration**: Continuous testing and feedback are essential to refining your solution and ensuring its success.
+Next Chapter: Implementing pilots and validating solutions—how to move from prototypes to controlled pilots and measure outcomes against decision thresholds.
 
-As you move forward, continue to iterate on your user stories and prototypes based on evolving insights and feedback. This dynamic process will help ensure your innovation remains agile, relevant, and successful.
-
-In the next chapter, "Implementing Pilots and Validating Solutions," you will learn how to transition from prototypes to pilot programs and measure performance against your defined objectives.
-
-Happy prototyping and user storytelling!
+## ToDo for this Chapter
+- [ ] Create User Story template + scoring rubric, attach template to Google Drive and link to this page
+- [ ] Create Prototype test script + observation log template, attach template to Google Drive and link to this page
+- [ ] Create Chapter assessment questionnaire, attach template to Google Drive and link to this page
+- [ ] Translate all content to Spanish and integrate to i18n
+- [ ] Record and embed video for this chapter
