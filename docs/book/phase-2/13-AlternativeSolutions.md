@@ -74,34 +74,39 @@ flowchart TB
 This figure is explanatory. It shows an iterative loop: scoring and feature definition can update the shortlist as evidence improves.
 :::
 
-**Navigating the Path to Differentiation**. *This illustration reflects the creative exploration of alternative solutions and the discovery of standout features. The MicroCanvas&reg; Framework supports this process by highlighting unique advantages and structuring modular innovations for clear market differentiation*.
+Navigating the Path to Differentiation. This figure reflects the exploration of alternative solutions and the selection of differentiating advantages and features. In the Book layer, the goal is not to “pick the best idea,” but to compare plausible options using explicit criteria, preserve optionality, and stay reversible until evidence justifies commitment.
 
-In this chapter, we integrate **Solution Alternatives** and **Unique Advantages and Product Features** to guide you in generating, evaluating, and refining potential solutions for your innovation. We'll also explore how to identify and highlight your unique advantages and product features, ensuring that your final solution stands out in the market. Finally, we cross-reference **Problem Analysis** to demonstrate how product features can directly address identified causes.
+In this chapter, we integrate Solution Alternatives and Unique Advantages and Product Features to guide you in generating, evaluating, and refining potential solutions for your innovation. We also show how to identify and express differentiators without treating them as proof. Finally, we cross-reference Problem Analysis (Chapter 12) to show how features can be framed as responses to stated causes.
 
 ## 1. Introduction
+Chapter 12 produced a clarified problem statement and strategic intent (objectives and key results). Chapter 13 expands the solution search space and narrows it using decision-relevant criteria, not persuasion.
 
-In the previous chapter, you validated your problem statement and defined measurable objectives. Now, you will explore multiple solutions that address the root causes identified in your Problem Tree. This chapter provides practical techniques for brainstorming, solution evaluation, and stakeholder alignment to ensure your efforts focus on the highest-impact innovations.
+At this stage, many teams collapse these into one conversation:
+
+“What should we build?”
+
+“What is feasible?”
+
+“What is differentiating?”
+
+MCF 2.2 treats these as separable. A solution is a hypothesis. A constraint is something you treat as validated enough to shape choices. Your job is to keep them distinct long enough to learn.
 
 ### Inputs
-
-- **Validated Problem Statement** from Chapter 12  
-- **Strategic Objectives and Key Results (OKRs)** from Chapter 12  
-- **Root Causes** identified in your Problem Tree  
-- **Relevant Data and Insights** (customer feedback, market research, etc.)
+- Validated Problem Statement from Chapter 12
+- Strategic Objectives and Key Results (OKRs) from Chapter 12
+- Root Causes identified in your Problem Tree
+- Relevant Data and Insights (customer feedback, market research, operational constraints)
 
 ### Outputs
-
-- A list of potential solutions  
-- A weighted scoring matrix ranking each solution  
+- A list of plausible solution alternatives
+- A weighted scoring matrix ranking each alternative
 - Refined solution proposals for further validation
-- Prioritized Unique Advantages and Product Features list
+- A prioritized list of unique advantages and product features (as hypotheses linked to constraints)
 
 ## Section 1: Exploring Alternative Solutions
+You have a clarified problem and strategic direction. Now, you systematically explore a range of solutions that could address the root causes.
 
-You've already defined the problem and set strategic objectives in previous chapters. Now, you'll systematically explore a range of solutions that address your problem's root causes. 
-
-:::info Solutions Alternatives steps
-
+:::info Solution Alternatives steps
 ```mermaid
 %%{init: {"theme":"base","themeVariables":{"fontSize":"18px"}} }%%
 flowchart TB
@@ -110,134 +115,128 @@ flowchart TB
     A3(Prioritize Based on Strategic Fit)
     A4(Analyze Risks)
     A5(Validate with Stakeholders)
-    A6(Finalize the Best Option)
-
-    A1 --> A2
-    A2 --> A3
-    A3 --> A4
-    A4 --> A5
-    A5 --> A6
+    A6(Select a Reversible Direction)
+    A7(Prepare for Prototypes + Tests)
+    A1 --> A2 --> A3 --> A4 --> A5 --> A6 --> A7
 ```
 :::
 
 ### 1.1 Identify Alternative Solutions
-Start by brainstorming all possible ways to address your problem:
+Start by expanding the search space. The goal is coverage, not consensus.
 
-- Divergent Thinking: Encourage your team to propose every idea without criticism.
-- Cross-Functional Collaboration: Involve different departments (e.g., R&D, marketing, finance) for diverse perspectives.
-- Mind Mapping: Use tools like Miro or a whiteboard to visualize connections between ideas and root causes.
+- Divergent thinking: capture options before critique.
+- Cross-functional input: include delivery, compliance, operations, support.
+- Constraint-first prompts: generate options within known constraints (time, policy, integration, budget).
 
-:::info Example Visual Aid
-
-```mermaid
-%%{init: {"theme":"base","themeVariables":{"fontSize":"18px"}} }%%
-flowchart LR
-    subgraph Potential Solutions
-      S1([Mobile Payment App])
-      S2([Self-Checkout Kiosks])
-      S3([Improved Staff Training])
-      S4([Automated Price Calculators])
-    end
-
-    S1 --> T((Team Brainstorm))
-    S2 --> T
-    S3 --> T
-    S4 --> T
-    T(((Brainstorm Session)))
-```
+:::tip Example — Startup Context
+A startup avoids “feature picking” by generating alternatives at three levels: workflow change, product change, and distribution change. They keep each option as a short hypothesis: “If we do X, we expect Y to improve under constraint Z.”
 :::
 
-:::tip How it works:
-- We list all possible solutions (S1 to S4) connecting to a central brainstorm node.
-- This diagram captures the range of ideas the team proposes before evaluation. 
+:::tip Example — Institutional Context
+A public institution generates alternatives that include process redesign, policy clarification, and technical changes. They explicitly separate “what could be digitized” from “what should remain controlled,” because governance constraints are part of the problem space.
 :::
 
-### 1.2 Evaluate Alternatives
-Once you have a list of ideas, systematically evaluate each one:
+:::tip Example — Hybrid Context
+An innovation lab proposes alternatives across organizations: internal change + partner-delivered change + citizen-facing change. They treat inter-institution dependency as a first-class constraint and include options that reduce coupling.
+:::
 
-- Feasibility: Technical complexity, resource availability, time constraints.
-- Impact: Potential for revenue growth, user satisfaction, or operational efficiency.
-- Cost-Effectiveness: ROI or budget fit.
+### 1.2 Evaluate Alternatives (as hypotheses)
+Once you have a list, evaluate each alternative as a testable hypothesis.
+
+Common criteria:
+
+- Feasibility: technical complexity, resource availability, time constraints.
+- Expected impact: movement on objectives / KRs (as signals, not guarantees).
+- Cost-effectiveness: budget fit and opportunity cost.
+- Constraints & compliance: procurement, auditability, data protection, integration.
+
+:::tip Example — Startup Context
+A startup rejects “cool” alternatives that require long lead times to learn. They prefer options that can produce decision-relevant evidence in weeks, even if the long-term upside is smaller.
+:::
+
+:::tip Example — Institutional Context
+An institution de-prioritizes an option that would simplify the citizen journey but introduces audit gaps. They keep it as a future alternative pending controls rather than forcing it into the current cycle.
+:::
+
+:::tip Example — Hybrid Context
+A lab compares two options: one improves completion rate but increases manual review; the other reduces manual review but risks higher abandonment. They treat trade-offs as part of the evaluation, not as “implementation details.”
+:::
 
 **Exercise**
-Create a simple scoring matrix (Feasibility, Impact, Cost, etc.) for each idea.
-Rank solutions and identify your top contenders.
+Create a simple scoring matrix (Feasibility, Impact, Cost, Constraints, etc.) for each alternative. Rank and shortlist.
 
 ### 1.3 Prioritize Based on Strategic Fit
-Use your strategic objectives and OKRs to decide which solutions align best with the organization's broader goals.
+Use OKRs to keep selection decision-relevant:
 
-- Check Alignment: Evaluate whether each solution supports your mission and long-term objectives.
-- Focus on High-Value Segments: Reference your customer segmentation and market research.
-- Resource Constraints: Ensure you can realistically implement the chosen solutions.
+- Alignment: does the alternative plausibly move the objective?
+- Capability match: can your current system deliver it without hidden dependency?
+- Learning speed: can you produce useful evidence before committing?
 
 ### 1.4 Weighted Scoring System
-After generating potential solutions, systematically evaluate each idea to identify those with the highest possible impact. You can adapt the weighted scoring approach from earlier chapters:
+After generating alternatives, evaluate each option using an explicit weighting scheme. The goal is consistency and traceability, not precision.
 
-- Impact on Objectives (40%)
-Does the solution effectively address your strategic objectives or OKRs?
+Impact on Objectives (40%)
+Does the alternative plausibly address your objective or key results?
 
-- Feasibility (30%)
-Can you realistically implement this solution, given your resources and time?
+Feasibility (30%)
+Can you implement and learn within your constraints?
 
-- Cost-Effectiveness (20%)
-Does the solution offer a favorable ROI or fit within budget constraints?
+Cost-Effectiveness (20%)
+Does the alternative fit the budget and opportunity cost posture?
 
-- Stakeholder Buy-In (10%)
-Will key stakeholders (investors, partners, regulators or others support and champion this solution?
+Stakeholder Buy-In (10%)
+Will key stakeholders support the learning process and decision posture?
 
 :::tip How it works:
-Solution Score = (Impact * 0.40) + (Feasibility * 0.30) + (Cost_Effectiveness * 0.20) + (Stakeholder_BuyIn * 0.10)
+Solution Score = (Impact × 0.40) + (Feasibility × 0.30) + (Cost_Effectiveness × 0.20) + (Stakeholder_BuyIn × 0.10)
 :::
 
-:::info Example:
-Solution A: "Mobile Payment App"
-- Impact = 4
-- Feasibility = 3
-- Cost-Effectiveness = 4
-- Stakeholder Buy-In = 3
-
-**Weighted Score** = (4 * 0.40) + (3 * 0.30) + (4 * 0.20) + (3 * 0.10)  
-= 1.6 + 0.9 + 0.8 + 0.3 = 3.6
+:::tip Example — Startup Context
+The startup weights “learning speed” inside Feasibility because runway is the constraint. A smaller-impact option wins because it can be tested quickly and falsified cleanly.
 :::
 
-### 1.5 Analyze Risks
-Consider the risks associated with each solution:
+:::tip Example — Institutional Context
+The institution weights “compliance and auditability” as part of Feasibility and Buy-In. An alternative with higher impact is deferred because evidence cannot be produced without governance approvals.
+:::
 
-- Strategic Risks: Market shifts, competitor actions, regulatory changes.
-- Operational Risks: Supply chain or internal process failures.
-- Financial Risks: Unexpected costs or revenue shortfalls.
+:::tip Example — Hybrid Context
+The lab keeps the same weights but scores “stakeholder buy-in” across multiple parties (owner org + partner org + regulator). They treat misalignment as a risk signal, not as a political inconvenience.
+:::
+
+### 1.5 Analyze Risks (as decision constraints)
+Consider the risks associated with each alternative:
+
+- Strategic risks: market shifts, policy changes, competitor moves.
+- Operational risks: delivery complexity, support load, dependency risk.
+- Financial risks: unexpected costs, delayed value realization.
 
 ### 1.6 Group Evaluation and Consensus
-Present Solutions
-Share each idea and its potential benefits, referencing your weighted scores.
+- Present alternatives: share each option and its scoring rationale.
+- Discuss trade-offs: make constraints explicit (time, compliance, integration, reversibility).
+- Document disagreements: if consensus is not possible, record what evidence would resolve it.
 
-Discuss Trade-Offs
-Encourage open dialogue on resource constraints, technical challenges, and potential risks.
-
-Achieve Alignment
-Use structured feedback sessions to finalize scores and decide on the top solutions.
-
-:::tip Exercise:
-Create a scoring matrix in a shared document. Have each team member individually score each solution, then discuss discrepancies to reach a consensus.
+:::tip Example — Startup Context
+If two founders disagree on the direction, they explicitly define a test that would eliminate one option rather than debating taste.
 :::
 
-:::info Example
-- A direct-to-consumer brand realizes that free shipping thresholds won't increase average order value enough to offset shipping costs.
-- They list this as a key financial risk and explore adjusting thresholds or negotiating better shipping rates.
+:::tip Example — Institutional Context
+If leadership disagrees, the team frames the disagreement as a risk posture question (“What is reversible here?”) and proposes a bounded pilot rather than a full commitment.
 :::
 
-### 1.6 Finalize the Best Option
-Pick the most promising solutions:
+:::tip Example — Hybrid Context
+If multiple institutions disagree, the lab proposes an option that reduces coupling first (shared data interface, shared standards) before attempting a larger end-to-end change.
+:::
 
-- Develop a one-page proposal for the top solutions: Scope, requirements, and expected ROI.
-- Plan Next Steps: Pilot tests or prototypes (see Chapters 14 - 16)
-- Set Milestones: Assign tasks, timelines, responsibilities.
+### 1.7 Select a reversible direction (not a final solution)
+Pick the most promising direction while preserving optionality:
+
+- Keep the shortlist alive until evidence rules options out.
+- Treat the selected direction as “next-best experiment,” not “final architecture.”
 
 ## Section 2: Unique Advantages and Product Features
-Even the best solution needs to stand out. Unique Advantages and Product Features ensures you identify what differentiates your product or service and how to leverage those features effectively.
+A direction is not differentiating by default. Differentiation claims also behave like hypotheses: they should connect to customer-relevant constraints and observable outcomes.
 
 :::info Unique Advantages and Product Features steps
-
 ```mermaid
 %%{init: {"theme":"base","themeVariables":{"fontSize":"18px"}} }%%
 flowchart TB
@@ -248,90 +247,113 @@ flowchart TB
     B5(Validate with Stakeholders)
     B6(Prioritize Unique Features)
     B7(Refine Value Proposition)
-
-    B1 --> B2
-    B2 --> B3
-    B3 --> B4
-    B4 --> B5
-    B5 --> B6
-    B6 --> B7
+    B1 --> B2 --> B3 --> B4 --> B5 --> B6 --> B7
 ```
 :::
 
 ### 2.1 Identify Customer Priorities
-Review your personas and journey maps (Chapters 11 and 12) to generate ideas that directly address customer pain points. For instance, if customers abandon carts due to complicated payment steps, consider simplifying the interface or offering multiple payment options.
+Use personas and journeys (Chapters 11–12) to identify what matters in context:
 
-It's important to review your customer segments (from Chapter 11) to determine what they value:
+- Speed and convenience
+- Cost savings
+- Quality and reliability
+- Risk reduction (often decisive in institutions)
 
-- Speed and Convenience
-- Cost Savings
-- Quality and Reliability
-
-### 2.2 Map Competitor Features
-Research competitor offerings:
-
-- Feature Gaps: Identify where competitors excel or lag.
-- Benchmarking: Compare performance metrics (e.g., load times, user ratings).
-- Value Proposition: Determine if your solution meets an unfulfilled need.
-
-### 2.3 Highlight Existing Advantages
-Leverage core strengths:
-
-- Proprietary Technology
-- Brand Reputation
-- Partnerships
-
-### 2.4 Brainstorm New Features
-Expand your feature set:
-
-- Cross-Functional Ideation
-- User Feedback
-- Rapid Prototyping
-
-:::tip Exercise
-- Conduct a quick survey or focus group.
-- Ask top customers to rank speed, cost, reliability, or other factors.
-- Map these priorities to your existing features and potential new offerings.
-- Highlight where you excel and where you can improve.
-- Use this input to brainstorm new features that align with customer needs.
-- With the input, gather your team and list at least 10 new features that address each root cause.
-- Use sticky notes or digital collaboration tools to ensure you capture every idea.
+:::tip Example — Startup Context
+A startup treats “speed” as a measurable journey signal (time-to-complete) rather than a branding claim. Features are proposed only if they plausibly move that signal.
 :::
 
-:::info Example
-A SaaS startup with an AI-driven recommendation engine surpasses competitor offerings. They position this as a key advantage for more personalized user experiences.
+:::tip Example — Institutional Context
+A public institution treats “risk reduction” as a customer priority because the service fails when trust fails. They frame “reliability” as fewer manual escalations and fewer rework loops.
+:::
+
+:::tip Example — Hybrid Context
+A lab treats “convenience” and “trust” as coupled. A feature that increases convenience but damages trust is treated as a mixed-evidence outcome that requires redesign.
+:::
+
+### 2.2 Map Competitor Features
+Research alternatives already available:
+
+- Feature gaps: where others excel or underperform.
+- Benchmarking: performance metrics (load time, error rate, satisfaction).
+- Value proposition patterns: how competitors frame outcomes.
+
+### 2.3 Highlight Existing Advantages
+Capture strengths that are real constraints or assets:
+
+- Proprietary capability (if it is defensible and actually used)
+- Distribution/channel access
+- Partnerships
+- Operational reliability
+
+### 2.4 Brainstorm New Features
+Expand feature hypotheses:
+
+- Cross-functional ideation
+- User feedback
+- Rapid prototypes and narrative tests
+
+:::tip Exercise
+
+Conduct a quick survey or focus group.
+
+Ask users to rank speed, cost, reliability, trust, or other factors.
+
+Map priorities to existing features and candidate new features.
+
+Use this input to generate at least 10 feature hypotheses linked to root causes.
+:::
+
+:::tip Example — Startup Context
+A startup proposes one “anchor feature” and two supporting features. They avoid listing 25 features because it prevents clean validation.
+:::
+
+:::tip Example — Institutional Context
+An institution proposes features as policy + process + system changes, not only UI changes. They treat back-office steps as part of the feature set because that’s where friction often lives.
+:::
+
+:::tip Example — Hybrid Context
+A lab proposes features that reduce coupling (standardized documents, shared identity checks, interoperable status updates) before proposing “smart” features.
 :::
 
 ### 2.5 Validate with Stakeholders
-Present your unique features:
+Validation here means “make the claims falsifiable,” not “get applause.”
 
-- Structured Demos
-- Feedback Collection
-- Refine
+- Structured demos
+- Feedback collection
+- Revision cycles
 
 ### 2.6 Prioritize Unique Features
-Use a weighted scoring approach:
+Use a lightweight scoring model:
 
-- User Value
-- Technical Feasibility
-- Strategic Fit
+- User value
+- Technical feasibility
+- Strategic fit
+- Risk posture
 
 ### 2.7 Refine Value Proposition
-Combine existing advantages with new features:
+Combine advantages with prioritized features:
 
-- Clear Messaging
-- Use Cases
-- Emphasize ROI
+- Clear messaging
+- Specific use cases
+- Explicit constraints (“works under X conditions”)
 
-:::tip Exercise
-Host a short workshop to finalize your updated value proposition. Ensure marketing, sales, and product teams agree on how to present these features to the market.
+:::tip Example — Startup Context
+The startup writes a value proposition with a falsifiable claim: “Reduce time-to-first-value from 10 minutes to 2 minutes for segment S, measured on flow F.”
+:::
+
+:::tip Example — Institutional Context
+The institution writes a value proposition with governance constraints: “Increase completion rate without increasing fraud risk, measured by escalation rate and manual review volume.”
+:::
+
+:::tip Example — Hybrid Context
+The lab writes a value proposition that includes coordination: “Reduce rework loops across organizations by standardizing step X, measured by repeat submission rate and time-to-resolution.”
 :::
 
 ### 2.8 Cross-Referencing with Problem Analysis
-Product features should directly address the causes identified in your Problem Analysis (Chapter 12). The following diagram shows how each feature can map to a primary or secondary cause:
+Features should trace back to causes (Chapter 12). This is not “solution justification”; it is a traceability scaffold for later validation.
 
 :::info Feature-Cause Alignment
-
 ```mermaid
 %%{init: {"theme":"base","themeVariables":{"fontSize":"18px"}} }%%
 flowchart LR
@@ -354,80 +376,82 @@ flowchart LR
 :::
 
 :::tip How It Works:
-- Problem Causes on the left represent root causes identified in Problem Analysis.
-- Proposed Features on the right map directly to each cause, ensuring a solution-first approach that tackles your highest-priority issues.
+
+Problem causes on the left represent hypotheses validated enough to guide work.
+
+Proposed features on the right are solution hypotheses linked to those causes.
+
+This linkage improves traceability and makes later tests easier to design.
 :::
 
 ## 4. Refining the Best Solutions
-Focus on your top-ranked solutions and refine them into actionable proposals.
+Focus on top-ranked alternatives and refine them into proposals suitable for prototypes and experiments (not full commitments).
 
 ### 4.1 Develop Detailed Solution Proposals
-Scope and Requirements
-Define the scope, objectives, and requirements for each solution.
+Scope and requirements
+Define scope, objectives, and constraints.
 
-Resource Plan
-Estimate budget, timeline, and human resources needed.
+Resource plan
+Estimate budget, timeline, and roles.
 
-Risk Assessment
-Identify potential obstacles and propose mitigation strategies.
+Risk assessment
+Identify obstacles and mitigation options.
 
-:::tip Example:
-If a mobile payment app ranks highest, detail the development plan, required budget, potential partnerships, and a risk mitigation approach (e.g., pilot testing in one region before a full rollout).
+:::tip Example — Startup Context
+A startup writes a one-page proposal that includes: what is tested, what would falsify it, and what happens if evidence is mixed.
+:::
+
+:::tip Example — Institutional Context
+An institution writes a proposal that explicitly separates “policy change required” from “process/system change possible now” to preserve reversibility.
+:::
+
+:::tip Example — Hybrid Context
+A lab writes a proposal that includes inter-party dependencies and a fallback path if a partner cannot deliver on time.
 :::
 
 ### 4.2 Stakeholder Engagement
-Present Proposals
-Share refined proposals with leadership and key stakeholders.
+Present proposals
 
-Incorporate Feedback
-Adjust the scope or approach based on input from stakeholders.
+Incorporate feedback as constraints or test inputs
 
-Finalize Approval
-Secure the green light to proceed with pilot or implementation phases.
+Secure approval for bounded pilots or prototypes
 
 ## 5. Documenting the Next Steps
-Once you select and refine the best solutions, document your plan for moving forward.
+Once you select a direction, document how you will learn next:
 
-Implementation Roadmap
-Outline milestones, responsibilities, and deadlines for each solution.
+Implementation roadmap (milestones, responsibilities, deadlines)
 
-Pilot Plans
-For more complex solutions, plan a pilot or proof of concept to validate feasibility.
+Pilot plans (bounded scope, data collection, decision thresholds)
 
-Integration with OKRs
-Align solution implementation milestones with your existing OKRs and KPIs.
+Integration with OKRs (how evidence will update objectives or priorities)
 
 :::tip Exercise:
-Create a solution roadmap with Gantt charts or Trello boards to visualize tasks, dependencies, and timelines. Present this roadmap in a team meeting to ensure clarity and accountability.
+Create a lightweight roadmap that includes: what will be tested, when evidence will be reviewed, and what decision options exist (proceed / revise / defer).
 :::
 
 ## 6. Best Practices and Tools
-Encourage Openness
-Foster an environment where every idea is heard without judgment.
+Encourage openness (options before critique)
 
-Use Visual Aids
-Mind maps, score matrices, and Gantt charts help teams see the big picture.
+Use visual aids (maps and matrices to make criteria explicit)
 
-Leverage Digital Tools
+Leverage digital tools when they reduce friction (not as a substitute for evidence)
 
-- Miro or Lucidchart for brainstorming and mapping
-- Trello or Asana for project planning
-- SurveyMonkey or Google Forms for collecting feedback
+- Miro / Lucidchart for mapping
+- Trello / Asana for planning
+- Forms for structured feedback
 
-Regularly Review Scores
-Revisit solution scores as conditions evolve or new data emerges.
+Revisit scores when constraints change
 
-Document Thoroughly
-Maintain clear records of each solution's rationale, scoring, and refinement process.
+Keep traceability: alternative → criteria → decision posture
 
 ## Final Thoughts
-By aligning Solution Alternatives and Unique Advantages and Product Features, you ensure you explore the right solutions and differentiate them with strong unique advantages. This dual approach:
+By aligning Solution Alternatives and Unique Advantages and Product Features, you:
 
-- Generates a comprehensive list of potential solutions.
-- Systematically narrows them to the most strategic and feasible options.
-- Identifies and enhances your product's distinguishing features, directly addressing root causes from your Problem Analysis.
+- expand the solution space without committing too early,
+- narrow options using explicit criteria and constraints,
+- express differentiators as testable claims linked to observable outcomes.
 
-You're now set to proceed to pilot tests and validations (Chapters 14 - 16), investing resources in high-impact innovations that resonate with both stakeholders and target users.
+You are now set to proceed to prototypes and validation (Chapters 14–16), investing effort in options that remain reversible until evidence supports stronger commitment.
 
 ## ToDo for this Chapter
 - [ ] Create Solution Alternatives questionaire/template, attach template to Google Drive and link to this page
