@@ -229,81 +229,157 @@ Status: LOCKED
 - Generate redirects via `npm run gen:redirects` whenever docs are added, moved, or slugs change.
 - Verify via `npm run serve -- --port 4400`, in an incognito window with a hard refresh.
 - Windows case-insensitive collision caveat: avoid redirects that differ only by case.
-
 ### F) Phase 2+ Book Style & Layering Contract (LOCKED)
 
-Purpose:
-Phase 2 chapters must remain epistemically rigorous while staying readable and
-usable for practitioners. The Book layer must guide real innovation work, not
-collapse into Canon-adjacent abstraction.
+=====================================================================
+PHASE 2+ BOOK STYLE & LAYERING CONTRACT (LOCKED)
+=====================================================================
 
-Non-Negotiable Layer Separation:
-- Canon Layer (`docs/canon/**`): normative rules/constraints only; never instructional.
-- Book Layer (`docs/book/**`): interpretive and explanatory; guides thinking under uncertainty.
-- Product/Tooling Layer: templates/diagnostics/checklists; may be referenced, never embedded as required.
+This contract governs **all Book content from Phase 2 onward** and applies
+retroactively to Phase 1 where examples are introduced or revised.
 
-Mandatory Phase 2 Chapter Structure (ALL FOUR REQUIRED):
-A) Conceptual Spine (Epistemic Core)
-- Clarify what uncertainty this activity addresses.
-- State what the activity can and cannot justify yet.
-- Connect to evidence, thresholds, reversibility, and optionality preservation.
-- Must stay non-prescriptive.
+Its purpose is to ensure that MCF 2.2 remains an **epistemic, decision-integrity
+framework** while preserving **practical readability** for non-expert users.
 
-B) Practitioner Translation Blocks (REQUIRED)
-- Each major concept MUST include at least one translation block.
-- Use this label and disclaimer:
+This contract is binding for human authors and CODEX.
 
-  > **Practitioner Lens (Illustrative)**  
-  > The following example shows how a team *might* apply this thinking in practice.  
-  > It does **not** imply correctness, sufficiency, or approval.
+---------------------------------------------------------------------
+A) LAYERING PRINCIPLE (NON-NEGOTIABLE)
+---------------------------------------------------------------------
 
-- Examples must preserve ambiguity, include trade-offs, and may include deferral/rollback.
-- If a reader can copy it blindly, it is too strong.
+All Book chapters MUST respect the following layering order:
 
-C) Observation Prompts (NOT “Fields”)
-- The Book must not instruct readers to “fill in” forms.
-- Use non-prescriptive language: “note”, “make visible”, “capture”, “observe”.
-- Prompts must help distinguish observed behavior vs inferred intent.
-- Avoid language: “complete”, “define”, “finalize”.
+1. **Primary Layer — Explanatory Narrative**
+   - Neutral, accessible prose
+   - Describes *what is happening* and *why it matters*
+   - No abstraction that requires Canon knowledge to understand
+   - No prescriptive instructions framed as rules
 
-D) Explicit Non-Prescription Signals
-- Each chapter must explicitly state limits: what it does not decide, what evidence is missing,
-  what decisions would be premature, and where deferral is valid.
+2. **Epistemic Layer — Decision Integrity Framing**
+   - Concepts such as evidence quality, thresholds, reversibility,
+     optionality, and deferral
+   - Introduced only after intuitive grounding
+   - Never replaces practical explanation; only constrains it
 
-Tone & Readability Rules:
-- Plain language before abstract terms.
-- Short paragraphs; concrete verbs; human situations.
-- Avoid dense academic voice and excessive framework self-reference.
-- If a competent non-methodologist leader cannot follow it, it fails the Book test.
+3. **Illustrative Layer — Contextual Examples**
+   - Optional for the reader
+   - Clearly scoped
+   - Never define rules
+   - Never introduce new semantics
 
-Phase 2 Emphasis (must be reflected in wording):
-- Discovery ≠ validation
-- Observation ≠ explanation
-- Metrics ≠ evidence by default
-- Segmentation ≠ prioritization
-- Opportunity ≠ problem definition
+If a chapter cannot be understood without the epistemic layer, it is
+**over-abstracted and invalid**.
 
-Hard Prohibitions (Phase 2):
-- No maturity ladders, funnels, or linear “step-by-step to success” narratives.
-- No hidden go/no-go gates or implied scoring thresholds.
-- No implied product decisions or “best practice” prescriptions.
+---------------------------------------------------------------------
+B) EXAMPLE ARCHETYPES (AUTHORITATIVE)
+---------------------------------------------------------------------
 
-Longitudinal Example / Journey (MANDATORY ACROSS PHASES):
-- Introduce one continuous illustrative journey (startup or transformation) that spans Phase 1 → Phase 5.
-- The example MUST evolve, change assumptions, show mistakes, include at least one major reversal,
-  and preserve ambiguity (no early “wins” as validation).
-- The example is illustrative, not aspirational, and must never be framed as a benchmark or recommended path.
+The Book uses **three canonical example archetypes**. These are interpretive
+lenses, not case studies and not parallel narratives.
 
-CODEX Binding Rule (Do Not Over-Abstract):
-When generating or refactoring Phase 2 Book content:
-1) Do not remove examples.
-2) Do not compress practitioner language into Canon-adjacent prose.
-3) Do not “clean up” ambiguity.
-4) Do not strengthen claims.
-5) Do not convert observation prompts into decisions or requirements.
+They MUST be used selectively and never inline with primary prose.
 
-Default choice under uncertainty:
-Preserve clarity over elegance. Preserve guidance over abstraction.
+### 1. Startup Context
+**Definition**
+- Early-stage or growth startup
+- Capital-constrained
+- Founder-led decisions
+- High uncertainty, initially high reversibility
+
+**Primary purpose**
+- Illustrate epistemic risk
+- Surface assumption-driven decisions
+- Expose premature commitment and false traction
+
+**Typical misuse patterns**
+- Acting on inferred intent
+- Over-weighting weak signals
+- Premature scaling
+- KPI theater
+
+### 2. Institutional Transformation Context
+**Definition**
+- Public sector or large enterprise
+- Distributed authority
+- Formal governance structures
+- Low tolerance for visible failure
+
+**Primary purpose**
+- Illustrate decision friction
+- Surface governance theater
+- Expose misalignment between metrics and authority
+
+**Typical misuse patterns**
+- Pilot theater
+- Training without behavior change
+- Metrics without decision ownership
+- Deferral without explicit thresholds
+
+### 3. Deliberate Hybrid Context (MCF-Native)
+**Definition**
+- Innovation unit, lab, or protected initiative
+- Explicit governance boundaries
+- Dual operating system (explore + comply)
+- Negotiated reversibility
+
+**Primary purpose**
+- Demonstrate correct MCF 2.2 application
+- Show evidence translation across domains
+- Illustrate threshold escalation and optionality preservation
+
+**This context is NOT optional** and MUST appear across Phase 2–4 where relevant.
+
+---------------------------------------------------------------------
+C) EXAMPLE USAGE RULES (MANDATORY)
+---------------------------------------------------------------------
+
+1. Examples MUST appear only in labeled admonitions:
+   - `:::tip Example — Startup Context`
+   - `:::tip Example — Institutional Context`
+   - `:::tip Example — Hybrid Context`
+
+2. Examples MUST:
+   - Illustrate consequences, not prescribe actions
+   - Be consistent with Canon constraints
+   - Remain falsifiable and bounded
+
+3. Examples MUST NOT:
+   - Introduce new rules or terminology
+   - Override Canon semantics
+   - Replace explanatory prose
+   - Appear inside Canon pages (forbidden)
+
+4. Not every chapter MUST include all three examples.
+   Selection depends on epistemic relevance.
+
+---------------------------------------------------------------------
+D) PHASE-LEVEL GUIDANCE (AUTHORING AID)
+---------------------------------------------------------------------
+
+- **Phase 1**: Institutional + Hybrid emphasis
+- **Phase 2**: Startup + Hybrid emphasis
+- **Phase 3–4**: Hybrid as primary reference
+- **Phase 5**: Comparative use of all three
+- **Conclusion**: Explicit synthesis across all contexts
+
+This guidance is advisory but deviations must be justified.
+
+---------------------------------------------------------------------
+E) ANTI-OVER-ABSTRACTION RULE (CRITICAL)
+---------------------------------------------------------------------
+
+If a reasonable practitioner cannot:
+- recognize their situation,
+- identify observable signals,
+- or understand why a decision is constrained,
+
+then the content has violated this contract.
+
+CODEX MUST stop and request clarification if abstraction replaces guidance.
+
+---------------------------------------------------------------------
+STATUS: LOCKED
+---------------------------------------------------------------------
 
 ## Project Memory (authoritative)
 
