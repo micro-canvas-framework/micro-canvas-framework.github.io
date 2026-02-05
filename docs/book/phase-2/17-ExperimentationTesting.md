@@ -75,7 +75,7 @@ flowchart LR
 Prototype → Test → Learn → Decide. This figure illustrates the core experimentation loop in Phase 2. Prototypes are tested to generate evidence, learning updates confidence, and decisions determine whether to iterate, advance, or stop.
 
 ## 1. Introduction
-Experimentation transforms prototypes into evidence. Rather than asking whether a solution is “good,” experiments ask whether a specific assumption holds under controlled conditions. The purpose is not confirmation, but learning that informs decisions.
+Experimentation transforms prototypes into evidence. Rather than asking whether a solution is "good," experiments ask whether a specific assumption holds under controlled conditions. The purpose is not confirmation, but learning that informs decisions.
 
 Experiments exist to reduce uncertainty before irreversible commitments are made.
 
@@ -98,13 +98,14 @@ Every experiment begins with a hypothesis: a testable statement linking an assum
 - Tied to a decision
 - Linked to measurable signals
 
-### Triad Examples
+:::tip Example: "Hypothesis Triad"
 - Startup Example
-  - “Reducing onboarding steps from five to three will increase activation by at least 15%.”
+  - "Reducing onboarding steps from five to three will increase activation by at least 15%."
 - Institutional Transformation Example
-  - “Automating permit intake will reduce processing time by 25% without increasing error rates.”
+  - "Automating permit intake will reduce processing time by 25% without increasing error rates."
 - Hybrid Example
-  - “Introducing a digital self-service channel will reduce call-center volume by 20% while maintaining satisfaction.”
+  - "Introducing a digital self-service channel will reduce call-center volume by 20% while maintaining satisfaction."
+:::
 
 ## 3. Designing Experiments
 Experiments operationalize hypotheses under controlled conditions.
@@ -115,13 +116,14 @@ Experiments operationalize hypotheses under controlled conditions.
 - Controlled pilots
 - Simulated workflows
 
-### Triad Examples
+:::tip Example: "Experiment Design Triad"
 - Startup
   - A/B test comparing two onboarding flows with identical traffic allocation.
 - Institutional
   - Pilot automation in one department while maintaining manual processing elsewhere.
 - Hybrid
   - Parallel rollout of a digital service for a subset of users while keeping legacy channels open.
+:::
 
 ## 4. Data Collection and Analysis
 Evidence must be interpretable, traceable, and relevant to the hypothesis.
@@ -136,29 +138,31 @@ Evidence must be interpretable, traceable, and relevant to the hypothesis.
 - Behavioral workarounds
 - Stakeholder feedback
 
-### Triad Examples
+:::tip Example: "Signals Triad"
 - Startup
   - Tracking funnel drop-off and completion time.
 - Institutional
   - Measuring case throughput and rework rates.
 - Hybrid
   - Comparing channel usage patterns and service escalation rates.
+:::
 
 ## 5. Interpreting Results and Making Decisions
-Experiments do not “pass” or “fail.” They update confidence.
+Experiments do not "pass" or "fail." They update confidence.
 
 ### Decision Options
 - Iterate: adjust and re-test
 - Advance: proceed to pilots or scaling
 - Stop: terminate the solution path
 
-### Triad Examples
+:::tip Example: "Decision Outcomes Triad"
 - Startup
   - Activation improves, but support tickets increase → iterate.
 - Institutional
   - Processing time drops with no compliance impact → advance.
 - Hybrid
   - Digital adoption rises but satisfaction drops → stop and reassess.
+:::
 
 ## 6. Documentation and Traceability
 Every experiment should leave an audit trail.
@@ -171,7 +175,7 @@ Every experiment should leave an audit trail.
 This ensures learning is cumulative and defensible.
 
 ## 7. Final Thoughts
-Experimentation is a decision discipline. By moving systematically from prototype to test, from learning to decision, teams preserve optionality while reducing risk. Evidence—not enthusiasm—determines progress.
+Experimentation is a decision discipline. By moving systematically from prototype to test, from learning to decision, teams preserve optionality while reducing risk. Evidence-not enthusiasm-determines progress.
 
 In the next chapter, Implementing Pilots and Validating Solutions, you will learn how to transition from controlled experiments to real-world pilots.
 
