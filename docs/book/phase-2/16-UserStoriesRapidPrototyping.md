@@ -64,7 +64,7 @@ Evidence used in this chapter should allow you to:
 %%{init: {"theme":"base","flowchart":{"nodeSpacing":35,"rankSpacing":40},"themeVariables":{"fontSize":"18px"}} }%%
 flowchart TB
   A[Customer + Problem Evidence<br/>from Chapters 11–13] --> B[Assumptions made explicit<br/>stories, flows, constraints]
-  B --> C[Prototype(s)<br/>reversible artifacts]
+  B --> C[Prototype artifacts<br/>reversible artifacts]
   C --> D[Observed Behavior<br/>tasks, errors, time-to-value]
   D --> E[Interpretation<br/>signal vs preference]
   E --> F[Decision update<br/>proceed / revise / defer / terminate]
