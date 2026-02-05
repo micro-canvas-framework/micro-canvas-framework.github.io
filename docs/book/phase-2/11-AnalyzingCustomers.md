@@ -58,139 +58,177 @@ Evidence used in this chapter should allow you to:
 :::
 
 </div>
-![From Insight to Opportunity](/img/ch11-opportunities-customers.svg)
+**From Insight to Opportunity**. *This visual illustrates the dual process of uncovering innovation opportunities and understanding customer behavior. In the Book layer, the goal is to turn observations into testable opportunity hypotheses and decision-ready next steps.*
 
-**From Insight to Opportunity**. *This visual illustrates the dual process of uncovering innovation opportunities and deeply understanding customer needs. With focused exploration and data-driven analysis, the MicroCanvas&reg; Framework enables organizations to transform insights into strategic innovation directions*.
+Phase 2 begins by turning “interesting signals” into **bounded opportunity hypotheses**. This chapter explains a practical way to do that without pretending you already know what customers want.
 
-This chapter teaches you how to identify new market opportunities and conduct thorough customer analysis. You'll learn how to gather market intelligence, segment your customer base using a weighted scoring system with TAM, SAM, and SOM, map customer journeys, and measure behavioral metrics. All tools and steps are self-contained to enable immediate application.
+You will:
+- scan for opportunities using **observable signals** (not ideation alone),
+- prioritize customer segments using **TAM / SAM / SOM as scoping lenses** (not forecasts),
+- map customer journeys to locate **where behavior changes**,
+- define a small set of **behavioral metrics** that can later serve as evidence.
 
----
+## 1) What changes in Phase 2
+Phase 1 builds the foundation (culture, governance, execution discipline). Phase 2 starts producing decision-ready learning about **customers and opportunity space**.
 
-## 1. Introduction
+At this stage, most teams confuse three things:
+1) an *idea*,
+2) a *problem*,
+3) an *opportunity hypothesis*.
 
-Phase II begins by scanning for emerging trends and unmet needs while analyzing customer behavior and preferences. This process reveals insights for designing valuable and market-aligned solutions.
+An **opportunity hypothesis** is the bridge:
+- it is grounded in observation,
+- it states what would need to be true,
+- and it can be falsified by evidence.
 
-**Inputs**
-- Market research reports, industry data, competitor benchmarks
-- Customer surveys, interviews, focus groups
-- CRM data, website analytics, and support logs
+### Inputs you can use (typical)
+- customer interviews, support tickets, complaints, call logs
+- CRM usage data, product analytics, web/app funnels
+- industry reports, regulatory changes, competitor moves
+- internal constraints: delivery capacity, channels, partnerships
 
-**Outputs**
-- Identified market opportunities
-- Prioritized customer segments with personas
-- Customer journey maps
-- Behavioral metrics with defined targets
+### Outputs you should produce (bounded)
+- 3–10 opportunity hypotheses (not a backlog of features)
+- a prioritized list of candidate segments
+- 1–2 journey maps for the top segment(s)
+- a minimal measurement plan (signals you can observe)
 
-:::info Process Overview
+## 2) Opportunity discovery without “ideation theater”
+Opportunity discovery is a structured scan for **shifts**:
+- new constraints (regulation, budget pressure, risk posture),
+- new capabilities (platforms, distribution, interoperability),
+- new behavior (workarounds, drop-offs, substitution).
+
+Start with what is observable:
+- What are people repeatedly trying to do?
+- Where do they abandon, delay, escalate, or complain?
+- What workarounds exist, and what do they cost?
+
+:::tip Example — Institutional Context
+A public agency sees repeated escalations on the same service. The “issue” is not that citizens are confused in general; it is that a specific step consistently causes rework (missed documents, identity mismatch, long verification time). That step becomes an opportunity hypothesis: *“If we reduce verification friction at Step X, completion rates should increase without increasing fraud risk.”*
+:::
+
+## 3) Segment selection using TAM / SAM / SOM as scoping lenses
+TAM / SAM / SOM helps you **scope** a segment and avoid false precision.
+
+- **TAM (Total Addressable Market):** the full universe of demand *in principle*.
+- **SAM (Serviceable Available Market):** the portion you can serve given your product constraints (language, geography, channels, regulation).
+- **SOM (Serviceable Obtainable Market):** what you can plausibly capture near-term given resources, competition, and go-to-market constraints.
+
+These are not forecasts. They are **boundaries** that prevent teams from claiming “huge markets” without operational realism.
+
+### Practical segment scoring (simple, repeatable)
+Use a lightweight scoring model to rank segments before you build personas.
+
+Score each segment 1–5 on:
+- **Market Potential (40%)**: demand size within your SAM, willingness to pay / adopt, urgency
+- **Strategic Fit (35%)**: alignment with mandate/strategy, channel access, capability match
+- **Ease of Engagement (25%)**: reachable users, data availability, cycle time to learn
+
+**Score = (Potential × 0.40) + (Fit × 0.35) + (Ease × 0.25)**
+
+:::tip Example — Startup Context
+A startup has 3 plausible segments. The team scores each quickly and chooses the segment where they can learn fastest (high Ease) even if TAM is smaller, because early evidence quality matters more than theoretical reach.
+:::
+
+## 4) Personas as “assumption registries,” not storytelling
+Personas are useful when they **make assumptions explicit** and link them to observable behavior.
+
+For each prioritized segment, capture:
+- **Context:** where they are, what constraints they face, what triggers action
+- **Jobs to be done:** what they’re trying to accomplish (not features they want)
+- **Current alternatives:** how they solve it today (including “do nothing”)
+- **Friction points:** where time, risk, cost, or uncertainty increases
+- **Adoption constraints:** policy, procurement, compliance, switching cost
+- **Observable signals:** what you can measure without mind-reading
+
+Keep personas short. The goal is to constrain later solution choices, not justify them.
+
+## 5) Journey mapping to locate behavioral breakpoints
+A journey map is valuable when it reveals where behavior changes:
+- where people abandon,
+- where they escalate,
+- where they repeat work,
+- where they substitute alternatives.
+
+Map the journey as:
+1) **Trigger**
+2) **First attempt**
+3) **Key steps**
+4) **Friction / breakdown**
+5) **Workaround / escalation**
+6) **Outcome**
+
+Then annotate:
+- **decision points** (where a user chooses to continue or drop),
+- **evidence hooks** (where you can observe behavior),
+- **reversibility** (how costly it is to change the step).
+
+:::note Figure 7 — Opportunity → Segment → Journey → Evidence (explanatory)
 ```mermaid
+%%{init: {"theme":"base","flowchart":{"nodeSpacing":40,"rankSpacing":40},"themeVariables":{"fontSize":"28px"}} }%%
 flowchart TB
-    A[**Define Research Goals**<br />*Clarify what you aim to learn from market and customer data>*] --> 
-    B[**Gather Data**<br />*Use surveys, interviews, and analytics to collect information*]
-    B --> C[**Segment Customers & Score**<br />*Apply TAM/SAM/SOM and weighted scoring to prioritize segments*]
-    C --> D[**Map Customer Journeys**<br />*Document touchpoints, pain points, and opportunities*]
-    D --> E[**Analyze & Prioritize Insights**<br />*Identify trends and align insights with strategic direction*]
+  A[Observe Signals<br/>complaints, drop-offs, workarounds] --> B[Form Opportunity Hypotheses<br/>testable claims]
+  B --> C[Prioritize Segments<br/>TAM/SAM/SOM + scoring]
+  C --> D[Map Journey Breakpoints<br/>where behavior changes]
+  D --> E[Define Evidence Hooks<br/>metrics + thresholds]
+  E --> F[Decision Posture Update<br/>proceed / defer / revise]
+This figure is explanatory. It shows a non-linear loop: evidence updates can revise hypotheses, re-rank segments, or change what is mapped next.
 :::
 
-## 2. Identifying Opportunities
-Begin by gathering and analyzing external and internal data to uncover trends, shifts in behavior, and unmet needs.
+6) Behavioral metrics (signals) you can actually use
+At this stage, metrics are signals, not proof. Pick a small set that matches the journey breakpoints.
 
-- **Collect Market Data**: *Use industry reports, social listening, customer feedback*.
+Common signals:
 
-- **Analyze Trends**: *Observe changes in technology, regulation, or customer demand*.
+Activation / completion rate (did they finish the critical flow?)
 
-- **Benchmark Competitors**: *Identify differentiation opportunities by comparing strengths and weaknesses*.
+Time-to-complete (how long until value is reached?)
 
-:::tip Example 
-    A tech company sees rising mobile usage in emerging markets and identifies a gap for lightweight, low-data apps by analyzing customer feedback and industry trends. 
+Drop-off rate by step (where do they abandon?)
+
+Repeat attempts / rework (how often must they redo steps?)
+
+Escalation rate (support tickets, calls, supervisor intervention)
+
+Retention / return (do they come back, and why?)
+
+Define each metric with:
+
+where it is measured,
+
+how it can be wrong (failure mode),
+
+what movement would change a decision later.
+
+:::
+An innovation lab runs a bounded pilot under governance constraints. The team measures “drop-off at Step 3” and “escalations to manual review.” If drop-off improves but escalations spike, the decision posture does not improve — evidence is mixed, and the hypothesis must be revised before scaling.
 :::
 
-## 3. Customer Segmentation and Personas
+7) Epistemic constraints (why this chapter is framed this way)
+In MCF 2.2, customer analysis is not about certainty. It is about improving decision integrity under uncertainty.
 
-#### A. Weighted Scoring with TAM, SAM, SOM
-Use this system to prioritize customer segments:
+This means:
 
-- **TAM (Total Addressable Market)**:
-  - **Definition**: The total revenue opportunity available if your product or service achieved 100% market penetration across all geographies, customer types, and use cases.
-  - **Example**: *If you're launching a digital payment platform, the TAM might be the entire global digital payments market, worth $8 trillion annually*.
+treat intent as inferred until evidence supports it,
 
-- **SAM (Serviceable Available Market)**
-  - **Definition**: The portion of the TAM that your product can serve based on its features, geography, and customer focus.
-  - **Example**: *For the same digital payment platform, your SAM could be the Latin American digital payments market, valued at $600 billion, because your product is currently localized for Spanish and Portuguese-speaking countries*.
+prefer observed behavior over reported preference,
 
-- **SOM (Serviceable Obtainable Market)**:
-  - **Definition**: The share of the SAM that you can realistically capture in the short term, given your current resources, competition, and go-to-market strategy.
-  - **Example**: *Within the Latin American market, your SOM might be $60 billion, reflecting a goal to capture 10% of that market in the next 3 years through focused marketing and partnerships in Brazil and Mexico*.
+state what would falsify your opportunity hypothesis,
 
-##### Weighted Scoring Formula
-- **Market Potential (40%)**
-- **Strategic Fit (35%)**
-- **Ease of Engagement (25%)**
+use segment/journey work to constrain solutions, not justify them.
 
-:::tip Weighted Scoring Example (Segment A - Urban Professionals):
+8) What you should have before moving to Chapter 12
+Before formal problem definition, you should be able to say:
 
-    **TAM** = 5, **Strategic Fit** = 4, **Ease of Engagement** = 4
-    **Score** = (5 * 0.4) + (4 * 0.35) + (4 * 0.25) = 4.4 
-:::
+“We observed X, Y, Z behaviors.”
 
-#### B. Develop Customer Personas
-For each prioritized segment, define:
-- **Demographics**: *Age, income, location*.
-- **Behavioral Data**: *Usage frequency, digital habits*.
-- **Pain Points**: *Common frustrations*.
-- **Motivations**: *Decision drivers*.
+“We believe opportunity hypothesis H is plausible.”
 
-:::tip Persona Example Tech-Savvy Tina
-    - *28 - 35, urban, high income*.
-    - *Shops online, prefers fast mobile checkout*.
-    - *Frustrated by delays, seeks smooth digital experiences*. 
-:::
+“If H is true, we expect metric M to move at breakpoint B.”
 
-### 4. Customer Journey Mapping
-Visualize how customers interact with your service from awareness to loyalty.
-- **Touchpoints**: *Website, app, support, email*.
-- **Pain Points**: *Drop-offs, confusion, delays*.
-- **Improvements**: *Streamlined onboarding, better communication*.
+“If metric M does not move (or moves with failure mode F), we revise or defer.”
 
-:::tip Example 
-    A finance app maps its onboarding journey and finds high drop-off during login. By simplifying authentication, they reduce churn by 20%. 
-:::
+That is enough to proceed.
 
-### 5. Behavioral Metrics
-Track customer behavior to guide decisions:
-- **Conversion Rate**: *% of users completing an action*.
-- **Engagement Rate**: *Time spent, sessions, pages per visit*.
-- **Retention**: *% of returning customers*.
-- **Net Promoter Score (NPS)**: *Satisfaction indicator*.
-- Use tools like Google Analytics, CRM platforms, and surveys.
-
-:::tip Example 
-    An e-commerce platform notes a 3% conversion rate. Users who spend less than 2 minutes on pages convert less. Increasing time-on-page boosts sales. 
- :::
-
-### 6. Implementation Steps
-:::info Guided Workshop Exercise
-    - **Step 1**: *Define research questions and prioritize based on business relevance*.
-    - **Step 2**: *Use surveys, interviews, and analytics to gather insight*.
-    - **Step 3**: *Segment your audience and apply TAM/SAM/SOM scoring*.
-    - **Step 4**: *Build personas and map their journeys*.
-    - **Step 5**: *Analyze data trends and align findings with your strategic goals*.
-:::
-
-### 7. Best Practices and Tools
-Use SurveyMonkey, Google Forms, and Google Analytics
-- Reassess segments and journeys quarterly.
-- Apply scoring consistently.
-- Involve cross-functional teams.
-
-:::tip Example 
-    A global firm updates personas bi-annually using customer feedback and behavioral data. They hold quarterly workshops to adjust strategy. 
-:::
-
-### 8. Final Thoughts
-Analyzing customers and identifying opportunities creates a data-driven foundation for innovation. With structured research, weighted segmentation, journey mapping, and behavioral metrics, you gain actionable insights. In the next chapter, you'll define clear problem statements and link them to measurable strategic objectives using the OKR framework.
-
-## ToDo for this Chapter
-- [ ] Create Customer Analysis questionaire/template, attach template to Google Drive and link to this page
-- [ ] Create Chapter Assesment questionnaire to Google Drive and attach to this page
-- [ ] Translate all content to Spanish and integrate to i18n
-- [ ] Record and embed video for this chapter
+The next chapter uses these inputs to define a problem statement and strategic objectives without converting uncertainty into theater.
