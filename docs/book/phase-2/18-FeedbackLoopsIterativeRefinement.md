@@ -2,7 +2,7 @@
 id: chapter18-feedback-loops-iterative-refinement
 sidebar_position: 18
 title: "Chapter 18: Feedback Loops and Iterative Refinement"
-description: "Learn how to structure feedback loops as evidence mechanisms and refine solutions through decision-driven iteration."
+description: "Structure feedback as evidence mechanisms and refine solutions through explicit decision updates."
 redirect_from:
   - /Part02/18-FeedbackLoops
   - /chapter18-feedback-loops-iterative-refinement
@@ -11,24 +11,24 @@ redirect_from:
 <div className="mcf-contract-grid">
 
 :::info What this chapter does
-- Defines feedback loops as evidence mechanisms that update assumptions and decision states.
-- Shows how feedback signals differ in quality, latency, and reliability.
-- Connects refinement actions to explicit decision thresholds.
+- Defines feedback loops as mechanisms for updating assumptions and decisions.
+- Distinguishes signal quality across multiple feedback sources.
+- Connects refinement actions to explicit decision states.
 - Frames iteration as epistemic updating, not continuous motion.
 :::
 
 :::warning What this chapter does not do
-- Does not assume all feedback is valid, representative, or unbiased.
-- Does not replace controlled experimentation.
+- Does not assume feedback is representative or unbiased.
 - Does not treat iteration as progress without evidence.
-- Does not encourage endless refinement without decision change.
+- Does not replace controlled experimentation.
+- Does not encourage refinement without decision change.
 :::
 
 :::tip When you should read this
-- When experiments, pilots, or live usage are generating signals.
-- When teams need to decide what to change and what to ignore.
+- When experiments, pilots, or live systems are producing signals.
+- When teams need to decide what to change, pause, or reverse.
 - When feedback appears contradictory or noisy.
-- Before locking in irreversible commitments.
+- Before committing to irreversible scaling decisions.
 :::
 
 :::note Derived from Canon
@@ -50,11 +50,11 @@ This chapter is interpretive and explanatory. Its constraints derive from:
 :::
 
 :::warning Minimal evidence expectations (non-prescriptive)
-Feedback used in this chapter should allow you to:
-- trace signals to the assumptions they update
-- explain why a refinement was made
-- show whether the decision state advanced, paused, or reversed
-- justify whether optionality was preserved or reduced
+Feedback used here should allow you to:
+- trace signals to assumptions
+- justify why a refinement occurred
+- explain the resulting decision state
+- show whether optionality was preserved or reduced
 :::
 
 </div>
@@ -67,167 +67,141 @@ A[Interaction / Use] --> B[Feedback Signals]
 B --> C[Interpretation]
 C --> D[Refinement Action]
 D --> E[Decision Update]
-E -->|advance / pause / reverse| A
+E -->|advance · pause · reverse| A
 ```
 :::
 
-Feedback → Signals → Refinement → Decision. This diagram shows feedback as a closed epistemic loop. Signals are interpreted, refinements are made, and the decision state is explicitly updated before the next interaction.
+Feedback → Signals → Refinement → Decision. Feedback is interpreted into signals, signals justify refinements, and refinements explicitly update the decision state before the next cycle.
 
-## 1. Introduction
-Feedback loops are how learning persists after experimentation begins. Where experiments isolate variables under controlled conditions, feedback reflects reality as it unfolds: messy, delayed, and often ambiguous.
+1. Introduction
+Feedback loops sustain learning once solutions leave controlled conditions. Unlike experiments, feedback reflects reality as it unfolds—often noisy, delayed, and incomplete.
 
-In the MicroCanvas® Framework, feedback is not collected to justify action. It is collected to update assumptions and determine whether the current decision state should advance, pause, or reverse.
+Within the MicroCanvas® Framework, feedback exists to update assumptions and decision states. Iteration without a decision update is activity. Iteration that changes epistemic state is progress.
 
-Iteration without decision change is motion. Iteration with epistemic updating is progress.
+Inputs
+Prototypes, experiments, or pilots in operation
 
-### Inputs
-- Active prototypes, experiments, or pilots
-- User behavior and qualitative feedback
-- Strategic objectives and OKRs
-- Stakeholder and operational signals
+User behavior and qualitative feedback
 
-### Outputs
-- Interpreted feedback signals
-- Explicit refinement decisions
-- Updated assumptions and roadmap state
+Strategic objectives and OKRs
 
-## 2. Structuring Feedback Loops
-### 2.1 Define Feedback Channels
-Feedback channels must be intentional.
+Stakeholder and operational signals
 
-User channels: usage analytics, usability sessions, support tickets
+Outputs
+Interpreted feedback signals
 
-Stakeholder channels: reviews, governance checkpoints, field reports
+Explicit refinement decisions
 
-System channels: alerts, error logs, performance thresholds
+Updated assumptions and roadmap state
 
-:::tip Example: "Channel Triad — B2B Platform"
+2. Structuring Feedback Loops
+2.1 Feedback Channel Triad
+Effective loops rely on complementary channels.
 
-Assumption: Procurement users understand the approval flow.
+:::tip Example: "Feedback Channel Triad — Platform Product"
 
-Signals: Repeated support tickets + long task completion times.
+User channel: observed behavior in analytics
 
-Decision update: Pause rollout; refine onboarding flow.
+Stakeholder channel: operational reviews
+
+System channel: performance and error alerts
 :::
 
-### 2.2 Establish Review Cadence
-Cadence determines what decisions are possible.
+Each channel compensates for blind spots in the others.
 
-Weekly: reversible refinements (copy, flow, defaults)
-
-Monthly: scope or priority adjustments
-
-Quarterly: structural or strategic changes
+2.2 Review Cadence
+Cadence constrains what decisions are possible.
 
 :::info Exercise: "Cadence Mapping"
-List your feedback sources and decide:
+For each feedback channel, define:
 
-how often each is reviewed
+review frequency
 
-what decisions are allowed at that cadence
+allowed decision types (refine, pause, reverse)
 :::
 
-## 3. Interpreting Feedback Signals
-Feedback must be filtered before it informs action.
+3. Interpreting Feedback Signals
+3.1 Signal Quality Triad
+Signals vary in epistemic weight.
 
-### 3.1 Signal Quality
-Not all feedback carries the same epistemic weight.
+:::tip Example: "Signal Quality Triad — Mobile Service"
 
-Observed behavior > stated preference
+Observed behavior: task completion times
 
-Repeated patterns > single incidents
+Reported feedback: user surveys
 
-Convergent signals > isolated anecdotes
-
-:::tip Example: "Signal Quality Triad — Mobile App"
-
-Assumption: Feature X improves retention.
-
-Signals: High click rate, no change in return usage.
-
-Decision update: Weak evidence; do not scale.
+Inferred signal: repeated abandonment patterns
 :::
 
-### 3.2 Separating Noise from Change
-Short-term variation is not learning.
+Observed behavior carries more weight than stated preference.
 
-:::info Exercise: "Noise Check"
+3.2 Noise vs Change
+Short-term variation must not drive decisions.
+
+:::info Exercise: "Noise Filter"
 For each signal, document:
 
 sample size
 
 duration
 
-alternative explanations
+plausible alternative explanations
 :::
 
-## 4. Iterative Refinement
-Refinement is justified only when it updates a decision state.
+4. Iterative Refinement
+4.1 Refinement Action Triad
+Refinement targets different layers.
 
-### 4.1 Refinement Actions
-Adjust flows, constraints, or affordances
+:::tip Example: "Refinement Action Triad — Public Sector Pilot"
 
-Clarify messaging or expectations
+Interface refinement: clarify steps
 
-Remove features that introduce friction
+Process refinement: reduce handoffs
 
-:::tip Example: "Refinement Triad — Public Service Pilot"
-
-Assumption: Citizens will self-serve.
-
-Signals: Drop-off at identity step.
-
-Decision update: Refine authentication path; preserve optionality.
+Constraint refinement: relax non-essential rules
 :::
 
-### 4.2 Decision States
-Every refinement must end in one of three states:
+Each refinement must correspond to a specific signal.
+
+4.2 Decision Outcome Triad
+Every refinement ends in a decision update.
+
+:::tip Example: "Decision Outcome Triad"
 
 Advance: evidence strengthened
 
 Pause: evidence inconclusive
 
 Reverse: assumption weakened or invalidated
-
-:::tip Example: "Decision Outcome Triad"
-
-Assumption: Automation reduces processing time.
-
-Signals: Faster processing, higher error rate.
-
-Decision update: Pause; investigate trade-off.
 :::
 
-## 5. Documenting Learning
-Feedback without traceability decays.
+If no decision state changes, refinement is unjustified.
 
-Record assumptions updated
-
-Record signals used
-
-Record decision outcome
-
-Record what remains untested
+5. Documenting Learning
+Learning decays without traceability.
 
 :::info Exercise: "Learning Log"
-Create a simple log with:
-
-date
+Maintain a log containing:
 
 assumption
 
 signal
 
-decision
+refinement
+
+decision outcome
 :::
 
-## 6. Final Thoughts
-Feedback loops keep innovation honest. They prevent teams from confusing effort with learning and change with progress. When structured as evidence mechanisms, feedback enables refinement without drift and learning without chaos.
+6. Final Thoughts
+Feedback loops prevent drift by forcing decisions. When structured as evidence mechanisms, they allow teams to refine without confusion, adapt without panic, and learn without illusion.
 
-In the next chapter, Implementing Pilots and Validating Solutions, these refined decisions are tested under real operational constraints.
+In the next chapter, Implementing Pilots and Validating Solutions, these updated decisions are tested under real operational constraints.
 
-## ToDo for this Chapter
-- [ ] Create a Feedback Loop & Decision Log template and link it here
-- [ ] Create Chapter 18 assessment questionnaire
-- [ ] Translate content to Spanish and integrate i18n
-- [ ] Record and embed chapter walkthrough video
+ToDo for this Chapter
+ Create Feedback & Decision Log template and link here
+
+ Create Chapter 18 assessment questionnaire
+
+ Translate content to Spanish and integrate i18n
+
+ Record and embed chapter walkthrough video
