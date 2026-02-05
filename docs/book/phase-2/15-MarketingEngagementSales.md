@@ -58,231 +58,260 @@ Evidence used in this chapter should allow you to:
 :::
 
 </div>
-![From Message to Market](/img/ch15-marketing-engagement-sales.svg)
 
-**From Message to Market**. *This illustration captures the key drivers of innovation tractionstrategic marketing, authentic engagement, and effective sales. Aligned with the MicroCanvas&reg; Framework, these components ensure that solutions not only meet user needs but also generate measurable adoption and value*.
+:::note Figure 12 — From message to market (explanatory)
+```mermaid
+%%{init: {"theme":"base","flowchart":{"nodeSpacing":35,"rankSpacing":40},"themeVariables":{"fontSize":"18px"}} }%%
+flowchart TB
+  A[Customer + Problem Evidence<br/>from Chapters 11–13] --> B[Assumptions<br/>segment, channel, value, WTP]
+  B --> C[Go-to-market Experiments<br/>marketing, engagement, sales]
+  C --> D[Signals Captured<br/>acquire, activate, convert, retain]
+  D --> E[Interpretation<br/>signal vs noise, comparability]
+  E --> F[Decisions<br/>proceed, revise, defer, terminate]
+  F --> B
+```
+This figure is explanatory. It shows go-to-market as an evidence loop: actions generate signals, signals constrain claims, and decisions update assumptions.
+:::
 
-In this chapter, you will design a comprehensive strategy that defines your marketing and engagement tactics as well as your sales process. Integrating insights from previous processes - such as Problem Analysis, OKRs, and Customer Analysis - you will develop outputs that include a detailed marketing funnel and a sales strategy aimed at driving customer acquisition and revenue growth.
+From Message to Market. In the Book layer, marketing, engagement, and sales are treated as evidence-generating systems. They do not “prove” value by themselves; they produce signals that constrain what you can claim about demand, willingness to pay, and adoption.
 
-A well-crafted marketing and sales strategy not only validates your innovation but also bridges the gap between product development and market success. This chapter equips you with the tools to define your messaging, choose the right channels, and build a customer journey that converts prospects into loyal customers.
+This chapter helps you design go-to-market work so it produces decision-ready evidence. Your objective is not “promotion.” Your objective is to reduce uncertainty about:
 
----
+- who engages,
+- why they engage,
+- what they will pay for,
+- and whether observed traction is durable or accidental.
 
 ## 1. Introduction
+A marketing and sales strategy is useful in Discovery and Validation when it creates comparable signals and makes assumptions falsifiable.
 
-A strong marketing and sales strategy is essential for the validation and sustained growth of your business model. In this chapter, you will:
+In this chapter you will:
+- define marketing and engagement as a system for testing messages, channels, and activation paths, and
+- define sales as a system for testing willingness to pay, procurement friction, and repeatability.
 
-- **Define the Marketing and Engagement Strategy:** Identify your target audience, create a compelling value proposition, and design a customer journey from awareness to retention.
-- **Design the Sales Funnel:** Develop a sales strategy, select the appropriate sales channels, and map a detailed sales funnel from lead generation to conversion and post-sale engagement.
+### Key inputs
+- Problem analysis and causal hypotheses (Chapter 12)
+- Customer segments and behavioral insights (Chapter 11)
+- Strategic objectives and constraints (OKRs) (Chapter 12)
+- Solution direction and differentiation claims (Chapter 13)
 
-**Key Inputs:**
-- **Problem Analysis:** Understand customer pain points.
-- **Objectives and Key Results (OKRs):** Set clear performance targets.
-- **Customer Analysis:** Identify and segment customer needs.
-- **Market and Competitor Research:** Gain insights into external market forces.
-
-**Expected Outputs:**
-- A comprehensive Marketing Strategy Document outlining the engagement plan and customer journey.
-- A Sales Strategy Document that details the sales funnel and defines key performance indicators (KPIs) for sales success.
-
----
+### Expected outputs
+- A marketing and engagement blueprint expressed as falsifiable assumptions + tests
+- A sales funnel and sales strategy expressed as signals + decision thresholds
+- A measurement plan for comparing channels and interpreting early traction
 
 ## 2. Section 1: Marketing and Engagement
+### 2.1 Overview (evidence-first)
+Marketing and engagement are not outcomes; they are instruments. The evidence they generate is only useful when:
 
-### 2.1. Overview
+- you specify what would count as “success” and “failure,” and
+- you ensure signals are comparable across channels.
 
-**Purpose:**  
-Develop a marketing strategy that resonates with your target customers. This includes building brand awareness, engaging potential customers through compelling content, and nurturing relationships that drive loyalty.
+Common signals include:
 
-:::tip Why It Matters:  
+- acquisition efficiency (reach → qualified visits),
+- activation (first meaningful action),
+- engagement depth (repeat usage, time-to-value),
+- retention (return behavior),
+- and referral (peer-driven adoption).
 
-    A well-defined marketing strategy:
-        - Enhances customer perception of your brand.
-        - Differentiates your offering in a competitive market.
-        - Provides a roadmap to guide content creation, communication channels, and engagement tactics.
+:::tip Triad examples (marketing as evidence)
+
+Startup: test whether a segment will take a measurable action (signup → activation) rather than “likes.”
+
+Institutional: test whether target users complete a service step without escalation rather than “awareness.”
+
+Hybrid: test whether cross-party stakeholders engage with the same artifact (brief, demo, pilot request) rather than “interest.”
 :::
 
-**Key Inputs:**
-- **Customer Analysis:** Detailed profiles that reveal customer pain points and preferences.
-- **Problem Analysis:** Insights into what issues your customers face.
-- **Market Trends:** Understanding the current market dynamics and competitor strategies.
-
-**Expected Outputs:**
-- A strategic Marketing Plan and Engagement Blueprint.
-- A visual marketing funnel that maps the customer journey from awareness through to retention.
-
-### 2.2. Process Steps and Explanations
-
-:::info Marketing and Engagement Process Steps
-
-   ```mermaid
-   %%{init: {"theme":"base","themeVariables":{"fontSize":"18px"} } }%%
-    flowchart TB
-    A["**Identify Target Audience**<br>(*Define segments & create profiles*)"]
-    B["**Analyze Market Trends**<br>(*Research competitors & external influences*)"]
-    C["**Develop Value Proposition**<br>(*Clearly articulate benefits*)"]
-    D["**Design Marketing Funnel**<br>(*Map customer journey: Awareness  Retention*)"]
-    E["**Plan Engagement Tactics**<br>(*Select channels & content strategies*)"]
-    F["**Validate with Stakeholders**<br>(*Gather feedback & iterate*)"]
-    A --> B
-    B --> C
-    C --> D
-    D --> E
-    E --> F
+### 2.2 Process steps
+:::info Marketing and engagement process steps
+```mermaid
+%%{init: {"theme":"base","themeVariables":{"fontSize":"18px"}} }%%
+flowchart TB
+  A[Define segment + intended action] --> B[State falsifiable assumptions]
+  B --> C[Choose channels + messages]
+  C --> D[Run reversible tests]
+  D --> E[Capture comparable signals]
+  E --> F[Interpret + update assumptions]
+  F --> G[Decide: proceed / revise / defer / terminate]
+  G --> B
+```
 :::
 
-1. **Identify Target Audience:**  
-   - **What:** Define customer segments and create detailed profiles based on demographics, psychographics, and behavior.
-   - **Why:** Understanding who your customers are enables you to tailor your messaging and select the best channels for engagement.
-   - **Example:** Segment customers by factors like age, location, and eco-conscious behavior.
+#### 2.2.1 Define segment + intended action
+Specify the target segment and the action that matters (not just impressions).
 
-2. **Analyze Market Trends:**  
-   - **What:** Research industry trends, competitor strategies, and external influences that affect customer behaviors.
-   - **Why:** Staying informed about market dynamics helps you anticipate changes and adjust your strategy proactively.
-   - **Tip:** Use online analytics tools and industry reports to gather up-to-date insights.
+Define what counts as “activation” for your context.
 
-3. **Develop Your Value Proposition:**  
-   - **What:** Clearly articulate the unique benefits and solutions your product or service provides.
-   - **Why:** A compelling value proposition differentiates you from competitors and convinces customers why they should choose your offering.
-   - **Example:** *"Delivering fast, eco-friendly logistics that reduce your carbon footprint."*
+:::tip Triad examples
 
-4. **Design the Marketing Funnel:**  
-   - **What:** Map out the stages of the customer journey - from awareness to retention.
-   - **Why:** Visualizing the funnel helps identify where customers may drop off and where additional engagement is needed.
-   
-:::info Marketing Funnel Journey
+Startup: activation = “user completes onboarding + reaches first value in ≤10 minutes.”
 
-     ```mermaid
-     %%{init: {"theme":"base","themeVariables":{"fontSize":"18px"} } }%%
-     flowchart LR
-         A[Awareness] --> B[Interest]
-         B --> C[Consideration]
-         C --> D[Conversion]
-         D --> E[Retention]
-:::
-   - **Explanation:** Each stage requires specific tactics (e.g., social media for awareness, email marketing for nurturing leads).
+Institutional: activation = “citizen completes step X without assistance.”
 
-5. **Plan Engagement Tactics:**  
-   - **What:** Determine which channels (social media, email, content marketing) and tactics (webinars, interactive content) will effectively engage your target audience.
-   - **Why:** Different channels reach different segments of your audience, and diverse tactics keep your messaging dynamic and interactive.
-
-:::tip **Tip:**
-      Mix both digital and traditional approaches based on where your customers spend their time.
+Hybrid: activation = “stakeholder requests a pilot with explicit constraints and success criteria.”
 :::
 
-6. **Validate with Stakeholders:**  
-   - **What:** Gather feedback from internal teams, focus groups, and surveys.
-   - **Why:** Stakeholder input ensures that your marketing strategy resonates with your audience and aligns with overall business objectives.
-   
-:::info **Exercise:** 
-       Conduct a mini-survey to gauge initial reactions to your proposed marketing funnel.
+#### 2.2.2 State falsifiable assumptions
+Write assumptions in a way that can be invalidated.
+
+Examples of assumption types:
+- Channel: “Channel C will reach segment S at cost ≤X.”
+- Message: “Message M will outperform message N on activation rate.”
+- Value: “Benefit B will increase conversion by ≥Y.”
+- Friction: “Step K is the dominant drop-off cause.”
+
+:::info Exercise (triad)
+Write 3 assumptions:
+
+Startup: one channel, one message, one activation friction.
+
+Institutional: one channel (official vs community), one trust claim, one accessibility friction.
+
+Hybrid: one partner channel, one legitimacy claim, one procurement friction.
 :::
 
-### 2.3. Examples and Exercises
+#### 2.2.3 Choose channels + messages
+Select a small set of channels to test. Define the message as a claim that implies an observable response.
 
-:::tip Example: "Eco-Delivery Campaign"  
-    Imagine you are launching an eco-friendly delivery service. Develop a campaign that emphasizes the environmental benefits, using customer testimonials and case studies to illustrate the reduction in carbon emissions.  
+Keep tests reversible:
+- small budgets,
+- short cycles,
+- minimal automation.
+
+#### 2.2.4 Run reversible tests
+Run tests long enough to reduce noise, but short enough to preserve optionality.
+
+#### 2.2.5 Capture comparable signals
+Use comparable metrics so you can compare channels and messages.
+
+Examples:
+- visit → qualified lead rate
+- qualified lead → activation rate
+- activation → retained usage rate (time-bound)
+- cost per activated user (not just cost per click)
+
+#### 2.2.6 Interpret + update assumptions
+Interpretation must separate:
+- signal vs noise,
+- correlation vs explanation,
+- and novelty spikes vs durable patterns.
+
+#### 2.2.7 Decide using thresholds
+Decide whether to proceed, revise, defer, or terminate based on thresholds you define in advance.
+
+:::tip Triad examples (decision thresholds)
+
+Startup: scale only when activation rate is stable across 2 cycles and support load remains acceptable.
+
+Institutional: scale only when completion improves without increasing exclusion or escalation.
+
+Hybrid: scale only when partner commitments are repeatable and integration constraints remain bounded.
 :::
 
-:::info Exercise: "Visualize Your Funnel"  
-    Using sticky notes or a digital whiteboard, map out your entire marketing funnel. Identify key touchpoints at each stage and note any potential challenges or opportunities for improvement.  
+### 2.3 Examples and exercises (triad)
+:::tip Example — Startup: “Activation-first campaign”
+Run two messages for the same segment. Optimize for activation, not clicks. Keep the test reversible and define what result would invalidate the message.
 :::
 
----
+:::tip Example — Institutional: “Trust + completion”
+Run a pilot communication through two channels (official + community). Measure completion without escalation and track where trust breaks.
+:::
+
+:::tip Example — Hybrid: “Partner-led entry”
+Run outreach through a partner channel and measure pilot requests with explicit constraints rather than generic interest.
+:::
 
 ## 3. Section 2: Sales
+### 3.1 Overview (evidence-first)
+Sales is where you test willingness to pay, procurement friction, and repeatability. Early revenue can be misleading if:
 
-### 3.1. Overview
+- it is driven by exceptional relationships,
+- it is non-repeatable,
+- or the costs of delivery make it non-viable.
 
-**Purpose:**  
-Create a sales strategy that not only meets revenue targets but also supports long-term customer relationships. This section focuses on defining sales goals, choosing the right channels, and mapping a detailed sales funnel.
+Sales evidence becomes decision-ready when you can:
 
-**Why It Matters:**  
-A robust sales process:
-- Drives predictable revenue.
-- Ensures efficient customer acquisition.
-- Builds a foundation for scalability and growth.
+- explain what buyers value,
+- show where deals stall,
+- and demonstrate that conversion can repeat under similar conditions.
 
-**Key Inputs:**
-- **OKRs and Sales Targets:** Define what success looks like.
-- **Customer Analysis:** Leverage insights into customer preferences and pain points.
-- **Market Research:** Understand competitors sales strategies and market conditions.
-
-**Expected Outputs:**
-- A Sales Strategy Document that includes detailed tactics and a visual sales funnel.
-- A set of KPIs to continuously measure and optimize the sales process.
-
-### 3.2. Process Steps and Explanations
-
-1. **Define Sales Goals:**  
-   - **What:** Set clear, quantifiable targets (e.g., revenue, conversion rates, customer acquisition costs).
-   - **Why:** Clear goals provide direction and help track progress.
-   - **Example:** Aim to increase monthly recurring revenue by 20% within the next quarter.
-
-2. **Identify Sales Channels:**  
-   - **What:** Evaluate your current sales channels and explore new ones that can reach your target audience effectively.
-   - **Why:** Different channels may yield different conversion rates and customer experiences.
-   - **Tip:** Consider both online channels (e.g., social media, email) and offline methods (e.g., direct sales calls).
-
-3. **Develop Sales Tactics:**  
-   - **What:** Decide on the approaches (inbound, outbound, account-based) that will drive customer acquisition.
-   - **Why:** A mixed tactic approach often leads to more robust sales performance.
-   - **Example:** Combine inbound marketing (content and SEO) with targeted outbound emails.
-
-4. **Map the Sales Funnel:**  
-   - **What:** Outline the stages of the sales process from lead generation to post-sale follow-up.
-   - **Why:** A clear funnel helps pinpoint where prospects convert and where improvements are needed.
-
-:::info Process Steps and Explanations  
-     ```mermaid
-     %%{init: {"theme":"base","themeVariables":{"fontSize":"18px"} } }%%
-     flowchart LR
-         A[Lead Generation] --> B[Qualified Leads]
-         B --> C[Proposal]
-         C --> D[Negotiation]
-         D --> E[Closed Deal]
-         E --> F[Follow-up & Retention]     
+### 3.2 Sales process steps
+:::info Sales funnel as a signal system (explanatory)
+```mermaid
+%%{init: {"theme":"base","themeVariables":{"fontSize":"18px"}} }%%
+flowchart LR
+  A[Lead] --> B[Qualified]
+  B --> C[Proposal]
+  C --> D[Negotiation]
+  D --> E[Closed]
+  E --> F[Retention]
+```
 :::
 
-:::tip **Explanation:** 
-    Understanding each stage allows for targeted training and process improvement.
+#### 3.2.1 Define sales goals as evidence targets
+Avoid goals that only describe outcomes. Define evidence targets too.
+
+Examples:
+- conversion rate per stage
+- cycle time per stage
+- reasons for loss (categorized)
+- procurement blockers (categorized)
+
+:::tip Triad examples
+
+Startup: evidence target = “≥30% of qualified leads reach proposal within 2 weeks.”
+
+Institutional: evidence target = “procurement path identified and time-boxed; blockers documented.”
+
+Hybrid: evidence target = “repeatable buyer profile + repeatable deployment constraints.”
 :::
 
-5. **Equip the Sales Team:**  
-   - **What:** Provide the necessary tools (CRM, analytics, sales scripts) and training to your sales team.
-   - **Why:** Empowered teams can execute the strategy more effectively, leading to higher conversion rates.
-   - **Tip:** Regular training sessions and performance reviews can enhance sales skills and motivation.
+#### 3.2.2 Identify sales channels
+Treat channel choice as a testable assumption. Compare channels using comparable metrics.
 
-6. **Monitor and Iterate:**  
-   - **What:** Establish a system for tracking sales performance through KPIs such as conversion rates, sales cycle length, and customer satisfaction.
-   - **Why:** Ongoing monitoring allows you to adjust strategies based on real-time data and feedback.
+#### 3.2.3 Develop sales tactics (reversible where possible)
+Examples:
+- inbound + outbound mix,
+- account-based for complex buyers,
+- partner-assisted for institutional contexts.
 
-:::tip **Example:** 
-    Set monthly review meetings to discuss sales performance and refine the process.
+#### 3.2.4 Map the funnel with explicit signals
+Define what “qualified” means. Define what evidence each stage should produce.
+
+Stage signals (examples):
+- Qualified: buyer matches constraints; problem is decision-relevant.
+- Proposal: clear scope + success criteria + constraints.
+- Negotiation: explicit trade-offs surfaced; risks acknowledged.
+- Closed: commitments documented; delivery assumptions confirmed.
+
+#### 3.2.5 Equip the team (tools + artifacts)
+Use tools (CRM) only if the underlying evidence model is defined.
+
+#### 3.2.6 Monitor and iterate
+Run periodic reviews:
+- what signals were strongest,
+- which assumptions failed,
+- what is changing the decision threshold.
+
+:::tip Triad exercises
+
+Startup: define “qualified” in one sentence and list 5 disqualifiers.
+
+Institutional: map the procurement path and list 5 blockers you must surface early.
+
+Hybrid: define the minimum integration constraints for a pilot and list 5 red flags.
 :::
-
-
-### 3.3. Examples and Exercises
-
-:::tip Case Study: "Revamping a Sales Funnel"  
-    Examine how a leading competitor restructured their sales funnel to achieve a 20% boost in conversion rates. Identify which tactics led to their success and consider how similar approaches might work for your business.
-:::
-
-:::info Exercise: "Draft Your Sales Strategy"  
-    Outline a sales strategy that includes a detailed diagram of your sales funnel. Identify key performance indicators (KPIs) for each stage and propose initial tactics for converting leads into customers.
-:::
-
----
 
 ## 4. Final Thoughts
+Marketing, engagement, and sales become powerful in Discovery and Validation when they are designed as evidence systems. They help you interpret demand, adoption, and willingness to pay without mistaking noise for proof.
 
-This chapter is designed to bridge the gap between market validation and product development. By establishing robust marketing and sales strategies, you create a foundation for sustainable growth. These validated strategies provide critical inputs for subsequent processes - such as User Stories and Rapid Prototyping (explored in Chapter 16) - ensuring that your innovation aligns with market needs and operational realities.
+Next Chapter: Chapter 16 moves into User Stories and Rapid Prototyping—how to build reversible artifacts that generate decision-ready evidence while preserving optionality.
 
-**Key Reminders:**
-- Continuously iterate based on stakeholder feedback and performance data.
-- Ensure alignment between your marketing messages and sales strategies.
-- Leverage insights from Problem Analysis, OKRs, and Customer Analysis to refine your approach.
-
-Transitioning to Chapter 16, these strategies will serve as essential inputs to ensure that your product development is driven by market realities and customer insights.
-
-Happy strategizing, and remember: both marketing and sales are dynamic, evolving processes that require ongoing attention and refinement to drive lasting success!
+## ToDo for this Chapter
+- [ ] Create Marketing + Engagement questionnaire/template, attach template to Google Drive and link to this page
+- [ ] Create Sales funnel questionnaire/template, attach template to Google Drive and link to this page
+- [ ] Create Chapter assessment questionnaire, attach template to Google Drive and link to this page
+- [ ] Translate all content to Spanish and integrate to i18n
+- [ ] Record and embed video for this chapter
