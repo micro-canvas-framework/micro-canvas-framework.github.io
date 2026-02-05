@@ -61,6 +61,22 @@ Evidence used in this chapter should allow you to:
 :::
 
 </div>
+From Questions to Clarity. This visual shows how Phase 2 turns observed symptoms into a falsifiable causal model, then translates a decision-ready problem statement into objectives and measurable key results.
+
+:::note Figure 9 — Problem Analysis Loop (explanatory)
+```mermaid
+%%{init: {"theme":"base","flowchart":{"nodeSpacing":40,"rankSpacing":40},"themeVariables":{"fontSize":"18px"}} }%%
+flowchart TB
+  A[Observed Symptoms<br/>signals, complaints, drop-offs] --> B[Candidate Causes<br/>testable causal hypotheses]
+  B --> C[Problem Statement<br/>decision-relevant constraint]
+  C --> D[Strategic Objective<br/>direction + commitment]
+  D --> E[Key Results + KPIs<br/>measures + targets]
+  E --> F[Evidence Review<br/>proceed / defer / revise]
+  F --> B
+```
+This figure is explanatory. It is a loop: evidence review can revise the causal model, update the problem statement, or change which objectives remain defensible.
+:::
+
 
 A strong Phase 2 problem statement is not a slogan. In the Book layer, a **problem** is a **decision-relevant constraint** that you can link to evidence and use to justify commitment (or deferral) without pretending you have certainty.
 
@@ -145,18 +161,6 @@ A problem tree is not “the truth.” It is a **model you can revise**. It help
 - **Roots**: causal hypotheses (drivers)
 - **Branches**: effects (what the organization experiences)
 
-:::note Figure 9 — Problem Analysis Loop (explanatory)
-```mermaid
-%%{init: {"theme":"base","flowchart":{"nodeSpacing":40,"rankSpacing":40},"themeVariables":{"fontSize":"18px"}} }%%
-flowchart TB
-  A[Symptom Log<br/>observable signals] --> B[Causal Hypotheses<br/>testable claims]
-  B --> C[Falsifiers + Checks<br/>what would disconfirm]
-  C --> D[Problem Statement<br/>decision-relevant constraint]
-  D --> E[Decision Posture<br/>proceed / defer / revise]
-  E --> A
-```
-This figure is explanatory. It shows an iterative loop: new evidence can revise hypotheses, refine the problem statement, or change the decision posture.
-:::
 
 ## 2.4 Write a decision-ready problem statement
 A problem statement is decision-ready when it includes:
@@ -202,11 +206,11 @@ they prevent teams from shipping activity without evidence.
 An objective is a directional commitment that responds to the problem constraint.
 
 Objective hygiene (minimum):
-
-outcome-oriented (not a feature list)
-
-bounded in time
-
+- outcome-oriented (not a feature list)
+- bounded in time
+- has a named owner
+- grounded in baseline evidence
+- consistent with reversibility (avoid premature irreversible commitments)
 has a named owner
 
 grounded in baseline evidence
@@ -217,10 +221,10 @@ consistent with reversibility (avoid premature irreversible commitments)
 Key Results are not tasks. They are measurable outcomes that reduce uncertainty.
 
 KR hygiene (minimum):
-
-measurable and time-bound
-
-tied to a baseline
+- measurable and time-bound
+- tied to a baseline
+- tied to an evidence source
+- has a failure mode (how it could be “wrong”)
 
 tied to an evidence source
 
