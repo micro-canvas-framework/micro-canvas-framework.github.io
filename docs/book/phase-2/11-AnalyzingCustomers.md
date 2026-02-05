@@ -60,7 +60,36 @@ Evidence used in this chapter should allow you to:
 </div>
 **From Insight to Opportunity**. *This visual illustrates the dual process of uncovering innovation opportunities and understanding customer behavior. In the Book layer, the goal is to turn observations into testable opportunity hypotheses and decision-ready next steps.*
 
-Phase 2 begins by turning “interesting signals” into **bounded opportunity hypotheses**. This chapter explains a practical way to do that without pretending you already know what customers want.
+:::note Figure 8 — From Insight to Opportunity (explanatory)
+```mermaid
+%%{init: {"theme":"base","flowchart":{"nodeSpacing":40,"rankSpacing":40},"themeVariables":{"fontSize":"28px"}} }%%
+flowchart TB
+  subgraph S[Observable Signals]
+    S1[Complaints & Escalations]
+    S2[Drop-offs & Delays]
+    S3[Workarounds & Substitutions]
+  end
+
+  subgraph C[Customer Context]
+    C1[Jobs to be Done]
+    C2[Constraints & Risks]
+    C3[Current Alternatives]
+  end
+
+  S --> H[Opportunity Hypotheses<br/>testable, falsifiable]
+  C --> H
+
+  H --> P[Segment Prioritization<br/>TAM / SAM / SOM]
+  P --> J[Journey Breakpoints<br/>where behavior changes]
+  J --> E[Evidence Hooks<br/>metrics + thresholds]
+  E --> D[Decision Posture<br/>proceed · defer · revise]
+
+  D -.-> H
+```
+This figure is explanatory, not normative. Evidence updates may revise hypotheses, re-rank segments, or shift what is mapped next. Iteration is expected and non-linear.
+:::
+
+Phase 2 begins by turning "interesting signals" into **bounded opportunity hypotheses**. This chapter explains a practical way to do that without pretending you already know what customers want.
 
 You will:
 - scan for opportunities using **observable signals** (not ideation alone),
