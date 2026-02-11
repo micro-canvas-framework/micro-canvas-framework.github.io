@@ -71,7 +71,7 @@ flowchart TB
   C -- Yes --> E[Diagnose boundary condition]
   E --> F{Reversible to adjust now?}
 
-  F -- Yes --> G[Adjust (small, staged)]
+  F -- Yes --> G[Adjust small and staged]
   F -- No --> H[Escalate to governance]
 
   G --> I[Log change + rationale]
@@ -289,3 +289,4 @@ Canon: /docs/canon/definitions, /docs/canon/evidence-logic, /docs/canon/decision
 - Create an Adjustment Log template and link it here
 - Translate this chapter to Spanish and integrate i18n
 - Record and embed walkthrough video for this chapter
+
