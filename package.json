@@ -34,6 +34,7 @@
     "@docusaurus/preset-classic": "3.9.2",
     "@docusaurus/theme-mermaid": "3.9.2",
     "@mdx-js/react": "^3.0.0",
+    "@mermaid-js/layout-elk": "^0.1.7",
     "chardet": "^2.1.0",
     "clsx": "^2.0.0",
     "iconv-lite": "^0.6.3",
