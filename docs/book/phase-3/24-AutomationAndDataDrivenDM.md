@@ -60,25 +60,21 @@ Evidence used in this chapter should allow you to:
 
 </div>
 
-:::note Figure 21 - Automation as bounded pre-commitment (explanatory)
+:::note Figure 21 - Automation -> Signal -> Decide -> Review (explanatory)
 ```mermaid
 %%{init: {"theme":"base","flowchart":{"nodeSpacing":40,"rankSpacing":40},"themeVariables":{"fontSize":"28px"}} }%%
-flowchart TD
-  A[Define decision<br/>what is being decided] --> B[Map signals<br/>metrics -> thresholds]
-  B --> C[Assess evidence quality<br/>coverage, bias, latency]
-  C --> D[Design automation bounds<br/>escalate, defer, pause]
-  D --> E[Implement with audit trail<br/>who/when/why]
-  E --> F[Monitor drift + exceptions<br/>proxy drift, context shifts]
-  F --> G{Decision state}
-  G -->|Adopt| H[Standardize + document<br/>train + governance pack]
-  G -->|Iterate| I[Adjust signals/thresholds<br/>retest + observe]
-  G -->|Rollback| J[Disable/revert automation<br/>restore manual control]
-  H --> K[Periodic review cadence<br/>thresholds + boundaries]
-  I --> K
-  J --> K
+flowchart LR
+  A[Work happens] --> B[Signals captured]
+  B --> C[Decision rule applied]
+  C --> D[Action executed]
+  D --> E[Outcomes observed]
+  E --> F[Review + adjust thresholds]
+  F --> B
 ```
-Automation as bounded pre-commitment. You encode decision rules only when signals are reliable,
-exceptions are explicit, and rollback remains feasible under governance.
+Automation -> Signal -> Decide -> Review. This diagram shows automation as a bounded evidence
+mechanism: signals inform decisions, actions produce outcomes, and review updates thresholds and
+rules. In MCF 2.2, automation is valuable when it improves reliability without removing
+auditability or reversibility.
 :::
 
 ## 1. Introduction
@@ -94,255 +90,178 @@ decisions still require judgment about reversibility, optionality, and context s
 
 ### Inputs
 
-- Target decisions to stabilize (what decisions repeat and matter)
-- Candidate signals (metrics, events, qualitative inputs) and their data sources
-- Evidence quality assessment (coverage, bias, latency, drift risk)
-- Governance constraints (decision rights, audit requirements, escalation owners)
+- Operational processes and decision points (Chapter 23)
+- Candidate signals (logs, events, KPIs, audits, QA outcomes)
+- Governance boundaries and decision rights
+- Known risks and failure modes relevant to the process
 
 ### Outputs
 
-- A decision-to-signal map (signals -> thresholds -> actions)
-- Bounded automation rules with explicit escalation or deferral paths
-- Audit trails for rule changes and approvals
-- Evidence that automation improved reliability (and did not degrade decision integrity)
+- A signal-to-decision map (which signals drive which decisions)
+- Bounded automation rules with explicit escalation paths
+- Evidence that automation improved reliability without reducing auditability
+- Updated thresholds, exceptions, and review cadence
+
+## 2. Map Decisions to Signals
+
+You cannot be "data-driven" without naming the decisions. Start by defining what is being decided,
+who owns it, and what evidence can change it.
+
+### 2.1 What to do
+
+- List the recurring decisions that meaningfully affect outcomes (approve, route, escalate, pause,
+  rollback).
+- For each decision, write the decision trigger and the decision owner (role, not person).
+- Identify candidate signals that could update the decision and document known limitations.
+
+### 2.2 How to run it
+
+Create a one-page Signal-to-Decision Map with columns:
+Decision | Owner | Trigger | Signals | Threshold | Escalation | Review cadence
+
+Start with 3 to 5 decisions. Expand only when the map is stable.
 
 :::tip Example — Startup Context
-Automates release checks and incident routing to reduce rework, but keeps pricing and roadmap
-decisions manual due to high uncertainty.
+A startup wants to reduce support response variance without increasing headcount.
+
+Decision: Escalate to engineering.
+
+Signal: error rate on a critical endpoint plus a spike in refund requests.
+
+Threshold: error rate > 2% for 10 minutes and refunds > baseline + 30%.
+
+Escalation: on-call engineer plus incident channel.
+
+Review: weekly, adjust threshold when false positives exceed 10%.
 :::
 
 :::tip Example — Institutional Context
-Automates intake triage and compliance checks, but requires approval checkpoints before
-irreversible actions (data access, user-impacting enforcement).
+A large organization wants consistent handling of high-risk requests.
+
+Decision: Route to compliance review.
+
+Signal: data classification label plus region plus customer type.
+
+Threshold: any "restricted" label or cross-border transfer indicator.
+
+Escalation: compliance officer approval required.
+
+Review: monthly audit with sampling to check false negatives.
 :::
 
 :::tip Example — Hybrid Context
-Automates cross-system reconciliation and alerting, but escalates any cross-boundary identity or
-policy conflicts to a joint governance owner.
+A public-private program needs speed, but also auditability and reversibility.
+
+Decision: Approve onboarding step.
+
+Signal: completed KYC/KYB checks plus signed data-sharing terms plus risk score.
+
+Threshold: risk score at or below the defined bound and mandatory docs present.
+
+Escalation: manual review when risk score is "unknown" or docs mismatch.
+
+Review: per cohort, revise rules when exception volume exceeds capacity.
 :::
 
-## 2. Define the Decision Before You Define the Dashboard
+## 3. Define Data Quality and Limits
 
-Start with the decision. Automation and metrics are valid only relative to a decision threshold.
+Signals are only useful when their reliability and scope are known. Data quality is part of the
+evidence.
 
-### 2.1 Specify the decision and decision state
+### 3.1 What to do
 
-Document:
+- Define what "good enough" means for each signal: timeliness, completeness, accuracy.
+- Document where the signal can mislead (seasonality, sampling bias, proxy drift).
+- Define a "no-signal" condition: what happens when evidence is missing.
 
-- what is being decided (approve, ship, scale, block, escalate)
-- who owns the decision (and who can override)
-- what "advance / pause / rollback" means operationally
-- what is reversible vs effectively irreversible
+### 3.2 How to run it
 
-:::info Exercise — Decision definition card
-Write a one-page card with:
+For each key signal, add a short Signal Contract:
+Source | Update frequency | Known gaps | Expected range | Owner | Fallback path
 
-- Decision name
-- Owner + decision rights
-- Decision states (advance/pause/rollback) and what each triggers
-- Reversibility notes (rollback cost, time, dependencies)
+Add an explicit rule: if a signal is stale or missing, escalate or defer.
+
+:::info Exercise — Write two Signal Contracts
+Pick two signals you rely on. Write their Signal Contracts and define the fallback path when each
+signal is missing or stale.
 :::
 
-:::tip Example — Startup Context
-Defines a "ship to production" decision with a rollback window and an owner on-call.
+## 4. Automate with Bounds and Escalation Paths
+
+Automation is a pre-commitment. In MCF 2.2, automation should be bounded: it must know when to
+escalate, pause, or defer.
+
+### 4.1 What to do
+
+- Convert a decision rule into an automation rule only when signals are stable enough, escalation
+  is defined, and rollback is feasible.
+- Define exception categories and which ones require manual review.
+- Keep reversibility explicit: define rollback triggers tied to evidence.
+
+### 4.2 How to run it
+
+Implement automation as a small set of rules with an "escape hatch":
+
+- If in-bounds, automate.
+- If out-of-bounds, escalate.
+- If unknown, defer or require manual review.
+
+Add a rollback trigger tied to evidence, not optimism.
+
+:::info Exercise — Design one bounded automation rule
+Choose one decision from your map. Draft the in-bounds rule, the out-of-bounds escalation rule,
+and the rollback trigger.
 :::
 
-:::tip Example — Institutional Context
-Defines an "expand access to sensitive data" decision with audit requirements and dual approval.
+## 5. Monitor Outcomes Against Thresholds
+
+Automation is justified by outcomes that improve decision reliability. The evaluation must connect
+to thresholds and decision quality, not vanity metrics.
+
+### 5.1 What to do
+
+- Define what "improved" means (lower variance, fewer escalations, faster recovery).
+- Compare to a baseline (before automation) using comparable work units.
+- Track false positives and false negatives explicitly.
+
+### 5.2 How to run it
+
+Create a simple before/after comparison:
+Cycle time variance | Rework rate | Escalation rate | Incident recurrence
+
+Review on a fixed cadence and update thresholds when drift appears.
+
+:::info Exercise — Define an automation review cadence
+Define review cadence (weekly or monthly), owners, and the criteria that would trigger threshold
+changes or rollback.
 :::
 
-:::tip Example — Hybrid Context
-Defines a "sync identity across systems" decision with conflict resolution ownership and a pause
-state.
-:::
+## 6. Typical Failure Modes and Boundary Notes
 
-## 3. Map Signals to Thresholds and Actions
+Automation and data can reduce epistemic quality when they detach from decision integrity.
 
-Signals must map to actions through thresholds. If a metric cannot change an action, it is
-observational, not decision-relevant.
+### 6.1 What to do
 
-### 3.1 Build a signal map
+- Watch for proxy drift: metrics become targets and lose meaning.
+- Watch for coverage gaps: critical decisions lack reliable signals.
+- Watch for latency blindness: decisions are made on stale evidence.
+- Watch for over-automation: reversible decisions are treated as irreversible.
 
-For each decision, map:
+### 6.2 How to run it
 
-- signal name and source
-- threshold definition (including bands, not just a single number)
-- action tied to threshold (advance/pause/escalate)
-- sampling window and latency constraints
-- known limitations (coverage gaps, bias, seasonality, confounders)
+Add a boundary check: if the system keeps running through known exception conditions because
+escalation is undefined, automation is premature. Escalate or pause until boundaries are defined.
 
-:::info Exercise — Signal-to-threshold table
-Create a table with:
+## 7. Final Thoughts
 
-- Decision
-- Signal
-- Threshold band
-- Action
-- Evidence quality notes (bias/latency/coverage)
-- Owner
-- Review cadence
-:::
-
-:::tip Example — Startup Context
-Maps deployment frequency and rollback rate to a "release stability" threshold that triggers pause
-and investigation.
-:::
-
-:::tip Example — Institutional Context
-Maps SLA breach risk and audit findings to escalation thresholds for operational and compliance
-leaders.
-:::
-
-:::tip Example — Hybrid Context
-Maps reconciliation error rate to a threshold that disables automation and forces manual
-verification across systems.
-:::
-
-## 4. Assess Evidence Quality Before Automating
-
-Automation should be bounded by evidence quality. If evidence is unstable, automation amplifies
-error.
-
-### 4.1 Check for common evidence risks
-
-Proxy drift: metrics become targets and lose meaning.
-
-Coverage gaps: critical states are not observed.
-
-Latency blindness: decisions run on stale evidence.
-
-Context shifts: thresholds become wrong when conditions change.
-
-Treat these as conditions that should trigger escalation, deferral, or rollback paths.
-
-:::info Exercise — Evidence quality pre-check
-For each key signal, record:
-
-- What it fails to measure (blind spots)
-- How stale it can be before decisions degrade (max latency)
-- How it can be gamed (proxy drift vectors)
-- What confounders can flip interpretation
-:::
-
-:::tip Example — Startup Context
-A "signups" metric rises because of a campaign, masking retention collapse; automation based on
-signups would misfire.
-:::
-
-:::tip Example — Institutional Context
-A compliance metric is updated monthly; automation that runs daily on it creates false confidence.
-:::
-
-:::tip Example — Hybrid Context
-One side changes definitions; the shared metric drifts and triggers incorrect reconciliation
-actions.
-:::
-
-## 5. Design Bounded Automation With Explicit Exception Paths
-
-Automation must know when to defer, escalate, or pause. Boundedness preserves optionality.
-
-### 5.1 Define automation boundaries
-
-Document:
-
-- trigger conditions (signals + thresholds)
-- allowed actions (what the system can do)
-- escalation conditions (what it cannot do)
-- pause conditions (when to stop automation)
-- rollback procedure (how to revert)
-
-### 5.2 Encode traceability
-
-Every automation change should be traceable:
-
-- who approved changes
-- why the change was made (evidence)
-- what changed (thresholds, logic, scope)
-- when it was deployed
-
-:::info Exercise — Automation rule brief
-Write a brief including:
-
-- Rule name and scope
-- Signals + thresholds
-- Actions + bounds
-- Escalation owners and SLAs
-- Rollback trigger and procedure
-- Audit trail fields (who/when/why)
-:::
-
-:::tip Example — Startup Context
-Automates incident routing and deploy checks, but escalates user-impacting rollbacks to an owner.
-:::
-
-:::tip Example — Institutional Context
-Automates case classification, but requires human approval for enforcement actions or irreversible
-account changes.
-:::
-
-:::tip Example — Hybrid Context
-Automates reconciliation, but pauses and escalates whenever identity or policy conflicts appear
-between systems.
-:::
-
-## 6. Monitor Drift, Exceptions, and Governance Alignment
-
-Automation reliability degrades when context changes. Monitoring is part of the decision system,
-not an afterthought.
-
-### 6.1 Monitor what can invalidate your thresholds
-
-Track:
-
-- drift indicators (threshold violations trending, seasonal shifts)
-- exception volume and category (are edge cases becoming the norm?)
-- override frequency (are humans disagreeing with automation?)
-- audit findings (traceability or boundary violations)
-
-### 6.2 Choose a decision state for the automation itself
-
-Adopt: evidence supports stable thresholds and bounded behavior; standardize.
-
-Iterate: evidence is directional but incomplete; adjust signals/thresholds and retest.
-
-Rollback: evidence shows harm or boundary violations; disable/revert and redesign.
-
-:::info Exercise — Automation review memo
-Create a short memo containing:
-
-- baseline vs current reliability metrics (including variance)
-- exception analysis (types + volume + root causes)
-- governance notes (approvals, audit trail completeness)
-- decision state (adopt/iterate/rollback) and next actions
-:::
-
-:::tip Example — Startup Context
-Iterates: automation speeds routing but increases false positives; adjusts thresholds and adds an
-escalation band.
-:::
-
-:::tip Example — Institutional Context
-Adopts: bounded automation reduces queue time while audit trails remain complete; publishes the
-governance pack.
-:::
-
-:::tip Example — Hybrid Context
-Rolls back: cross-boundary exceptions spike; disables automation and switches to a joint manual
-checkpoint until signals stabilize.
-:::
-
-## 7. Cross-References
-
-Book: /docs/book/decision-logic, /docs/book/governance-and-roles, /docs/book/failure-modes,
-/docs/book/boundaries-and-misuse
-
-Canon: /docs/canon/definitions, /docs/canon/evidence-logic, /docs/canon/decision-theory,
-/docs/canon/epistemic-model, /docs/canon/governance-boundaries
+Automation is valuable when it makes outcomes more reliable while keeping decisions auditable and
+reversible. Data becomes evidence only when it maps to a decision threshold and can change what you
+do next. In Phase 3, the target is not more dashboards. It is defensible decisions at repeatable
+cadence.
 
 ## ToDo for this Chapter
 
-- Create the Automation + data decision mapping template and link it here
-- Create Chapter 24 assessment questionnaire and link it here
-- Translate all content to Spanish and integrate to i18n
+- Create an Automation Decision Map template and link it here
+- Create a Signal Contract template and link it here
+- Translate this chapter to Spanish and integrate i18n
 - Record and embed walkthrough video for this chapter
