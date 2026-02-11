@@ -1,0 +1,5 @@
+{
+  "label": "Book (Explanatory Layer)",
+  "position": 2,
+  "link": { "type": "doc", "id": "book/_intro" }
+}

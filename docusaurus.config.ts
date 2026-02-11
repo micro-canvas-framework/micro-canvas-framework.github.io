@@ -1,7 +1,8 @@
 import { Config } from '@docusaurus/types';
+import redirects from './src/redirects.generated.js';
 
 const config: Config = {
-    title: 'The MicroCanvas Framework (MCF) 2.1',
+    title: 'The MicroCanvas Framework (MCF) 2.2',
     tagline: 'Your recipe for rapid innovation, transformative impact, and global prosperity.',
     url: 'https://www.themicrocanvas.com',
     baseUrl: '/',
@@ -35,18 +36,38 @@ const config: Config = {
                 docs: {
                     sidebarPath: require.resolve('./sidebars.ts'),
                     routeBasePath: '/docs', // ✅ VERY IMPORTANT: Docs live under /docs now!
-                    editUrl: 'https://github.com/micro-canvas-framework/micro-canvas-framework.github.io/edit/master/', // adjust to your repo
+                    showLastUpdateTime: true,
+                    showLastUpdateAuthor: false,
+                    lastVersion: 'current',
+                    versions: {
+                        current: {
+                            label: '2.2 (current)',
+                            path: '',
+                        },
+                        '2.1': {
+                            label: '2.1 (legacy)',
+                        },
+                    },
+                    exclude: [
+                        '**/*.test.{js,ts,jsx,tsx}',
+                        '**/__tests__/**',
+                        '**/*.d.ts',
+                        '**/_*.{js,jsx,ts,tsx}',
+                    ],
                 },
-                blog: {
-                    showReadingTime: true,
-                    editUrl: 'https://github.com/micro-canvas-framework/micro-canvas-framework.github.io/edit/master/blog/',
-                },
+                blog: false,
                 theme: {
                     customCss: require.resolve('./src/css/custom.css'),
                 },
             },
         ],
     ],
+
+    markdown: {
+        mermaid: true,
+    },
+
+    themes: ['@docusaurus/theme-mermaid'],
 
     plugins: [
         [
@@ -60,21 +81,40 @@ const config: Config = {
                // trailingSlash: true, // or false depending on your URL style
             },
         ],
+        [
+            '@docusaurus/plugin-client-redirects',
+            {
+                redirects,
+            },
+        ],
     ],
 
     themeConfig: {
+        mermaid: {
+            theme: { light: 'base', dark: 'base' },
+            options: {
+                fontFamily: 'Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial',
+                fontSize: 18,
+                flowchart: { nodeSpacing: 28, rankSpacing: 36 },
+                sequence: { actorFontSize: 18, noteFontSize: 18, messageFontSize: 18 },
+                gantt: { barHeight: 20, barGap: 6, fontSize: 18 },
+            },
+        },
         navbar: {
-            title: 'MCF 2.1',
+            title: 'MCF 2.2',
             logo: {
                 alt: 'The MicroCanvas Framework Logo',
                 src: 'img/logo.svg',
             },
             items: [
-                { to: '/docs/intro', label: 'Framework', position: 'left' },
-                { to: '/blog', label: 'Blog', position: 'left' },
+                { to: '/docs/book/how-to-read-mcf', label: 'Framework', position: 'left' },
                 {
                     href: 'https://github.com/micro-canvas-framework/micro-canvas-framework.github.io',
                     label: 'GitHub',
+                    position: 'right',
+                },
+                {
+                    type: 'docsVersionDropdown',
                     position: 'right',
                 },
                 {
@@ -91,7 +131,7 @@ const config: Config = {
                     items: [
                         {
                             label: 'Framework',
-                            to: '/docs/intro',
+                            to: '/docs/book/how-to-read-mcf',
                         },
                     ],
                 },
@@ -101,15 +141,6 @@ const config: Config = {
                         {
                             label: 'GitHub',
                             href: 'https://github.com/micro-canvas-framework/micro-canvas-framework.github.io',
-                        },
-                    ],
-                },
-                {
-                    title: 'More',
-                    items: [
-                        {
-                            label: 'Blog',
-                            to: '/blog',
                         },
                     ],
                 },

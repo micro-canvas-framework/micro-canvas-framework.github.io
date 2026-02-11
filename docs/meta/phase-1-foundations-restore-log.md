@@ -1,0 +1,22 @@
+# Phase 1 Foundations Restore Log
+- Chapter: Chapter 1 (id: chapter1-intro-innovation-maturity)
+- File: docs/book/phase-1/01-IntroductionToIMM.md
+- Source: User-provided legacy text (chat)
+- Mechanical fixes:
+  - Removed legacy H1
+  - Removed legacy SVG image + caption (Mermaid-only figures policy)
+  - Unindented warning admonition (MDX safety)
+- Chapter: Chapter 1
+- Action: Narrative refactor to MCF 2.2
+- Source: Restored 2.1 text + 2.2 Canon alignment
+- Canon impact: None
+- Chapter 1 refactored by merging legacy 2.1 narrative into MCF 2.2 evidence-first framing. No Canon, contract, or figure changes.
+- Chapter 2 refactored by merging legacy 2.1 assessment narrative into MCF 2.2 evidence-first framing. Removed scoring/levels/weights; no Canon or contract changes.
+- Chapter 3 refactored to MCF 2.2 evidence-first governance framing. No Canon or contract changes.
+- Chapter 4 refactored to MCF 2.2 evidence-first culture/mindset framing. No Canon or contract changes.
+- Chapter 5 refactored to MCF 2.2 evidence-first agile execution framing. No Canon or contract changes.
+- Chapter 6 refactored to MCF 2.2 evidence-first OKR/KPI framing. No Canon or contract changes.
+- Chapter 7 refactored to MCF 2.2 evidence-first training framing. No Canon or contract changes.
+- Chapter 8 refactored to MCF 2.2 evidence-first pilots/iterations framing. No Canon or contract changes.
+- Chapter 9 refactored to MCF 2.2 evidence-first leadership alignment/expansion framing. No Canon or contract changes.
+- Chapter 10 refactored to MCF 2.2 evidence-first Phase 1 closeout framing. No Canon or contract changes.
