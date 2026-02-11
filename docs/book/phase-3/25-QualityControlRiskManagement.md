@@ -8,7 +8,7 @@ redirect_from:
   - /chapter25-quality-control-risk-management
 ---
 
-<div className="mcf-contract-grid">
+<div className="mcf-contract-grid mcf-contract-grid--chapter">
 
 :::info What this chapter does
 - Defines quality control as evidence of delivery reliability.
@@ -61,86 +61,185 @@ Evidence used in this chapter should allow you to:
 :::
 
 </div>
-Quality control and risk management protect decision integrity when execution
-scales. In Phase 3, the goal is not to eliminate risk, but to make it visible,
-owned, and governed. This chapter explains how to interpret quality and risk
-signals without turning them into rigid compliance steps.
 
-## Why This Matters In Phase 3
-Phase 3 is where execution risk becomes structural. The organization is no
-longer testing isolated pilots; it is building repeatable delivery. If quality
-is unstable or risks are unowned, the evidence used to justify scaling is
-invalid. Quality control and risk management are therefore epistemic
-requirements, not administrative add-ons.
+:::note Figure 22 - Control -> Detect -> Escalate -> Recover (explanatory)
+```mermaid
+%%{init: {"theme":"base","flowchart":{"nodeSpacing":40,"rankSpacing":40},"themeVariables":{"fontSize":"28px"}} }%%
+flowchart LR
+  A[Delivery work] --> B[Quality control]
+  B --> C{In bounds?}
+  C -- Yes --> D[Proceed]
+  C -- No --> E[Escalate]
+  E --> F[Mitigate / Correct]
+  F --> G[Recover + document]
+  G --> H[Update thresholds + controls]
+  H --> B
+```
+Control -> Detect -> Escalate -> Recover. This diagram shows quality control and risk management as
+evidence mechanisms: controls detect drift, escalation routes exceptions to owners, mitigation
+reduces exposure, and recovery updates thresholds and practices. In MCF 2.2, controls matter when
+they preserve auditability and reversibility as execution scales.
+:::
 
-For example, a manufacturing line may add a secondary verification step after a
-new supplier change. The step is justified only if it reduces uncertainty about
-defect rates and preserves reversibility when the supplier performance changes.
+## 1. Introduction
 
-These practices also protect reversibility. The more you scale, the harder it
-is to unwind a decision. Risk controls help identify when optionality is being
-lost and when termination logic should be considered.
+Quality control and risk management protect decision integrity when execution scales. In Phase 3,
+the goal is not to eliminate risk, but to make it visible, owned, and governed. This chapter
+explains how to interpret quality and risk signals without turning them into rigid compliance
+steps.
 
-## What “Good” Looks Like (Explanatory)
-Good quality and risk practices are aligned with decision thresholds:
+### Inputs
 
-- Quality checks are tied to decisions, not to habit.
-- Risks are defined as conditions that would invalidate a decision.
-- Controls are proportional to potential irreversible harm.
-- Evidence is traceable to responsible owners and decisions.
+- Operational processes and handoffs (Chapter 23)
+- Automation and signals (Chapter 24)
+- Known failure modes and historical incidents
+- Governance boundaries and decision rights
 
-The aim is to maintain decision integrity, not to maximize compliance
-documentation. Quality is meaningful only when it changes how decisions are
-made.
+### Outputs
 
-Clarification: risk management is not a universal gate. It is evidence about
-which decisions remain reversible and which should be deferred, not a blanket
-permission to proceed or stop.
+- A critical quality surface (what must remain in-bounds)
+- A risk register with owners and escalation paths
+- Controls mapped to decision thresholds
+- Evidence that controls reduce uncertainty and protect reversibility
 
-## Typical Failure Modes
-Common patterns indicate that quality and risk evidence is insufficient:
+## 2. Define the Quality Surface
 
-- **Hidden variance:** quality appears stable until scale exposes defects.
-- **Late detection:** failures surface after irreversible commitments.
-- **Unowned exposure:** no clear decision owner for risk monitoring.
-- **Compliance drift:** controls are bypassed under delivery pressure.
+Quality control starts with a boundary: what "good enough" means for outcomes that matter.
 
-Misuse signal: controls exist, but no one can explain which decision they
-protect or what threshold would trigger a pause.
+### 2.1 What to do
 
-These signals warrant a reassessment. Use `/docs/book/failure-modes` to
-categorize whether the issue is epistemic, executional, or governance related.
+- Define the outcomes where defects would invalidate readiness claims (safety, privacy, financial
+  correctness, uptime).
+- Identify where quality drift first appears (inputs, handoffs, automation rules, supplier
+  variability).
+- Decide what "in-bounds" means using observable thresholds.
 
-## Evidence You Should Expect To See
-Evidence that quality and risk are under control should include:
+### 2.2 How to run it
 
-- Stable outcomes over multiple cycles, not one-off successes.
-- Documented thresholds for acceptable defect rates or exposure.
-- Traceable escalation paths when thresholds are breached.
-- Evidence that controls reduce uncertainty, not just add process steps.
+Create a one-page Quality Surface with:
+Outcome | Why it matters | Observable signal | Threshold | Owner | Escalation | Recovery action
 
-If a control does not reduce uncertainty or protect reversibility, it is
-overhead rather than evidence.
-Evidence sufficiency is contextual: as optionality decreases, the same defect
-rate may no longer be adequate proof of readiness.
+Start with 3 to 7 outcomes. Add only if they change decisions.
 
-## Common Misuse And Boundary Notes
-Quality and risk management can be misused when they become detached from
-decision relevance:
+:::tip Example — Startup Context
+A SaaS startup defines quality around billing correctness, login success rate, and incident
+recurrence.
+:::
 
-- Treating compliance artifacts as proof of decision readiness.
-- Using controls to block change rather than to clarify evidence.
-- Defining risk in ways that cannot be tested or observed.
+:::tip Example — Institutional Context
+A bank defines quality around transaction integrity, audit trail completeness, and PII access
+controls.
+:::
 
-Quality is not a linear progression. It may improve, regress, and stabilize
-again as scope changes, evidence degrades, or governance evolves.
+:::tip Example — Hybrid Context
+A public-private service defines quality around identity verification outcomes, service
+availability, and complaint resolution time.
+:::
 
-Use `/docs/book/boundaries-and-misuse` as the interpretive boundary. Canon
-defines what counts as defensible change, not local policy.
+:::info Exercise — Draft your Quality Surface
+Draft 3 outcomes, one signal per outcome, and a threshold for "in-bounds." Assign an owner role and
+an escalation path.
+:::
 
-## Cross-References
-- Book: `/docs/book/decision-logic`, `/docs/book/governance-and-roles`,
-  `/docs/book/failure-modes`, `/docs/book/boundaries-and-misuse`
-- Canon: `/docs/canon/definitions`, `/docs/canon/evidence-logic`,
-  `/docs/canon/failure-modes`, `/docs/canon/governance-boundaries`,
-  `/docs/canon/versioning-termination`
+## 3. Define Risk as Decision-Relevant Exposure
+
+In MCF 2.2, risk is not a vague worry. It is a condition that would invalidate a decision or
+create irreversible harm.
+
+### 3.1 What to do
+
+- List the exposures that would change a scaling decision (legal, safety, financial, reputational,
+  operational).
+- Convert each exposure into a condition you can monitor.
+- Assign owners and escalation routes.
+
+### 3.2 How to run it
+
+Create a Risk Register with:
+Risk condition | Trigger signal | Likely impact | Reversibility | Owner | Mitigation | Escalation |
+Review cadence
+
+Require a "no-signal" rule: if the trigger signal is missing or stale, escalate or defer.
+
+:::info Exercise — Write two risk conditions with triggers
+Write two risk conditions that would change a scale decision. Add a trigger signal, an owner role,
+and the escalation path for each.
+:::
+
+## 4. Map Controls to Thresholds and Owners
+
+Controls are only meaningful when they protect a decision threshold and have a responsible owner.
+
+### 4.1 What to do
+
+- List the controls you already have (tests, reviews, audits, monitoring, sampling).
+- For each control, state which threshold it protects and what happens when it fails.
+- Remove or simplify controls that do not reduce uncertainty.
+
+### 4.2 How to run it
+
+Build a Control Map with:
+Control | Protected threshold | Detection method | Owner | Escalation | Recovery | Evidence artifact
+
+Ensure each control produces at least one auditable artifact (log, report, ticket, checklist
+result).
+
+:::info Exercise — Create one Control Map entry
+Pick one control you rely on. Write the threshold it protects and the recovery action if the
+threshold is breached.
+:::
+
+## 5. Detect Drift and Recover Without Losing Optionality
+
+Phase 3 failures often happen because drift is detected late, or recovery paths are unclear.
+
+### 5.1 What to do
+
+- Define drift conditions (variance increases, defect rate trends, repeated near-misses).
+- Establish recovery actions that preserve reversibility (pause, rollback, scope reduction).
+- Require a post-incident update: thresholds, controls, and decision rules must be revised.
+
+### 5.2 How to run it
+
+Use a short Drift Review cadence (weekly or biweekly) that answers:
+What drift appeared? | What threshold moved? | What action was taken? | What changed in controls?
+
+Track false positives and false negatives; both degrade epistemic quality.
+
+:::info Exercise — Draft a Drift Review template
+Write the four Drift Review questions above in a template and define who owns the review.
+:::
+
+## 6. Typical Failure Modes and Boundary Notes
+
+Common signals indicate quality and risk evidence is insufficient.
+
+### 6.1 What to do
+
+- Watch for hidden variance: quality appears stable until scale exposes defects.
+- Watch for late detection: failures surface after irreversible commitments.
+- Watch for unowned exposure: no clear decision owner for risk monitoring.
+- Watch for compliance drift: controls are bypassed under delivery pressure.
+
+### 6.2 How to run it
+
+Add a boundary check: if controls exist but no one can explain which decision they protect or what
+threshold would trigger a pause, the system is not governance-ready. Re-map controls to decision
+thresholds and owners.
+
+Use `/docs/book/failure-modes` and `/docs/book/boundaries-and-misuse` to keep controls aligned with
+Canon constraints.
+
+## 7. Final Thoughts
+
+Quality and risk management in Phase 3 are about preserving decision integrity at scale. Controls
+should reduce uncertainty, protect thresholds, and keep reversibility credible. The goal is not to
+eliminate risk; it is to make exposure observable and owned so decisions remain defensible as the
+system grows.
+
+## ToDo for this Chapter
+
+- Create a Quality Surface template and link it here
+- Create a Risk Register template and link it here
+- Translate this chapter to Spanish and integrate i18n
+- Record and embed walkthrough video for this chapter
