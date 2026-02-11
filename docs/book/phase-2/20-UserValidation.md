@@ -2,42 +2,42 @@
 id: chapter20-user-validation-expanded-pilot-testing
 sidebar_position: 20
 title: "Chapter 20: User Validation and Expanded Pilot Testing"
-description: "Engage real users in a broader pilot phase to validate your solution, gather data-driven insights, and refine before full-scale launch."
+description: "Run expanded pilots to generate decision-ready evidence about user behavior and operational fit before irreversible rollout."
 redirect_from:
   - /Part02/20-UserValidation
   - /chapter20-user-validation-expanded-pilot-testing
 ---
 
-<div className="mcf-contract-grid">
+<div className="mcf-contract-grid mcf-contract-grid--chapter">
 
 :::info What this chapter does
-- Defines expanded pilots as evidence-gathering for real-world user and operational fit.
-- Shows how to set pilot scope, metrics, and onboarding to generate decision-ready data.
+- Defines expanded pilots as evidence gathering for real-world user and operational fit.
+- Shows how to set pilot scope, metrics, onboarding, and data capture to generate decision-ready results.
 - Connects pilot outcomes to decision thresholds and scale readiness.
-- Positions user validation as a bridge between experiments and launch.
+- Positions user validation as a bridge between experiments and broader rollout.
 :::
 
 :::warning What this chapter does not do
-- Does not guarantee market adoption or product-market fit.
-- Does not replace business model validation or regulatory review.
+- Does not guarantee adoption or product-market fit.
+- Does not replace business model validation, governance, or regulatory review.
 - Does not prescribe a single pilot size, duration, or recruitment method.
-- Does not treat pilot completion as approval to launch.
+- Does not treat "pilot completed" as approval to launch.
 :::
 
 :::tip When you should read this
 - When experiments show promise but broader validation is still needed.
-- When you need evidence of real-world user behavior and operational capacity.
+- When you need evidence of real user behavior under real constraints.
 - When leadership requires data to approve scaling.
-- Before making irreversible rollout commitments.
+- Before committing to irreversible rollout decisions.
 :::
 
 :::note Derived from Canon
-This chapter is interpretive and explanatory. Its constraints and limits derive from the Canon pages below.
+This chapter is interpretive and explanatory. Its constraints and limits derive from:
 
-- [Canon - Definitions](../../canon/definitions)
-- [Canon - Evidence logic](../../canon/evidence-logic)
-- [Canon - Decision theory](../../canon/decision-theory)
-- [Canon - Epistemic stage model](../../canon/epistemic-model)
+- [Canon -> Definitions](../../canon/definitions)
+- [Canon -> Evidence logic](../../canon/evidence-logic)
+- [Canon -> Decision theory](../../canon/decision-theory)
+- [Canon -> Epistemic stage model](../../canon/epistemic-model)
 :::
 
 :::info Key terms (canonical)
@@ -53,168 +53,289 @@ This chapter is interpretive and explanatory. Its constraints and limits derive 
 Evidence used in this chapter should allow you to:
 - define pilot objectives and success criteria tied to assumptions
 - link user and operational metrics to validation claims
-- explain what changes were made based on findings
+- explain what changed because of findings
 - justify whether the decision state should advance, pause, or iterate
 :::
 
 </div>
-![From Feedback to Field Trials](/img/ch20-user-validation-expanded-pilots.svg)
 
-**From Feedback to Field Trials**. *This visual illustrates the process of validating solutions with real users and expanding pilot tests for broader insights. In the MicroCanvas&reg; Framework, this phase bridges design and implementation - ensuring offerings are both desired and viable in practice*.
-
-You have validated your business model's key assumptions, tested prototypes, and iterated based on feedback. Expanded pilot testing is the next critical phase. It involves rolling out your solution to a broader user group or market segment and collecting detailed data on user interactions, performance metrics, and organizational impact. This approach minimizes risk and provides evidence-based insights for final adjustments.
+:::note Figure 17 - From pilot framing to decision update (explanatory)
+```mermaid
+%%{init: {"theme":"base","flowchart":{"nodeSpacing":40,"rankSpacing":40},"themeVariables":{"fontSize":"28px"}} }%%
+flowchart LR
+  A[Pilot framing<br/>assumptions + scope] --> B[Recruit + onboard<br/>representative users]
+  B --> C[Run pilot<br/>real conditions]
+  C --> D[Capture signals<br/>usage + ops + feedback]
+  D --> E[Decision update<br/>advance · pause · iterate]
+  E -->|refine scope + thresholds| A
+```
+From pilot framing to decision update. Expanded pilots generate decision-ready evidence about user
+behavior and operational fit, while preserving reversibility before scale.
+:::
 
 ## 1. Introduction
 
-User validation and expanded pilot testing serve as a bridge between small-scale experiments and a full-scale launch. By engaging a larger group of real users in real-world conditions, you gather more comprehensive data on user behavior, market reception, and operational feasibility. This process helps refine your product or service before committing significant resources to a wider rollout.
+User validation at pilot scale is not a marketing milestone. It is a structured evidence activity.
+
+An expanded pilot increases realism: more users, longer exposure, and more operational constraints.
+That realism improves evidence quality, but it also increases exposure. The purpose is to learn under
+bounded risk.
+
+A pilot is "expanded" when it tests not only whether users can use the solution, but whether the
+organization can support it under plausible operating conditions.
 
 ### Inputs
 
-- **Validated Business Model** (from Chapter 17)  
-- **Prototypes or Early-Stage Solutions** ready for broader testing  
-- **Strategic Objectives and Key Results (OKRs)**  
-- **User Feedback, Market Insights, and Operational Data**
+- Solution or MVP ready for broader exposure
+- Validated hypotheses and thresholds from earlier work (including business model validation)
+- OKRs or strategic objectives that constrain success criteria
+- Data capture plan (instrumentation + feedback channels)
 
 ### Outputs
 
-- A successful pilot deployment with real users in a controlled yet representative environment  
-- Comprehensive data on user engagement, market reception, and operational readiness  
-- Actionable insights for final refinements and go/no-go decisions for full-scale launch
+- Decision-ready evidence about user behavior and operational fit
+- Updated thresholds, onboarding, and support design
+- Explicit decision: advance, pause, or iterate
 
-## 2. Preparing for Expanded Pilot Testing
+## 2. What an Expanded Pilot Is Testing
 
-Before launching a broader pilot, ensure you have the right scope, resources, and measurement criteria.
+Expanded pilots typically test assumptions across two categories:
 
-### 2.1 Define Pilot Scope and Objectives
+- User behavior in situ
+- activation and sustained use
+- task completion and friction points
+- comprehension and trust signals
 
-- **Target User Segment**  
-  Identify which user group or market segment you plan to involve.
-- **Pilot Goals**  
-  Specify what you aim to learn (e.g., user satisfaction, operational efficiency, revenue metrics).
-- **Success Criteria**  
-  Determine the metrics or milestones that indicate a successful pilot.
+- Operational capacity
+- support load and resolution times
+- throughput, reliability, and failure modes
+- handoffs between teams and governance constraints
 
-**Example:**  
-A fintech startup will roll out its mobile payment app to 1,000 beta users from a specific demographic (urban professionals) over four weeks to track daily active users (DAU) and average transaction value.
+A pilot that produces activity but cannot update a decision state is not sufficient for MCF purposes.
 
-### 2.2 Allocate Resources and Timeline
+:::tip Example — Startup Context
+Tests whether onboarding plus core workflow produces sustained weekly use without human intervention
+exceeding a defined support budget.
+:::
 
-- **Budget and Personnel**  
-  Ensure you have dedicated staff for user support, data analysis, and pilot coordination.
-- **Infrastructure**  
-  Confirm that your servers, logistics, or other systems can handle the increased load.
-- **Schedule**  
-  Set clear start and end dates, along with checkpoints for reviewing progress.
+:::tip Example — Institutional Context
+Tests whether a new internal workflow reduces cycle time without creating compliance exceptions or
+unacceptable escalations.
+:::
 
-**Exercise:**  
-Create a simple Gantt chart outlining tasks (user onboarding, data tracking setup, user support channels) and responsible teams. Present this plan to key stakeholders for approval.
+:::tip Example — Hybrid Context
+Tests whether a shared service can operate across two environments (public + private) with stable
+handoffs and consistent user outcomes.
+:::
 
-## 3. Engaging Real Users
+## 3. Prepare the Pilot
 
-User validation is most effective when participants interact with your solution under realistic conditions.
+Preparation is where reversibility is protected. The pilot plan must explicitly limit exposure.
 
-### 3.1 Recruitment and Onboarding
+### 3.1 Define scope and objectives
 
-- **Recruit Participants**  
-  Use your existing user base, mailing lists, social media campaigns, or partnerships.
-- **Onboarding Process**  
-  Provide clear instructions, tutorials, or FAQs to minimize friction.
-- **Incentives**  
-  Offer discounts, free trials, or exclusive features to encourage active participation.
+Define:
 
-**Example:**  
-A retail platform invites its most loyal customers to join a pilot for a new recommendation engine. These users receive early access and a 10% discount on all pilot-phase purchases.
+- target population (who is included and why)
+- what "representative" means for this pilot
+- bounded use cases (what is in scope vs out of scope)
+- objectives tied to assumptions (not hopes)
 
-### 3.2 Data Collection and User Feedback
+Write objectives as claims you might invalidate.
 
-- **Usage Metrics**  
-  Track DAU, session length, conversion rates, or any KPI aligned with your objectives.
-- **User Surveys and Interviews**  
-  Gather qualitative insights on user satisfaction, pain points, and feature requests.
-- **Support Channels**  
-  Maintain open lines of communication (chat, email, forums) to capture issues and suggestions.
+:::info Exercise — Pilot scope statement
+Write a one-paragraph scope statement that includes:
 
-**Exercise:**  
-Set up a feedback form that appears after a user completes a specific action (e.g., a purchase or transaction). Ask them to rate their experience and provide open-ended comments.
+- target user segment definition
+- in-scope use case(s)
+- out-of-scope constraints
+- pilot duration and maximum exposure (users, volume, regions)
+:::
 
-## 4. Operational and Organizational Validation
+### 3.2 Define success criteria and thresholds
 
-Expanded pilot testing also validates internal processes and operational readiness.
+Every key metric needs:
 
-### 4.1 Operational Metrics
+- baseline or comparator
+- threshold (validated / partially / invalidated)
+- decision rule (advance / pause / iterate)
 
-- **Throughput and Scalability**  
-  Measure how many transactions or users your system can handle without performance issues.
-- **Customer Support Efficiency**  
-  Track response times, resolution rates, and user satisfaction with support interactions.
-- **Logistics and Supply Chain**  
-  Monitor shipping times, inventory levels, and return rates if physical products are involved.
+Prefer thresholds that preserve reversibility. A pilot should not force an irreversible commitment
+unless explicitly intended.
 
-**Example:**  
-An e-commerce startup monitors the average time to ship orders during the pilot. They find a 25% increase in shipping time, prompting them to negotiate with a faster courier partner.
+:::tip Example — Startup Context
+Validated if week-4 retention &gt;= 25% and median time-to-value &lt;= 10 minutes, with support tickets
+&lt;= 0.15 per active user.
+:::
 
-### 4.2 Cross-Functional Alignment
+:::tip Example — Institutional Context
+Validated if cycle time decreases &gt;= 10% with no increase in compliance exceptions beyond a defined
+tolerance (&lt;= 1% of cases).
+:::
 
-- **Leadership Reviews**  
-  Schedule briefings with executives to discuss pilot progress and alignment with strategic objectives.
-- **Team Coordination**  
-  Ensure marketing, development, customer service, and finance teams share data and feedback.
-- **Risk Management**  
-  Identify any operational bottlenecks or compliance issues early.
+:::tip Example — Hybrid Context
+Validated if completion rate improves &gt;= 15% across both environments without fraud/error rate
+exceeding a defined ceiling (&lt;= 2%).
+:::
 
-**Exercise:**  
-Host a weekly cross-functional stand-up meeting where each department shares a quick update on pilot progress, user feedback, and upcoming tasks.
+### 3.3 Prepare data capture and feedback channels
 
-## 5. Analyzing Pilot Outcomes
+Define and implement:
 
-After the pilot period ends, consolidate your data and decide how to proceed.
+- instrumentation (events, funnels, errors, latency)
+- qualitative capture (interviews, surveys, observation)
+- support channels (ticketing, escalation paths)
+- auditability (how changes are tracked and justified)
 
-### 5.1 Evaluate Key Metrics
+If a metric cannot be measured reliably, do not base decisions on it.
 
-- **Compare to Baselines**  
-  Check whether metrics like retention, revenue, or user satisfaction improved relative to smaller tests.
-- **Statistical Significance**  
-  If applicable, ensure you have enough data to rule out random fluctuations.
-- **Identify Trends and Gaps**  
-  Look for consistent issues or successes that can guide final refinements.
+:::info Exercise — Signal map
+Create a table with:
 
-**Example:**  
-A software company sees a 15% rise in user retention among pilot participants compared to earlier MVP tests. However, 20% of users abandon the sign-up flow, suggesting a need to simplify registration.
+- assumption or hypothesis
+- metric(s)
+- collection method
+- owner
+- decision threshold
+- risk if the metric is noisy or missing
+:::
 
-### 5.2 Make Data-Driven Decisions
+## 4. Engage Real Users
 
-- **Refine and Re-Test**  
-  If you only partially meet certain goals, plan another iteration.
-- **Pivot**  
-  If major assumptions fail, consider changing your approach or target segment.
-- **Proceed to Launch**  
-  If metrics meet or exceed targets, prepare for a broader rollout.
+### 4.1 Recruitment and onboarding
 
-**Exercise:**  
-Create a pilot review document summarizing all metrics, user feedback, and operational insights. Present this document to leadership for a go/no-go decision on scaling.
+Recruitment choices affect evidence quality. Bias here contaminates interpretation later.
 
-## 6. Best Practices and Tools
+Define:
 
-- **Timebox Pilot Phases**  
-  Set a fixed start and end date to maintain focus.
-- **Automate Data Collection**  
-  Use tools like Mixpanel, Google Analytics, or custom dashboards to gather metrics in real time.
-- **Document Every Iteration**  
-  Keep records of changes, user responses, and operational challenges for historical reference.
-- **Engage Stakeholders Early**  
-  Regularly update leadership, finance, marketing, and other relevant teams.
-- **Focus on Learning**  
-  Frame unexpected outcomes as learning opportunities rather than failures.
+- recruitment method (where users come from)
+- inclusion or exclusion rules
+- onboarding path and time-to-first-value target
+- incentives (if any) and their likely distortion effects
+
+:::tip Example — Startup Context
+Recruits from a waitlist and partner communities; onboarding is self-serve with a single human
+check-in only if a user stalls.
+:::
+
+:::tip Example — Institutional Context
+Selects two departments with different operating profiles; onboarding includes role-based training
+and a controlled access request workflow.
+:::
+
+:::tip Example — Hybrid Context
+Recruits across two institutions with harmonized onboarding materials plus environment-specific
+compliance steps.
+:::
+
+### 4.2 Run pilot under realistic conditions
+
+Avoid "demo conditions" that cannot exist at scale.
+
+Maintain:
+
+- fixed observation window
+- stable core flow (avoid constant feature churn)
+- pre-declared escalation rules for incidents
+
+Document any operational exceptions. Exceptions are evidence, not embarrassment.
+
+:::info Exercise — Pilot operating rules
+Write operating rules that specify:
+
+- what can change during the pilot (and what cannot)
+- incident escalation criteria
+- communications cadence to participants
+- who can authorize changes and why
+:::
+
+## 5. Operational and Organizational Validation
+
+Expanded pilots should produce evidence about the organization, not only the solution.
+
+Track:
+
+- throughput limits and failure modes
+- support workload and response time distributions
+- cross-functional bottlenecks (handoffs, approvals, ownership)
+
+If the organization cannot operate the solution under pilot load, scale readiness is not supported.
+
+:::tip Example — Startup Context
+Support load grows faster than users; automation backlog becomes the dominant constraint to growth.
+:::
+
+:::tip Example — Institutional Context
+A governance step becomes the bottleneck; cycle time improvements plateau unless approvals are
+redesigned.
+:::
+
+:::tip Example — Hybrid Context
+One environment performs well while the other degrades due to policy differences; the constraint
+becomes interoperability, not UX.
+:::
+
+## 6. Analyze Outcomes and Update the Decision State
+
+### 6.1 Evaluate results against thresholds
+
+Classify outcomes per hypothesis:
+
+- validated
+- partially validated
+- invalidated
+
+Avoid retrospective threshold changes unless explicitly documented as a learning correction.
+
+:::info Exercise — Pilot review table
+Create a table with:
+
+- hypothesis
+- threshold
+- observed value
+- classification
+- recommended next action (advance / pause / iterate)
+- reversibility impact (what becomes harder if you proceed)
+:::
+
+### 6.2 Decide: advance, pause, or iterate
+
+Advance when the evidence meets thresholds and exposure can increase intentionally.
+
+Pause when evidence is insufficient or measurement is unreliable.
+
+Iterate when partial validation suggests a bounded refinement and retest.
+
+Iteration is not "keep changing." It is an evidence-driven update with a new hypothesis.
+
+:::tip Example — Startup Context
+Advances to paid acquisition only if retention holds under pilot load; otherwise iterates onboarding
+and activation path.
+:::
+
+:::tip Example — Institutional Context
+Advances to additional departments only if governance and support capacity remain stable; otherwise
+redesigns the operating model.
+:::
+
+:::tip Example — Hybrid Context
+Advances only after harmonizing policy constraints; otherwise pauses expansion and focuses on
+interoperability and compliance alignment.
+:::
 
 ## 7. Final Thoughts
 
-User validation and expanded pilot testing bridge the gap between small-scale experiments and a full-scale launch. By engaging real users in a controlled yet representative environment, you gather actionable data on both user behavior and operational feasibility. This stage is critical for refining your product or service, validating internal processes, and ensuring you are ready to scale.
+Expanded pilots increase realism and evidence quality, but they also increase exposure. Within MCF,
+the purpose is to update decisions before irreversible commitments.
 
-In the next chapter, **Regulatory Review and Strategic Scalability Planning**, you will learn how to navigate compliance requirements and develop a comprehensive strategy for scaling your solution in alignment with legal frameworks and long-term organizational goals.
+A successful pilot is not a celebration. It is a defensible decision update backed by traceable
+evidence.
+
+In the next chapter, you will formalize scale readiness under governance and regulatory constraints.
 
 ## ToDo for this Chapter
 
-- [ ] Create the User Validation and Expanded Pilot Testing Checklist and Template, attach template to Google Drive and link to this page
-- [ ] Create Chapter Assesment questionnaire to Google Drive and attach to this page
-- [ ] Translate all content to Spanish and integrate to i18n
-- [ ] Record and embed video for this chapter
+- Create the User Validation and Expanded Pilot Testing checklist + template and link it here
+- Create Chapter 20 assessment questionnaire and link it here
+- Translate all content to Spanish and integrate to i18n
+- Record and embed walkthrough video for this chapter
