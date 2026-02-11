@@ -84,38 +84,32 @@ function CardGrid({
   items: CardItem[];
 }) {
   return (
-    <section className="margin-vert--lg">
-      <div className="container">
-        <div className="row">
-          <div className="col col--10 col--offset-1">
-            <Heading as="h2">
-              <Translate id={titleId}>{title}</Translate>
-            </Heading>
-            <p className="margin-bottom--lg">
-              <Translate id={subtitleId}>{subtitle}</Translate>
-            </p>
-          </div>
-        </div>
+    <section className={styles.section}>
+      <div className={styles.sectionHeader}>
+        <Heading as="h2" className={styles.sectionTitle}>
+          <Translate id={titleId}>{title}</Translate>
+        </Heading>
+        <p className={styles.sectionSubtitle}>
+          <Translate id={subtitleId}>{subtitle}</Translate>
+        </p>
+      </div>
 
-        <div className="row">
-          {items.map((c) => (
-            <div key={c.titleId} className="col col--4 margin-bottom--lg">
-              <div className="card">
-                <div className="card__body">
-                  <Heading as="h3" className="margin-bottom--sm">
-                    <Translate id={c.titleId}>{c.title}</Translate>
-                  </Heading>
-                  <p className="margin-bottom--md">
-                    <Translate id={c.bodyId}>{c.body}</Translate>
-                  </p>
-                  <Link to={c.linkTo} className="button button--outline button--primary button--sm">
-                    <Translate id={c.linkId}>{c.linkText}</Translate>
-                  </Link>
-                </div>
-              </div>
+      <div className={styles.cardGrid}>
+        {items.map((c) => (
+          <Link key={c.titleId} to={c.linkTo} className={styles.cardLink}>
+            <div className={styles.card}>
+              <Heading as="h3" className={styles.cardTitle}>
+                <Translate id={c.titleId}>{c.title}</Translate>
+              </Heading>
+              <p className={styles.cardBody}>
+                <Translate id={c.bodyId}>{c.body}</Translate>
+              </p>
+              <span className={styles.cardMeta}>
+                <Translate id={c.linkId}>{c.linkText}</Translate>
+              </span>
             </div>
-          ))}
-        </div>
+          </Link>
+        ))}
       </div>
     </section>
   );
