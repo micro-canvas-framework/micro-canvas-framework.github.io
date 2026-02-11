@@ -61,7 +61,7 @@ Evidence used in this chapter should allow you to:
 
 :::note Figure 6 — Innovation Maturity as Evidence-First Capability (explanatory)
 ```mermaid
-%%{init: {"theme":"base","flowchart":{"nodeSpacing":60,"rankSpacing":80},"themeVariables":{"fontSize":"18px"}} }%%
+%%{init: {"theme":"base","flowchart":{"nodeSpacing":60,"rankSpacing":80},"themeVariables":{"fontSize":"12px"}} }%%
 flowchart TB
   IMM["Innovation Maturity<br/>repeatable capability"]
   CAP["Capabilities<br/>people, process, tools"]
@@ -180,3 +180,4 @@ The prompts below guide orientation without implying a fixed path or maturity la
 Innovation maturity improves the defensibility of decisions under uncertainty. It does not guarantee outcomes or linear progress. In MCF 2.2, maturity is reflected in how well an organization preserves optionality, updates thresholds as evidence evolves, and accepts regression when reversibility remains the responsible choice.
 
 This chapter establishes the foundation for disciplined innovation — one that advances through constraint-aware learning rather than optimism or inertia.
+

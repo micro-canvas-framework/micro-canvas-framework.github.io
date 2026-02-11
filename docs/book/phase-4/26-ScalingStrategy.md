@@ -64,7 +64,7 @@ Evidence used in this chapter should allow you to:
 
 :::note Figure 23 - Stage -> Constrain -> Prove -> Commit (explanatory)
 ```mermaid
-%%{init: {"theme":"base","flowchart":{"nodeSpacing":40,"rankSpacing":40},"themeVariables":{"fontSize":"28px"}} }%%
+%%{init: {"theme":"base","flowchart":{"nodeSpacing":40,"rankSpacing":40},"themeVariables":{"fontSize":"12px"}} }%%
 flowchart LR
   A[Scale intent] --> B[Constraints map]
   B --> C[Staged scale plan]
@@ -289,3 +289,4 @@ Canon: /docs/canon/definitions, /docs/canon/evidence-logic, /docs/canon/decision
 - Create a Scaling Evidence Log template and link it here
 - Translate this chapter to Spanish and integrate i18n
 - Record and embed walkthrough video for this chapter
+

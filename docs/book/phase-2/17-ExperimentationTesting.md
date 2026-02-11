@@ -61,7 +61,7 @@ Evidence used in this chapter should allow you to:
 
 :::info Figure 14 — Prototype → Test → Learn → Decide
 ```mermaid
-%%{init: {"theme":"base","themeVariables":{"fontSize":"18px"}} }%%
+%%{init: {"theme":"base","themeVariables":{"fontSize":"12px"}} }%%
 flowchart LR
   A[Prototype] --> B[Test]
   B --> C[Learn]
@@ -184,3 +184,4 @@ In the next chapter, Implementing Pilots and Validating Solutions, you will lear
 - [ ] Create a chapter assessment questionnaire
 - [ ] Translate content to Spanish (i18n)
 - [ ] Record and embed chapter walkthrough video
+

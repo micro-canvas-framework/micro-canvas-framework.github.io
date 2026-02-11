@@ -60,7 +60,7 @@ Feedback used here should allow you to:
 </div>
 
 ```mermaid
-%%{init: {"theme":"base","themeVariables":{"fontSize":"18px"} } }%%
+%%{init: {"theme":"base","themeVariables":{"fontSize":"12px"} } }%%
 flowchart LR
 A[Interaction / Use] --> B[Feedback Signals]
 B --> C[Interpretation]
@@ -393,3 +393,4 @@ ToDo for this Chapter
  Translate content to Spanish and integrate i18n
 
  Record and embed chapter walkthrough video
+

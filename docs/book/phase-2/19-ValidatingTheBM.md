@@ -61,7 +61,7 @@ Validation here should allow you to:
 
 :::note Figure 16 - Business Model Validation Loop (explanatory)
 ```mermaid
-%%{init: {"theme":"base","flowchart":{"nodeSpacing":40,"rankSpacing":40},"themeVariables":{"fontSize":"28px"}} }%%
+%%{init: {"theme":"base","flowchart":{"nodeSpacing":40,"rankSpacing":40},"themeVariables":{"fontSize":"12px"}} }%%
 flowchart LR
   A[Assumptions] --> B[Hypotheses]
   B --> C[Experiments]
@@ -287,3 +287,4 @@ In the next chapter, these validated elements are deployed under live operationa
 - Create Chapter 19 assessment
 - Translate to Spanish (i18n)
 - Record and embed walkthrough video
+

@@ -64,7 +64,7 @@ Evidence used in this chapter should allow you to:
 
 :::note Figure 22 - Control -> Detect -> Escalate -> Recover (explanatory)
 ```mermaid
-%%{init: {"theme":"base","flowchart":{"nodeSpacing":40,"rankSpacing":40},"themeVariables":{"fontSize":"28px"}} }%%
+%%{init: {"theme":"base","flowchart":{"nodeSpacing":40,"rankSpacing":40},"themeVariables":{"fontSize":"12px"}} }%%
 flowchart LR
   A[Delivery work] --> B[Quality control]
   B --> C{In bounds?}
@@ -243,3 +243,4 @@ system grows.
 - Create a Risk Register template and link it here
 - Translate this chapter to Spanish and integrate i18n
 - Record and embed walkthrough video for this chapter
+

@@ -61,7 +61,7 @@ Evidence used in this chapter should allow you to:
 
 :::note Figure 13 — Stories → prototypes → evidence (explanatory)
 ```mermaid
-%%{init: {"theme":"base","flowchart":{"nodeSpacing":35,"rankSpacing":40},"themeVariables":{"fontSize":"18px"}} }%%
+%%{init: {"theme":"base","flowchart":{"nodeSpacing":35,"rankSpacing":40},"themeVariables":{"fontSize":"12px"}} }%%
 flowchart TB
   A[Customer + Problem Evidence<br/>from Chapters 11–13] --> B[Assumptions made explicit<br/>stories, flows, constraints]
   B --> C[Prototype artifacts<br/>reversible artifacts]
@@ -114,7 +114,7 @@ Hybrid: “Will multiple stakeholders accept the same workflow and constraints?�
 ### 1.2 Process steps
 :::info User story process steps
 ```mermaid
-%%{init: {"theme":"base","themeVariables":{"fontSize":"18px"}} }%%
+%%{init: {"theme":"base","themeVariables":{"fontSize":"12px"}} }%%
 flowchart TD
   A[Extract pain points + jobs-to-be-done] --> B[Define roles + context]
   B --> C[Write stories as hypotheses]
@@ -232,7 +232,7 @@ Method (paper, wireframe, clickable, demo, physical)
 
 :::info Prototyping strategy steps
 ```mermaid
-%%{init: {"theme":"base","themeVariables":{"fontSize":"18px"}} }%%
+%%{init: {"theme":"base","themeVariables":{"fontSize":"12px"}} }%%
 flowchart TB
   A[Select highest-uncertainty assumption] --> B[Choose lowest-cost prototype that can test it]
   B --> C[Define tasks + success criteria]
@@ -338,3 +338,4 @@ Next Chapter: Implementing pilots and validating solutions—how to move from pr
 - [ ] Create Chapter assessment questionnaire, attach template to Google Drive and link to this page
 - [ ] Translate all content to Spanish and integrate to i18n
 - [ ] Record and embed video for this chapter
+

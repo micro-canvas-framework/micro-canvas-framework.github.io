@@ -61,7 +61,7 @@ Evidence used in this chapter should allow you to:
 
 :::note Figure 11 — Purpose as a constraint system (explanatory)
 ```mermaid
-%%{init: {"theme":"base","flowchart":{"nodeSpacing":40,"rankSpacing":40},"themeVariables":{"fontSize":"18px"}} }%%
+%%{init: {"theme":"base","flowchart":{"nodeSpacing":40,"rankSpacing":40},"themeVariables":{"fontSize":"12px"}} }%%
 flowchart TB
   A[Problem + Objectives<br/>from Chapters 12–13] --> B[Draft Purpose Claim<br/>aspirational + directional]
   B --> C[Extract Constraints<br/>non-negotiables, harms, boundaries]
@@ -108,7 +108,7 @@ Use the steps below to draft and operationalize purpose as a constraint system.
 
 :::info Transformative Purpose steps
 ```mermaid
-%%{init: {"theme":"base","themeVariables":{"fontSize":"18px"}} }%%
+%%{init: {"theme":"base","themeVariables":{"fontSize":"12px"}} }%%
 flowchart TB
     A1(Envision the future state)
     A2(Clarify why it matters)
@@ -174,7 +174,7 @@ Impact shape: what would improve, and what would be unacceptable harm.
 
 :::info Core impact sketch (explanatory)
 ```mermaid
-%%{init: {"theme":"base","themeVariables":{"fontSize":"18px"}} }%%
+%%{init: {"theme":"base","themeVariables":{"fontSize":"12px"}} }%%
 flowchart LR
     P[Current constraint<br/>observable friction or harm] --> CI[Core impact<br/>intended improvement]
 ```
@@ -283,3 +283,4 @@ Final Thoughts
 Transformative Purpose is useful when it is operational: it constrains choices, defines non-negotiables, and clarifies what evidence indicates alignment or drift. In MCF 2.2, purpose guides hypotheses and prioritization, but evidence decides whether you proceed, revise, defer, or terminate.
 
 Next Chapter: Chapter 15 introduces Rapid Prototyping—how to build reversible artifacts that generate decision-ready evidence without premature commitment.
+

@@ -61,7 +61,7 @@ Evidence used in this chapter should allow you to:
 
 :::note Figure 20 - Operational reliability as evidence stabilization (explanatory)
 ```mermaid
-%%{init: {"theme":"base","flowchart":{"nodeSpacing":40,"rankSpacing":40},"themeVariables":{"fontSize":"28px"}} }%%
+%%{init: {"theme":"base","flowchart":{"nodeSpacing":40,"rankSpacing":40},"themeVariables":{"fontSize":"12px"}} }%%
 flowchart TD
   A[Map current work<br/>handoffs + queues + decisions] --> B[Instrument evidence<br/>cycle time + variance + rework]
   B --> C[Identify constraints<br/>bottlenecks + risk points]
@@ -351,3 +351,4 @@ Canon: /docs/canon/definitions, /docs/canon/evidence-logic, /docs/canon/decision
 - Create Chapter 23 assessment questionnaire and link it here
 - Translate all content to Spanish and integrate to i18n
 - Record and embed walkthrough video for this chapter
+

@@ -61,7 +61,7 @@ Evidence used in this chapter should allow you to:
 
 :::note Figure 18 - From obligations to scale planning (explanatory)
 ```mermaid
-%%{init: {"theme":"base","flowchart":{"nodeSpacing":40,"rankSpacing":40},"themeVariables":{"fontSize":"28px"}} }%%
+%%{init: {"theme":"base","flowchart":{"nodeSpacing":40,"rankSpacing":40},"themeVariables":{"fontSize":"12px"}} }%%
 flowchart TD
   A[Identify obligations<br/>scope + jurisdictions] --> B[Gap analysis<br/>controls + evidence]
   B --> C[Remediation plan<br/>owners + timelines]
@@ -320,3 +320,4 @@ validation steps.
 - Create Chapter 21 assessment questionnaire and link it here
 - Translate all content to Spanish and integrate to i18n
 - Record and embed walkthrough video for this chapter
+

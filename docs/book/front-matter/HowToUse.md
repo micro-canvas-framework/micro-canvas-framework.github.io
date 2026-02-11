@@ -57,7 +57,7 @@ is interpreted and applied throughout the Book.
 :::tip[Figure 1 - MCF 2.2 System Map (Canonical + Explanatory Layers)]
 
 ```mermaid
-%%{init: {'theme':'base','themeVariables': {'fontSize':'28px'}, 'flowchart': {'nodeSpacing': 70, 'rankSpacing': 90}} }%%
+%%{init: {'theme':'base','themeVariables': {'fontSize':'12px'}, 'flowchart': {'nodeSpacing': 70, 'rankSpacing': 90}} }%%
 flowchart TB
 
 %% ---- Shared styling ----
@@ -166,7 +166,7 @@ style R_BOOK opacity:0;
 :::tip[Figure 2 - Epistemic Stages vs Phases (Decision State vs Activity)]
 
 ```mermaid
-%%{init: {'theme':'base','themeVariables': {'fontSize':'28px'}, 'flowchart': {'nodeSpacing': 70, 'rankSpacing': 90}} }%%
+%%{init: {'theme':'base','themeVariables': {'fontSize':'12px'}, 'flowchart': {'nodeSpacing': 70, 'rankSpacing': 90}} }%%
 flowchart LR
 
 classDef node fill:#F7E7C6,stroke:#E2C27A,stroke-width:1px,color:#111;
@@ -287,3 +287,4 @@ you do not skip required assumptions or **evidence gates**.
   timeline demands it.
 
 By following these guidelines, you set yourself up for a rewarding journey through the world of structured innovation. Let's start building a better future - one innovative step at a time.
+

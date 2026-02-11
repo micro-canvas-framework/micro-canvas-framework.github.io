@@ -61,7 +61,7 @@ Evidence used in this chapter should allow you to:
 
 :::note Figure 12 — From message to market (explanatory)
 ```mermaid
-%%{init: {"theme":"base","flowchart":{"nodeSpacing":35,"rankSpacing":40},"themeVariables":{"fontSize":"18px"}} }%%
+%%{init: {"theme":"base","flowchart":{"nodeSpacing":35,"rankSpacing":40},"themeVariables":{"fontSize":"12px"}} }%%
 flowchart TB
   A[Customer + Problem Evidence<br/>from Chapters 11–13] --> B[Assumptions<br/>segment, channel, value, WTP]
   B --> C[Go-to-market Experiments<br/>marketing, engagement, sales]
@@ -127,7 +127,7 @@ Hybrid: test whether cross-party stakeholders engage with the same artifact (bri
 ### 2.2 Process steps
 :::info Marketing and engagement process steps
 ```mermaid
-%%{init: {"theme":"base","themeVariables":{"fontSize":"18px"}} }%%
+%%{init: {"theme":"base","themeVariables":{"fontSize":"12px"}} }%%
 flowchart TB
   A[Define segment + intended action] --> B[State falsifiable assumptions]
   B --> C[Choose channels + messages]
@@ -240,7 +240,7 @@ Sales evidence becomes decision-ready when you can:
 ### 3.2 Sales process steps
 :::info Sales funnel as a signal system (explanatory)
 ```mermaid
-%%{init: {"theme":"base","themeVariables":{"fontSize":"18px"}} }%%
+%%{init: {"theme":"base","themeVariables":{"fontSize":"12px"}} }%%
 flowchart LR
   A[Lead] --> B[Qualified]
   B --> C[Proposal]
@@ -315,3 +315,4 @@ Next Chapter: Chapter 16 moves into User Stories and Rapid Prototyping—how to 
 - [ ] Create Chapter assessment questionnaire, attach template to Google Drive and link to this page
 - [ ] Translate all content to Spanish and integrate to i18n
 - [ ] Record and embed video for this chapter
+

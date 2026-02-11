@@ -61,7 +61,7 @@ Evidence used in this chapter should allow you to:
 
 :::note Figure 10 — Alternatives → Scoring → Differentiation (explanatory)
 ```mermaid
-%%{init: {"theme":"base","flowchart":{"nodeSpacing":40,"rankSpacing":40},"themeVariables":{"fontSize":"18px"}} }%%
+%%{init: {"theme":"base","flowchart":{"nodeSpacing":40,"rankSpacing":40},"themeVariables":{"fontSize":"12px"}} }%%
 flowchart TB
   A[Clarified Problem + Objectives<br/>from Chapter 12] --> B[Generate Alternatives<br/>expand search space]
   B --> C[Evaluate + Score<br/>impact, feasibility, cost, buy-in]
@@ -108,7 +108,7 @@ You have a clarified problem and strategic direction. Now, you systematically ex
 
 :::info Solution Alternatives steps
 ```mermaid
-%%{init: {"theme":"base","themeVariables":{"fontSize":"18px"}} }%%
+%%{init: {"theme":"base","themeVariables":{"fontSize":"12px"}} }%%
 flowchart TB
     A1(Identify Alternative Solutions)
     A2(Evaluate Alternatives)
@@ -238,7 +238,7 @@ A direction is not differentiating by default. Differentiation claims also behav
 
 :::info Unique Advantages and Product Features steps
 ```mermaid
-%%{init: {"theme":"base","themeVariables":{"fontSize":"18px"}} }%%
+%%{init: {"theme":"base","themeVariables":{"fontSize":"12px"}} }%%
 flowchart TB
     B1(Identify Customer Priorities)
     B2(Map Competitor Features)
@@ -355,7 +355,7 @@ Features should trace back to causes (Chapter 12). This is not “solution justi
 
 :::info Feature-Cause Alignment
 ```mermaid
-%%{init: {"theme":"base","themeVariables":{"fontSize":"18px"}} }%%
+%%{init: {"theme":"base","themeVariables":{"fontSize":"12px"}} }%%
 flowchart LR
     subgraph Problem Causes
     C1((Outdated Payment Software))
@@ -458,3 +458,4 @@ You are now set to proceed to prototypes and validation (Chapters 14–16), inve
 - [ ] Create Chapter Assesment questionnaire to Google Drive and attach to this page
 - [ ] Translate all content to Spanish and integrate to i18n
 - [ ] Record and embed video for this chapter
+

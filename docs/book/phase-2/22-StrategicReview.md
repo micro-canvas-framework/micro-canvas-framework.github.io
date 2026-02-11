@@ -61,7 +61,7 @@ Evidence used in this chapter should allow you to:
 
 :::note Figure 19 - Strategic review as decision control (explanatory)
 ```mermaid
-%%{init: {"theme":"base","flowchart":{"nodeSpacing":40,"rankSpacing":40},"themeVariables":{"fontSize":"28px"}} }%%
+%%{init: {"theme":"base","flowchart":{"nodeSpacing":40,"rankSpacing":40},"themeVariables":{"fontSize":"12px"}} }%%
 flowchart TD
   A[Collect evidence<br/>metrics + artifacts + feedback] --> B[Assess evidence quality<br/>bias + coverage + reliability]
   B --> C[Compare to thresholds<br/>OKRs + gates + constraints]
@@ -332,3 +332,4 @@ Phase 3 begins when the decision state is "advance" and the entry conditions are
 - Create Chapter 22 assessment questionnaire and link it here
 - Translate all content to Spanish and integrate to i18n
 - Record and embed walkthrough video for this chapter
+

@@ -62,7 +62,7 @@ Evidence used in this chapter should allow you to:
 
 :::note Figure 21 - Automation -> Signal -> Decide -> Review (explanatory)
 ```mermaid
-%%{init: {"theme":"base","flowchart":{"nodeSpacing":40,"rankSpacing":40},"themeVariables":{"fontSize":"28px"}} }%%
+%%{init: {"theme":"base","flowchart":{"nodeSpacing":40,"rankSpacing":40},"themeVariables":{"fontSize":"12px"}} }%%
 flowchart LR
   A[Work happens] --> B[Signals captured]
   B --> C[Decision rule applied]
@@ -265,3 +265,4 @@ cadence.
 - Create a Signal Contract template and link it here
 - Translate this chapter to Spanish and integrate i18n
 - Record and embed walkthrough video for this chapter
+

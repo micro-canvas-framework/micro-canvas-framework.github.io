@@ -61,7 +61,7 @@ Evidence used in this chapter should allow you to:
 
 :::note Figure 17 - From pilot framing to decision update (explanatory)
 ```mermaid
-%%{init: {"theme":"base","flowchart":{"nodeSpacing":40,"rankSpacing":40},"themeVariables":{"fontSize":"28px"}} }%%
+%%{init: {"theme":"base","flowchart":{"nodeSpacing":40,"rankSpacing":40},"themeVariables":{"fontSize":"12px"}} }%%
 flowchart LR
   A[Pilot framing<br/>assumptions + scope] --> B[Recruit + onboard<br/>representative users]
   B --> C[Run pilot<br/>real conditions]
@@ -339,3 +339,4 @@ In the next chapter, you will formalize scale readiness under governance and reg
 - Create Chapter 20 assessment questionnaire and link it here
 - Translate all content to Spanish and integrate to i18n
 - Record and embed walkthrough video for this chapter
+

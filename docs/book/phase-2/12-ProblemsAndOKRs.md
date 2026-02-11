@@ -66,7 +66,7 @@ From Questions to Clarity. This visual shows how Phase 2 turns observed symptoms
 
 :::note Figure 9 — Problem Analysis Loop (explanatory)
 ```mermaid
-%%{init: {"theme":"base","flowchart":{"nodeSpacing":40,"rankSpacing":40},"themeVariables":{"fontSize":"18px"}} }%%
+%%{init: {"theme":"base","flowchart":{"nodeSpacing":40,"rankSpacing":40},"themeVariables":{"fontSize":"12px"}} }%%
 flowchart TB
   A[Observed Symptoms<br/>signals, complaints, drop-offs] --> B[Candidate Causes<br/>testable causal hypotheses]
   B --> C[Problem Statement<br/>decision-relevant constraint]
@@ -279,3 +279,4 @@ The next chapter, Exploring Alternative Solutions, uses these constraints to exp
 - [ ] Create Chapter Assesment questionnaire to Google Drive and attach to this page
 - [ ] Translate all content to Spanish and integrate to i18n
 - [ ] Record and embed video for this chapter
+

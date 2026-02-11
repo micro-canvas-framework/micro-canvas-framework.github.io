@@ -62,7 +62,7 @@ Evidence used in this chapter should allow you to:
 
 :::note Figure 26 - Metrics -> thresholds -> action loops (explanatory)
 ```mermaid
-%%{init: {"theme":"base","flowchart":{"nodeSpacing":40,"rankSpacing":40},"themeVariables":{"fontSize":"28px"}} }%%
+%%{init: {"theme":"base","flowchart":{"nodeSpacing":40,"rankSpacing":40},"themeVariables":{"fontSize":"12px"}} }%%
 flowchart TB
   A[Metric signals] --> B[Trend + variance check]
   B --> C{Threshold breached?}

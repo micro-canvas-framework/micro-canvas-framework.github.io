@@ -63,7 +63,7 @@ Evidence used in this chapter should allow you to:
 
 :::note Figure 25 - Partnership decision as an evidence-backed commitment (explanatory)
 ```mermaid
-%%{init: {"theme":"base","flowchart":{"nodeSpacing":40,"rankSpacing":40},"themeVariables":{"fontSize":"28px"}} }%%
+%%{init: {"theme":"base","flowchart":{"nodeSpacing":40,"rankSpacing":40},"themeVariables":{"fontSize":"12px"}} }%%
 flowchart TB
   A[Partnership hypothesis] --> B[Fit evidence]
   A --> C[Boundary design]
@@ -293,3 +293,4 @@ Canon: /docs/canon/definitions, /docs/canon/evidence-logic, /docs/canon/decision
 - Create a Partnership Evidence Log template and link it here
 - Translate this chapter to Spanish and integrate i18n
 - Record and embed walkthrough video for this chapter
+
