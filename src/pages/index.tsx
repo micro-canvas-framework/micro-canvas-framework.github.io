@@ -226,7 +226,7 @@ flowchart TB
   end
 
   %% Book Layer
-  subgraph BOOK["<b>Book:&nbsp;interpretation&nbsp;and&nbsp;application</b>"]
+  subgraph BOOK["<b>Book: interpretation and application</b>"]
     direction TB
 
     %% Invisible spacer row
@@ -927,6 +927,7 @@ flowchart TB
     </Layout>
   );
 }
+
 
 
 
