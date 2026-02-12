@@ -145,7 +145,7 @@ const config: Config = {
                     ],
                 },
             ],
-            copyright: 'Open-source under CC BY-ND 4.0 · The MicroCanvas Framework is a trademark of Santiago Arias Consulting (<a href="https://doulab.net" target="_blank" rel="noopener noreferrer">Doulab</a>). Eglisau, Zürich, Switzerland · Built with love in Switzerland by <a href="https://doulab.net" target="_blank" rel="noopener noreferrer">Doulab</a>'
+            copyright: 'Open-source under CC BY-ND 4.0<br/>The MicroCanvas Framework is a trademark of <a href="https://doulab.net" target="_blank" rel="noopener noreferrer">Doulab</a>.<br/>Built with love in Eglisau, Zurich, Switzerland by <a href="https://doulab.net" target="_blank" rel="noopener noreferrer">Doulab</a>'
         },
         colorMode: {
             defaultMode: 'light',
