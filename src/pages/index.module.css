@@ -22,6 +22,12 @@
   justify-content: center;
 }
 
+.heroMicro {
+  margin: 0.75rem 0 0;
+  font-size: 0.95rem;
+  color: var(--ifm-color-emphasis-200);
+}
+
 /* --- Doulab-style cards (geometry + interaction), keep Infima colors --- */
 
 .section {

@@ -145,7 +145,7 @@ const config: Config = {
                     ],
                 },
             ],
-            copyright: `Copyright © ${new Date().getFullYear()} Doulab by Informatik LLC. Built with Docusaurus.`,
+            copyright: 'The MicroCanvas Framework is a trademark of Santiago Arias Consulting (Doulab). Built with love in Switzerland by <a href="https://doulab.net" target="_blank" rel="noopener noreferrer">Doulab</a>'
         },
         colorMode: {
             defaultMode: 'light',
@@ -155,3 +155,4 @@ const config: Config = {
 };
 
 export default config;
+
