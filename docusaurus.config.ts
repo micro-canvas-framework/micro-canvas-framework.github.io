@@ -145,7 +145,7 @@ const config: Config = {
                     ],
                 },
             ],
-            copyright: `Copyright © ${new Date().getFullYear()} Doulab by Informatik LLC. Built with Docusaurus.`,
+            copyright: 'Open-source under CC BY-ND 4.0<br/>The MicroCanvas Framework is a trademark of <a href="https://doulab.net" target="_blank" rel="noopener noreferrer">Doulab</a>.<br/>Built with love in Eglisau, Zurich, Switzerland by <a href="https://doulab.net" target="_blank" rel="noopener noreferrer">Doulab</a>'
         },
         colorMode: {
             defaultMode: 'light',
