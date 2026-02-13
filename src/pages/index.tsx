@@ -200,7 +200,7 @@ export default function Home(): ReactNode {
     "curve":"linear",
     "nodeSpacing":70,
     "rankSpacing":95,
-    "padding":28,
+    "padding":34,
     "htmlLabels": true
   }
 }}%%
@@ -244,7 +244,7 @@ flowchart TB
 
   %% Outcomes
   DI["<b>Decision integrity&nbsp;</b>"]
-  DC["<b>Defensible commitments&nbsp;</b>"]
+  DC["<b>Defensible commitments&nbsp;&nbsp;</b>"]
 
   %% Structure
   M --> CANON
@@ -1029,6 +1029,7 @@ flowchart TB
     </Layout>
   );
 }
+
 
 
 
