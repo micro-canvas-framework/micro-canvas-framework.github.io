@@ -200,7 +200,8 @@ export default function Home(): ReactNode {
     "curve":"linear",
     "nodeSpacing":60,
     "rankSpacing":85,
-    "padding":20
+    "padding":26,
+    "htmlLabels": true
   }
 }}%%
 flowchart TB
@@ -209,7 +210,7 @@ flowchart TB
   M["<b>MCF 2.2</b>"]
 
   %% Canon Layer
-  subgraph CANON["<b>Canon: validity rules</b>"]
+  subgraph CANON["<b>Canon: validity rules</b>&nbsp;&nbsp;"]
     direction TB
 
     %% Invisible spacer row to create breathing room
@@ -217,16 +218,16 @@ flowchart TB
 
     subgraph CANONROW[" "]
       direction LR
-      C3["Decision thresholds"]
-      C2["Evidence logic"]
-      C4["Governance boundaries"]
-      C1["Definitions"]
-      C5["Versioning constraints"]
+      C3["Decision thresholds&nbsp;"]
+      C2["Evidence logic&nbsp;"]
+      C4["Governance boundaries&nbsp;"]
+      C1["Definitions&nbsp;"]
+      C5["Versioning constraints&nbsp;"]
     end
   end
 
   %% Book Layer
-  subgraph BOOK["<b>Book:&nbsp;interpretation&nbsp;and&nbsp;application</b>"]
+  subgraph BOOK["<b>Book:&nbsp;interpretation&nbsp;and&nbsp;application</b>&nbsp;&nbsp;"]
     direction TB
 
     %% Invisible spacer row
@@ -234,10 +235,10 @@ flowchart TB
 
     subgraph BOOKROW[" "]
       direction LR
-      B1["Phase guidance"]
-      B2["Examples"]
-      B3["Templates and checklists"]
-      B4["Plain-language clarifiers"]
+      B1["Phase guidance&nbsp;"]
+      B2["Examples&nbsp;"]
+      B3["Templates and checklists&nbsp;"]
+      B4["Plain-language clarifiers&nbsp;"]
     end
   end
 
@@ -314,55 +315,110 @@ flowchart TB
             </div>
 
             <div className={clsx('row', styles.cardRow)}>
-              <div className="col col--3">
-                <div className={styles.simpleCard}>
-                  <Heading as="h3" className={styles.simpleCardTitle}>
-                    <Translate id="homepage.whyExists.card1.title">Decisions without criteria</Translate>
-                  </Heading>
-                  <p className={styles.simpleCardBody}>
-                    <Translate id="homepage.whyExists.card1.body">
-                      Teams advance without agreed evidence thresholds before committing time or budget.
-                    </Translate>
-                  </p>
-                </div>
-              </div>
-              <div className="col col--3">
-                <div className={styles.simpleCard}>
-                  <Heading as="h3" className={styles.simpleCardTitle}>
-                    <Translate id="homepage.whyExists.card2.title">Irreversible too early</Translate>
-                  </Heading>
-                  <p className={styles.simpleCardBody}>
-                    <Translate id="homepage.whyExists.card2.body">
-                      Commitments become hard to undo before validation is complete.
-                    </Translate>
-                  </p>
-                </div>
-              </div>
-              <div className="col col--3">
-                <div className={styles.simpleCard}>
-                  <Heading as="h3" className={styles.simpleCardTitle}>
-                    <Translate id="homepage.whyExists.card3.title">Metrics without proof</Translate>
-                  </Heading>
-                  <p className={styles.simpleCardBody}>
-                    <Translate id="homepage.whyExists.card3.body">
-                      Dashboards show activity but not decision-relevant evidence.
-                    </Translate>
-                  </p>
-                </div>
-              </div>
-              <div className="col col--3">
-                <div className={styles.simpleCard}>
-                  <Heading as="h3" className={styles.simpleCardTitle}>
-                    <Translate id="homepage.whyExists.card4.title">Governance gaps</Translate>
-                  </Heading>
-                  <p className={styles.simpleCardBody}>
-                    <Translate id="homepage.whyExists.card4.body">
-                      Oversight and execution are disconnected from evidence quality.
-                    </Translate>
-                  </p>
-                </div>
-              </div>
-            </div>
+  <div className="col col--3">
+    <div className={styles.simpleCard}>
+      <Heading as="h3" className={styles.simpleCardTitle}>
+        <Translate id="homepage.problem.c1.title">Unvalidated Problem Framing</Translate>
+      </Heading>
+      <p className={styles.simpleCardBody}>
+        <Translate id="homepage.problem.c1.body">
+          Initiatives begin without a quantified, validated problem definition. Unclear objectives create misalignment and downstream rework.
+        </Translate>
+      </p>
+    </div>
+  </div>
+
+  <div className="col col--3">
+    <div className={styles.simpleCard}>
+      <Heading as="h3" className={styles.simpleCardTitle}>
+        <Translate id="homepage.problem.c2.title">Decisions Without Evidence Thresholds</Translate>
+      </Heading>
+      <p className={styles.simpleCardBody}>
+        <Translate id="homepage.problem.c2.body">
+          Teams commit resources without predefined validation criteria. Structured evidence gates reduce bias and sunk-cost exposure.
+        </Translate>
+      </p>
+    </div>
+  </div>
+
+  <div className="col col--3">
+    <div className={styles.simpleCard}>
+      <Heading as="h3" className={styles.simpleCardTitle}>
+        <Translate id="homepage.problem.c3.title">Objectives Without Measurable Outcomes</Translate>
+      </Heading>
+      <p className={styles.simpleCardBody}>
+        <Translate id="homepage.problem.c3.body">
+          Goals are defined as activity rather than economic or behavioral impact. Decision-grade objectives clarify trade-offs.
+        </Translate>
+      </p>
+    </div>
+  </div>
+
+  <div className="col col--3">
+    <div className={styles.simpleCard}>
+      <Heading as="h3" className={styles.simpleCardTitle}>
+        <Translate id="homepage.problem.c4.title">Metrics That Don’t Inform Decisions</Translate>
+      </Heading>
+      <p className={styles.simpleCardBody}>
+        <Translate id="homepage.problem.c4.body">
+          Dashboards show outputs but not validated learning or risk reduction. Metrics must support go, pivot, or scale decisions.
+        </Translate>
+      </p>
+    </div>
+  </div>
+
+  <div className="col col--3">
+    <div className={styles.simpleCard}>
+      <Heading as="h3" className={styles.simpleCardTitle}>
+        <Translate id="homepage.problem.c5.title">Premature Irreversible Commitments</Translate>
+      </Heading>
+      <p className={styles.simpleCardBody}>
+        <Translate id="homepage.problem.c5.body">
+          Architecture, hiring, or budget is locked before core assumptions are tested. Reversibility decreases as investment increases.
+        </Translate>
+      </p>
+    </div>
+  </div>
+
+  <div className="col col--3">
+    <div className={styles.simpleCard}>
+      <Heading as="h3" className={styles.simpleCardTitle}>
+        <Translate id="homepage.problem.c6.title">Limited Exploration of Alternatives</Translate>
+      </Heading>
+      <p className={styles.simpleCardBody}>
+        <Translate id="homepage.problem.c6.body">
+          Teams converge on a preferred solution without structured comparison. Alternative generation reduces strategic fragility.
+        </Translate>
+      </p>
+    </div>
+  </div>
+
+  <div className="col col--3">
+    <div className={styles.simpleCard}>
+      <Heading as="h3" className={styles.simpleCardTitle}>
+        <Translate id="homepage.problem.c7.title">Governance Detached from Evidence</Translate>
+      </Heading>
+      <p className={styles.simpleCardBody}>
+        <Translate id="homepage.problem.c7.body">
+          Oversight processes are not tied to validation quality. Stage-gate discipline protects capital and credibility.
+        </Translate>
+      </p>
+    </div>
+  </div>
+
+  <div className="col col--3">
+    <div className={styles.simpleCard}>
+      <Heading as="h3" className={styles.simpleCardTitle}>
+        <Translate id="homepage.problem.c8.title">Culture That Suppresses Learning</Translate>
+      </Heading>
+      <p className={styles.simpleCardBody}>
+        <Translate id="homepage.problem.c8.body">
+          Innovation requires psychological safety to surface uncertainty early. Learning velocity determines advantage under uncertainty.
+        </Translate>
+      </p>
+    </div>
+  </div>
+</div>
           </div>
         </section>
         <section className={styles.section}>
@@ -927,6 +983,8 @@ flowchart TB
     </Layout>
   );
 }
+
+
 
 
 
