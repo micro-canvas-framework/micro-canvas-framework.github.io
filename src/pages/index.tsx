@@ -198,16 +198,16 @@ export default function Home(): ReactNode {
   "fontSize":"12px",
   "flowchart":{
     "curve":"linear",
-    "nodeSpacing":60,
-    "rankSpacing":85,
-    "padding":26,
+    "nodeSpacing":70,
+    "rankSpacing":95,
+    "padding":28,
     "htmlLabels": true
   }
 }}%%
 flowchart TB
 
   %% Top anchor
-  M["<b>MCF 2.2</b>"]
+  M["<b>MCF&nbsp;2.2&nbsp;</b>"]
 
   %% Canon Layer
   subgraph CANON["<b>Canon: validity rules</b>&nbsp;&nbsp;"]
@@ -243,8 +243,8 @@ flowchart TB
   end
 
   %% Outcomes
-  DI["<b>Decision integrity</b>"]
-  DC["<b>Defensible commitments</b>"]
+  DI["<b>Decision integrity&nbsp;</b>"]
+  DC["<b>Defensible commitments&nbsp;</b>"]
 
   %% Structure
   M --> CANON
@@ -252,10 +252,10 @@ flowchart TB
   BOOK --> DI --> DC
 
   %% Cross-links
-  C3 -. criteria .-> B1
-  C2 -. informs .-> B2
-  C4 -. bounds .-> B3
-  C1 -. anchors .-> B4
+  C3 -. "criteria&nbsp;" .-> B1
+  C2 -. "informs&nbsp;" .-> B2
+  C4 -. "bounds&nbsp;" .-> B3
+  C1 -. "anchors&nbsp;" .-> B4
 
   %% Styling
   classDef top fill:#fff3e6,stroke:#f59e0b,stroke-width:1px,color:#111827;
@@ -1029,6 +1029,7 @@ flowchart TB
     </Layout>
   );
 }
+
 
 
 
