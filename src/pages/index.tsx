@@ -318,104 +318,150 @@ flowchart TB
   <div className="col col--3">
     <div className={styles.simpleCard}>
       <Heading as="h3" className={styles.simpleCardTitle}>
-        <Translate id="homepage.problem.c1.title">Unvalidated Problem Framing</Translate>
+        <Translate id="homepage.whyExists.card1.title">Unvalidated problem framing</Translate>
       </Heading>
       <p className={styles.simpleCardBody}>
-        <Translate id="homepage.problem.c1.body">
-          Initiatives begin without a quantified, validated problem definition. Unclear objectives create misalignment and downstream rework.
+        <Translate id="homepage.whyExists.card1.body">
+          Teams start initiatives without a shared, decision-grade problem definition, baseline, or measurement method. This increases rework,
+          misalignment, and makes outcomes hard to defend.
         </Translate>
       </p>
+      <small className="text--muted">
+        <Translate id="homepage.whyExists.card1.src">
+          Source: Project Management Institute (2017) Pulse of the Profession 2017: Success Rates Rise.
+        </Translate>
+      </small>
     </div>
   </div>
 
   <div className="col col--3">
     <div className={styles.simpleCard}>
       <Heading as="h3" className={styles.simpleCardTitle}>
-        <Translate id="homepage.problem.c2.title">Decisions Without Evidence Thresholds</Translate>
+        <Translate id="homepage.whyExists.card2.title">Decisions without proper evidence</Translate>
       </Heading>
       <p className={styles.simpleCardBody}>
-        <Translate id="homepage.problem.c2.body">
-          Teams commit resources without predefined validation criteria. Structured evidence gates reduce bias and sunk-cost exposure.
+        <Translate id="homepage.whyExists.card2.body">
+          Teams commit time, budget, or technical direction before agreeing what proof is “enough” to proceed. This increases sunk-cost pressure
+          and turns learning into justification instead of decision input.
         </Translate>
       </p>
+      <small className="text--muted">
+        <Translate id="homepage.whyExists.card2.src">
+          Source: Staw, B.M. (1976) ‘Knee-deep in the big muddy: A study of escalating commitment to a chosen course of action’, Organizational
+          Behavior and Human Performance.
+        </Translate>
+      </small>
     </div>
   </div>
 
   <div className="col col--3">
     <div className={styles.simpleCard}>
       <Heading as="h3" className={styles.simpleCardTitle}>
-        <Translate id="homepage.problem.c3.title">Objectives Without Measurable Outcomes</Translate>
+        <Translate id="homepage.whyExists.card3.title">Objectives without measurable outcomes</Translate>
       </Heading>
       <p className={styles.simpleCardBody}>
-        <Translate id="homepage.problem.c3.body">
-          Goals are defined as activity rather than economic or behavioral impact. Decision-grade objectives clarify trade-offs.
+        <Translate id="homepage.whyExists.card3.body">
+          Objectives are written as activity (“do X”) instead of outcomes (“change Y”). When outcomes are not explicit, trade-offs and resource
+          decisions become subjective.
         </Translate>
       </p>
+      <small className="text--muted">
+        <Translate id="homepage.whyExists.card3.src">Source: Doerr, J. (2018) Measure What Matters. Portfolio/Penguin.</Translate>
+      </small>
     </div>
   </div>
 
   <div className="col col--3">
     <div className={styles.simpleCard}>
       <Heading as="h3" className={styles.simpleCardTitle}>
-        <Translate id="homepage.problem.c4.title">Metrics That Don’t Inform Decisions</Translate>
+        <Translate id="homepage.whyExists.card4.title">Metrics that do not inform decisions</Translate>
       </Heading>
       <p className={styles.simpleCardBody}>
-        <Translate id="homepage.problem.c4.body">
-          Dashboards show outputs but not validated learning or risk reduction. Metrics must support go, pivot, or scale decisions.
+        <Translate id="homepage.whyExists.card4.body">
+          Dashboards show outputs and activity, but not validated learning, risk reduction, or readiness to commit. When metrics cannot change a
+          decision, they do not improve decision quality.
         </Translate>
       </p>
+      <small className="text--muted">
+        <Translate id="homepage.whyExists.card4.src">Source: W. Edwards Deming (1986) Out of the Crisis. MIT Press.</Translate>
+      </small>
+    </div>
+  </div>
+</div>
+
+<div className={clsx('row', styles.cardRow, 'margin-top--lg')}>
+  <div className="col col--3">
+    <div className={styles.simpleCard}>
+      <Heading as="h3" className={styles.simpleCardTitle}>
+        <Translate id="homepage.whyExists.card5.title">Premature hard-to-undo commitments</Translate>
+      </Heading>
+      <p className={styles.simpleCardBody}>
+        <Translate id="homepage.whyExists.card5.body">
+          Organizations lock architecture, hiring, vendor contracts, or long timelines before core assumptions are tested. As reversibility drops,
+          the quality of evidence required should rise.
+        </Translate>
+      </p>
+      <small className="text--muted">
+        <Translate id="homepage.whyExists.card5.src">Source: Ries, E. (2011) The Lean Startup. Crown Business.</Translate>
+      </small>
     </div>
   </div>
 
   <div className="col col--3">
     <div className={styles.simpleCard}>
       <Heading as="h3" className={styles.simpleCardTitle}>
-        <Translate id="homepage.problem.c5.title">Premature Irreversible Commitments</Translate>
+        <Translate id="homepage.whyExists.card6.title">Limited exploration of alternatives</Translate>
       </Heading>
       <p className={styles.simpleCardBody}>
-        <Translate id="homepage.problem.c5.body">
-          Architecture, hiring, or budget is locked before core assumptions are tested. Reversibility decreases as investment increases.
+        <Translate id="homepage.whyExists.card6.body">
+          Teams converge on a preferred solution without structured comparison or adversarial testing. This increases fragility when conditions
+          change or hidden constraints appear.
         </Translate>
       </p>
+      <small className="text--muted">
+        <Translate id="homepage.whyExists.card6.src">
+          Source: Kahneman, D., Lovallo, D. and Sibony, O. (2011) ‘Before you make that big decision’, Harvard Business Review.
+        </Translate>
+      </small>
     </div>
   </div>
 
   <div className="col col--3">
     <div className={styles.simpleCard}>
       <Heading as="h3" className={styles.simpleCardTitle}>
-        <Translate id="homepage.problem.c6.title">Limited Exploration of Alternatives</Translate>
+        <Translate id="homepage.whyExists.card7.title">Governance detached from evidence</Translate>
       </Heading>
       <p className={styles.simpleCardBody}>
-        <Translate id="homepage.problem.c6.body">
-          Teams converge on a preferred solution without structured comparison. Alternative generation reduces strategic fragility.
+        <Translate id="homepage.whyExists.card7.body">
+          Oversight reviews focus on status and outputs instead of evidence quality and decision readiness. This weakens accountability and makes
+          scaling decisions harder to justify.
         </Translate>
       </p>
+      <small className="text--muted">
+        <Translate id="homepage.whyExists.card7.src">
+          Source: Project Management Institute (2017) Pulse of the Profession 2017: Success Rates Rise.
+        </Translate>
+      </small>
     </div>
   </div>
 
   <div className="col col--3">
     <div className={styles.simpleCard}>
       <Heading as="h3" className={styles.simpleCardTitle}>
-        <Translate id="homepage.problem.c7.title">Governance Detached from Evidence</Translate>
+        <Translate id="homepage.whyExists.card8.title">Culture that suppresses learning</Translate>
       </Heading>
       <p className={styles.simpleCardBody}>
-        <Translate id="homepage.problem.c7.body">
-          Oversight processes are not tied to validation quality. Stage-gate discipline protects capital and credibility.
+        <Translate id="homepage.whyExists.card8.body">
+          When teams cannot surface uncertainty early, weak signals stay hidden until costs are high. Psychological safety enables earlier
+          detection of risk and faster corrective learning.
         </Translate>
       </p>
-    </div>
-  </div>
-
-  <div className="col col--3">
-    <div className={styles.simpleCard}>
-      <Heading as="h3" className={styles.simpleCardTitle}>
-        <Translate id="homepage.problem.c8.title">Culture That Suppresses Learning</Translate>
-      </Heading>
-      <p className={styles.simpleCardBody}>
-        <Translate id="homepage.problem.c8.body">
-          Innovation requires psychological safety to surface uncertainty early. Learning velocity determines advantage under uncertainty.
+      <small className="text--muted">
+        <Translate id="homepage.whyExists.card8.src">
+          Source: Google re:Work (n.d.) ‘Project Aristotle’; Edmondson, A. (1999) ‘Psychological safety and learning behavior in work teams’,
+          Administrative Science Quarterly.
         </Translate>
-      </p>
+      </small>
     </div>
   </div>
 </div>
@@ -983,6 +1029,7 @@ flowchart TB
     </Layout>
   );
 }
+
 
 
 
