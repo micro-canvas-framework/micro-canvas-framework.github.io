@@ -200,7 +200,7 @@ export default function Home(): ReactNode {
     "curve":"linear",
     "nodeSpacing":70,
     "rankSpacing":95,
-    "padding":34,
+    "padding":26,
     "htmlLabels": true
   }
 }}%%
